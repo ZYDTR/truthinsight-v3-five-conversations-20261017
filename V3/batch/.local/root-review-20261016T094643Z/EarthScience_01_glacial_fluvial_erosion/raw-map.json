@@ -1,0 +1,22 @@
+[
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+    "sha256": "0e85402a6c35e9ee792f7f5ed86bb574bae474514f0f0cbab1a53eea910b0766"
+  },
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+    "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c"
+  },
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+    "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784"
+  },
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+    "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577"
+  }
+]

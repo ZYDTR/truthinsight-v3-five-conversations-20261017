@@ -1,0 +1,277 @@
+{
+  "rank1_parameters": {
+    "candidate_rank": 1,
+    "max_velocity_cm_s": 30.0,
+    "min_velocity_cm_s": 0.05,
+    "peak_frequency_microhz": 1010.0,
+    "frequency_width_microhz": 275.0,
+    "delta_information_criterion": 0.0
+  },
+  "rank1_in_spectrum": false,
+  "rank1_spectrum_matches": [],
+  "best_10_spectrum_rows": [
+    {
+      "candidate_family": "frequency_amplitude_scan",
+      "max_velocity_cm_s": 20.0,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1010.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 43.9
+    },
+    {
+      "candidate_family": "frequency_amplitude_scan",
+      "max_velocity_cm_s": 30.0,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1010.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 47.2
+    },
+    {
+      "candidate_family": "minimum_velocity_scan",
+      "max_velocity_cm_s": 30.0,
+      "min_velocity_cm_s": 0.03,
+      "peak_frequency_microhz": 1210.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 50.7
+    },
+    {
+      "candidate_family": "frequency_amplitude_scan",
+      "max_velocity_cm_s": 20.0,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1060.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 56.7
+    },
+    {
+      "candidate_family": "frequency_amplitude_scan",
+      "max_velocity_cm_s": 30.0,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1060.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 57.3
+    },
+    {
+      "candidate_family": "frequency_amplitude_scan",
+      "max_velocity_cm_s": 20.0,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 960.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 58.0
+    },
+    {
+      "candidate_family": "minimum_velocity_scan",
+      "max_velocity_cm_s": 30.0,
+      "min_velocity_cm_s": 0.05,
+      "peak_frequency_microhz": 1210.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 58.1
+    },
+    {
+      "candidate_family": "minimum_velocity_scan",
+      "max_velocity_cm_s": 30.0,
+      "min_velocity_cm_s": 0.02,
+      "peak_frequency_microhz": 1210.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 61.6
+    },
+    {
+      "candidate_family": "minimum_velocity_scan",
+      "max_velocity_cm_s": 50.0,
+      "min_velocity_cm_s": 0.03,
+      "peak_frequency_microhz": 1210.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 65.1
+    },
+    {
+      "candidate_family": "minimum_velocity_scan",
+      "max_velocity_cm_s": 50.0,
+      "min_velocity_cm_s": 0.05,
+      "peak_frequency_microhz": 1210.0,
+      "peak_width_microhz": 300.0,
+      "information_criterion": 68.3
+    }
+  ],
+  "target_frequency_muhz": 1010.0,
+  "target_period_minutes": 59405.9405940594,
+  "pass_resolution_info": {
+    "pass_01": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_02": {
+      "time_span_minutes": 79.0,
+      "n_samples": 72,
+      "dt_minutes": 1.1126760563380282,
+      "nyquist_muhz": 449367.0886075949,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_03": {
+      "time_span_minutes": 79.0,
+      "n_samples": 70,
+      "dt_minutes": 1.144927536231884,
+      "nyquist_muhz": 436708.86075949366,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_04": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_05": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_06": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_07": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_08": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_09": {
+      "time_span_minutes": 79.0,
+      "n_samples": 79,
+      "dt_minutes": 1.0128205128205128,
+      "nyquist_muhz": 493670.8860759494,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_10": {
+      "time_span_minutes": 79.0,
+      "n_samples": 79,
+      "dt_minutes": 1.0128205128205128,
+      "nyquist_muhz": 493670.8860759494,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_11": {
+      "time_span_minutes": 72.0,
+      "n_samples": 73,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 13888.888888888889,
+      "can_resolve_target_freq": true
+    },
+    "pass_12": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_13": {
+      "time_span_minutes": 60.0,
+      "n_samples": 61,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 16666.666666666668,
+      "can_resolve_target_freq": true
+    },
+    "pass_14": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_15": {
+      "time_span_minutes": 79.0,
+      "n_samples": 78,
+      "dt_minutes": 1.025974025974026,
+      "nyquist_muhz": 487341.7721518987,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_16": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_17": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_18": {
+      "time_span_minutes": 79.0,
+      "n_samples": 77,
+      "dt_minutes": 1.0394736842105263,
+      "nyquist_muhz": 481012.6582278481,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_19": {
+      "time_span_minutes": 72.0,
+      "n_samples": 69,
+      "dt_minutes": 1.0588235294117647,
+      "nyquist_muhz": 472222.2222222222,
+      "frequency_resolution_muhz": 13888.888888888889,
+      "can_resolve_target_freq": true
+    },
+    "pass_20": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_21": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    },
+    "pass_22": {
+      "time_span_minutes": 79.0,
+      "n_samples": 80,
+      "dt_minutes": 1.0,
+      "nyquist_muhz": 500000.0,
+      "frequency_resolution_muhz": 12658.227848101265,
+      "can_resolve_target_freq": true
+    }
+  },
+  "passes_can_resolve_target": 22,
+  "total_passes": 22,
+  "limitation_note": "The candidate_spectrum_comparison.tsv provides IC values computed over ALL passes combined. There is no per-pass candidate evaluation available in the data. Therefore, true per-pass candidate re-ranking cannot be performed. This analysis checks whether the residual traces have sufficient temporal resolution to detect the rank-1 frequency (1010 muHz)."
+}

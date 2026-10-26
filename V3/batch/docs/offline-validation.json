@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-16T08:44:54.021098+00:00",
+  "syntax": [
+    "scripts/validate_context.py",
+    "batches/qwen3.7-flash-main-6d52948-20261016/scripts/dispatch.py",
+    "batches/qwen3.7-flash-main-6d52948-20261016/scripts/activate.py",
+    "batches/qwen3.7-flash-main-6d52948-20261016/scripts/runtime_test/control.py",
+    "batches/qwen3.7-flash-main-6d52948-20261016/scripts/runtime_test/observe.py",
+    "batches/qwen3.7-flash-main-6d52948-20261016/scripts/runtime_test/environment.py",
+    "batches/qwen3.7-flash-main-6d52948-20261016/scripts/runtime_test/audit_raw.py",
+    "batches/qwen3.7-flash-main-6d52948-20261016/scripts/runtime_test/controller_impl.py"
+  ],
+  "runtime_equivalence": {
+    "control.py": "byte-identical to V2",
+    "observe.py": "byte-identical to V2",
+    "audit_raw.py": "byte-identical to V2",
+    "controller_impl.py": "V2 with owner and idempotency namespace only",
+    "Dockerfile.api": "byte-identical to V2",
+    "Dockerfile.worker": "byte-identical to V2"
+  },
+  "source_file_count": 639,
+  "backend_prompt_only_ast": true,
+  "scoring_performed": false,
+  "bootstrap_equivalence": true,
+  "prior_root_reviews_unchanged": true,
+  "validation_repair": "Initial comparison expected old idempotency prefix -qwen-v2-, but V2 source is -qwen-v2m-. Corrected test expectation, verified the two identity-only diffs; runtime implementation unchanged."
+}

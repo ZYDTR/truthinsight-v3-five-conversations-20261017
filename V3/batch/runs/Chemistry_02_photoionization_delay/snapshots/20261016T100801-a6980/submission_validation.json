@@ -1,0 +1,358 @@
+{
+  "schema": "truthinsightbench-semantic-output-validation",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "output": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100801-a6980/project/output",
+  "authoritative_report": {
+    "path": "Result.md",
+    "bytes": 30316,
+    "sha256": "55919a5017606921aa58b11871dc566ab7c9d74efadc63dea7158d251bb2cd97"
+  },
+  "registered_findings": {
+    "count": 4,
+    "numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "markers": [
+      {
+        "finding_number": 1,
+        "line": 27,
+        "marker": "## Finding 1: Experimental-theory phase disagreement is large (~4.08 rad) and increases with photon energy after proper grid alignment; magnitude agreement remains tight",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 2,
+        "line": 60,
+        "marker": "## Finding 2: Angular coefficient F20 exhibits non-monotonic resonance-like structure across photon energy",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 3,
+        "line": 88,
+        "marker": "## Finding 3: Dipole matrix element real-part magnitude decreases with increasing photon energy, robust to leave-one-out perturbation",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 4,
+        "line": 115,
+        "marker": "## Finding 4: Wigner delay and eigenphase sum exhibit characteristic resonance signatures with zero crossings, extrema, and non-monotonic structure",
+        "heading_level": 2
+      }
+    ],
+    "traceability": [
+      {
+        "finding_number": 1,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis_02_core_findings.py",
+          "analysis_03_figures.py",
+          "analysis_04_deep.py",
+          "analysis_fix_energy_alignment.py",
+          "analysis_round3_angle_resolved.py"
+        ],
+        "result_evidence": [
+          "aligned_exp_theory_comparison.json",
+          "analysis_results.json",
+          "fig1_aligned_phase_diff.csv",
+          "fig1_angle_resolved_aligned.csv"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 2,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis_02_core_findings.py",
+          "analysis_04_deep.py"
+        ],
+        "result_evidence": [
+          "analysis_results.json",
+          "deep_analysis_results.json",
+          "fig2_angular_coefficients.csv",
+          "fig2_order1_angular_coefficients.csv",
+          "independent_angular_coeff_results.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 3,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis_02_core_findings.py",
+          "analysis_04_deep.py"
+        ],
+        "result_evidence": [
+          "analysis_results.json",
+          "deep_analysis_results.json",
+          "fig3_dme_magnitude.csv",
+          "independent_dme_results.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 4,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis_02_core_findings.py",
+          "analysis_round3_angle_resolved.py"
+        ],
+        "result_evidence": [
+          "analysis_results.json",
+          "deep_analysis_results.json",
+          "fig4_angle_averaged_delay.csv",
+          "fig4_eigenphase_sum.csv",
+          "fig4_wigner_delay.csv",
+          "independent_wigner_results.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      }
+    ]
+  },
+  "reproduction": {
+    "mode": "companion_markdown",
+    "document": {
+      "path": "reproduce.md",
+      "bytes": 2769,
+      "sha256": "6f555b2c08009e95ab3d89138db319d99108d2f646323d80b798edcd1d6571dd"
+    }
+  },
+  "analysis_sources": [
+    {
+      "path": "analysis_01_explore_data.py",
+      "bytes": 3127,
+      "sha256": "a6f9fe3e09456fa2ab2006323334ff6f7b343827b776f52f03cccc7966b4dd49"
+    },
+    {
+      "path": "analysis_02_core_findings.py",
+      "bytes": 15462,
+      "sha256": "11e34dbc392954cc6c03a698c9d4d8c3b69a316a74d87b24e0b41861e542053f"
+    },
+    {
+      "path": "analysis_03_figures.py",
+      "bytes": 8525,
+      "sha256": "4daa281676b73b4bf7681e6c292159926d8183630fdb43ac6e9e62ecd01ff6b9"
+    },
+    {
+      "path": "analysis_04_deep.py",
+      "bytes": 7266,
+      "sha256": "c595b586866b6d06d3a798d7c81f04f35c0db9fc4c0988b126e4e7c68824b06d"
+    },
+    {
+      "path": "analysis_fix_energy_alignment.py",
+      "bytes": 9689,
+      "sha256": "a0afe5a8b43ab9b279214cf1912e28e0358172e9e0543f1e1535adbaf2d2658d"
+    },
+    {
+      "path": "analysis_round3_angle_resolved.py",
+      "bytes": 2873,
+      "sha256": "35d2631e9e13f3501360001817a9005d746847f952851fe76ec584ea145f6027"
+    },
+    {
+      "path": "independent_angular_coeff_agent.py",
+      "bytes": 3037,
+      "sha256": "083875037d212158339d50c9e06def1253d43f19be19c7e2628a6a0825a39fc3"
+    },
+    {
+      "path": "independent_dme_agent.py",
+      "bytes": 3074,
+      "sha256": "a58cb3897840190c7549906c59e63d9dd12b9ed75570b8b64e4cd8f2ab198600"
+    },
+    {
+      "path": "independent_wigner_agent.py",
+      "bytes": 2587,
+      "sha256": "04fad9addbc91d4613ccaaae6cec493ff192f2d2502869f3bb197087607d68a5"
+    }
+  ],
+  "executed_notebooks": [],
+  "result_artifacts": [
+    {
+      "path": "aligned_exp_theory_comparison.json",
+      "bytes": 11248,
+      "sha256": "7834af96507570b2be1597e86e87b122f1dde94023ed5910b14f316f3a7b341e"
+    },
+    {
+      "path": "analysis_results.json",
+      "bytes": 2120,
+      "sha256": "3064ae6565f76377917f9e3f01be005794ba37ee2d968f6a4c8b4abc7b6849e6"
+    },
+    {
+      "path": "analysis_summary.json",
+      "bytes": 2764,
+      "sha256": "8fa33eaeb1f8df2bfc0bdc5956ac217104be52b2980628456393d3ed9ef56f13"
+    },
+    {
+      "path": "deep_analysis_results.json",
+      "bytes": 11045,
+      "sha256": "eb4473e12de43899d07d5facc66521e8422351270b6e0c3014e70f1651998c6f"
+    },
+    {
+      "path": "fig1_aligned_phase_diff.csv",
+      "bytes": 3855,
+      "sha256": "aaa40b0b7813092f105c6e92dc0568e8c71fddd9ed66b345a11a76d943f52a4e"
+    },
+    {
+      "path": "fig1_angle_resolved_aligned.csv",
+      "bytes": 8432,
+      "sha256": "bae0e0fb7d7e32e2b90cb4df1b9ec05c315cd75ddea48f2a70119d216d17ac6a"
+    },
+    {
+      "path": "fig1_exp_theory_phase_diff.csv",
+      "bytes": 1711,
+      "sha256": "f5014da68d2da26027135b38c4307b5e4e9b7e0297dfe7b628de52b452da74e7"
+    },
+    {
+      "path": "fig2_angular_coefficients.csv",
+      "bytes": 695,
+      "sha256": "b641f2f2fec6cbf8071a344132f80cab151d6d7c7b0134bcaf341d1e8c24a827"
+    },
+    {
+      "path": "fig2_order1_angular_coefficients.csv",
+      "bytes": 718,
+      "sha256": "ccab95b6b4c515aca11206eda64bea20829c4d897fa1521c817d4840c46b09b3"
+    },
+    {
+      "path": "fig3_dme_magnitude.csv",
+      "bytes": 1414,
+      "sha256": "d67fd4bacfed0fa921fa8ae3f67f0f0a00f512526f803f35541934271d12d00e"
+    },
+    {
+      "path": "fig4_angle_averaged_delay.csv",
+      "bytes": 5050,
+      "sha256": "2c6ce49b632b2d0b8da521d07af620fcdc398d76e6e3a7069e8015a35660d176"
+    },
+    {
+      "path": "fig4_eigenphase_sum.csv",
+      "bytes": 1010,
+      "sha256": "25a99d17b5ec70a10c8680c46702444e6aa1e37c5d306b6602263a4d39424aba"
+    },
+    {
+      "path": "fig4_wigner_delay.csv",
+      "bytes": 6404,
+      "sha256": "661476ab57a3c67260ba9fbb30011b9e16ff0234e394d7af408951c6ac9d1a01"
+    },
+    {
+      "path": "independent_angular_coeff_results.json",
+      "bytes": 10597,
+      "sha256": "549d3b2dee70a3032414e5d1e2b53a20a586448079d6213c50e58ff916c429fc"
+    },
+    {
+      "path": "independent_dme_results.json",
+      "bytes": 4937545,
+      "sha256": "4c3946b2916ad900442a2d392b4210af464648ddcec81574f79b819ce3c3058d"
+    },
+    {
+      "path": "independent_wigner_results.json",
+      "bytes": 129996,
+      "sha256": "f3792fe678a3d27b10474c62f4df26e7eaa3dd47ccfeda4d17203d68e96e8852"
+    }
+  ],
+  "native_evidence_registry": {
+    "sources": [],
+    "resolved_ids": {}
+  },
+  "resolved_support_files": [
+    {
+      "path": "aligned_exp_theory_comparison.json",
+      "bytes": 11248,
+      "sha256": "7834af96507570b2be1597e86e87b122f1dde94023ed5910b14f316f3a7b341e"
+    },
+    {
+      "path": "analysis_02_core_findings.py",
+      "bytes": 15462,
+      "sha256": "11e34dbc392954cc6c03a698c9d4d8c3b69a316a74d87b24e0b41861e542053f"
+    },
+    {
+      "path": "analysis_03_figures.py",
+      "bytes": 8525,
+      "sha256": "4daa281676b73b4bf7681e6c292159926d8183630fdb43ac6e9e62ecd01ff6b9"
+    },
+    {
+      "path": "analysis_04_deep.py",
+      "bytes": 7266,
+      "sha256": "c595b586866b6d06d3a798d7c81f04f35c0db9fc4c0988b126e4e7c68824b06d"
+    },
+    {
+      "path": "analysis_fix_energy_alignment.py",
+      "bytes": 9689,
+      "sha256": "a0afe5a8b43ab9b279214cf1912e28e0358172e9e0543f1e1535adbaf2d2658d"
+    },
+    {
+      "path": "analysis_results.json",
+      "bytes": 2120,
+      "sha256": "3064ae6565f76377917f9e3f01be005794ba37ee2d968f6a4c8b4abc7b6849e6"
+    },
+    {
+      "path": "analysis_round3_angle_resolved.py",
+      "bytes": 2873,
+      "sha256": "35d2631e9e13f3501360001817a9005d746847f952851fe76ec584ea145f6027"
+    },
+    {
+      "path": "deep_analysis_results.json",
+      "bytes": 11045,
+      "sha256": "eb4473e12de43899d07d5facc66521e8422351270b6e0c3014e70f1651998c6f"
+    },
+    {
+      "path": "fig1_aligned_phase_diff.csv",
+      "bytes": 3855,
+      "sha256": "aaa40b0b7813092f105c6e92dc0568e8c71fddd9ed66b345a11a76d943f52a4e"
+    },
+    {
+      "path": "fig1_angle_resolved_aligned.csv",
+      "bytes": 8432,
+      "sha256": "bae0e0fb7d7e32e2b90cb4df1b9ec05c315cd75ddea48f2a70119d216d17ac6a"
+    },
+    {
+      "path": "fig2_angular_coefficients.csv",
+      "bytes": 695,
+      "sha256": "b641f2f2fec6cbf8071a344132f80cab151d6d7c7b0134bcaf341d1e8c24a827"
+    },
+    {
+      "path": "fig2_order1_angular_coefficients.csv",
+      "bytes": 718,
+      "sha256": "ccab95b6b4c515aca11206eda64bea20829c4d897fa1521c817d4840c46b09b3"
+    },
+    {
+      "path": "fig3_dme_magnitude.csv",
+      "bytes": 1414,
+      "sha256": "d67fd4bacfed0fa921fa8ae3f67f0f0a00f512526f803f35541934271d12d00e"
+    },
+    {
+      "path": "fig4_angle_averaged_delay.csv",
+      "bytes": 5050,
+      "sha256": "2c6ce49b632b2d0b8da521d07af620fcdc398d76e6e3a7069e8015a35660d176"
+    },
+    {
+      "path": "fig4_eigenphase_sum.csv",
+      "bytes": 1010,
+      "sha256": "25a99d17b5ec70a10c8680c46702444e6aa1e37c5d306b6602263a4d39424aba"
+    },
+    {
+      "path": "fig4_wigner_delay.csv",
+      "bytes": 6404,
+      "sha256": "661476ab57a3c67260ba9fbb30011b9e16ff0234e394d7af408951c6ac9d1a01"
+    },
+    {
+      "path": "independent_angular_coeff_results.json",
+      "bytes": 10597,
+      "sha256": "549d3b2dee70a3032414e5d1e2b53a20a586448079d6213c50e58ff916c429fc"
+    },
+    {
+      "path": "independent_dme_results.json",
+      "bytes": 4937545,
+      "sha256": "4c3946b2916ad900442a2d392b4210af464648ddcec81574f79b819ce3c3058d"
+    },
+    {
+      "path": "independent_wigner_results.json",
+      "bytes": 129996,
+      "sha256": "f3792fe678a3d27b10474c62f4df26e7eaa3dd47ccfeda4d17203d68e96e8852"
+    }
+  ]
+}

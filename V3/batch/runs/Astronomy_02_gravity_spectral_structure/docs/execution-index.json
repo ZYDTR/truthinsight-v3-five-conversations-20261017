@@ -1,0 +1,78 @@
+{
+  "task_id": "Astronomy_02_gravity_spectral_structure",
+  "experiment": "shared-context-v3.1-20261016",
+  "batch_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016",
+  "run_directory": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure",
+  "generated_at": "2026-10-16T10:06Z",
+  "operator_session_id": "ses_ebc1ae3d8ffeAmzw1mEDm2dIa3",
+  "sap_conversation_id": "ab19cf80-17bf-4dae-863f-85e1bfd4afec",
+  "runtime_conversation_id": "conv-c47b4251-8d0f-48c5-a820-758043560653",
+  "backend_sha": "6d529489815362eb2d6cf717e736e44936de3afc",
+  "environment": {
+    "ready_json": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/ready.json",
+    "api_base": "http://127.0.0.1:51669",
+    "model": "qwen3.7-flash",
+    "fallback": "",
+    "max_turns": 500,
+    "max_rounds": 40,
+    "max_concurrent_subagents": 4
+  },
+  "first_message": {
+    "path": "<run>/first-message.md",
+    "sha256": "0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a",
+    "equals_original_LaunchPrompt": true
+  },
+  "raw_jsonl": [
+    {
+      "role": "main",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+      "sha256": "fbe154ab3489b4a90123038302f16862106c97c7f116a34a5c4421e9faee0862",
+      "lines": 753,
+      "reviewed": "1-753"
+    },
+    {
+      "role": "child_fft_loo",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+      "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+      "lines": 87,
+      "reviewed": "1-87"
+    },
+    {
+      "role": "child_verification",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+      "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+      "lines": 60,
+      "reviewed": "1-60"
+    }
+  ],
+  "rounds": [
+    {"round": "000-warmup", "kind": "neutral_warmup", "snapshot": "snapshots/20261016T084820-0c1b3", "model_counts": {"qwen3.7-flash": 1}},
+    {"round": "001", "kind": "first_science_autonomous", "snapshot": "snapshots/20261016T090848-325ef", "model_counts": {"qwen3.7-flash": 51}, "validator": "passed", "feedback_before": false},
+    {"round": "002", "kind": "feedback_response_1", "input": "<run>/feedback-round2.md", "snapshot": "snapshots/20261016T092356-23c10", "model_counts": {"qwen3.7-flash": 210}, "validator": "passed"},
+    {"round": "003", "kind": "feedback_response_2", "input": "<run>/feedback-round3.md", "snapshot": "snapshots/20261016T093207-c7484", "model_counts": {"qwen3.7-flash": 232}, "validator": "passed"},
+    {"round": "004", "kind": "feedback_response_3", "input": "<run>/feedback-round4.md", "snapshot": "snapshots/20261016T093824-4d670", "model_counts": {"qwen3.7-flash": 249}, "validator": "passed"},
+    {"round": "005", "kind": "feedback_response_4", "input": "<run>/feedback-round5.md", "snapshot": "snapshots/20261016T094433-8a317", "model_counts": {"qwen3.7-flash": 275}, "validator": "passed"},
+    {"round": "006", "kind": "feedback_response_5", "input": "<run>/feedback-round6.md", "snapshot": "snapshots/20261016T095032-58adf", "model_counts": {"qwen3.7-flash": 310}, "validator": "passed"},
+    {"round": "007", "kind": "feedback_response_6_operator_proactive", "input": "<run>/feedback-round7.md", "snapshot": "snapshots/20261016T095701-99ac3", "model_counts": {"qwen3.7-flash": 347}, "validator": "passed"},
+    {"round": "008", "kind": "feedback_response_7", "input": "<run>/feedback-round8.md", "snapshot": "snapshots/20261016T100253-46862", "model_counts": {"qwen3.7-flash": 376}, "validator": "passed"}
+  ],
+  "feedback_files": [
+    "<run>/feedback-round2.md", "<run>/feedback-round3.md", "<run>/feedback-round4.md",
+    "<run>/feedback-round5.md", "<run>/feedback-round6.md", "<run>/feedback-round7.md", "<run>/feedback-round8.md"
+  ],
+  "subject_products": {
+    "authoritative_report": ".local/tibv31-9a7ed51f/.../project/output/Result.md (r8)",
+    "analysis_sources": ["output/analysis.py", "output/generate_artifacts.py (13-section embed)", "working/subagent_fft_loo_corrected/corrected_fft.py", "working/baseline_comparability_check.py"],
+    "machine_results": ["output/result_artifacts.json", "output/analysis_results.json", "working/subagent_fft_loo/loo_results.json", "working/subagent_fft_loo/fft_results.json", "working/subagent_verification/verification_results.json", "working/subagent_fft_loo_corrected/fft_results_corrected.json"],
+    "reproduction": ["reproduce_clean.py (final, --output-dir based, hash-verified)", "reproduce_output/ (fresh-target copies, SHA-256 identical)", "output/reproduce.md (Known Limitations discloses non-rebuilt sub-agent branches)"],
+    "state": "working/analysis-state.md (r8, F1-F13, item ledger 4-12)"
+  },
+  "verification_paths": {
+    "final_collect_snapshot": "snapshots/20261016T100253-46862",
+    "audit": "final audit: 376 assistant msgs all qwen3.7-flash; tools Agent=2, SendMessage=7, tool_errors=17; child_jsonl=2",
+    "validator": "submission_validation.json passed=true, 5 registered findings (format-only scope)"
+  },
+  "reviews": ["reviews/verdict.json"],
+  "comparison_report_pending_gate": "docs/comparison-v2-v3.md to be written only after all five V3 sealed.json exist",
+  "scoring_performed": false
+}

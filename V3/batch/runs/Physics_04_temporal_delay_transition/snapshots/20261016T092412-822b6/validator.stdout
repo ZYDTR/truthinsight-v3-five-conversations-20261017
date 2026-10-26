@@ -1,0 +1,203 @@
+{
+  "schema": "truthinsightbench-semantic-output-validation",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "output": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Physics_04_temporal_delay_transition/snapshots/20261016T092412-822b6/project/output",
+  "authoritative_report": {
+    "path": "Result.md",
+    "bytes": 11087,
+    "sha256": "41a29804adb05e0c9144d9a12c8d8d2bd1aa458530bf3950b6e6c31557d52556"
+  },
+  "registered_findings": {
+    "count": 4,
+    "numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "markers": [
+      {
+        "finding_number": 1,
+        "line": 20,
+        "marker": "### Finding 1: Delay growth velocity decreases with buffer parameter, with a segmented transition near B ≈ 3.6–4.0",
+        "heading_level": 3
+      },
+      {
+        "finding_number": 2,
+        "line": 40,
+        "marker": "### Finding 2: Autocorrelation functions collapse under lag rescaling across buffer conditions",
+        "heading_level": 3
+      },
+      {
+        "finding_number": 3,
+        "line": 58,
+        "marker": "### Finding 3: Critical buffer Bc exhibits finite-size scaling with system size N",
+        "heading_level": 3
+      },
+      {
+        "finding_number": 4,
+        "line": 79,
+        "marker": "### Finding 4: Real temporal networks show buffer-dependent delay consistent with simulated predictions",
+        "heading_level": 3
+      }
+    ],
+    "traceability": [
+      {
+        "finding_number": 1,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis.py"
+        ],
+        "result_evidence": [
+          "evidence/finding1_V_vs_B.json",
+          "evidence/finding1_v_b_scatter.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 2,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis.py"
+        ],
+        "result_evidence": [
+          "evidence/finding2_correlation_collapse.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 3,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis.py"
+        ],
+        "result_evidence": [
+          "evidence/finding3_finite_size.json",
+          "evidence/robustness_checks.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 4,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis.py"
+        ],
+        "result_evidence": [
+          "evidence/finding4_real_networks.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      }
+    ]
+  },
+  "reproduction": {
+    "mode": "companion_markdown",
+    "document": {
+      "path": "reproduce.md",
+      "bytes": 1801,
+      "sha256": "ee89002b600e85ea9f179cd9b8d507d48a1b61d2366e3f711376ec76f76ad94b"
+    }
+  },
+  "analysis_sources": [
+    {
+      "path": "analysis.py",
+      "bytes": 19748,
+      "sha256": "ed0bbf23983225b31ba4d77a000d26961e6c41d1d1dedacdd9f0f25456ab11a9"
+    },
+    {
+      "path": "robustness.py",
+      "bytes": 8495,
+      "sha256": "2de79428da1c5b1822504ed42ba9b4e5c8567de14bf8c4558efe5c6cdbfe18dc"
+    }
+  ],
+  "executed_notebooks": [],
+  "result_artifacts": [
+    {
+      "path": "evidence/finding1_V_vs_B.json",
+      "bytes": 752,
+      "sha256": "fe3eae276299a08637cfe6ecd598b522505cfa6ab6b6a59d17576d3ba6157a0d"
+    },
+    {
+      "path": "evidence/finding1_v_b_scatter.json",
+      "bytes": 11561,
+      "sha256": "ffb724a5babae8019b48e171030615b83946cece7115557db5ae961ff523ef8f"
+    },
+    {
+      "path": "evidence/finding2_correlation_collapse.json",
+      "bytes": 1908,
+      "sha256": "0c659cf14f05f786f1757f0a5436dca521a94d43dac56263d63bdaa0d158abb4"
+    },
+    {
+      "path": "evidence/finding3_finite_size.json",
+      "bytes": 561,
+      "sha256": "b9eae2a082e07bb1ec06584011f30903f4c4408c3a3f7a1c87abbad5f540cd5f"
+    },
+    {
+      "path": "evidence/finding4_real_networks.json",
+      "bytes": 998,
+      "sha256": "aa94adf0b0fb3d3ecc8fdddda6433c750b3d4812b6972548b953bb285de0a3eb"
+    },
+    {
+      "path": "evidence/robustness_checks.json",
+      "bytes": 1677,
+      "sha256": "7d7bf32e011dd12b131e5a3828719cc53142b6132e58f9ed5840a1d909d408c9"
+    },
+    {
+      "path": "evidence/summary.json",
+      "bytes": 2358,
+      "sha256": "e82acb71d3183999c8e8fef11cc56c8986a158c172c582e9afc9202ea15fe3d9"
+    },
+    {
+      "path": "evidence_independent/results.json",
+      "bytes": 4410,
+      "sha256": "5b3dd9ca2fab3c6a8c91df2b9f2977a3aa9b1ba53202b005ffc2f2f2836b5f17"
+    }
+  ],
+  "native_evidence_registry": {
+    "sources": [],
+    "resolved_ids": {}
+  },
+  "resolved_support_files": [
+    {
+      "path": "analysis.py",
+      "bytes": 19748,
+      "sha256": "ed0bbf23983225b31ba4d77a000d26961e6c41d1d1dedacdd9f0f25456ab11a9"
+    },
+    {
+      "path": "evidence/finding1_V_vs_B.json",
+      "bytes": 752,
+      "sha256": "fe3eae276299a08637cfe6ecd598b522505cfa6ab6b6a59d17576d3ba6157a0d"
+    },
+    {
+      "path": "evidence/finding1_v_b_scatter.json",
+      "bytes": 11561,
+      "sha256": "ffb724a5babae8019b48e171030615b83946cece7115557db5ae961ff523ef8f"
+    },
+    {
+      "path": "evidence/finding2_correlation_collapse.json",
+      "bytes": 1908,
+      "sha256": "0c659cf14f05f786f1757f0a5436dca521a94d43dac56263d63bdaa0d158abb4"
+    },
+    {
+      "path": "evidence/finding3_finite_size.json",
+      "bytes": 561,
+      "sha256": "b9eae2a082e07bb1ec06584011f30903f4c4408c3a3f7a1c87abbad5f540cd5f"
+    },
+    {
+      "path": "evidence/finding4_real_networks.json",
+      "bytes": 998,
+      "sha256": "aa94adf0b0fb3d3ecc8fdddda6433c750b3d4812b6972548b953bb285de0a3eb"
+    },
+    {
+      "path": "evidence/robustness_checks.json",
+      "bytes": 1677,
+      "sha256": "7d7bf32e011dd12b131e5a3828719cc53142b6132e58f9ed5840a1d909d408c9"
+    }
+  ]
+}

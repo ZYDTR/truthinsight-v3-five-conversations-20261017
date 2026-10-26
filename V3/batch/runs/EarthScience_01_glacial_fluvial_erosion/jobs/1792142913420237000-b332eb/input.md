@@ -1,0 +1,24 @@
+# Round 3 反馈（事实审读，不评分，不提供科学答案）
+
+依据：亲读 `snapshots/20261016T092551-c3fbe/project/output/Result.md`、`robustness_results.json`、`working/subA/exploration_summary.md`、`working/subA/audit_results.json`、`working/subC/robustness_analysis.py`，以及主 JSONL 轮 002 段（行 221-298）。
+
+## 已观察事实
+
+轮 002 的修订质量良好并已核实：
+- Result.md 第 63 行 bin 分析现与 robustness_results.json bin_analysis 一致（4 bin 差距 1.22/1.07/0.05/1.39 逐一核对无误）。
+- 第 15-16 行已补全 160 行 `Time interval (yr)` 缺失 + 4 行零速率 → 6,128 valid 的构成（与 audit_results.json missingness_audit.nonglacial 一致）。
+- 第 74 行 Object and scope 与第 81 行 "Note on sample filtering in clustered regressions" 已披露单观测 cluster 过滤与各 clustered n_obs；Limitations 亦有对应条目。
+- 第 78 行 SE 对比已改为同样本内对比（fluvial OLS SE=0.0041 vs clustered 0.0284 ≈7×；glacial 0.0177 vs 0.192 ≈11×），不再跨样本。
+- 第 55 行 p 值已改为 1.03×10⁻¹⁰⁴。
+- validator 重跑通过（0 errors / 0 warnings）。
+
+## 未满足条件及影响（本轮新引入的错误）
+
+1. **Result.md 第 87 行 glacial (b) 口径数字错误。** 现文写 "(b) 248 unique References in the glacial complete-case subset used for log-space regression (427 rows, no time/erosion missing; from `output/robustness_results.json` source_site_clustering.unique_references)"。但所引 JSON 中 `source_site_clustering.unique_references.Glacial = 154`（`working/subC/robustness_analysis.py` 第 60-61、233 行：glacial_clean 为 complete cases，nunique=154；glacial complete-case 与 full 行数同为 427）。248 是 fluvial complete-case 的数值，被误写到 glacial 条目。同一句内 glacial (a)=154 与 (b)=248 并存且 (a)(b) 行数相同（427），逻辑上自相矛盾，读者会据此误判 glacial 完整样本的独立研究数。
+
+## 要求由被测 Agent 自行核查/执行
+
+1. 将 Result.md 第 87 行 glacial (b) 的 "248" 改为与 `robustness_results.json` source_site_clustering.unique_references.Glacial 一致的数值（154），并确认 fluvial (a)/(b)/(c) 三个数字（265/248/229）与各自来源文件仍然一致。
+2. 修订后自行重跑 validator 并确认通过。
+
+仅为可定位的事实修正；如何表述由你决定。

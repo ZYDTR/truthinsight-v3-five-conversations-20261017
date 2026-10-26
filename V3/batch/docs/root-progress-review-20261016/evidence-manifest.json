@@ -1,0 +1,745 @@
+{
+  "evidence_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z",
+  "files": [
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/inbox.json",
+      "size": 17,
+      "sha256": "3b459147c8170c320545247d8ba79c22d55408311adafa4ad737f02c7aa78700"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/inputs/001/input.md",
+      "size": 2688,
+      "sha256": "0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/inputs/002/input.md",
+      "size": 6645,
+      "sha256": "835356abca0fa9e1e90cb252fae862571bfac67b396c3425279d584366901e4d"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/inputs/003/input.md",
+      "size": 4705,
+      "sha256": "3d17f78ca96603f7733d676fc5b904ad0fa3cb4271594aa411cb9d27e4cc3af7"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/inputs/004/input.md",
+      "size": 3577,
+      "sha256": "b374c28fc0b87673c98e2b749282f87e572c6451e4887744f7dfadd1b9042f1a"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/inputs/005/input.md",
+      "size": 3058,
+      "sha256": "a42b50351a1b5db24dd93b9a503ecae593ee9d8449ea281bd13d246ac2dc4a5f"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/inputs/006/input.md",
+      "size": 2789,
+      "sha256": "e87ea28d9d5846c6e7d88a924eebbcb1736f729a2e6b3cd3a72dcd465538034e"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/operator-docs/operator-log.md",
+      "size": 17258,
+      "sha256": "810c6f5f67c9987b0676b8fbc8da3d7dce950569cae22daad12f4a759617fbdd"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/operator-messages.json",
+      "size": 240440,
+      "sha256": "d2bf8433721ae46bd20b143b8b34db40949a50e1b9e9400982102a518ee65a09"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/output/Result.md",
+      "size": 24054,
+      "sha256": "d656abd429d4716d6ed47fb9d6e4fc9a29a4f0c98d2e0ea14e0e3f629549f0d9"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/output/reproduce.md",
+      "size": 5526,
+      "sha256": "b7044097e116e2ef56f6533f7d87f51e085612e7a2c5f1b1a4c350163c7c5788"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+      "size": 270355,
+      "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+      "size": 170215,
+      "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+      "size": 2019837,
+      "sha256": "58b39c627c5f0278b2521dcc90b93a378ed0cf476e322e631f1bfaa91932a72d"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/raw-map.json",
+      "size": 2872,
+      "sha256": "934feec7dc827d74e22c899188eabb220e5a8b9db0efddbcb49bbb117cb64e1a"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/trace.json",
+      "size": 60029,
+      "sha256": "964a516d67969076802947774c1a3fec289763cb9d8ee6a34b75ba4658b181d9"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/working/analysis-state.md",
+      "size": 5226,
+      "sha256": "7e0efdd6662efd68b84a18ff42516e9577026b44e080c3c021ccd4ecdeea90c5"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/working/subagent_fft_loo_corrected/corrected_fft.py",
+      "size": 16786,
+      "sha256": "887d47f833a809c44fd2b9736225f89e0d080441d4bb3d63206d27f66462bd4c"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure/working/subagent_fft_loo_corrected/fft_results_corrected.json",
+      "size": 40979,
+      "sha256": "a3bc3f52a2633b37aeb5faa9f2f035b809823f6cee5a3c312e404f4138a76fd7"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure-followup-receipt.json",
+      "size": 1634,
+      "sha256": "e711684a47f5b01b5492774a0fb39ba384154e4e27d64c2bc33df0599afe6462"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure-operator-latest.json",
+      "size": 45076,
+      "sha256": "a71dc11a12142bbb3e8136fb863aace3c8e3ca0f2a7e07951338e5e0c218f455"
+    },
+    {
+      "path": "Astronomy_02_gravity_spectral_structure-owner-note-receipt.json",
+      "size": 2885,
+      "sha256": "d4a3ba981a462ed7093b048dce94162b70c3b580fa5cf4179fbd17f07396f1fe"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/inbox.json",
+      "size": 17,
+      "sha256": "3b459147c8170c320545247d8ba79c22d55408311adafa4ad737f02c7aa78700"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/inputs/001/input.md",
+      "size": 2688,
+      "sha256": "0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/inputs/002/input.md",
+      "size": 5243,
+      "sha256": "9e487f8e16665891028bf4e4901245be8a87ddd9374fb53081ac5305e8f2b62f"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/inputs/003/input.md",
+      "size": 5399,
+      "sha256": "e2a117c788a130e8c64836444ec87459d6d74908a963d47f752fbfea2952879e"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/inputs/004/input.md",
+      "size": 4966,
+      "sha256": "6e19e5db163167005b4514e725342dde5e2c06b194f5daac8e0daebd2ee70a8f"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/operator-docs/operator-log.md",
+      "size": 8549,
+      "sha256": "9264bb20b22e4439a202bb65d5501aa41ebdc2a93e4ac970a8bf4058a0520b46"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/operator-messages.json",
+      "size": 266465,
+      "sha256": "538e4f826baab5cf43ef55366a34e660c132ee396a9feffa2a4b4bcbfbbcccfa"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/output/Result.md",
+      "size": 23668,
+      "sha256": "acc85f39d49c18c24a46324475906392e42725bcd80bb227f0e30824a24ecaf9"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/output/reproduce.md",
+      "size": 2769,
+      "sha256": "6f555b2c08009e95ab3d89138db319d99108d2f646323d80b798edcd1d6571dd"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+      "size": 296812,
+      "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+      "size": 2160016,
+      "sha256": "04208a82ac0ae7fc0121e0ed7203c40505ee16087094ad0b2dcb233e91d6b4aa"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/raw-map.json",
+      "size": 1883,
+      "sha256": "af0edd100f07efef992622241d99b12502dbeb87b4442b89360b693483b79084"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/trace.json",
+      "size": 65122,
+      "sha256": "3f5ffe9cab3008a6fd7242842e52d7368ae8ffacf3db5272a290cf2dc2bc9b23"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay/working/analysis-state.md",
+      "size": 6761,
+      "sha256": "44c47d7aa2af8519caa2900b10db3dc0fe9bca19547e14f14670899b528fd179"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay-followup-receipt.json",
+      "size": 2235,
+      "sha256": "f19601a885330599eaaf55d871cd4814ba605d630b65e93f6d759dec7c894acf"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay-operator-latest.json",
+      "size": 36643,
+      "sha256": "219f55d6e0a6574a23b3c64d52102296137c5434cd44b089458ec16073707937"
+    },
+    {
+      "path": "Chemistry_02_photoionization_delay-owner-note-receipt.json",
+      "size": 2609,
+      "sha256": "3c592f074d9cf30b2ccf178b007d33cf514cdc91291c7a5aaec97dab0a88c485"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/inbox.json",
+      "size": 17,
+      "sha256": "3b459147c8170c320545247d8ba79c22d55408311adafa4ad737f02c7aa78700"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/inputs/001/input.md",
+      "size": 2688,
+      "sha256": "0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/inputs/002/input.md",
+      "size": 5176,
+      "sha256": "9b0ac9d2869201bd4493686e58695c343e2d6b42551c2eaa8ea3f6aac9a88131"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/inputs/003/input.md",
+      "size": 2422,
+      "sha256": "cfbb20edf38a4a9ff2a62a8a47d59c83097d208c76898e0cd33ea4557cedaf2c"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/operator-docs/execution-index.json",
+      "size": 4836,
+      "sha256": "a333febe8a1f2d87004ed2ffbe86c786926531e9cf213d39e5aae209e1f6bcb5"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/operator-docs/execution-report.md",
+      "size": 8139,
+      "sha256": "aa41e4075f6c681a02a144e8f996cff24ac7c4327c02ce1240ebcb8e4cde43dc"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/operator-docs/operator-log.md",
+      "size": 6209,
+      "sha256": "e78055753930a8051b90e063c26f40991651d9f58c4447ca9c457b4a8448fa72"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/operator-messages.json",
+      "size": 182527,
+      "sha256": "042b9069e15f3669a8fda68e42237ae5504fb720216b83c2104220bd89ebcc7a"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/output/Result.md",
+      "size": 16464,
+      "sha256": "de951bdccb76dbd7d0128b18f67de5a64e5646f4edafcff1d1c3661ab44d40ae"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/output/comparison_results.json",
+      "size": 6285,
+      "sha256": "585aa8739821e23ae53819a3462a22d0a4de28037cafbaca4a2a4d27fc27af30"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/output/core_analysis.py",
+      "size": 28736,
+      "sha256": "a2ee852311ed9f302354a2473165fe044d86321f27f1b8f743cf2a548fafba25"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/output/reproduce.md",
+      "size": 2017,
+      "sha256": "cd2e223efad2308b8d3096a9097a430aa771f627331da5912601b91982248e75"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/output/robustness_analysis.py",
+      "size": 34129,
+      "sha256": "a6dbd8d26d4f8a0aacbea8409b01c4d1b6d32175ee752ec980126300d2ab3c8b"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/output/robustness_results.json",
+      "size": 21520,
+      "sha256": "284427d6924cc153f905f3f237503f1a84973b188d6e71e6d957538b5c54f502"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+      "size": 243602,
+      "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+      "size": 386639,
+      "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+      "size": 256931,
+      "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+      "size": 930077,
+      "sha256": "0e85402a6c35e9ee792f7f5ed86bb574bae474514f0f0cbab1a53eea910b0766"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/raw-map.json",
+      "size": 3851,
+      "sha256": "601aa4cdc094d9b5addb9a3944a1358876624e7942745877906947cd103364a3"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/trace.json",
+      "size": 47555,
+      "sha256": "cb1119b4ae8ac9ea7244bbe383efa668f628630c5ebdfd7e21cdabb1fd85df3c"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion/working/analysis-state.md",
+      "size": 4527,
+      "sha256": "bee52d9a53c234c9156af110f7015f1e03203a46df6abb8e4da8484b76de32a1"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion-operator-latest.json",
+      "size": 43495,
+      "sha256": "92492dba2ffb423a144f69f90e3810b571f6e73685b7d691278208eff7bf3c6a"
+    },
+    {
+      "path": "EarthScience_01_glacial_fluvial_erosion-owner-note-receipt.json",
+      "size": 2605,
+      "sha256": "4a442f50bfd8f2a47a9eeda6320b7eecbf26a835f77c4c6626fd6f1fd437860b"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/inbox.json",
+      "size": 17,
+      "sha256": "3b459147c8170c320545247d8ba79c22d55408311adafa4ad737f02c7aa78700"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/inputs/001/input.md",
+      "size": 2688,
+      "sha256": "0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/inputs/002/input.md",
+      "size": 7104,
+      "sha256": "52bd26385e8e69e9af4704b9627b749000b3e78eb2bfddbee8f48618bddee8f2"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/inputs/003/input.md",
+      "size": 3207,
+      "sha256": "6a710260d033089c3cd777989366c17f87e2475cad020fdaead44ad5e3b49da0"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/inputs/004/input.md",
+      "size": 2919,
+      "sha256": "637c407ce6fe9ae57b431067ce7d58b96ec81127679d74190e72b3c3c297d4bd"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/operator-docs/execution-index.json",
+      "size": 5342,
+      "sha256": "61199f88c4ef9f732af97b8cd275bbce089d371e82e1ff4adedbea41304d68bb"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/operator-docs/execution-report.md",
+      "size": 10795,
+      "sha256": "2765c4350336dfd11cc0f3e88230a51849cca7a8b760fd38d6007307fe5165d8"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/operator-docs/operator-log.md",
+      "size": 8530,
+      "sha256": "bf2bfdcdf8c1384dfc2b18ae6a32ea637ec84b060f27551ad275cf848862581c"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/operator-messages.json",
+      "size": 244231,
+      "sha256": "811eaf9886d629fb78e40037b5ae39669d1d8816b466b7e02fbd3dbfbc22b029"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/output/Result.md",
+      "size": 20654,
+      "sha256": "b91b8a530512ee91f34da2dc1599ad77428adf5c132dcd3e1e08764f1b611ea8"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/output/analysis_A.py",
+      "size": 32565,
+      "sha256": "07ca0fea8187ab84a886c6c0823ca47d57d93dff7c2fdb423facff8ce78c4bc8"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/output/main_analysis.py",
+      "size": 10708,
+      "sha256": "3228ec762282d08e520abe6749db9889002fd01a013cbacd8545bf62b9e613a6"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/output/model_output_agentA.txt",
+      "size": 42782,
+      "sha256": "b02ae101b56bddcad4c739a4ba9708f9a1e2bd1105c4217efd38ffc0b9d31fca"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/output/robustness_check.py",
+      "size": 19605,
+      "sha256": "89c02605125fcb6414dd90027ca9a140051359aef05167cd2c494bf5d9615448"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+      "size": 338834,
+      "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+      "size": 251822,
+      "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+      "size": 279705,
+      "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+      "size": 1241563,
+      "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/raw-map.json",
+      "size": 3827,
+      "sha256": "b25450931a88b1eadbb411713aa43862d1e41894915f550128e0b8ec9d575ce5"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/trace.json",
+      "size": 63125,
+      "sha256": "324e24116aeebfd8affd1e3ac719a398f5b9ac0ba5dc5bfe0c6eacb387b0179f"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions/working/analysis-state.md",
+      "size": 2895,
+      "sha256": "9cebab1e862c31f9b3f2bbc55466ba395496e83f533fcf4a2d1736f718c7a07e"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions-addendum.md",
+      "size": 7072,
+      "sha256": "2c3be92632d72faa605845edff6185b2d811cb4d7db8fcb3ba47b0bb76ecb980"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions-operator-latest.json",
+      "size": 56948,
+      "sha256": "f3415348c70c16fab217d4aa06b4ede584947930dc73d65f9aa0fd5b095e8b20"
+    },
+    {
+      "path": "Neuro_02_calcium_response_regions-owner-note-receipt.json",
+      "size": 2818,
+      "sha256": "5747c03e9dc67e0401d7f1362bb6f8fdb68f20c15e1a93b738f82eda61af209c"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/inbox.json",
+      "size": 17,
+      "sha256": "3b459147c8170c320545247d8ba79c22d55408311adafa4ad737f02c7aa78700"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/inputs/001/input.md",
+      "size": 2688,
+      "sha256": "0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/inputs/002/input.md",
+      "size": 1603,
+      "sha256": "f7d1dc26e7c4c89a920554375156c7ed913d7778533e9578d686f1a291259164"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/inputs/003/input.md",
+      "size": 5102,
+      "sha256": "b443faf89b3ec23e0d10dff1c118d74b5c1ed216c8063586017dd0c86c3d2c1f"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/inputs/004/input.md",
+      "size": 2222,
+      "sha256": "cf1ac953d6ebbd2d94cd654784d669f73996bc6f8faa584ebbffd6f05cee961d"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/operator-docs/execution-index.json",
+      "size": 3917,
+      "sha256": "09741f41b1707cebd8ddfb7b8ef310040ee8831a4ba3c7d13fe577df066738ac"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/operator-docs/execution-report.md",
+      "size": 5935,
+      "sha256": "3d84993f9b0bf8268365fc6750eedb878683cd36597facf2913b55cac4ae2354"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/operator-docs/operator-log.md",
+      "size": 7965,
+      "sha256": "55c126346bf2fddff01ddd8351f729a7c3460504cb80814e7b377c113132b923"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/operator-messages.json",
+      "size": 247592,
+      "sha256": "332a6c19766d00c17a675f7ecf0b1b255d29b7a74299aa97c5e86d7fc3683e17"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/output/Result.md",
+      "size": 13581,
+      "sha256": "c6f0b2ead75df2b5498a13b01851c85d05405ff905bf8f177945f125158b4d29"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/output/reproduce.md",
+      "size": 2671,
+      "sha256": "af609bf5ab734006b567774a040bab500216d9e133d6f57ba5bc26066d6c03f7"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/raw/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+      "size": 362903,
+      "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/raw/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+      "size": 1151450,
+      "sha256": "510ab465b32fc7301e0d7299ad121ffdf223b9496f35d844fcddb8765ce7f247"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/raw-map.json",
+      "size": 1887,
+      "sha256": "a8b9f91f540084124a5566bc1cdaef05f69c0b1fc731c8e24a81a7b1ba8e9c84"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/trace.json",
+      "size": 42260,
+      "sha256": "6c9d988d97ec98bf0c1c31917b93c4468cd42c20144da817d399765c595546ba"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition/working/analysis-state.md",
+      "size": 3205,
+      "sha256": "0150bedfd826b5905c8bbc6d858d988d3d99312f3ffcf26d851f5e9b32eccfb3"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition-addendum.md",
+      "size": 3441,
+      "sha256": "744a926c57ed5c9e6097277b8a7ebc728a242c86ce20d6da3d6d0e26d0425bce"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition-operator-latest.json",
+      "size": 30463,
+      "sha256": "e64317048f905ce0134c220f38a024d0354d96c8a0780173b47ccd24b66c1a82"
+    },
+    {
+      "path": "Physics_04_temporal_delay_transition-owner-note-receipt.json",
+      "size": 2501,
+      "sha256": "287bcd65e65b4f7535a4994c371a01b9548944c098e7ce2bfe8d0ff364ba313a"
+    },
+    {
+      "path": "active-after-notes.json",
+      "size": 373,
+      "sha256": "6aec349a84d589b23de57075004e2dfb1f4829bd8fbde350fc013028aea99813"
+    },
+    {
+      "path": "active.json",
+      "size": 374,
+      "sha256": "1d65214bb31128ced83e62249e786201674a8e26766027a987540697d3906588"
+    },
+    {
+      "path": "cluster-dimension-fixture.json",
+      "size": 196,
+      "sha256": "15412c8e5f6fd77bb2f098c75bc521f87555ca5a8904538ea71667f3abaadafa"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/output/Result.md",
+      "size": 24063,
+      "sha256": "4f81f82f6647ba82e0033ee77e578ac3e6c8573d2e991d7f73e3fe386fb112cc"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/output/reproduce.md",
+      "size": 5526,
+      "sha256": "b7044097e116e2ef56f6533f7d87f51e085612e7a2c5f1b1a4c350163c7c5788"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/005/execution.json",
+      "size": 161,
+      "sha256": "a670648b78bb0eb2e0da832a902cd194411ddbf6ec0699be1cb150eb429686ee"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/005/input.md",
+      "size": 3058,
+      "sha256": "a42b50351a1b5db24dd93b9a503ecae593ee9d8449ea281bd13d246ac2dc4a5f"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/005/receipt.json",
+      "size": 175,
+      "sha256": "06696f1c226362b9b7e27a2588503db5a277b221efe743d58ff6e491ddc0fadd"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/005/sent.json",
+      "size": 47,
+      "sha256": "0505214caf640baebc63cedbd07c4667b6bf7c4bf04a00fc3622d6314aa89070"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/005/status.json",
+      "size": 826,
+      "sha256": "0d488e9c1f8e885adb24147bef4de4811264bbd838fff1db2f12b1e9629ca825"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/006/execution.json",
+      "size": 160,
+      "sha256": "a7eed7732692cc87d239ec453dcf0caccb92968b852da03565ec35456b9a079e"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/006/input.md",
+      "size": 2789,
+      "sha256": "e87ea28d9d5846c6e7d88a924eebbcb1736f729a2e6b3cd3a72dcd465538034e"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/006/receipt.json",
+      "size": 175,
+      "sha256": "0d2a9d8547c76793a256d7f8b4df7d3d24c901e945a42da85ce0d894a6fc8e48"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/006/sent.json",
+      "size": 47,
+      "sha256": "b38239e4a68e7171e071d23a52fec296e859fbbb3e23493f0011bc03887b4a4f"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/006/status.json",
+      "size": 826,
+      "sha256": "826756e3d1d7eac2b59c15fc25885891b7e8fe952a262c51fbbaba8e7b7e3c22"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/007/execution.json",
+      "size": 160,
+      "sha256": "d8cbbb29cc43416a92e8b4f85a63113d91d5440339a318e018b8980c939d6ccc"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/007/input.md",
+      "size": 2770,
+      "sha256": "930c26b76d6bef08f5bc752c5707d7ff05c08bd7368742595127635dcc4f8798"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/007/receipt.json",
+      "size": 175,
+      "sha256": "1247d0a8fb52e7cc4999520987bb4dc3ba6f2465b399767ae2be9b907fa24c9a"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/007/sent.json",
+      "size": 47,
+      "sha256": "518bcdc005799be0fb44d6b914abec33497e12a3a61e5ac16347825ca91e4dda"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/007/status.json",
+      "size": 826,
+      "sha256": "010b1c47cdfc0bb8d267877be36efa13617b21dc3c4051f3febad86b20ecd911"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/008/execution.json",
+      "size": 160,
+      "sha256": "30089e6b1e76e2707aed66eef8fded98f11c65ccb434633bd355272d878fc0ae"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/008/input.md",
+      "size": 3445,
+      "sha256": "590d350d71a48c81aae2d7f91dd3dae1bc653a1b5273c65e9307cc5b0de4ce7a"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/008/receipt.json",
+      "size": 175,
+      "sha256": "6dbd48d81e0d44e4f60d0d78c807fccc5c2042308e9a1fead5360ec8b8123cdf"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/rounds/008/sent.json",
+      "size": 47,
+      "sha256": "a76885d5457c3e2afee719ddfbcc5cd4374f63971eeed97689a21b4ad8d96bf0"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/working/analysis-state.md",
+      "size": 5913,
+      "sha256": "3cdf1e758b1b26537e2b389e363e56c4e72e27d934bd1a822cc5b4c31b04ea62"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/working/subagent_fft_loo_corrected/corrected_fft.py",
+      "size": 17464,
+      "sha256": "5a0cfa621a70cf88b67e1878dacd58562cb06ee0cd06b9a324ee0ecc69f7b2d1"
+    },
+    {
+      "path": "followup/Astronomy_02_gravity_spectral_structure/working/subagent_fft_loo_corrected/fft_results_corrected.json",
+      "size": 41327,
+      "sha256": "1aec316b57334b9857fc6e2f15da9c3fefb0661d32f088c98290d83a1bc8a25c"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/main.jsonl",
+      "size": 2348519,
+      "sha256": "502c6a2e900d282d60406fd2a3c5e2cc7d9906e9ca6cd2b6b0c5655f17483846"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/output/Result.md",
+      "size": 26609,
+      "sha256": "a477818b11c02f8d1d4989ebdc1ae744017a85cfd674cde6a142e343bf6870d7"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/output/reproduce.md",
+      "size": 2769,
+      "sha256": "6f555b2c08009e95ab3d89138db319d99108d2f646323d80b798edcd1d6571dd"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/reproduce_test/comparison_results.json",
+      "size": 2806,
+      "sha256": "de506f1fe04011bce99f6fdf004f86f797e0e9a0a5748eb59eda5442cca1b016"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/rounds/005/execution.json",
+      "size": 160,
+      "sha256": "cac68bfa0d171ac756ce173ff4f300ab6a7b3070b93a9388a17ac54c908b01a7"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/rounds/005/input.md",
+      "size": 2715,
+      "sha256": "18bab1a44d675aec4367dc6e9f67966e92010ea1713603480757110f950d851e"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/rounds/005/receipt.json",
+      "size": 175,
+      "sha256": "cbc654d5d95a69256f18a18cbe443dfe0a026f8b375a65058f5c0e680f59e3c4"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/rounds/005/sent.json",
+      "size": 47,
+      "sha256": "081b32b850269da48a403dbede3221eb25c5d1c9d12ce0a1f45388aa111ce021"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/rounds/005/status.json",
+      "size": 826,
+      "sha256": "b46254c5a3c3972b2f3378feba61a5b151b12fe6de9e902a9cd15df5cc13e714"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/rounds/006/input.md",
+      "size": 3861,
+      "sha256": "71207578f130f90f32f264b50b1b7f75c822d9b4fca957fe8e395ad89623df03"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/rounds/006/sent.json",
+      "size": 47,
+      "sha256": "87f1da15f14fa7a7ec64d8725ee2b9ed4637a44d2d825dbe4eb116f5624803c4"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/working/analysis-state.md",
+      "size": 7766,
+      "sha256": "38250d21d1490ac1d84719cc371ad60f965fd2b34d03f2cdc1caf00c67d58b9b"
+    },
+    {
+      "path": "followup/Chemistry_02_photoionization_delay/working/reproduce_clean_v2.py",
+      "size": 9193,
+      "sha256": "d4bf2b67e8f7474be5b5d91cba39c349e8caa0b847c0b78ab2489c42a4342d65"
+    },
+    {
+      "path": "followup/at.txt",
+      "size": 32,
+      "sha256": "3cc46d03437647837fd46fe073e0a7da014b13901479ac1fffa3872725cc8bfa"
+    },
+    {
+      "path": "inventory.json",
+      "size": 17719,
+      "sha256": "f5c5111216139d443e0c37b8b7ed7988ef29a06fa1e7f8bd10d839f3670c692d"
+    },
+    {
+      "path": "session-tree.json",
+      "size": 80504,
+      "sha256": "b55f7ddbce262a1a847171f598550f039e4fbed3d10e0e036b44b61113117bb0"
+    }
+  ]
+}

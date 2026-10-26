@@ -1,0 +1,19 @@
+model,variable,contrast,effect_size,SE,CI_lower,CI_upper,p_value,note
+1a-Amplitude-additive-all,amplitude,anatomical_region_id[T.region_2],0.303435,0.029762,0.245101,0.361769,<0.00000001,"All 819 cells, additive model"
+1a-Amplitude-additive-all,amplitude,anatomical_region_id[T.region_3],0.337578,0.034549,0.269862,0.405293,<0.00000001,"All 819 cells, additive model"
+1a-Amplitude-additive-all,amplitude,anatomical_region_id[T.region_4],0.09766,0.061643,-0.02316,0.21848,0.1131288528,"All 819 cells, additive model"
+1a-Amplitude-additive-all,amplitude,condition[T.neural_activity_blocked],-0.023842,0.04939,-0.120646,0.072963,0.6292925711,"All 819 cells, additive model"
+1a-Amplitude-additive-all,amplitude,condition[T.receptor_stimulated],0.328672,0.04419,0.24206,0.415284,0.0,"All 819 cells, additive model"
+1a-Amplitude-additive-all,amplitude,animal_age_days,0.011088,0.026897,-0.041631,0.063807,0.6801723385,"All 819 cells, additive model"
+2a-TimeToPeak-additive-all,time_to_peak,anatomical_region_id[T.region_2],-26.566815,3.952473,-34.313662,-18.819968,0.0,"All 819 cells, additive model"
+2a-TimeToPeak-additive-all,time_to_peak,anatomical_region_id[T.region_3],-5.310662,4.584452,-14.296188,3.674864,0.2466979413,"All 819 cells, additive model"
+2a-TimeToPeak-additive-all,time_to_peak,anatomical_region_id[T.region_4],0.243904,8.186495,-15.801626,16.289435,0.9762317473,"All 819 cells, additive model"
+2a-TimeToPeak-additive-all,time_to_peak,condition[T.neural_activity_blocked],12.251545,6.57445,-0.634377,25.137467,0.0623907161,"All 819 cells, additive model"
+2a-TimeToPeak-additive-all,time_to_peak,condition[T.receptor_stimulated],-38.131583,5.872199,-49.641092,-26.622073,1e-10,"All 819 cells, additive model"
+2a-TimeToPeak-additive-all,time_to_peak,animal_age_days,0.341249,0.55912,-0.754626,1.437123,0.5416419517,"All 819 cells, additive model"
+Pairwise-t-test,amplitude,baseline vs neural_activity_blocked,0.029194,0.054751,-0.078119,0.136506,0.5909925019,Regions 1+2
+Pairwise-t-test,amplitude,baseline vs receptor_stimulated,-0.284161,0.049148,-0.38049,-0.187832,1.17266e-05,Regions 1+2
+Pairwise-t-test,amplitude,neural_activity_blocked vs receptor_stimulated,-0.313355,0.041893,-0.395466,-0.231244,1.99e-08,Regions 1+2
+Pairwise-t-test,time_to_peak,baseline vs neural_activity_blocked,-27.020287,12.004805,-50.549705,-3.490869,0.0248052278,Regions 1+2
+Pairwise-t-test,time_to_peak,baseline vs receptor_stimulated,26.042493,9.524483,7.374507,44.710479,3.8516e-05,Regions 1+2
+Pairwise-t-test,time_to_peak,neural_activity_blocked vs receptor_stimulated,53.06278,7.835505,37.705191,68.420369,0.0,Regions 1+2

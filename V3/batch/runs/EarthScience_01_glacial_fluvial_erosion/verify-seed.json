@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-16T09:28:48.763294+00:00",
+  "input_changed": [],
+  "shared_changed": [],
+  "actual_models": [
+    "qwen3.7-flash"
+  ],
+  "passed": true
+}

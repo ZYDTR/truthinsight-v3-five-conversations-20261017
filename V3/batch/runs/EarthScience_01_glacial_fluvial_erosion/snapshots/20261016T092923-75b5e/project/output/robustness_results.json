@@ -1,0 +1,665 @@
+{
+  "baseline_ols": {
+    "glacial": {
+      "label": "Glacial_baseline",
+      "intercept": -0.11396771869897655,
+      "slope": -0.05665968463207191,
+      "se_intercept": 0.07101298988132777,
+      "se_slope": 0.017731528539711723,
+      "t_intercept": -1.6048855130509487,
+      "t_slope": -3.1954202089896686,
+      "p_intercept": 0.10926178487793581,
+      "p_slope": 0.0015003847989589758,
+      "r_squared": 0.02346153270147966,
+      "n": 427
+    },
+    "fluvial": {
+      "label": "Fluvial_baseline",
+      "intercept": -1.1367432751800564,
+      "slope": -0.030504260107066222,
+      "se_intercept": 0.013408121282892652,
+      "se_slope": 0.004068313101752632,
+      "t_intercept": -84.78020530962984,
+      "t_slope": -7.498011914059655,
+      "p_intercept": 0.0,
+      "p_slope": 7.394085344003543e-14,
+      "r_squared": 0.009093849944238008,
+      "n": 6128
+    },
+    "combined": {
+      "label": "Combined_baseline",
+      "intercept": -1.0936909234199572,
+      "slope": -0.0221311910149956,
+      "se_intercept": 0.013724529328916803,
+      "se_slope": 0.004101136328020637,
+      "t_intercept": -79.68877454439277,
+      "t_slope": -5.396355849910736,
+      "p_intercept": 0.0,
+      "p_slope": 7.03912588218003e-08,
+      "r_squared": 0.0044242058112822225,
+      "n": 6555
+    }
+  },
+  "mechanical_coupling_stratified": {
+    "Glacial": {
+      "Cosmogenic detrital": {
+        "label": "Glacial_Cosmogenic detrital",
+        "intercept": 3.2184882550639053,
+        "slope": -0.9404911109710857,
+        "se_intercept": 0.7043420983621882,
+        "se_slope": 0.15896728935225302,
+        "t_intercept": 4.569495792666489,
+        "t_slope": -5.916255569327014,
+        "p_intercept": 0.002575676063394372,
+        "p_slope": 0.0005897347942087627,
+        "r_squared": 0.833341586740445,
+        "n": 9
+      },
+      "Cosmogenic surface": {
+        "label": "Glacial_Cosmogenic surface",
+        "intercept": 0.5312959318821845,
+        "slope": -0.3421028614739958,
+        "se_intercept": 0.25537998168183007,
+        "se_slope": 0.07427490120736367,
+        "t_intercept": 2.0804133839437324,
+        "t_slope": -4.605901265609216,
+        "p_intercept": 0.04012363414187359,
+        "p_slope": 1.247972979911971e-05,
+        "r_squared": 0.1794564762350198,
+        "n": 99
+      },
+      "Relief": {
+        "label": "Glacial_Relief",
+        "intercept": 2.020082779782087,
+        "slope": -0.3699248894011381,
+        "se_intercept": 0.6123204993970172,
+        "se_slope": 0.1059975978438993,
+        "t_intercept": 3.299061164490433,
+        "t_slope": -3.4899365355988508,
+        "p_intercept": 0.0045282497791250265,
+        "p_slope": 0.003027209859186586,
+        "r_squared": 0.4322145231497859,
+        "n": 18
+      },
+      "Thermochronometric": {
+        "label": "Glacial_Thermochronometric",
+        "intercept": 4.006125736318417,
+        "slope": -0.6515564543513861,
+        "se_intercept": 0.7147696597924971,
+        "se_slope": 0.11407931615728896,
+        "t_intercept": 5.604778660416875,
+        "t_slope": -5.7114337313614385,
+        "p_intercept": 4.4080689809433693e-07,
+        "p_slope": 2.901989712977837e-07,
+        "r_squared": 0.33076777595296747,
+        "n": 68
+      },
+      "Volumetric": {
+        "label": "Glacial_Volumetric",
+        "intercept": -0.09218152847800593,
+        "slope": -0.07285174868267273,
+        "se_intercept": 0.07840639396304004,
+        "se_slope": 0.02533540044518956,
+        "t_intercept": -1.175688917940281,
+        "t_slope": -2.8754922915183334,
+        "p_intercept": 0.24092950186919215,
+        "p_slope": 0.004410923890094676,
+        "r_squared": 0.03455723357614238,
+        "n": 233
+      }
+    },
+    "Fluvial": {
+      "Cosmogenic detrital": {
+        "label": "Fluvial_Cosmogenic detrital",
+        "intercept": 2.796781428792441,
+        "slope": -0.9950483209181601,
+        "se_intercept": 0.0031417401284338127,
+        "se_slope": 0.0007787989063537096,
+        "t_intercept": 890.2013898223539,
+        "t_slope": -1277.6704137617726,
+        "p_intercept": 0.0,
+        "p_slope": 0.0,
+        "r_squared": 0.9978800785708096,
+        "n": 3470
+      },
+      "Cosmogenic surface": {
+        "label": "Fluvial_Cosmogenic surface",
+        "intercept": 2.525114707105222,
+        "slope": -0.981767100422178,
+        "se_intercept": 0.4809778148359872,
+        "se_slope": 0.07820464119976576,
+        "t_intercept": 5.249960869746731,
+        "t_slope": -12.553821427482216,
+        "p_intercept": 1.968098361615489e-06,
+        "p_slope": 0.0,
+        "r_squared": 0.7176664727837461,
+        "n": 64
+      },
+      "Relief": {
+        "label": "Fluvial_Relief",
+        "intercept": 3.798836619445111,
+        "slope": -0.42031278389592597,
+        "se_intercept": 2.344501664937228,
+        "se_slope": 0.3559216653620747,
+        "t_intercept": 1.620317305062277,
+        "t_slope": -1.1809137369267673,
+        "p_intercept": 0.1660899189371503,
+        "p_slope": 0.29074539127846943,
+        "r_squared": 0.21808503679851698,
+        "n": 7
+      },
+      "Thermochronometric": {
+        "label": "Fluvial_Thermochronometric",
+        "intercept": 4.664799027349254,
+        "slope": -0.6465621348318968,
+        "se_intercept": 3.71351927528112,
+        "se_slope": 0.5653631994394445,
+        "t_intercept": 1.2561666391232398,
+        "t_slope": -1.1436226048546507,
+        "p_intercept": 0.3359055648440843,
+        "p_slope": 0.3712060715039869,
+        "r_squared": 0.39538180451346094,
+        "n": 4
+      },
+      "Volumetric": {
+        "label": "Fluvial_Volumetric",
+        "intercept": -1.161167552106064,
+        "slope": 0.1174059974658351,
+        "se_intercept": 0.016360834136607185,
+        "se_slope": 0.00980313001874365,
+        "t_intercept": -70.97239311949043,
+        "t_slope": 11.976378691433661,
+        "p_intercept": 0.0,
+        "p_slope": 0.0,
+        "r_squared": 0.05264714255078273,
+        "n": 2583
+      }
+    }
+  },
+  "mechanical_coupling_chow_test": [
+    {
+      "process": "Glacial",
+      "f_statistic": 0.44125233367221767,
+      "p_value": 0.6435261081736241,
+      "n_volumetric": 233,
+      "n_non_volumetric": 194,
+      "slope_volumetric": -0.07285174868267273,
+      "slope_non_volumetric": -0.03429448258026738
+    },
+    {
+      "process": "Fluvial",
+      "f_statistic": 3698.158179396722,
+      "p_value": 0.0,
+      "n_volumetric": 2583,
+      "n_non_volumetric": 3545,
+      "slope_volumetric": 0.1174059974658351,
+      "slope_non_volumetric": -0.9515850142362045
+    }
+  ],
+  "mechanical_coupling_artifact_vars": {
+    "Glacial": {
+      "sediment_flux_correlation": {
+        "rho": 0.5578206667038625,
+        "p_value": 2.112361858698796e-05,
+        "n": 51
+      },
+      "exhumation_Exhumation (m)_correlation": {
+        "rho": 0.292811566253661,
+        "p_value": 0.007983728008292092,
+        "n": 81
+      },
+      "exhumation_Exhumation min (m)_correlation": {
+        "rho": 0.5011560300957112,
+        "p_value": 0.0021645940596000572,
+        "n": 35
+      },
+      "exhumation_Exhumation max (m)_correlation": {
+        "rho": 0.5863425277809731,
+        "p_value": 0.00021436451124972922,
+        "n": 35
+      }
+    },
+    "Fluvial": {
+      "sediment_flux_correlation": {
+        "rho": 0.538310528063686,
+        "p_value": 1.8556802542494877e-80,
+        "n": 1057
+      },
+      "exhumation_Exhumation (m)_correlation": {
+        "rho": 0.9157199156321926,
+        "p_value": 7.584505093519599e-05,
+        "n": 11
+      },
+      "exhumation_Exhumation min (m)_correlation": {
+        "rho": 0.8660254037844387,
+        "p_value": 0.33333333333333326,
+        "n": 3
+      }
+    }
+  },
+  "source_site_clustering": {
+    "unique_references": {
+      "Glacial": 154,
+      "Fluvial": 248
+    },
+    "unique_localities": {
+      "Glacial": 123,
+      "Fluvial": 1777
+    },
+    "clustered_results": {
+      "Glacial": {
+        "Reference": {
+          "n_obs": 324,
+          "n_clusters": 51,
+          "intercept": -0.2987681402575294,
+          "slope": -0.0007579052343546382,
+          "se_intercept": 1.0864880508407655,
+          "se_slope": 0.19157521746602835,
+          "t_slope": -0.003956175774609449,
+          "p_slope": 0.9968591792064263
+        },
+        "Locality": {
+          "n_obs": 350,
+          "n_clusters": 46,
+          "intercept": -0.14924598803360173,
+          "slope": -0.0409672549569535,
+          "se_intercept": 1.1896435709008604,
+          "se_slope": 0.20802236134891264,
+          "t_slope": -0.19693678454231064,
+          "p_slope": 0.8447638025181889
+        }
+      },
+      "Fluvial": {
+        "Reference": {
+          "n_obs": 6109,
+          "n_clusters": 229,
+          "intercept": -1.1367912774052942,
+          "slope": -0.03079011369598876,
+          "se_intercept": 0.2290464606793881,
+          "se_slope": 0.028370104089494166,
+          "t_slope": -1.085301400335389,
+          "p_slope": 0.2789343753604221
+        },
+        "Locality": {
+          "n_obs": 4609,
+          "n_clusters": 258,
+          "intercept": -1.1746560932882149,
+          "slope": -0.024569030545124763,
+          "se_intercept": 0.33282137419523045,
+          "se_slope": 0.04397113294712161,
+          "t_slope": -0.558753638999267,
+          "p_slope": 0.5768163827550088
+        }
+      }
+    },
+    "ols_vs_clustered_comparison": {
+      "Glacial": {
+        "OLS": {
+          "label": "Glacial_baseline",
+          "intercept": -0.11396771869897655,
+          "slope": -0.05665968463207191,
+          "se_intercept": 0.07101298988132777,
+          "se_slope": 0.017731528539711723,
+          "t_intercept": -1.6048855130509487,
+          "t_slope": -3.1954202089896686,
+          "p_intercept": 0.10926178487793581,
+          "p_slope": 0.0015003847989589758,
+          "r_squared": 0.02346153270147966,
+          "n": 427
+        },
+        "Clustered_Reference": {
+          "n_obs": 324,
+          "n_clusters": 51,
+          "intercept": -0.2987681402575294,
+          "slope": -0.0007579052343546382,
+          "se_intercept": 1.0864880508407655,
+          "se_slope": 0.19157521746602835,
+          "t_slope": -0.003956175774609449,
+          "p_slope": 0.9968591792064263
+        },
+        "Clustered_Locality": {
+          "n_obs": 350,
+          "n_clusters": 46,
+          "intercept": -0.14924598803360173,
+          "slope": -0.0409672549569535,
+          "se_intercept": 1.1896435709008604,
+          "se_slope": 0.20802236134891264,
+          "t_slope": -0.19693678454231064,
+          "p_slope": 0.8447638025181889
+        }
+      },
+      "Fluvial": {
+        "OLS": {
+          "label": "Fluvial_baseline",
+          "intercept": -1.1367432751800564,
+          "slope": -0.030504260107066222,
+          "se_intercept": 0.013408121282892652,
+          "se_slope": 0.004068313101752632,
+          "t_intercept": -84.78020530962984,
+          "t_slope": -7.498011914059655,
+          "p_intercept": 0.0,
+          "p_slope": 7.394085344003543e-14,
+          "r_squared": 0.009093849944238008,
+          "n": 6128
+        },
+        "Clustered_Reference": {
+          "n_obs": 6109,
+          "n_clusters": 229,
+          "intercept": -1.1367912774052942,
+          "slope": -0.03079011369598876,
+          "se_intercept": 0.2290464606793881,
+          "se_slope": 0.028370104089494166,
+          "t_slope": -1.085301400335389,
+          "p_slope": 0.2789343753604221
+        },
+        "Clustered_Locality": {
+          "n_obs": 4609,
+          "n_clusters": 258,
+          "intercept": -1.1746560932882149,
+          "slope": -0.024569030545124763,
+          "se_intercept": 0.33282137419523045,
+          "se_slope": 0.04397113294712161,
+          "t_slope": -0.558753638999267,
+          "p_slope": 0.5768163827550088
+        }
+      }
+    }
+  },
+  "outlier_sensitivity": {
+    "Glacial": {
+      "outcomes": {
+        "original": {
+          "label": "Glacial_original",
+          "intercept": -0.11396771869897655,
+          "slope": -0.05665968463207191,
+          "se_intercept": 0.07101298988132777,
+          "se_slope": 0.017731528539711723,
+          "t_intercept": -1.6048855130509487,
+          "t_slope": -3.1954202089896686,
+          "p_intercept": 0.10926178487793581,
+          "p_slope": 0.0015003847989589758,
+          "r_squared": 0.02346153270147966,
+          "n": 427
+        },
+        "winsorized_1_99": {
+          "label": "Glacial_winsorized",
+          "intercept": -0.13151312167525742,
+          "slope": -0.05239745686987461,
+          "se_intercept": 0.06837421495656613,
+          "se_slope": 0.01707264186325326,
+          "t_intercept": -1.9234315415365204,
+          "t_slope": -3.0690889722611487,
+          "p_intercept": 0.05509357787355351,
+          "p_slope": 0.0022846573228121336,
+          "r_squared": 0.021682524154158944,
+          "n": 427
+        },
+        "trimmed_1pct": {
+          "label": "Glacial_trimmed_1pct",
+          "intercept": -0.1905364381414417,
+          "slope": -0.03340999514881378,
+          "se_intercept": 0.06479853206591077,
+          "se_slope": 0.01621550796143281,
+          "t_intercept": -2.940443742577915,
+          "t_slope": -2.0603730224348555,
+          "p_intercept": 0.003460757001873205,
+          "p_slope": 0.03998572033303516,
+          "r_squared": 0.010125667818211559,
+          "n": 417
+        }
+      },
+      "changes": {
+        "winsorized_slope_change": 0.004262227762197299,
+        "winsorized_p_change": 0.0007842725238531578,
+        "trimmed_slope_change": 0.023249689483258132,
+        "trimmed_p_change": 0.03848533553407618,
+        "n_original": 427,
+        "n_winsorized": 427,
+        "n_trimmed": 417
+      }
+    },
+    "Fluvial": {
+      "outcomes": {
+        "original": {
+          "label": "Fluvial_original",
+          "intercept": -1.1367432751800564,
+          "slope": -0.030504260107066222,
+          "se_intercept": 0.013408121282892652,
+          "se_slope": 0.004068313101752632,
+          "t_intercept": -84.78020530962984,
+          "t_slope": -7.498011914059655,
+          "p_intercept": 0.0,
+          "p_slope": 7.394085344003543e-14,
+          "r_squared": 0.009093849944238008,
+          "n": 6128
+        },
+        "winsorized_1_99": {
+          "label": "Fluvial_winsorized",
+          "intercept": -1.1405781616146058,
+          "slope": -0.027705577987608174,
+          "se_intercept": 0.013076959168009675,
+          "se_slope": 0.003967831375613899,
+          "t_intercept": -87.22044222672318,
+          "t_slope": -6.982549247905373,
+          "p_intercept": 0.0,
+          "p_slope": 3.204991827487902e-12,
+          "r_squared": 0.007896019542602772,
+          "n": 6128
+        },
+        "trimmed_1pct": {
+          "label": "Fluvial_trimmed_1pct",
+          "intercept": -1.1619729812964752,
+          "slope": -0.01694411611190868,
+          "se_intercept": 0.012472492479898404,
+          "se_slope": 0.0038166561704834545,
+          "t_intercept": -93.1628528274679,
+          "t_slope": -4.439518613950067,
+          "p_intercept": 0.0,
+          "p_slope": 9.177539001870016e-06,
+          "r_squared": 0.003273044987420648,
+          "n": 6004
+        }
+      },
+      "changes": {
+        "winsorized_slope_change": 0.002798682119458048,
+        "winsorized_p_change": 3.1310509740478665e-12,
+        "trimmed_slope_change": 0.013560143995157543,
+        "trimmed_p_change": 9.177538927929163e-06,
+        "n_original": 6128,
+        "n_winsorized": 6128,
+        "n_trimmed": 6004
+      }
+    }
+  },
+  "bin_analysis": {
+    "Glacial": {
+      "<1 yr": {
+        "n": 45,
+        "mean_log_erode": -0.24906119110217467,
+        "median_log_erode": -0.22184874961635637,
+        "std_log_erode": 0.5158332517710966,
+        "sem_log_erode": 0.07689588106766239,
+        "min_log_erode": -1.2218487496163564,
+        "max_log_erode": 0.8450980400142568
+      },
+      "1-100 yr": {
+        "n": 112,
+        "mean_log_erode": 0.024744299760713493,
+        "median_log_erode": -0.1870866433571444,
+        "std_log_erode": 1.0593012233485575,
+        "sem_log_erode": 0.1000945571602418,
+        "min_log_erode": -2.0,
+        "max_log_erode": 3.0
+      },
+      "100-10000 yr": {
+        "n": 94,
+        "mean_log_erode": -0.4897218518164878,
+        "median_log_erode": -0.44981472744121853,
+        "std_log_erode": 0.8722565823318372,
+        "sem_log_erode": 0.08996639712061394,
+        "min_log_erode": -2.709965388637482,
+        "max_log_erode": 2.571375706165574
+      },
+      ">10000 yr": {
+        "n": 176,
+        "mean_log_erode": -0.4088474680872253,
+        "median_log_erode": -0.3010299956639812,
+        "std_log_erode": 0.7895970391111445,
+        "sem_log_erode": 0.05951811623425555,
+        "min_log_erode": -3.3979400086720375,
+        "max_log_erode": 1.505149978319906
+      }
+    },
+    "Fluvial": {
+      "<1 yr": {
+        "n": 1058,
+        "mean_log_erode": -1.4685791094067655,
+        "median_log_erode": -1.3840299602253459,
+        "std_log_erode": 0.6618026113658684,
+        "sem_log_erode": 0.020346309317555253,
+        "min_log_erode": -3.5510727252409,
+        "max_log_erode": 0.6134612512527062
+      },
+      "1-100 yr": {
+        "n": 1529,
+        "mean_log_erode": -1.0462421158316821,
+        "median_log_erode": -1.0230450901050572,
+        "std_log_erode": 0.8666868183608756,
+        "sem_log_erode": 0.022164526025703308,
+        "min_log_erode": -3.837587951825964,
+        "max_log_erode": 2.0750503410046206
+      },
+      "100-10000 yr": {
+        "n": 1725,
+        "mean_log_erode": -0.538183327983915,
+        "median_log_erode": -0.6029190062106913,
+        "std_log_erode": 0.4581765668995043,
+        "sem_log_erode": 0.011031595374021166,
+        "min_log_erode": -2.054725462777653,
+        "max_log_erode": 0.8111961734354126
+      },
+      ">10000 yr": {
+        "n": 1816,
+        "mean_log_erode": -1.803093569362488,
+        "median_log_erode": -1.6936554055016235,
+        "std_log_erode": 0.5635111670321065,
+        "sem_log_erode": 0.013223444741913832,
+        "min_log_erode": -4.309803919971486,
+        "max_log_erode": 1.5314789170422551
+      }
+    }
+  },
+  "bayesian_posterior": {
+    "Glacial": {
+      "process": "Glacial",
+      "n": 427,
+      "b_mean": -0.05665966238386039,
+      "b_std": 0.01790118952547297,
+      "b_ci_lower": -0.09798994974874375,
+      "b_ci_upper": -0.022613065326633208,
+      "prob_b_positive": 0.00056034203204336,
+      "prob_b_negative": 0.9994396579679566,
+      "b_mode": -0.05276381909547734
+    },
+    "Fluvial": {
+      "process": "Fluvial",
+      "n": 6128,
+      "b_mean": -0.02583828130666217,
+      "b_std": 0.006182304732602016,
+      "b_ci_lower": -0.03768844221105527,
+      "b_ci_upper": -0.022613065326633208,
+      "prob_b_positive": 1.8284561323096908e-19,
+      "prob_b_negative": 0.9999999999999999,
+      "b_mode": -0.022613065326633208
+    },
+    "Combined": {
+      "process": "Combined",
+      "n": 6555,
+      "b_mean": -0.022591852257980632,
+      "b_std": 0.0006379474823720838,
+      "b_ci_lower": -0.022613065326633208,
+      "b_ci_upper": -0.022613065326633208,
+      "prob_b_positive": 1.4989288679493644e-12,
+      "prob_b_negative": 0.9999999999985011,
+      "b_mode": -0.022613065326633208
+    }
+  },
+  "prior_compilations": {
+    "GloRiSe": {
+      "n": 1078,
+      "erode_col": "Erosion rate (mm/yr)",
+      "time_col": "Time interval (yr)",
+      "erode_rate_stats": {
+        "mean": 0.07907640883821267,
+        "median": 0.0060739849625628,
+        "std": 0.24706272114356215,
+        "min": 6.3049430753e-06,
+        "max": 4.10227556378661
+      },
+      "regression": {
+        "label": "GloRiSe",
+        "intercept": -2.0803435284122416,
+        "slope": -0.02535861600121326,
+        "se_intercept": 0.10461379453280109,
+        "se_slope": 0.04256013593550936,
+        "t_intercept": -19.88593892137199,
+        "t_slope": -0.5958302398196925,
+        "p_intercept": 0.0,
+        "p_slope": 0.5514139468955075,
+        "r_squared": 0.00032982953595528386,
+        "n": 1078
+      }
+    },
+    "OCTOPUS": {
+      "n": 236,
+      "erode_col": "eal_mmkyr",
+      "note": "No time interval column available; regression not possible. Distribution stats only.",
+      "unit_note": "eal_mmkyr is in mm/kyr, converted to mm/yr",
+      "erode_rate_stats": {
+        "mean": 0.22786008172911018,
+        "median": 0.042189914499999995,
+        "std": 0.6222652294930507,
+        "min": 0.00024679059,
+        "max": 5.6385320000000005
+      }
+    }
+  },
+  "distribution_comparison": {
+    "Glacial": {
+      "label": "Glacial",
+      "n": 427,
+      "mean": 7.698705409367682,
+      "median": 0.55,
+      "std": 60.67329955773517,
+      "geometric_mean": 0.5057281112826971,
+      "log_mean": -0.29608290510655616,
+      "log_std": 0.8837813153933392,
+      "q025": 0.15,
+      "q75": 1.7,
+      "min": 0.0004,
+      "max": 1000.0
+    },
+    "Fluvial": {
+      "label": "Fluvial",
+      "n": 6128,
+      "mean": 0.36322935718994775,
+      "median": 0.0649816,
+      "std": 1.9929884156754474,
+      "geometric_mean": 0.06303305633153497,
+      "log_mean": -1.2004316343984223,
+      "log_std": 0.8157125327306761,
+      "q025": 0.018142975,
+      "q75": 0.22256150000000002,
+      "min": 4.9e-05,
+      "max": 118.864
+    },
+    "mann_whitney_u": {
+      "statistic": 2045585.0,
+      "p_value": 1.1154413895392827e-84
+    },
+    "kolmogorov_smirnov": {
+      "statistic": 0.4448532783827909,
+      "p_value": 2.672638581264479e-72
+    }
+  }
+}

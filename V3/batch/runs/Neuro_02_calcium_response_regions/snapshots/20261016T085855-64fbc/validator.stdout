@@ -1,0 +1,251 @@
+{
+  "schema": "truthinsightbench-semantic-output-validation",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "output": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Neuro_02_calcium_response_regions/snapshots/20261016T085855-64fbc/project/output",
+  "authoritative_report": {
+    "path": "Result.md",
+    "bytes": 18747,
+    "sha256": "c3a13d892bc3b68b95fda66a63f54117243058af9a6deadeab96fa06bcc38de8"
+  },
+  "registered_findings": {
+    "count": 4,
+    "numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "markers": [
+      {
+        "finding_number": 1,
+        "line": 18,
+        "marker": "## Finding 1: Receptor stimulation produces robust increases in calcium amplitude, AUC, and peak width in regions where both conditions are observed",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 2,
+        "line": 46,
+        "marker": "## Finding 2: Region × Condition interactions are statistically significant but most cross-region comparisons are unidentifiable due to design confounding",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 3,
+        "line": 85,
+        "marker": "## Finding 3: Recording batch effects are substantial for amplitude and prominence, potentially driving spurious region-level conclusions",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 4,
+        "line": 116,
+        "marker": "## Finding 4: Baseline versus neural activity blockade produces mostly null effects on calcium response metrics",
+        "heading_level": 2
+      }
+    ],
+    "traceability": [
+      {
+        "finding_number": 1,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "main_analysis.py"
+        ],
+        "result_evidence": [
+          "contrasts_regions12.csv",
+          "eta_squared_results.csv",
+          "figures_violin_amplitude.png",
+          "replication_results.csv",
+          "robustness_lobo.csv"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 2,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "main_analysis.py"
+        ],
+        "result_evidence": [
+          "contrasts_regions12.csv",
+          "eta_squared_results.csv"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 3,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "main_analysis.py",
+          "robustness_check.py"
+        ],
+        "result_evidence": [
+          "batch_effects.csv",
+          "batch_effects_subagent.csv",
+          "figures_batch_effect.png"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 4,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "main_analysis.py"
+        ],
+        "result_evidence": [
+          "contrasts_regions12.csv",
+          "replication_results.csv"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      }
+    ]
+  },
+  "reproduction": {
+    "mode": "section_in_authoritative_report",
+    "document": null
+  },
+  "analysis_sources": [
+    {
+      "path": "analysis_A.py",
+      "bytes": 32565,
+      "sha256": "07ca0fea8187ab84a886c6c0823ca47d57d93dff7c2fdb423facff8ce78c4bc8"
+    },
+    {
+      "path": "main_analysis.py",
+      "bytes": 10708,
+      "sha256": "3228ec762282d08e520abe6749db9889002fd01a013cbacd8545bf62b9e613a6"
+    },
+    {
+      "path": "replication.py",
+      "bytes": 16284,
+      "sha256": "5c61ca4288ba8a97e6026cf81ba09921ec4892c5a25c0bbb9806e889da291280"
+    },
+    {
+      "path": "robustness_check.py",
+      "bytes": 19605,
+      "sha256": "89c02605125fcb6414dd90027ca9a140051359aef05167cd2c494bf5d9615448"
+    }
+  ],
+  "executed_notebooks": [],
+  "result_artifacts": [
+    {
+      "path": "batch_effects.csv",
+      "bytes": 1014,
+      "sha256": "7b1b5cb7bdf76e95f7345ab0081577a0fbde30785b0b9fd3846fe4a96883043e"
+    },
+    {
+      "path": "batch_effects_subagent.csv",
+      "bytes": 1109,
+      "sha256": "3614f8bda95f87e9d1a62bdd70abcacd434333847973a243fdc013cb40a07c5d"
+    },
+    {
+      "path": "contrasts_regions12.csv",
+      "bytes": 4096,
+      "sha256": "c1cbdc8fcb9b70a7f45a5292d7d7784c5e3e3e90024214066889ab9b7441fd19"
+    },
+    {
+      "path": "eta_squared_results.csv",
+      "bytes": 2042,
+      "sha256": "b924a354ac16c2dcbbd9a04584c07ff9faf53ec889a518275241cfd4d5c9d8f5"
+    },
+    {
+      "path": "figures_batch_effect.png",
+      "bytes": 70214,
+      "sha256": "7be57e25af4996fa162e0c5cfddc55dfb63a984fa533f05bcb8cfc1a2404b91c"
+    },
+    {
+      "path": "figures_main.png",
+      "bytes": 155034,
+      "sha256": "d57ef643775c0b7859adfa5719c89a3a7f997e189e767a4cd3dd4780e47518b1"
+    },
+    {
+      "path": "figures_violin_amplitude.png",
+      "bytes": 109624,
+      "sha256": "c0ede54c873e1b6ac62fa82d7a5a81ac290bfc1a4b285d57de3f0a7387d79c50"
+    },
+    {
+      "path": "replication_results.csv",
+      "bytes": 10912,
+      "sha256": "1cf591ddb77492f2aa6a6f50ed1a49e462ce7811910cf065ad84ceb50f90a803"
+    },
+    {
+      "path": "results_summary_agentA.csv",
+      "bytes": 2620,
+      "sha256": "73639502e3d91f95adfb209639d318ee280af937bd9299e3b5d59d4dec7d3e05"
+    },
+    {
+      "path": "robustness_lobo.csv",
+      "bytes": 2810,
+      "sha256": "40baea734e5e2ef3c1e3312590c39422239b36db0a79aa0aa880807c5f47e4c0"
+    },
+    {
+      "path": "robustness_results.csv",
+      "bytes": 66729,
+      "sha256": "c81f864f3807affa4b769877a9704b5f67e1b447acef438abdb64035eb4f9d39"
+    },
+    {
+      "path": "summary_stats.csv",
+      "bytes": 2270,
+      "sha256": "1c9ee3af9044642eaa61cd64464364390dd5bbd74d80aaa2f5043ce13e5a6ee3"
+    }
+  ],
+  "native_evidence_registry": {
+    "sources": [],
+    "resolved_ids": {}
+  },
+  "resolved_support_files": [
+    {
+      "path": "batch_effects.csv",
+      "bytes": 1014,
+      "sha256": "7b1b5cb7bdf76e95f7345ab0081577a0fbde30785b0b9fd3846fe4a96883043e"
+    },
+    {
+      "path": "batch_effects_subagent.csv",
+      "bytes": 1109,
+      "sha256": "3614f8bda95f87e9d1a62bdd70abcacd434333847973a243fdc013cb40a07c5d"
+    },
+    {
+      "path": "contrasts_regions12.csv",
+      "bytes": 4096,
+      "sha256": "c1cbdc8fcb9b70a7f45a5292d7d7784c5e3e3e90024214066889ab9b7441fd19"
+    },
+    {
+      "path": "eta_squared_results.csv",
+      "bytes": 2042,
+      "sha256": "b924a354ac16c2dcbbd9a04584c07ff9faf53ec889a518275241cfd4d5c9d8f5"
+    },
+    {
+      "path": "figures_batch_effect.png",
+      "bytes": 70214,
+      "sha256": "7be57e25af4996fa162e0c5cfddc55dfb63a984fa533f05bcb8cfc1a2404b91c"
+    },
+    {
+      "path": "figures_violin_amplitude.png",
+      "bytes": 109624,
+      "sha256": "c0ede54c873e1b6ac62fa82d7a5a81ac290bfc1a4b285d57de3f0a7387d79c50"
+    },
+    {
+      "path": "main_analysis.py",
+      "bytes": 10708,
+      "sha256": "3228ec762282d08e520abe6749db9889002fd01a013cbacd8545bf62b9e613a6"
+    },
+    {
+      "path": "replication_results.csv",
+      "bytes": 10912,
+      "sha256": "1cf591ddb77492f2aa6a6f50ed1a49e462ce7811910cf065ad84ceb50f90a803"
+    },
+    {
+      "path": "robustness_check.py",
+      "bytes": 19605,
+      "sha256": "89c02605125fcb6414dd90027ca9a140051359aef05167cd2c494bf5d9615448"
+    },
+    {
+      "path": "robustness_lobo.csv",
+      "bytes": 2810,
+      "sha256": "40baea734e5e2ef3c1e3312590c39422239b36db0a79aa0aa880807c5f47e4c0"
+    }
+  ]
+}

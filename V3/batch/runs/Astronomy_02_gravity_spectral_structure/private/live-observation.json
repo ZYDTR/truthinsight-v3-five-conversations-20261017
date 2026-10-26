@@ -1,0 +1,58 @@
+{
+  "at": "2026-10-16T09:18:48.197663+00:00",
+  "files": [
+    {
+      "file": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+      "child": true,
+      "lines": 87,
+      "models": {
+        "qwen3.7-flash": 45
+      }
+    },
+    {
+      "file": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+      "child": true,
+      "lines": 60,
+      "models": {
+        "qwen3.7-flash": 29
+      }
+    },
+    {
+      "file": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+      "child": false,
+      "lines": 299,
+      "models": {
+        "qwen3.7-flash": 119
+      }
+    }
+  ],
+  "status": {
+    "success": true,
+    "code": 0,
+    "data": {
+      "product_conversation_id": "ab19cf80-17bf-4dae-863f-85e1bfd4afec",
+      "runtime_conversation_id": "conv-c47b4251-8d0f-48c5-a820-758043560653",
+      "status": "running",
+      "run_id": "run_6be133d109564be9",
+      "conversation_state": {
+        "status": "responding",
+        "run_status": "running",
+        "detail": "sdk.system",
+        "label": "运行中",
+        "is_active": true,
+        "can_accept_input": false,
+        "can_pause": true,
+        "can_continue": false,
+        "is_paused": false,
+        "last_run_outcome": "completed"
+      },
+      "active_run_id": "run_6be133d109564be9",
+      "active_turn_id": "turn-003",
+      "last_run_id": "run_c48d3fe9f03d4a6e",
+      "last_turn_id": "turn-002",
+      "last_run_outcome": "completed",
+      "updated_at": "2026-10-16T09:18:46.734353+00:00"
+    },
+    "error": ""
+  }
+}

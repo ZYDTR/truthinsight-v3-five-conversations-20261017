@@ -1,0 +1,771 @@
+================================================================================
+CALCIUM RESPONSE ANALYSIS - MAIN STATISTICAL ANALYSIS (v2)
+================================================================================
+
+================================================================================
+SECTION 1: DATA LOADING AND EXPLORATORY ANALYSIS
+================================================================================
+
+Loaded data: 819 observations, 12 columns
+Columns: ['observation_id', 'recording_batch_id', 'animal_age_days', 'slice_id', 'condition', 'anatomical_region_id', 'mean_amplitude_dff0', 'mean_time_to_peak_s', 'mean_peak_width_s', 'mean_peak_prominence_dff0', 'mean_peak_frequency_hz', 'mean_auc_au']
+
+Missing values: None found
+
+--- Summary Statistics ---
+       mean_amplitude_dff0  mean_time_to_peak_s  mean_peak_width_s  mean_peak_prominence_dff0  mean_peak_frequency_hz  mean_auc_au
+count           819.000000           819.000000         819.000000                 819.000000              819.000000   819.000000
+mean              1.815358           135.293299          30.796923                   0.675817                0.007045   371.590952
+std               0.496257            52.087379          25.710648                   0.385619                0.007007    70.464842
+min               1.101201             3.359880           2.223031                   0.154817                0.002248   256.435959
+25%               1.455472            99.693860           7.935508                   0.396267                0.003324   306.789351
+50%               1.727030           125.359940          22.728521                   0.593387                0.003327   361.407978
+75%               2.045788           164.531794          50.321827                   0.881750                0.006656   410.428906
+max               5.925080           297.267120         144.815322                   4.099387                0.053178   753.130613
+
+Unique regions: ['region_1', 'region_2', 'region_3', 'region_4']
+Unique conditions: ['baseline', 'neural_activity_blocked', 'receptor_stimulated']
+Unique slices: 7
+Unique batches: 9
+Age range: 40 - 67 days
+Unique ages: [np.int64(40), np.int64(41), np.int64(42), np.int64(56), np.int64(59), np.int64(65), np.int64(66), np.int64(67)]
+
+--- Region x Condition Cross-tabulation (cell counts) ---
+condition             baseline  neural_activity_blocked  receptor_stimulated
+anatomical_region_id                                                        
+region_1                    22                       44                  226
+region_2                    43                       46                  199
+region_3                     0                        0                  189
+region_4                    21                       29                    0
+  region_1: conditions=['baseline', 'neural_activity_blocked', 'receptor_stimulated'], n_cells=292
+  region_2: conditions=['baseline', 'neural_activity_blocked', 'receptor_stimulated'], n_cells=288
+  region_3: conditions=['receptor_stimulated'], n_cells=189
+  region_4: conditions=['baseline', 'neural_activity_blocked'], n_cells=50
+
+================================================================================
+SECTION 2: EXPLORATORY DATA ANALYSIS
+================================================================================
+
+--- Mean Values by Region x Condition ---
+
+mean_amplitude_dff0:
+anatomical_region_id  condition              
+region_1              baseline                   1.523948
+                      neural_activity_blocked    1.459842
+                      receptor_stimulated        1.648843
+region_2              baseline                   1.574226
+                      neural_activity_blocked    1.593224
+                      receptor_stimulated        2.060019
+region_3              receptor_stimulated        2.074868
+region_4              baseline                   1.485073
+                      neural_activity_blocked    1.452379
+
+mean_time_to_peak_s:
+anatomical_region_id  condition              
+region_1              baseline                   147.759492
+                      neural_activity_blocked    173.655534
+                      receptor_stimulated        138.293867
+region_2              baseline                   149.577606
+                      neural_activity_blocked    178.208355
+                      receptor_stimulated        105.459700
+region_3              receptor_stimulated        128.275870
+region_4              baseline                   195.201449
+                      neural_activity_blocked    162.068067
+
+mean_peak_width_s:
+anatomical_region_id  condition              
+region_1              baseline                    6.041871
+                      neural_activity_blocked     6.580535
+                      receptor_stimulated        30.626707
+region_2              baseline                   10.171975
+                      neural_activity_blocked     7.581624
+                      receptor_stimulated        43.661108
+region_3              receptor_stimulated        42.048776
+region_4              baseline                   11.543218
+                      neural_activity_blocked     7.387679
+
+mean_peak_prominence_dff0:
+anatomical_region_id  condition              
+region_1              baseline                   0.630959
+                      neural_activity_blocked    0.554558
+                      receptor_stimulated        0.467376
+region_2              baseline                   0.662859
+                      neural_activity_blocked    0.647592
+                      receptor_stimulated        0.925798
+region_3              receptor_stimulated        0.727305
+region_4              baseline                   0.597239
+                      neural_activity_blocked    0.588175
+
+mean_peak_frequency_hz:
+anatomical_region_id  condition              
+region_1              baseline                   0.003929
+                      neural_activity_blocked    0.011488
+                      receptor_stimulated        0.010054
+region_2              baseline                   0.007349
+                      neural_activity_blocked    0.006793
+                      receptor_stimulated        0.004546
+region_3              receptor_stimulated        0.005787
+region_4              baseline                   0.005540
+                      neural_activity_blocked    0.005616
+
+mean_auc_au:
+anatomical_region_id  condition              
+region_1              baseline                   302.006422
+                      neural_activity_blocked    304.491872
+                      receptor_stimulated        385.552571
+region_2              baseline                   300.320734
+                      neural_activity_blocked    303.662216
+                      receptor_stimulated        385.068116
+region_3              receptor_stimulated        415.638176
+region_4              baseline                   306.321512
+                      neural_activity_blocked    298.522396
+
+--- Marginal Means by Region ---
+
+mean_amplitude_dff0:
+                          mean       std  count
+anatomical_region_id                           
+region_1              1.610954  0.309545    292
+region_2              1.912930  0.565773    288
+region_3              2.074868  0.481482    189
+region_4              1.466110  0.297833     50
+
+mean_time_to_peak_s:
+                            mean        std  count
+anatomical_region_id                              
+region_1              144.335501  51.250424    292
+region_2              123.666326  57.228923    288
+region_3              128.275870  31.346407    189
+region_4              175.984087  59.824732     50
+
+mean_peak_width_s:
+                           mean        std  count
+anatomical_region_id                             
+region_1              25.151029  24.960464    292
+region_2              32.898299  25.666381    288
+region_3              42.048776  23.653058    189
+region_4               9.133006  12.129846     50
+
+mean_peak_prominence_dff0:
+                          mean       std  count
+anatomical_region_id                           
+region_1              0.492838  0.283653    292
+region_2              0.842104  0.452685    288
+region_3              0.727305  0.289662    189
+region_4              0.591982  0.320886     50
+
+mean_peak_frequency_hz:
+                          mean       std  count
+anatomical_region_id                           
+region_1              0.009808  0.009337    292
+region_2              0.005324  0.004047    288
+region_3              0.005787  0.005675    189
+region_4              0.005584  0.003319     50
+
+mean_auc_au:
+                            mean        std  count
+anatomical_region_id                              
+region_1              367.043372  60.524140    292
+region_2              359.412530  68.399377    288
+region_3              415.638176  72.300942    189
+region_4              301.798025  15.087182     50
+
+--- Marginal Means by Condition ---
+
+mean_amplitude_dff0:
+                             mean       std  count
+condition                                         
+baseline                 1.539595  0.335468     86
+neural_activity_blocked  1.509583  0.318171    119
+receptor_stimulated      1.913245  0.505095    614
+
+mean_time_to_peak_s:
+                               mean        std  count
+condition                                            
+baseline                 160.253213  73.504052     86
+neural_activity_blocked  172.591612  68.977968    119
+receptor_stimulated      124.568459  38.505537    614
+
+mean_peak_width_s:
+                              mean        std  count
+condition                                           
+baseline                  9.450275   9.888820     86
+neural_activity_blocked   7.164210   3.371163    119
+receptor_stimulated      38.367125  25.231001    614
+
+mean_peak_prominence_dff0:
+                             mean       std  count
+condition                                         
+baseline                 0.638675  0.351526     86
+neural_activity_blocked  0.598713  0.328643    119
+receptor_stimulated      0.695963  0.398437    614
+
+mean_peak_frequency_hz:
+                             mean       std  count
+condition                                         
+baseline                 0.006033  0.004465     86
+neural_activity_blocked  0.008242  0.008614    119
+receptor_stimulated      0.006955  0.006930    614
+
+mean_auc_au:
+                               mean        std  count
+condition                                            
+baseline                 302.217263  13.665911     86
+neural_activity_blocked  302.716418  13.246938    119
+receptor_stimulated      394.656435  66.611994    614
+
+--- Batch-level Summary Statistics ---
+
+mean_amplitude_dff0 by batch:
+                        mean       std  count
+recording_batch_id                           
+recording_batch_01  4.542688  1.127931      4
+recording_batch_02  2.225129  0.598696    114
+recording_batch_03  1.552862  0.228145    103
+recording_batch_04  1.682965  0.433947    146
+recording_batch_05  2.041204  0.440162     36
+recording_batch_06  1.630124  0.221772     43
+recording_batch_07  1.916709  0.450227    132
+recording_batch_08  1.707734  0.323687    107
+recording_batch_09  1.716216  0.303283    134
+
+mean_time_to_peak_s by batch:
+                          mean        std  count
+recording_batch_id                              
+recording_batch_01  146.256375   8.681459      4
+recording_batch_02  140.372179  49.135428    114
+recording_batch_03  124.206076  49.245573    103
+recording_batch_04  135.027358  53.683475    146
+recording_batch_05  135.537821  37.669491     36
+recording_batch_06  174.375075  70.632973     43
+recording_batch_07  134.408033  46.834905    132
+recording_batch_08  122.379380  51.306198    107
+recording_batch_09  138.034285  51.643899    134
+
+mean_peak_width_s by batch:
+                         mean        std  count
+recording_batch_id                             
+recording_batch_01  18.388323   1.915631      4
+recording_batch_02   9.212758  11.796741    114
+recording_batch_03  40.121359  29.259484    103
+recording_batch_04  23.139750  20.631908    146
+recording_batch_05  34.649364  18.894948     36
+recording_batch_06  29.035412  19.574865     43
+recording_batch_07  38.413449  25.851851    132
+recording_batch_08  39.592601  27.121119    107
+recording_batch_09  35.709590  26.122767    134
+
+--- Age vs Response Variables (correlation) ---
+  mean_amplitude_dff0: Pearson r=0.1830, p=1.3371e-07
+  mean_time_to_peak_s: Pearson r=0.0282, p=4.2006e-01
+  mean_peak_width_s: Pearson r=0.0105, p=7.6410e-01
+  mean_peak_prominence_dff0: Pearson r=0.2096, p=1.3791e-09
+  mean_peak_frequency_hz: Pearson r=0.0258, p=4.6119e-01
+  mean_auc_au: Pearson r=0.1087, p=1.8426e-03
+
+================================================================================
+SECTION 3: LINEAR MIXED EFFECTS MODELING
+================================================================================
+
+Subset with all 3 conditions (regions 1+2): 580 cells
+Baseline subset (all regions): 205 cells
+
+--- Model 1a: Amplitude ~ Region + Condition + Age (additive, all 819 cells) ---
+Converged: True
+Iterations: N/A
+Log-likelihood: -332.85
+AIC: nan, BIC: nan
+Random effect variance components:
+{'recording_batch_01':           Group
+Group  0.028943, 'recording_batch_02':           Group
+Group  0.001052, 'recording_batch_03':           Group
+Group  0.001164, 'recording_batch_04':           Group
+Group  0.000822, 'recording_batch_05':           Group
+Group  0.003323, 'recording_batch_06':           Group
+Group  0.002784, 'recording_batch_07':           Group
+Group  0.000909, 'recording_batch_08':           Group
+Group  0.001121, 'recording_batch_09':           Group
+Group  0.000895}
+
+Fixed Effects Summary:
+                     Mixed Linear Model Regression Results
+===============================================================================
+Model:                  MixedLM     Dependent Variable:     mean_amplitude_dff0
+No. Observations:       819         Method:                 REML               
+No. Groups:             9           Scale:                  0.1201             
+Min. group size:        4           Log-Likelihood:         -332.8521          
+Max. group size:        146         Converged:              Yes                
+Mean group size:        91.0                                                   
+-------------------------------------------------------------------------------
+                                     Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------
+Intercept                             1.047    1.460  0.717 0.473 -1.815  3.908
+anatomical_region_id[T.region_2]      0.303    0.030 10.195 0.000  0.245  0.362
+anatomical_region_id[T.region_3]      0.338    0.035  9.771 0.000  0.270  0.405
+anatomical_region_id[T.region_4]      0.098    0.062  1.584 0.113 -0.023  0.218
+condition[T.neural_activity_blocked] -0.024    0.049 -0.483 0.629 -0.121  0.073
+condition[T.receptor_stimulated]      0.329    0.044  7.438 0.000  0.242  0.415
+animal_age_days                       0.011    0.027  0.412 0.680 -0.042  0.064
+Group Var                             0.801    1.277                           
+===============================================================================
+
+
+--- Model 1b: Amplitude ~ Region * Condition + Age (regions 1+2, 580 cells) ---
+FAILED: LinAlgError: Singular matrix
+
+Trying reduced interaction model...
+
+--- Model 1b-reduced: Amplitude ~ Region + Condition + Region:Condition + Age ---
+FAILED: LinAlgError: Singular matrix
+
+--- Model 1c: Amplitude ~ Region * Condition + Age (baseline conditions, all regions) ---
+FAILED: LinAlgError: Singular matrix
+
+Trying reduced interaction model for baseline...
+
+--- Model 1c-reduced: Amplitude ~ Region + Condition + Region:Condition + Age (baseline) ---
+FAILED: LinAlgError: Singular matrix
+
+--- Model 2a: TimeToPeak ~ Region + Condition + Age (additive, all 819 cells) ---
+Converged: True
+Iterations: N/A
+Log-likelihood: -4291.94
+AIC: nan, BIC: nan
+Random effect variance components:
+{'recording_batch_01':             Group
+Group  199.193566, 'recording_batch_02':            Group
+Group  17.636928, 'recording_batch_03':            Group
+Group  19.405674, 'recording_batch_04':            Group
+Group  13.940566, 'recording_batch_05':           Group
+Group  49.86505, 'recording_batch_06':            Group
+Group  42.839784, 'recording_batch_07':            Group
+Group  15.347833, 'recording_batch_08':            Group
+Group  18.722891, 'recording_batch_09':            Group
+Group  15.129647}
+
+Fixed Effects Summary:
+                      Mixed Linear Model Regression Results
+==================================================================================
+Model:                   MixedLM      Dependent Variable:      mean_time_to_peak_s
+No. Observations:        819          Method:                  REML               
+No. Groups:              9            Scale:                   2128.5252          
+Min. group size:         4            Log-Likelihood:          -4291.9350         
+Max. group size:         146          Converged:               Yes                
+Mean group size:         91.0                                                     
+----------------------------------------------------------------------------------
+                                      Coef.  Std.Err.   z    P>|z|  [0.025  0.975]
+----------------------------------------------------------------------------------
+Intercept                            160.494   30.904  5.193 0.000  99.922 221.066
+anatomical_region_id[T.region_2]     -26.567    3.952 -6.722 0.000 -34.314 -18.820
+anatomical_region_id[T.region_3]      -5.311    4.584 -1.158 0.247 -14.296   3.675
+anatomical_region_id[T.region_4]       0.244    8.186  0.030 0.976 -15.801  16.289
+condition[T.neural_activity_blocked]  12.252    6.574  1.864 0.062  -0.634  25.137
+condition[T.receptor_stimulated]     -38.132    5.872 -6.494 0.000 -49.641 -26.622
+animal_age_days                        0.341    0.559  0.610 0.542  -0.755   1.437
+Group Var                            318.369    4.496                             
+==================================================================================
+
+
+--- Model 2b: TimeToPeak ~ Region * Condition + Age (regions 1+2) ---
+FAILED: LinAlgError: Singular matrix
+
+Trying reduced interaction model for time to peak...
+
+--- Model 2b-reduced: TimeToPeak ~ Region + Condition + Region:Condition + Age ---
+FAILED: LinAlgError: Singular matrix
+
+--- Model 3: mean_peak_width_s ~ Region + Condition + Age (all 819 cells) ---
+Converged: True
+Iterations: N/A
+Log-likelihood: -3588.19
+AIC: nan, BIC: nan
+Random effect variance components:
+{'recording_batch_01':            Group
+Group  55.316472, 'recording_batch_02':           Group
+Group  3.199534, 'recording_batch_03':           Group
+Group  3.532337, 'recording_batch_04':           Group
+Group  2.511245, 'recording_batch_05':           Group
+Group  9.639378, 'recording_batch_06':           Group
+Group  8.164599, 'recording_batch_07':           Group
+Group  2.772148, 'recording_batch_08':           Group
+Group  3.403599, 'recording_batch_09':           Group
+Group  2.731605}
+
+Fixed Effects Summary:
+                      Mixed Linear Model Regression Results
+=================================================================================
+Model:                  MixedLM       Dependent Variable:       mean_peak_width_s
+No. Observations:       819           Method:                   REML             
+No. Groups:             9             Scale:                    373.5554         
+Min. group size:        4             Log-Likelihood:           -3588.1906       
+Max. group size:        146           Converged:                Yes              
+Mean group size:        91.0                                                     
+---------------------------------------------------------------------------------
+                                      Coef.  Std.Err.   z    P>|z|  [0.025 0.975]
+---------------------------------------------------------------------------------
+Intercept                              0.045   19.490  0.002 0.998 -38.155 38.244
+anatomical_region_id[T.region_2]      10.298    1.657  6.216 0.000   7.051 13.545
+anatomical_region_id[T.region_3]      12.320    1.924  6.402 0.000   8.548 16.091
+anatomical_region_id[T.region_4]      13.830    3.437  4.024 0.000   7.095 20.566
+condition[T.neural_activity_blocked]   0.394    2.754  0.143 0.886  -5.004  5.792
+condition[T.receptor_stimulated]      30.150    2.463 12.243 0.000  25.324 34.977
+animal_age_days                       -0.022    0.356 -0.062 0.951  -0.721  0.676
+Group Var                            135.687    4.215                            
+=================================================================================
+
+
+--- Model 3: mean_peak_prominence_dff0 ~ Region + Condition + Age (all 819 cells) ---
+Converged: True
+Iterations: N/A
+Log-likelihood: -140.79
+AIC: nan, BIC: nan
+Random effect variance components:
+{'recording_batch_01':           Group
+Group  0.018135, 'recording_batch_02':           Group
+Group  0.000655, 'recording_batch_03':           Group
+Group  0.000724, 'recording_batch_04':           Group
+Group  0.000511, 'recording_batch_05':           Group
+Group  0.002068, 'recording_batch_06':           Group
+Group  0.001732, 'recording_batch_07':           Group
+Group  0.000565, 'recording_batch_08':           Group
+Group  0.000697, 'recording_batch_09':           Group
+Group  0.000557}
+
+Fixed Effects Summary:
+                     Mixed Linear Model Regression Results
+===============================================================================
+Model:                MixedLM   Dependent Variable:   mean_peak_prominence_dff0
+No. Observations:     819       Method:               REML                     
+No. Groups:           9         Scale:                0.0747                   
+Min. group size:      4         Log-Likelihood:       -140.7920                
+Max. group size:      146       Converged:            Yes                      
+Mean group size:      91.0                                                     
+-------------------------------------------------------------------------------
+                                     Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------
+Intercept                             0.171    1.294  0.132 0.895 -2.365  2.707
+anatomical_region_id[T.region_2]      0.322    0.023 13.721 0.000  0.276  0.368
+anatomical_region_id[T.region_3]      0.173    0.027  6.368 0.000  0.120  0.227
+anatomical_region_id[T.region_4]      0.165    0.049  3.388 0.001  0.069  0.260
+condition[T.neural_activity_blocked] -0.028    0.039 -0.712 0.477 -0.104  0.049
+condition[T.receptor_stimulated]      0.066    0.035  1.895 0.058 -0.002  0.134
+animal_age_days                       0.010    0.024  0.423 0.673 -0.037  0.057
+Group Var                             0.629    1.267                           
+===============================================================================
+
+
+--- Model 3: mean_peak_frequency_hz ~ Region + Condition + Age (all 819 cells) ---
+Converged: True
+Iterations: N/A
+Log-likelihood: 2914.18
+AIC: nan, BIC: nan
+Random effect variance components:
+{'recording_batch_01':           Group
+Group  0.000003, 'recording_batch_02':               Group
+Group  3.366502e-07, 'recording_batch_03':               Group
+Group  3.693841e-07, 'recording_batch_04':               Group
+Group  2.676508e-07, 'recording_batch_05':               Group
+Group  9.058953e-07, 'recording_batch_06':               Group
+Group  7.865393e-07, 'recording_batch_07':               Group
+Group  2.940150e-07, 'recording_batch_08':               Group
+Group  3.567695e-07, 'recording_batch_09':               Group
+Group  2.899351e-07}
+
+Fixed Effects Summary:
+                     Mixed Linear Model Regression Results
+===============================================================================
+Model:                 MixedLM    Dependent Variable:    mean_peak_frequency_hz
+No. Observations:      819        Method:                REML                  
+No. Groups:            9          Scale:                 0.0000                
+Min. group size:       4          Log-Likelihood:        2914.1750             
+Max. group size:       146        Converged:             Yes                   
+Mean group size:       91.0                                                    
+-------------------------------------------------------------------------------
+                                     Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------
+Intercept                             0.009    0.004  2.477 0.013  0.002  0.016
+anatomical_region_id[T.region_2]     -0.004    0.001 -7.339 0.000 -0.005 -0.003
+anatomical_region_id[T.region_3]     -0.004    0.001 -6.058 0.000 -0.005 -0.003
+anatomical_region_id[T.region_4]     -0.005    0.001 -4.574 0.000 -0.007 -0.003
+condition[T.neural_activity_blocked]  0.001    0.001  1.490 0.136 -0.000  0.003
+condition[T.receptor_stimulated]      0.000    0.001  0.283 0.777 -0.001  0.002
+animal_age_days                       0.000    0.000  0.017 0.986 -0.000  0.000
+Group Var                             0.000    0.000                           
+===============================================================================
+
+
+--- Model 3: mean_auc_au ~ Region + Condition + Age (all 819 cells) ---
+Converged: True
+Iterations: N/A
+Log-likelihood: -4390.68
+AIC: nan, BIC: nan
+Random effect variance components:
+{'recording_batch_01':             Group
+Group  436.027006, 'recording_batch_02':           Group
+Group  23.16576, 'recording_batch_03':            Group
+Group  25.588678, 'recording_batch_04':            Group
+Group  18.162766, 'recording_batch_05':            Group
+Group  70.502109, 'recording_batch_06':            Group
+Group  59.576905, 'recording_batch_07':            Group
+Group  20.057934, 'recording_batch_08':            Group
+Group  24.651124, 'recording_batch_09':            Group
+Group  19.763337}
+
+Fixed Effects Summary:
+                       Mixed Linear Model Regression Results
+===================================================================================
+Model:                      MixedLM         Dependent Variable:         mean_auc_au
+No. Observations:           819             Method:                     REML       
+No. Groups:                 9               Scale:                      2691.2157  
+Min. group size:            4               Log-Likelihood:             -4390.6770 
+Max. group size:            146             Converged:                  Yes        
+Mean group size:            91.0                                                   
+-----------------------------------------------------------------------------------
+                                      Coef.   Std.Err.   z    P>|z|  [0.025  0.975]
+-----------------------------------------------------------------------------------
+Intercept                             285.825   58.574  4.880 0.000 171.022 400.628
+anatomical_region_id[T.region_2]        0.162    4.448  0.037 0.971  -8.555   8.880
+anatomical_region_id[T.region_3]       20.606    5.168  3.988 0.000  10.478  30.735
+anatomical_region_id[T.region_4]       -6.877    9.223 -0.746 0.456 -24.953  11.200
+condition[T.neural_activity_blocked]   -3.334    7.393 -0.451 0.652 -17.823  11.156
+condition[T.receptor_stimulated]       86.233    6.610 13.046 0.000  73.277  99.188
+animal_age_days                         0.350    1.073  0.327 0.744  -1.753   2.453
+Group Var                            1238.975   15.281                             
+===================================================================================
+
+
+================================================================================
+SECTION 3D: BATCH EFFECT QUANTIFICATION
+================================================================================
+
+--- Batch Effect on mean_amplitude_dff0 ---
+OLS (no batch RE): AIC=943.49, BIC=976.45, R²=0.2595
+LMM (batch RE): AIC=nan, BIC=nan, LogL=-332.85
+LMM failed: 'builtin_function_or_method' object is not subscriptable
+
+--- Batch Effect on mean_time_to_peak_s ---
+OLS (no batch RE): AIC=8656.11, BIC=8689.07, R²=0.1734
+LMM (batch RE): AIC=nan, BIC=nan, LogL=-4291.94
+LMM failed: 'builtin_function_or_method' object is not subscriptable
+
+================================================================================
+SECTION 3E: AGE EFFECT ANALYSIS
+================================================================================
+
+--- Age effect on mean_amplitude_dff0 ---
+  Slope: 0.010161 per day, SE=0.028835, z=0.3524, p=7.2455e-01
+  Converged: True
+
+--- Age effect on mean_time_to_peak_s ---
+  Slope: 0.342420 per day, SE=0.457519, z=0.7484, p=4.5420e-01
+  Converged: True
+
+--- Age effect on mean_peak_width_s ---
+  Slope: -0.061528 per day, SE=0.343068, z=-0.1793, p=8.5766e-01
+  Converged: True
+
+--- Age effect on mean_peak_prominence_dff0 ---
+  Slope: 0.009210 per day, SE=0.025708, z=0.3582, p=7.2016e-01
+  Converged: True
+
+--- Age effect on mean_peak_frequency_hz ---
+  Slope: 0.000021 per day, SE=0.000071, z=0.2989, p=7.6504e-01
+  Converged: True
+
+--- Age effect on mean_auc_au ---
+  Slope: 0.350785 per day, SE=1.055850, z=0.3322, p=7.3972e-01
+  Converged: True
+
+================================================================================
+SECTION 3F: ESTIMABLE CONTRASTS
+================================================================================
+
+--- Condition contrasts in regions 1+2 ---
+
+mean_amplitude_dff0:
+  baseline vs neural_activity_blocked: diff=0.0292, t=0.5385, p=5.9099e-01, mean(baseline)=1.5572, mean(neural_activity_blocked)=1.5280
+  baseline vs receptor_stimulated: diff=-0.2842, t=-4.4284, p=1.1727e-05, mean(baseline)=1.5572, mean(receptor_stimulated)=1.8414
+  neural_activity_blocked vs receptor_stimulated: diff=-0.3134, t=-5.7029, p=1.9915e-08, mean(neural_activity_blocked)=1.5280, mean(receptor_stimulated)=1.8414
+
+mean_time_to_peak_s:
+  baseline vs neural_activity_blocked: diff=-27.0203, t=-2.2668, p=2.4805e-02, mean(baseline)=148.9622, mean(neural_activity_blocked)=175.9825
+  baseline vs receptor_stimulated: diff=26.0425, t=4.1544, p=3.8516e-05, mean(baseline)=148.9622, mean(receptor_stimulated)=122.9198
+  neural_activity_blocked vs receptor_stimulated: diff=53.0628, t=9.5344, p=6.0261e-20, mean(neural_activity_blocked)=175.9825, mean(receptor_stimulated)=122.9198
+
+mean_peak_width_s:
+  baseline vs neural_activity_blocked: diff=1.6819, t=2.5408, p=1.2056e-02, mean(baseline)=8.7741, mean(neural_activity_blocked)=7.0922
+  baseline vs receptor_stimulated: diff=-27.9558, t=-8.7202, p=4.3799e-17, mean(baseline)=8.7741, mean(receptor_stimulated)=36.7299
+  neural_activity_blocked vs receptor_stimulated: diff=-29.6377, t=-10.8847, p=5.7549e-25, mean(neural_activity_blocked)=7.0922, mean(receptor_stimulated)=36.7299
+
+mean_peak_prominence_dff0:
+  baseline vs neural_activity_blocked: diff=0.0500, t=0.8910, p=3.7434e-01, mean(baseline)=0.6521, mean(neural_activity_blocked)=0.6021
+  baseline vs receptor_stimulated: diff=-0.0300, t=-0.5262, p=5.9895e-01, mean(baseline)=0.6521, mean(receptor_stimulated)=0.6820
+  neural_activity_blocked vs receptor_stimulated: diff=-0.0799, t=-1.6308, p=1.0356e-01, mean(neural_activity_blocked)=0.6021, mean(receptor_stimulated)=0.6820
+
+mean_peak_frequency_hz:
+  baseline vs neural_activity_blocked: diff=-0.0029, t=-2.2419, p=2.6404e-02, mean(baseline)=0.0062, mean(neural_activity_blocked)=0.0091
+  baseline vs receptor_stimulated: diff=-0.0013, t=-1.3594, p=1.7464e-01, mean(baseline)=0.0062, mean(receptor_stimulated)=0.0075
+  neural_activity_blocked vs receptor_stimulated: diff=0.0016, t=1.7844, p=7.4953e-02, mean(neural_activity_blocked)=0.0091, mean(receptor_stimulated)=0.0075
+
+mean_auc_au:
+  baseline vs neural_activity_blocked: diff=-3.1766, t=-1.5259, p=1.2911e-01, mean(baseline)=300.8913, mean(neural_activity_blocked)=304.0678
+  baseline vs receptor_stimulated: diff=-84.4345, t=-10.9777, p=3.3003e-25, mean(baseline)=300.8913, mean(receptor_stimulated)=385.3257
+  neural_activity_blocked vs receptor_stimulated: diff=-81.2579, t=-12.4178, p=3.8478e-31, mean(neural_activity_blocked)=304.0678, mean(receptor_stimulated)=385.3257
+
+--- Region contrasts under shared conditions (baseline + blocked) ---
+
+mean_amplitude_dff0:
+  region_1 vs region_2: diff=-0.1028, t=-1.9218, p=5.6485e-02, n1=66, n2=89
+  region_1 vs region_3: INSUFFICIENT DATA (n1=66, n2=0)
+  region_1 vs region_4: diff=0.0151, t=0.2819, p=7.7856e-01, n1=66, n2=50
+  region_2 vs region_3: INSUFFICIENT DATA (n1=89, n2=0)
+  region_2 vs region_4: diff=0.1179, t=1.9535, p=5.2796e-02, n1=89, n2=50
+  region_3 vs region_4: INSUFFICIENT DATA (n1=0, n2=50)
+
+mean_time_to_peak_s:
+  region_1 vs region_2: diff=0.6480, t=0.0536, p=9.5734e-01, n1=66, n2=89
+  region_1 vs region_3: INSUFFICIENT DATA (n1=66, n2=0)
+  region_1 vs region_4: diff=-10.9606, t=-0.8954, p=3.7246e-01, n1=66, n2=50
+  region_2 vs region_3: INSUFFICIENT DATA (n1=89, n2=0)
+  region_2 vs region_4: diff=-11.6086, t=-0.9106, p=3.6412e-01, n1=89, n2=50
+  region_3 vs region_4: INSUFFICIENT DATA (n1=0, n2=50)
+
+mean_peak_width_s:
+  region_1 vs region_2: diff=-2.4322, t=-3.7703, p=2.3243e-04, n1=66, n2=89
+  region_1 vs region_3: INSUFFICIENT DATA (n1=66, n2=0)
+  region_1 vs region_4: diff=-2.7320, t=-1.7063, p=9.0672e-02, n1=66, n2=50
+  region_2 vs region_3: INSUFFICIENT DATA (n1=89, n2=0)
+  region_2 vs region_4: diff=-0.2999, t=-0.2152, p=8.2995e-01, n1=89, n2=50
+  region_3 vs region_4: INSUFFICIENT DATA (n1=0, n2=50)
+
+mean_peak_prominence_dff0:
+  region_1 vs region_2: diff=-0.0749, t=-1.3438, p=1.8099e-01, n1=66, n2=89
+  region_1 vs region_3: INSUFFICIENT DATA (n1=66, n2=0)
+  region_1 vs region_4: diff=-0.0120, t=-0.2080, p=8.3563e-01, n1=66, n2=50
+  region_2 vs region_3: INSUFFICIENT DATA (n1=89, n2=0)
+  region_2 vs region_4: diff=0.0630, t=0.9999, p=3.1910e-01, n1=89, n2=50
+  region_3 vs region_4: INSUFFICIENT DATA (n1=0, n2=50)
+
+mean_peak_frequency_hz:
+  region_1 vs region_2: diff=0.0019, t=1.4651, p=1.4494e-01, n1=66, n2=89
+  region_1 vs region_3: INSUFFICIENT DATA (n1=66, n2=0)
+  region_1 vs region_4: diff=0.0034, t=2.2144, p=2.8788e-02, n1=66, n2=50
+  region_2 vs region_3: INSUFFICIENT DATA (n1=89, n2=0)
+  region_2 vs region_4: diff=0.0015, t=1.6973, p=9.1910e-02, n1=89, n2=50
+  region_3 vs region_4: INSUFFICIENT DATA (n1=0, n2=50)
+
+mean_auc_au:
+  region_1 vs region_2: diff=1.6156, t=0.7733, p=4.4053e-01, n1=66, n2=89
+  region_1 vs region_3: INSUFFICIENT DATA (n1=66, n2=0)
+  region_1 vs region_4: diff=1.8654, t=0.7887, p=4.3194e-01, n1=66, n2=50
+  region_2 vs region_3: INSUFFICIENT DATA (n1=89, n2=0)
+  region_2 vs region_4: diff=0.2498, t=0.0964, p=9.2338e-01, n1=89, n2=50
+  region_3 vs region_4: INSUFFICIENT DATA (n1=0, n2=50)
+
+================================================================================
+SECTION 4: MODEL DIAGNOSTICS
+================================================================================
+
+--- Diagnostics for Model 1a (Amplitude, additive, all data) ---
+Residuals: mean=-0.000000, std=0.343819, min=-1.2586, max=1.4635
+Shapiro-Wilk normality test (n=819): W=0.9831, p=3.9379e-08
+Skewness: 0.4556, Kurtosis: 1.0219
+VIF: max=2.42, mean=1.36
+  Intercept: VIF=0.00
+  anatomical_region_id[T.region_2]: VIF=1.31
+  anatomical_region_id[T.region_3]: VIF=1.33
+  anatomical_region_id[T.region_4]: VIF=1.37
+  condition[T.neural_activity_blocked]: VIF=2.05
+  condition[T.receptor_stimulated]: VIF=2.42
+  animal_age_days: VIF=1.02
+  OK: No concerning multicollinearity.
+
+--- Heteroscedasticity Check (Model 1a) ---
+Heteroscedasticity check failed: Dot product shape mismatch, (8,) vs (7, 819)
+
+================================================================================
+SECTION 5: FIGURE GENERATION
+================================================================================
+Bar chart figures saved to /data/user/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/project/working/analysis_A/figures.png
+Violin figures saved to /data/user/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/project/working/analysis_A/figures_violin.png
+Batch effect figures saved to /data/user/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/project/working/analysis_A/figures_batch.png
+
+================================================================================
+SECTION 6: RESULTS SUMMARY
+================================================================================
+
+Extracting results from Model 1a (Amplitude additive, all data)...
+Extracting results from Model 2a (TimeToPeak additive, all data)...
+
+Pairwise condition contrasts (amplitude, regions 1+2):
+Pairwise condition contrasts (time to peak, regions 1+2):
+
+Results summary saved to /data/user/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/project/working/analysis_A/results_summary.csv
+Total registered contrasts: 18
+
+--- Results Summary Table ---
+                     model     variable                                       contrast  effect_size        SE   CI_lower   CI_upper     p_value                          note
+ 1a-Amplitude-additive-all    amplitude               anatomical_region_id[T.region_2]     0.303435  0.029762   0.245101   0.361769 <0.00000001 All 819 cells, additive model
+ 1a-Amplitude-additive-all    amplitude               anatomical_region_id[T.region_3]     0.337578  0.034549   0.269862   0.405293 <0.00000001 All 819 cells, additive model
+ 1a-Amplitude-additive-all    amplitude               anatomical_region_id[T.region_4]     0.097660  0.061643  -0.023160   0.218480    0.113129 All 819 cells, additive model
+ 1a-Amplitude-additive-all    amplitude           condition[T.neural_activity_blocked]    -0.023842  0.049390  -0.120646   0.072963    0.629293 All 819 cells, additive model
+ 1a-Amplitude-additive-all    amplitude               condition[T.receptor_stimulated]     0.328672  0.044190   0.242060   0.415284         0.0 All 819 cells, additive model
+ 1a-Amplitude-additive-all    amplitude                                animal_age_days     0.011088  0.026897  -0.041631   0.063807    0.680172 All 819 cells, additive model
+2a-TimeToPeak-additive-all time_to_peak               anatomical_region_id[T.region_2]   -26.566815  3.952473 -34.313662 -18.819968         0.0 All 819 cells, additive model
+2a-TimeToPeak-additive-all time_to_peak               anatomical_region_id[T.region_3]    -5.310662  4.584452 -14.296188   3.674864    0.246698 All 819 cells, additive model
+2a-TimeToPeak-additive-all time_to_peak               anatomical_region_id[T.region_4]     0.243904  8.186495 -15.801626  16.289435    0.976232 All 819 cells, additive model
+2a-TimeToPeak-additive-all time_to_peak           condition[T.neural_activity_blocked]    12.251545  6.574450  -0.634377  25.137467    0.062391 All 819 cells, additive model
+2a-TimeToPeak-additive-all time_to_peak               condition[T.receptor_stimulated]   -38.131583  5.872199 -49.641092 -26.622073         0.0 All 819 cells, additive model
+2a-TimeToPeak-additive-all time_to_peak                                animal_age_days     0.341249  0.559120  -0.754626   1.437123    0.541642 All 819 cells, additive model
+           Pairwise-t-test    amplitude            baseline vs neural_activity_blocked     0.029194  0.054751  -0.078119   0.136506    0.590993                   Regions 1+2
+           Pairwise-t-test    amplitude                baseline vs receptor_stimulated    -0.284161  0.049148  -0.380490  -0.187832    0.000012                   Regions 1+2
+           Pairwise-t-test    amplitude neural_activity_blocked vs receptor_stimulated    -0.313355  0.041893  -0.395466  -0.231244         0.0                   Regions 1+2
+           Pairwise-t-test time_to_peak            baseline vs neural_activity_blocked   -27.020287 12.004805 -50.549705  -3.490869    0.024805                   Regions 1+2
+           Pairwise-t-test time_to_peak                baseline vs receptor_stimulated    26.042493  9.524483   7.374507  44.710479    0.000039                   Regions 1+2
+           Pairwise-t-test time_to_peak neural_activity_blocked vs receptor_stimulated    53.062780  7.835505  37.705191  68.420369         0.0                   Regions 1+2
+
+================================================================================
+SECTION 7: DESIGN CONSTRAINTS AND ESTIMABILITY ANALYSIS
+================================================================================
+
+DESIGN CONSTRAINTS:
+==================
+
+1. Region_3 ONLY has receptor_stimulated condition.
+   - CANNOT estimate: region_3 condition effects (no within-region comparison)
+   - CANNOT estimate: region_3 x condition interaction
+   - CAN estimate: receptor_stimulated effect in region_3 vs other regions (confounded with region)
+
+2. Region_4 ONLY has baseline + neural_activity_blocked conditions.
+   - CANNOT estimate: region_4 receptor_stimulated effect
+   - CANNOT estimate: region_4 x receptor_stimulated interaction
+   - CAN estimate: region_4 condition effects (baseline vs blocked)
+
+3. Regions 1 and 2 have ALL THREE conditions.
+   - CAN fully estimate: region_1 and region_2 x condition interactions
+   - CAN estimate: all pairwise condition contrasts within regions 1 and 2
+   - CAN estimate: region_1 vs region_2 differences within each condition
+
+4. Overall condition effects are PARTIALLY confounded with region effects.
+   - The receptor_stimulated condition appears ONLY in regions 1, 2, and 3
+   - Any observed difference between receptor_stimulated and baseline could reflect:
+     (a) True condition effect, OR
+     (b) Region-specific baseline differences, OR
+     (c) Region x condition interaction
+
+5. Estimable contrasts:
+   - Within regions 1+2: all 3 condition pairwise comparisons YES
+   - Across all regions: baseline vs neural_activity_blocked YES
+   - Region_1 vs Region_2 within each condition YES
+   - Region_3 vs others: ONLY for receptor_stimulated (confounded) NO
+   - Region_4 vs others: ONLY for baseline and neural_activity_blocked YES
+
+6. Non-estimable contrasts:
+   - Region_3 x condition interaction (no variation in condition within region_3)
+   - Region_4 x receptor_stimulated interaction (no receptor_stimulated data in region_4)
+   - Pure main effect of region (confounded with condition distribution)
+   - Pure main effect of condition (confounded with region distribution)
+
+
+================================================================================
+FINAL OUTPUT FILES
+================================================================================

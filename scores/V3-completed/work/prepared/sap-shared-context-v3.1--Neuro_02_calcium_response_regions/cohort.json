@@ -1,0 +1,32 @@
+{
+  "schema": "truthinsightbench-scoring-cohort",
+  "release": "V1.0",
+  "agents": [
+    "sap-shared-context-v3.1"
+  ],
+  "summary": {
+    "run_count": 1,
+    "complete_task_count": 1,
+    "complete_tasks": [
+      "Neuro_02_calcium_response_regions"
+    ],
+    "provisional_task_count": 0,
+    "provisional_tasks": []
+  },
+  "runs": [
+    {
+      "key": "sap-shared-context-v3.1--Neuro_02_calcium_response_regions",
+      "task_id": "Neuro_02_calcium_response_regions",
+      "agent": "sap-shared-context-v3.1",
+      "model": "qwen3.7-flash",
+      "manifest_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Neuro_02_calcium_response_regions/run_manifest.json",
+      "manifest_sha256": "4e63452085faac68aa292c591d643e153ae6a90f51bb04fec61c848a4b9a9bb8",
+      "output_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/exports/Neuro_02_calcium_response_regions/workspace/output",
+      "report_path": "Result.md",
+      "report_sha256": "b91b8a530512ee91f34da2dc1599ad77428adf5c132dcd3e1e08764f1b611ea8",
+      "finding_count": 4,
+      "gold_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/TruthInsightBench/evaluation/evaluator/tasks/Neuro_02_calcium_response_regions/validation_anchors.json",
+      "gold_sha256": "5a88405ffe41192ea2b1edb17c95cd4b9d63ff914a027a61974f6b8cc85dfcbf"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "all_five_match": true,
+  "final_score_sha256": "f10c33eeff8efc0469e9ec48de04cca41179920e8086349b6de867182b0ca49e",
+  "bindings": [
+    {
+      "task_id": "Chemistry_02_photoionization_delay",
+      "conversation_id": "64bb3abc-d6f5-48a0-af19-8eef99906f0b",
+      "source_seal_sha256": "3e4df8968ecce91193fd4e2b3eb8cf097410b10e8219a1e953bf0782538fd94f",
+      "scored_output_files": 27,
+      "all_scored_files_match_sealed_output": true,
+      "score_0_100": 52.1,
+      "subject_commit": "52fff1847bec1a2f82b1abd8e23caeda979dea21",
+      "harness_version": "3.1.0"
+    },
+    {
+      "task_id": "Physics_04_temporal_delay_transition",
+      "conversation_id": "8244547b-0db4-47fc-8540-34dc20292185",
+      "source_seal_sha256": "78cde2504a237fd2a2f9ad49b8c66d602862a7fa56f01f7d64edf3fb0fd6216c",
+      "scored_output_files": 19,
+      "all_scored_files_match_sealed_output": true,
+      "score_0_100": 60.9,
+      "subject_commit": "52fff1847bec1a2f82b1abd8e23caeda979dea21",
+      "harness_version": "3.1.0"
+    },
+    {
+      "task_id": "Astronomy_02_gravity_spectral_structure",
+      "conversation_id": "ab19cf80-17bf-4dae-863f-85e1bfd4afec",
+      "source_seal_sha256": "da3252377d63904f71809175a18f0a28fa6001e814ddcf168f4d685dd6e284b1",
+      "scored_output_files": 6,
+      "all_scored_files_match_sealed_output": true,
+      "score_0_100": 57.9,
+      "subject_commit": "52fff1847bec1a2f82b1abd8e23caeda979dea21",
+      "harness_version": "3.1.0"
+    },
+    {
+      "task_id": "EarthScience_01_glacial_fluvial_erosion",
+      "conversation_id": "34213a24-d0ec-4446-80a7-49a6bb707f8b",
+      "source_seal_sha256": "1a1a3c9785c780aec06de50f67cc811105e9dbe54cee7609a73ebc205cb4de4b",
+      "scored_output_files": 10,
+      "all_scored_files_match_sealed_output": true,
+      "score_0_100": 66.7,
+      "subject_commit": "52fff1847bec1a2f82b1abd8e23caeda979dea21",
+      "harness_version": "3.1.0"
+    },
+    {
+      "task_id": "Neuro_02_calcium_response_regions",
+      "conversation_id": "0275ec9a-0efe-4b68-8cb1-dceb34603ef8",
+      "source_seal_sha256": "65ec3c3277112496fa8fabcc9c25dffcf33679659d978aa907b8ab0353e01174",
+      "scored_output_files": 19,
+      "all_scored_files_match_sealed_output": true,
+      "score_0_100": 53.1,
+      "subject_commit": "52fff1847bec1a2f82b1abd8e23caeda979dea21",
+      "harness_version": "3.1.0"
+    }
+  ]
+}

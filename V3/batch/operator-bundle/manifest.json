@@ -1,0 +1,29 @@
+{
+  "adapted_scripts_sha256": {
+    "control/backend-freeze.json": "25b89a2e800cfc361048e9633b091dd2bcba24024cd2c5578026888d809a1148",
+    "control/commands.md": "eb5af2bdff1eef0b4808913d35ac1e311449d363e8ad11753ab6988f2850e558",
+    "control/dispatch-prompt.txt": "315bd975a5502c265aeff30444ae8333e682c316f696e313193a988356563099",
+    "control/environment.md": "2da878baf326cfc39c548d53bb5022ac2d1f212544b299ada81bec197b3ff304",
+    "control/operator-task.md": "21172ca8168021446f6d43b88f470ad8d825c1584e9e9ff9e667cf85f55e63bc",
+    "control/run-spec.json": "b319e0ca7f613ad8798b5715a205853afdcdb1a41ef18e494acf73141744bbdd",
+    "scripts/activate.py": "5b3b9e5de0bb732bc3d96767dbe8042371fa707aec3925fc4c9d8cdaa687a0e1",
+    "scripts/dispatch.py": "5c0f660fa3075d72b77fe954abb1df0c707fee43da323aae0d6c2e5a7524d9ee",
+    "scripts/runtime_test/audit_raw.py": "a89e0ea8596849d54afce61d2139797643835bd2663aae62bf75d6c0c13e8b04",
+    "scripts/runtime_test/control.py": "3bcd6cf23a8f2568400710a656fbeb08d27928ae2cd0957603ff60ba560e024c",
+    "scripts/runtime_test/controller_impl.py": "1d8b328b93398b0d3ae77f5baa29a53fc5f86ba5cd862d88992220757827599d",
+    "scripts/runtime_test/environment.py": "8772aa6b630b59123d4d011d7d24d56cb0f39a9aca0242ee4379c80640fc4089",
+    "scripts/runtime_test/observe.py": "8e322040dd1b1dea969a9709b8c43f2185c860357dc88db9326b36401b6dc354"
+  },
+  "frozen_subject_commit": "52fff1847bec1a2f82b1abd8e23caeda979dea21",
+  "subject_tag": "tib-scientific-context-v3.1-20261016",
+  "backend_sha": "6d529489815362eb2d6cf717e736e44936de3afc",
+  "control_algorithms": "V2 control.py/observe.py/audit_raw.py byte-identical; controller only owner and idempotency namespace differ",
+  "baseline_model_pin": {
+    "providerID": "windows-glm",
+    "id": "GLM-5.3-Flash-W4A16-MTP"
+  },
+  "subject_model": "qwen3.7-flash",
+  "fallback": "",
+  "scoring_allowed": false,
+  "subject_version": "3.1.0"
+}

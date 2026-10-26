@@ -1,0 +1,14 @@
+{
+  "run_id": "tibv31-9a7ed51f",
+  "api_base": "http://127.0.0.1:51669",
+  "worker_source_digest": "89ff1e3ee9b5a335",
+  "image_ids": {
+    "api": "sha256:b84d6c8c77b07cfd196a8233d6af86fad9f2fd0ba45d532a51de2b8acc3c5d4d",
+    "worker": "sha256:06f5037e49e348f38da72095dc2be3d4a8e6dd241deea54d88d33dc85a29f18d"
+  },
+  "model": "qwen3.7-flash",
+  "fallback": "",
+  "max_turns": 500,
+  "max_rounds": 40,
+  "max_concurrent_subagents": 4
+}

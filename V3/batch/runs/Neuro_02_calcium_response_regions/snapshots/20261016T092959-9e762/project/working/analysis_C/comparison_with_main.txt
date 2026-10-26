@@ -1,0 +1,46 @@
+INDEPENDENT REPLICATION RESULTS - COMPARISON NOTES
+==================================================
+Date: 2026-10-16 08:52:51
+Data: /data/user/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/project/data/cellular_calcium_response_summaries.tsv
+Total observations: 819
+
+DESIGN ANALYSIS
+---------------
+The data exhibits strong region-condition confounding:
+- region_1: all 3 conditions (baseline=22, blocked=44, stimulated=226)
+- region_2: all 3 conditions (baseline=43, blocked=46, stimulated=199)
+- region_3: receptor_stimulated only (stimulated=189)
+- region_4: baseline + blocked only (baseline=21, blocked=29)
+
+CONTRAST ESTIMABILITY
+---------------------
+ESTIMABLE CONTRASTS:
+  - baseline vs neural_activity_blocked: in region_1, region_2, region_4
+  - baseline vs receptor_stimulated: in region_1, region_2
+  - neural_activity_blocked vs receptor_stimulated: in region_1, region_2
+
+NOT ESTIMABLE (confounded):
+
+STATISTICAL METHODS
+-------------------
+- Group statistics: mean, std, SE, 95% CI (t-distribution)
+- Pairwise tests: Welch's two-sample t-test (unequal variances assumed)
+- Effect sizes: Cohen's d and Hedges' g (small-sample corrected)
+- ANOVA effect size: eta-squared (SS_between / SS_total)
+- Significance thresholds: *** p<0.001, ** p<0.01, * p<0.05, ns p>=0.05
+
+LIMITATIONS
+-----------
+1. Cells within slices are not independent; simple t-tests ignore nesting.
+   A mixed-effects model with random intercepts for slice/batch would be preferred.
+2. Large sample size imbalance (receptor_stimulated >> baseline/blocked).
+3. region_3 and region_4 have limited condition coverage, preventing full factorial analysis.
+4. Multiple comparisons across 6 variables and many contrasts increase Type I error risk.
+   Bonferroni or FDR corrections were not applied (exploratory analysis).
+
+FILES GENERATED
+---------------
+- replication_results.csv: Summary stats + pairwise test results
+- eta_squared_results.csv: ANOVA eta-squared values
+- This file: methodological notes and contrast estimability
+

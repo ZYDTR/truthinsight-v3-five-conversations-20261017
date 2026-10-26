@@ -1,0 +1,83 @@
+{
+  "task_id": "Astronomy_02_gravity_spectral_structure",
+  "experiment": "shared-context-v3.1-20261016",
+  "subject_version": "3.1.0",
+  "backend_sha": "6d529489815362eb2d6cf717e736e44936de3afc",
+  "reviewed_at": "2026-10-16T10:04Z",
+  "raw_jsonl_reviewed": true,
+  "scoring_performed": false,
+  "raw_files": [
+    {
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+      "sha256": "fbe154ab3489b4a90123038302f16862106c97c7f116a34a5c4421e9faee0862",
+      "reviewed_lines": "1-753",
+      "findings": [
+        "L3/L15 (warmup): neutral warmup message per policy; assistant model field qwen3.7-flash, reply 就绪",
+        "L19: first science user message byte-identical to original LaunchPrompt (sha 0f4caf...)",
+        "L21-137 (round 001): all assistant messages model=qwen3.7-flash; L22-27 metadata reads (INDEX.md, contract, objective, guide, manifest, validator); L20 CLAUDE.md auto-attachment; no SKILL.md or reference-module read; zero Agent/Task calls; L63 write analysis.py; L69 execute + L70 error; L72/81 bugfix edits; L83 successful rerun; L99/105 generate_artifacts.py; L108 analysis-state.md (late, post-pipeline); L111 Result.md; L118 reproduce.md; L121-122 validator FAIL (findings 4/5 unresolvable source); L124/126 traceability edits; L132-134 validator PASS",
+        "L141 (round 002 operator feedback): factual feedback file verbatim, 8 items, no science answers",
+        "L142-177: subject reads SKILL.md + all 6 references (146-164), self-verifies rank-1 mis-join and delta20=9 (166-177)",
+        "L178/L184: two async native general-purpose Agent launches (FFT+LOO branch; independent spectral verification); L179/L185 async launch receipts",
+        "L195/L205/L207 SendMessage empty-message tool errors; L209 ToolSearch; L211/215 successful queue; L223 blocked sleep; L226/228 status nudges",
+        "L233-244: subject fixes Finding 1 mis-join, Finding 3 counts; L247-248 edit-not-found retry; L255-265 reads child JSON summaries (fft_results.json, loo_results.json, verification_results.json) — no child .py reads; L285-308 report/state/artifact revisions; L316-322 result_artifacts.json update; L325 validator FAIL; L331 fix; L334 validator PASS",
+        "L342 (round 003 operator feedback): FFT unit conversion off 60x; period off 3600x; child-source unread; artifact units",
+        "L343/L350: subject reads both child .py scripts; L352 acknowledges L147 unit error; L353 writes corrected_fft.py in new dir working/subagent_fft_loo_corrected; L359-360 runs it; L365 notes Nyquist 8333 uHz; L366-367 reads corrected outputs; L369-370 artifact update; L372/379/382 report/summary/state revisions; L390 validator FAIL; L392 fix; L395 validator PASS",
+        "L404 (round 004 operator feedback): empty reproduce_output provenance; reproduce.md wording; F9 status",
+        "L405-420: provenance wording fixes; L422-423 F9 -> 条件性结论; L425 reproduce_full.py; L431-432 run; L434 reproduce.md update; L441-443 validator PASS (reproduction itself defective: fresh dir left empty)",
+        "L447 (round 005 operator feedback): integrity-critical reproduction defect",
+        "L452 subject recognizes hard-coded outputs; L453 reproduce_clean.py; L467 SDK mid-round compaction continuation (platform event); L483-497 --output-dir support added to corrected_fft.py and generate_artifacts.py; L499-507 run, artifacts land in fresh target; L509-520 reproduce.md and state updates; L522-523 validator PASS",
+        "L531 (round 006 operator feedback): silent artifact reversion + stale state row",
+        "L532-544 subject confirms 8-section file and reads sub-side artifacts; L545-559 generate_artifacts.py auto-embed of 4 sections; L566-570 regen 168,760 bytes, 12 sections; L571-585 state Item 7 row + 权威产物 table fixed; L586-588 baseline re-capture; L594-595 reproduction all-match; L597-598 validator PASS",
+        "L547+ (round 007 operator feedback, operator-proactive): pass vs series counting misquote (17/22 -> 13/22 passes = 17/66 series)",
+        "L634-635 subject fixes counter (unique pass-ID set + both levels), notes match with operator recount; L642-650 report fixes (exec summary, headline, core result, robustness -> 13/22 (59%), slight majority); L656-666 reproduction re-run: first MISMATCH self-diagnosed (old baseline), generator rerun, all-match; L668-669 validator PASS; L671-681 state r7 (F12, Item 12)",
+        "L690 (round 008): subject chooses executable discriminating check; L691-698 working/baseline_comparability_check.py run: 26 shared combos, delta_IC == absolute IC to machine precision (r=1.0, RMSE=0, offset~0); L699 corrects 29->26; L700-710 Finding 4 restated conditionally comparable; L717-737 check embedded in generate_artifacts.py; L739-740 regen 178,2xx bytes 13 sections; L745-746 reproduction exit 0 all-match; L747-748 validator PASS"
+      ]
+    },
+    {
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+      "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+      "reviewed_lines": "1-87",
+      "findings": [
+        "L1 delegation prompt: leaf role, leaf boundary (no delegation), project root, read-only inputs, required context reads (INDEX.md, SKILL.md, references), exclusive output dir working/subagent_fft_loo",
+        "All assistant model fields qwen3.7-flash (45 assistant messages)",
+        "Reads verified: INDEX.md, SKILL.md, delegation-contract.md, inference.md, verification.md, then data files",
+        "L40 write fft_loo_analysis.py (own code from scratch); L43 execute; edits and reruns; final receipt includes FFT results (later found to contain 60x unit error, fixed by main in round 003), LOO pass_01 outlier (std ~0.118 vs 0.02-0.03; std change -21%/-42%/-32%), and per-pass resolution analysis (period claim later found off by 3600x, fixed in round 003)"
+      ]
+    },
+    {
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+      "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+      "reviewed_lines": "1-60",
+      "findings": [
+        "L1 delegation prompt: independent verification of spectral ranking integrity and cross-model correlations; blind re-computation from raw files; no import/execute of existing scripts",
+        "All assistant model fields qwen3.7-flash (29 assistant messages)",
+        "Reads verified: INDEX.md, SKILL.md, delegation-contract.md, data-design.md, inference.md, verification.md, all 5 data files",
+        "L42 write working/subagent_verification/independent_verification.py; L50/L55 executes; final receipt: two candidate files use different pools (overlap initially reported 29/250, corrected to 26 in round 008 by main's check), delta_IC vs absolute IC baseline handling, l=2 coupling non-monotonic peaking at n=4, 16 modes in 900-1300 uHz"
+      ]
+    }
+  ],
+  "actual_models": {
+    "main_agent": "qwen3.7-flash",
+    "child_agents": "qwen3.7-flash (both, verified from first real delegation JSONL model fields)",
+    "fallback": "(empty)",
+    "outer_operator": "windows-glm/GLM-5.3-Flash-W4A16-MTP"
+  },
+  "verdict": "REVIEWED_WITH_ISSUES",
+  "findings_summary": {
+    "first_autonomous_round": "metadata reads complete; SKILL.md and all reference modules unread; zero native delegation; entire substantive pipeline single-executor; analysis-state.md created post-pipeline; validator pass achieved only after mechanical traceability fixes; multiple report-vs-artifact numeric contradictions (IC mis-join, delta20 count, Finding 3 counts/range, Finding 5 trend)",
+    "matched_rounds": "after first feedback: Skill+modules read, 2 verified native general-purpose children with own-code execution; integration real but initially summary-only (child source unread); child verification itself contained 60x unit error and 3600x period error, caught by operator audit, fixed by subject in round 003 with corrected recomputation",
+    "final": "13-section authoritative artifact reproduced in fresh target dir with hash match; pass/series counting corrected (13/22 passes = 17/66 series); IC comparison restated as conditionally comparable with executable 26-combo machine-precision consistency check; all Skill acceptance criteria met with named attribution limits"
+  },
+  "remaining_issues": [
+    "Attribution limit: delegation and Skill reading occurred only after operator feedback (round 002+); not autonomous first-round behavior — must not be credited to the Skill alone",
+    "Reproduction scope: automated clean run rebuilds main-side sections + corrected FFT/consistency from raw inputs; standalone sub-agent artifacts (loo_results.json, verification_results.json) are NOT rebuilt — embedded copies read from adopted old files; partial-chain verified with named uncovered branches (reproduce.md Known Limitations)",
+    "IC formula/normalization not supplied: Finding 4 comparison conditionally comparable (shared-normalization assumption numerically supported on 26 shared combos at machine precision, not definitionally proven)",
+    "pass_01 outlier partially drives aggregate variance statistics (std change -21%/-42%/-32% when removed)",
+    "620/830/1040 uHz common peaks may be sampling-grid artifacts; not separable from supplied data alone",
+    "Finding 5 peak-to-mode attribution remains speculative without observed amplitudes/linewidths",
+    "Platform events retained: 2 SDK mid-run context compactions; 17 tool errors preserved; WAITING_FOR_SLOT queue waits on first two sends",
+    "Single-run observation across 5 tasks; no statistical significance claims possible"
+  ],
+  "review_standard": "frozen scientific-evidence 3.1.0 acceptance criteria + PublicTaskContract required actions; operator personally read all raw JSONL files cited above; subject recomputed all adopted numbers itself before final adoption",
+  "scoring_note": "no judge, scorer, or novelty retrieval invoked at any point; public validator used for format only"
+}

@@ -1,0 +1,2126 @@
+[
+  {
+    "table": "aerich",
+    "columns": [
+      "id",
+      "version",
+      "app",
+      "content"
+    ],
+    "rows": 189
+  },
+  {
+    "table": "agent_runtime_conversation_agent_calls",
+    "columns": [
+      "id",
+      "run_id",
+      "invocation_key",
+      "research_agent_version_id",
+      "agent_snapshot",
+      "task_content",
+      "status",
+      "sdk_task_id",
+      "sdk_agent_id",
+      "result",
+      "error_code",
+      "error_message",
+      "completed_at",
+      "execution_released_at",
+      "created_at",
+      "updated_at",
+      "started_at"
+    ],
+    "rows": 11
+  },
+  {
+    "table": "agent_runtime_conversation_collaboration_messages",
+    "columns": [
+      "id",
+      "sender_conversation_id",
+      "sender_run_id",
+      "recipient_conversation_id",
+      "recipient_run_id",
+      "collaboration_key",
+      "dedupe_key",
+      "message_kind",
+      "content",
+      "payload",
+      "sdk_tool_use_id",
+      "status",
+      "delivery_attempts",
+      "error_code",
+      "delivered_at",
+      "created_at",
+      "updated_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_conversation_group_members",
+    "columns": [
+      "id",
+      "role",
+      "member_index",
+      "created_at",
+      "conversation_id",
+      "group_id",
+      "run_id",
+      "is_binding_active"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_conversation_groups",
+    "columns": [
+      "id",
+      "mode",
+      "content",
+      "member_count",
+      "created_at",
+      "updated_at",
+      "user_id",
+      "idempotency_key",
+      "request_fingerprint",
+      "idempotency_digest"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_conversation_messages",
+    "columns": [
+      "id",
+      "conversation_id",
+      "run_id",
+      "agent_call_id",
+      "message_key",
+      "kind",
+      "parent_tool_use_id",
+      "payload",
+      "position",
+      "revision",
+      "created_at",
+      "updated_at"
+    ],
+    "rows": 1584
+  },
+  {
+    "table": "agent_runtime_conversation_runs",
+    "columns": [
+      "id",
+      "conversation_id",
+      "run_sequence",
+      "message_content",
+      "idempotency_key",
+      "idempotency_digest",
+      "request_fingerprint",
+      "request_options",
+      "runtime_config",
+      "status",
+      "conversation_phase",
+      "phase_label",
+      "phase_detail",
+      "runtime_session_id",
+      "start_requested_at",
+      "worker_instance_id",
+      "started_at",
+      "final_answer",
+      "error_code",
+      "completed_at",
+      "execution_released_at",
+      "created_at",
+      "updated_at",
+      "content_revision"
+    ],
+    "rows": 30
+  },
+  {
+    "table": "agent_runtime_conversation_upload_files",
+    "columns": [
+      "id",
+      "run_id",
+      "upload_file_id",
+      "idempotency_key",
+      "sha256",
+      "created_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_conversations",
+    "columns": [
+      "id",
+      "user_id",
+      "product_conversation_id",
+      "product_id_digest",
+      "runtime_session_id",
+      "next_run_sequence",
+      "created_at",
+      "updated_at",
+      "content_revision",
+      "deleted_at",
+      "is_pinned"
+    ],
+    "rows": 5
+  },
+  {
+    "table": "agent_runtime_workflow_audit_steps",
+    "columns": [
+      "id",
+      "step_key",
+      "step_index",
+      "title",
+      "description",
+      "status",
+      "started_at",
+      "completed_at",
+      "error_message",
+      "detail",
+      "created_at",
+      "updated_at",
+      "workflow_run_id",
+      "process_name",
+      "workflow_node_id",
+      "occurred_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_context_materializations",
+    "columns": [
+      "id",
+      "source_item_key",
+      "delivery_mode",
+      "consumer_key",
+      "target_node_key",
+      "target_agent_type",
+      "target_turn_code",
+      "context_policy_version",
+      "relative_path",
+      "source_hash",
+      "result_hash",
+      "size_bytes",
+      "estimated_tokens",
+      "was_truncated",
+      "status",
+      "error_message",
+      "created_at",
+      "handoff_bundle_id",
+      "update_seq",
+      "updated_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_handoff_bundles",
+    "columns": [
+      "id",
+      "source_run_sequence",
+      "source_status_at_bind",
+      "selection_policy_version",
+      "context_policy_version",
+      "status",
+      "projection_status",
+      "projection_parser_version",
+      "workspace_relative_path",
+      "readme_relative_path",
+      "manifest_relative_path",
+      "source_input_relative_path",
+      "materialized_manifest_hash",
+      "resolved_at",
+      "error_message",
+      "created_at",
+      "updated_at",
+      "target_workflow_run_id",
+      "source_workflow_run_id",
+      "output_manifest_id",
+      "reference_order",
+      "last_delivered_update_seq",
+      "sync_status",
+      "source_status_current",
+      "last_checked_at",
+      "last_synced_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_interactions",
+    "columns": [
+      "id",
+      "interaction_id",
+      "status",
+      "request_payload",
+      "response_payload",
+      "outer_runtime_session_id",
+      "sdk_workflow_run_id",
+      "sdk_task_id",
+      "runtime_script_path",
+      "continuation_script_source",
+      "continuation_script_checksum",
+      "continuation_claim_token",
+      "continuation_claimed_at",
+      "created_at",
+      "answered_at",
+      "forwarded_at",
+      "canceled_at",
+      "answered_by_user_id",
+      "workflow_node_id",
+      "workflow_run_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_node_artifacts",
+    "columns": [
+      "id",
+      "node_key",
+      "label",
+      "filename",
+      "mime_type",
+      "source_url",
+      "platform_file_path",
+      "container_file_path",
+      "platform_url",
+      "size_bytes",
+      "error_message",
+      "download_status",
+      "created_at",
+      "updated_at",
+      "workflow_run_id",
+      "workflow_node_id",
+      "download_started_at",
+      "last_progress_at",
+      "downloaded_bytes",
+      "download_deadline_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_node_evidence_items",
+    "columns": [
+      "id",
+      "node_key",
+      "type",
+      "source",
+      "title",
+      "url",
+      "doi",
+      "evidence_path",
+      "metadata",
+      "created_at",
+      "updated_at",
+      "workflow_run_id",
+      "workflow_node_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_node_token_usages",
+    "columns": [
+      "id",
+      "node_key",
+      "usage_event_key",
+      "model_name",
+      "input_tokens",
+      "cache_creation_input_tokens",
+      "cache_read_input_tokens",
+      "output_tokens",
+      "occurred_at",
+      "created_at",
+      "organization_id",
+      "user_id",
+      "workflow_node_id",
+      "workflow_run_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_nodes",
+    "columns": [
+      "id",
+      "node_key",
+      "node_index",
+      "name",
+      "status",
+      "output_markdown",
+      "error_message",
+      "started_at",
+      "completed_at",
+      "created_at",
+      "updated_at",
+      "workflow_run_id",
+      "workflow_version_node_id",
+      "actions",
+      "evidence_payloads",
+      "evidence_candidate_payloads",
+      "output_html",
+      "long_task_guard_enabled",
+      "long_task_goal_completed",
+      "long_task_goal_completed_at",
+      "long_task_goal_completion_summary",
+      "long_task_goal_agent_id",
+      "long_task_goal_tool_use_id",
+      "long_task_guard_block_count"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_output_manifests",
+    "columns": [
+      "id",
+      "manifest_version",
+      "schema_version",
+      "builder_version",
+      "source_run_status",
+      "source_fingerprint",
+      "content_hash",
+      "payload",
+      "sealed_at",
+      "created_at",
+      "source_workflow_run_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_runs",
+    "columns": [
+      "id",
+      "workflow_code",
+      "workflow_name",
+      "workflow_version_label",
+      "input_context",
+      "status",
+      "final_markdown",
+      "error_message",
+      "created_at",
+      "updated_at",
+      "completed_at",
+      "user_id",
+      "workflow_version_id",
+      "scientific_project_task_id",
+      "upstream_workflow_run_id",
+      "mcp_forward_token_encrypted",
+      "mcp_manifest",
+      "final_html",
+      "long_task_guard_policy",
+      "collaboration_policy"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_stream_events",
+    "columns": [
+      "id",
+      "sequence",
+      "event_key",
+      "event_type",
+      "source",
+      "severity",
+      "payload",
+      "occurred_at",
+      "created_at",
+      "workflow_node_id",
+      "workflow_run_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "agent_runtime_workflow_upload_file_relations",
+    "columns": [
+      "id",
+      "idempotency_key",
+      "created_at",
+      "upload_file_id",
+      "workflow_node_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "ai_figure_files",
+    "columns": [
+      "id",
+      "file_path",
+      "file_url",
+      "status",
+      "error_message",
+      "index_in_figure",
+      "generation_time",
+      "file_format",
+      "resolution",
+      "file_size_mb",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "figure_id",
+      "prompt"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "ai_figures",
+    "columns": [
+      "id",
+      "prompt",
+      "negative_prompt",
+      "language",
+      "figure_type",
+      "aspect_ratio",
+      "image_size",
+      "width",
+      "height",
+      "temperature",
+      "steps",
+      "figure_count",
+      "success_count",
+      "failed_count",
+      "status",
+      "error_message",
+      "total_generation_time",
+      "model_name",
+      "created_at",
+      "updated_at",
+      "completed_at",
+      "is_deleted",
+      "deleted_at",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "ai_polish_tasks",
+    "columns": [
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "id",
+      "task_name",
+      "task_type",
+      "source_file_name",
+      "source_file_path",
+      "status",
+      "ai_polish_report_path",
+      "section_count",
+      "modified_count",
+      "estimated_time",
+      "actual_time",
+      "started_at",
+      "completed_at",
+      "error_message",
+      "creator_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "ai_trace_tasks",
+    "columns": [
+      "id",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "task_name",
+      "task_type",
+      "source_file_name",
+      "source_file_path",
+      "status",
+      "ai_trace_report_path",
+      "section_count",
+      "modified_count",
+      "estimated_time",
+      "actual_time",
+      "started_at",
+      "completed_at",
+      "error_message",
+      "creator_id",
+      "project_config_id",
+      "project_type"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "api_keys",
+    "columns": [
+      "id",
+      "key",
+      "name",
+      "quota",
+      "used",
+      "is_active",
+      "created_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "area",
+    "columns": [
+      "id",
+      "parent_id",
+      "name",
+      "is_deleted",
+      "deleted_at",
+      "updated_at",
+      "created_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "article_generation_configs",
+    "columns": [
+      "id",
+      "user_id",
+      "organization_id",
+      "model_id",
+      "research_id",
+      "name",
+      "meeting_minutes_audio",
+      "target_audience",
+      "analysis_method",
+      "industry_type",
+      "total_investment_amount",
+      "financial_analysis",
+      "risk_assessment",
+      "research_field",
+      "material_subject",
+      "team_members",
+      "team_introduction",
+      "reference_library",
+      "reference_library_urls",
+      "user_add_prompt",
+      "word_count_requirement",
+      "language_style",
+      "application_category",
+      "requirements_attachments",
+      "search_engine",
+      "search_list_count",
+      "search_iterations",
+      "retrieval_content_count",
+      "literature_summary_enabled",
+      "max_content_collection_count",
+      "max_reference_count",
+      "temperature",
+      "top_p",
+      "top_k",
+      "outline_system_prompt",
+      "content_system_prompt",
+      "outline_user_prompt",
+      "content_user_prompt",
+      "generated_outline_file_path",
+      "generated_content_file_path",
+      "outline_generation_time",
+      "content_generation_time",
+      "outline_generation_status",
+      "content_generation_status",
+      "outline_tokens_consumed",
+      "content_tokens_consumed",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "leader_id",
+      "team_members_id",
+      "requirements_attachments_id",
+      "leader_text",
+      "ai_leader_introduction",
+      "user_add_demo_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "article_literatures",
+    "columns": [
+      "id",
+      "research_id",
+      "title",
+      "authors",
+      "journal",
+      "year",
+      "issue",
+      "volume",
+      "pages",
+      "doi",
+      "url",
+      "summary",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "cowriter_project_configs",
+    "columns": [
+      "id",
+      "paper_type",
+      "disciplines",
+      "degree_level",
+      "research_keywords",
+      "paper_language",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "project_config_id",
+      "literature_count",
+      "literature_user_count",
+      "literature_actual_count"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "cowriter_project_outline_attachments",
+    "columns": [
+      "id",
+      "type",
+      "order",
+      "label",
+      "display_type",
+      "description",
+      "file_path",
+      "content",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "node_id",
+      "storage_path"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "dictionary",
+    "columns": [
+      "id",
+      "value",
+      "remark",
+      "label",
+      "category",
+      "category_value",
+      "is_deleted",
+      "deleted_at",
+      "updated_at",
+      "created_at",
+      "parent_value",
+      "order"
+    ],
+    "rows": 292
+  },
+  {
+    "table": "docgen_feasibility_meta",
+    "columns": [
+      "id",
+      "expect_return_rate",
+      "payback_period",
+      "analysis_method",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "risk_assessment",
+      "investment_amount"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "docgen_project_url_summary",
+    "columns": [
+      "id",
+      "url",
+      "summary",
+      "is_valid",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "project_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "docgen_think_tank_meta",
+    "columns": [
+      "id",
+      "target",
+      "analysis_method",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "docgen_voice_text",
+    "columns": [
+      "id",
+      "text_content",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "upload_files_id",
+      "user_id",
+      "voice_time"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "external_capability_invocations",
+    "columns": [
+      "id",
+      "trace_id",
+      "capability",
+      "connector_type",
+      "status",
+      "upstream_status_code",
+      "duration_ms",
+      "error_message",
+      "created_at",
+      "updated_at",
+      "organization_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "file_biz_relations",
+    "columns": [
+      "id",
+      "ai_analysis_summary",
+      "product_type",
+      "biz_id",
+      "created_at",
+      "updated_at",
+      "file_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "hallucination_review_logs",
+    "columns": [
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "id",
+      "citation_text",
+      "citation_number",
+      "reference_url",
+      "is_matched",
+      "reason",
+      "creator_id",
+      "task_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "hallucination_tasks",
+    "columns": [
+      "id",
+      "task_name",
+      "task_type",
+      "source_file_path",
+      "source_file_name",
+      "report_content",
+      "status",
+      "hallucination_report_path",
+      "hallucination_report_content",
+      "citation_count",
+      "reference_count",
+      "error_count",
+      "error_details",
+      "estimated_time",
+      "actual_time",
+      "created_at",
+      "started_at",
+      "completed_at",
+      "error_message",
+      "project_config_id",
+      "creator_id",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "project_type"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "hi_insight_reports",
+    "columns": [
+      "id",
+      "title",
+      "report_type",
+      "status",
+      "model_name",
+      "generation_time",
+      "input_tokens",
+      "output_tokens",
+      "total_tokens",
+      "report_generation_time",
+      "ai_generated_report",
+      "created_at",
+      "updated_at",
+      "is_historical",
+      "is_deleted",
+      "deleted_at",
+      "user_id",
+      "organization_id",
+      "model_config_id",
+      "research_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "inspiration_record",
+    "columns": [
+      "id",
+      "status",
+      "created_at",
+      "updated_at",
+      "user_id",
+      "message",
+      "result_data"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "inspiration_tag_relation",
+    "columns": [
+      "inspirations_id",
+      "inspirationtag_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "inspiration_tags",
+    "columns": [
+      "id",
+      "name",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "inspirations",
+    "columns": [
+      "id",
+      "name",
+      "source",
+      "summary",
+      "content",
+      "is_deleted",
+      "created_at",
+      "updated_at",
+      "deleted_at",
+      "user_id",
+      "ai_keynotes",
+      "ai_outline",
+      "ai_analysis",
+      "ai_expanded",
+      "ai_probe",
+      "original_article_truncated",
+      "ai_thought_process",
+      "insight_reports_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "inspirations_canvas_report_relation",
+    "columns": [
+      "id",
+      "inspiration_id",
+      "inspiration_type",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "report_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "knowledge_canvas",
+    "columns": [
+      "id",
+      "name",
+      "source_type",
+      "type",
+      "summary",
+      "key_notes",
+      "related_notes",
+      "ai_questions",
+      "image_url",
+      "original_article",
+      "ai_outline",
+      "user_notes",
+      "note_update_at",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "user_id",
+      "original_article_truncated",
+      "author",
+      "source",
+      "ai_analysis",
+      "reference",
+      "detailed_description",
+      "ai_expanded",
+      "inspiration_source",
+      "ai_keynotes",
+      "ai_probe",
+      "note_type",
+      "insight_reports_id",
+      "deleted_at",
+      "upload_file_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "knowledge_canvas_tags",
+    "columns": [
+      "id",
+      "name",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "knowledge_canvas_upload_files",
+    "columns": [
+      "id",
+      "file_name",
+      "file_path",
+      "file_size",
+      "file_type",
+      "parse_status",
+      "parse_error_message",
+      "parsed_content_path",
+      "title",
+      "cover_image_url",
+      "tags",
+      "card_type",
+      "source_type",
+      "content",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "user_id",
+      "markdown_file_path",
+      "markdown_content",
+      "html_file_path",
+      "html_content",
+      "lit_authors",
+      "lit_citation_count",
+      "lit_abstract",
+      "lit_type",
+      "lit_doi",
+      "lit_database_identifier",
+      "lit_impact_factor",
+      "lit_journal",
+      "original_article_truncated",
+      "file_path_pdf"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "literature_canvas_extension",
+    "columns": [
+      "title",
+      "authors",
+      "abstract",
+      "literature_type",
+      "database_identifier",
+      "doi",
+      "journal",
+      "impact_factor",
+      "citation_count",
+      "created_at",
+      "updated_at",
+      "canvas_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "literature_library_resources",
+    "columns": [
+      "id",
+      "url",
+      "title",
+      "content",
+      "extracted_context",
+      "search_query",
+      "is_useful",
+      "created_at",
+      "literature_library_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "literature_librarys",
+    "columns": [
+      "id",
+      "query",
+      "search_queries",
+      "contexts",
+      "report_content",
+      "created_at",
+      "updated_at",
+      "iterations",
+      "status",
+      "project_config_id",
+      "user_id",
+      "is_manual_upload",
+      "file_path",
+      "word_count",
+      "file_name"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "literatures",
+    "columns": [
+      "id",
+      "title",
+      "authors",
+      "journal",
+      "year",
+      "issue",
+      "volume",
+      "pages",
+      "doi",
+      "url",
+      "summary",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "research_id",
+      "paper_type",
+      "type",
+      "rationale",
+      "published_date",
+      "source"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "llm_call_logs",
+    "columns": [
+      "id",
+      "model_name",
+      "model_api_key",
+      "model_api_url",
+      "prompt",
+      "product_type",
+      "related_id",
+      "response",
+      "description",
+      "created_at",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "mcp_invocation_logs",
+    "columns": [
+      "id",
+      "trace_id",
+      "operation",
+      "tool_name",
+      "status",
+      "upstream_status_code",
+      "duration_ms",
+      "session_id",
+      "protocol_version",
+      "request_snapshot",
+      "response_snapshot",
+      "error_message",
+      "created_at",
+      "updated_at",
+      "config_id",
+      "organization_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "mcp_oauth_authorization_sessions",
+    "columns": [
+      "id",
+      "state_hash",
+      "code_verifier_encrypted",
+      "status",
+      "error_message",
+      "expires_at",
+      "consumed_at",
+      "created_at",
+      "updated_at",
+      "client_registration_id",
+      "config_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "mcp_oauth_client_registrations",
+    "columns": [
+      "id",
+      "issuer",
+      "resource",
+      "authorization_endpoint",
+      "token_endpoint",
+      "registration_endpoint",
+      "revocation_endpoint",
+      "client_id",
+      "client_secret_encrypted",
+      "token_endpoint_auth_method",
+      "redirect_uri",
+      "created_at",
+      "updated_at",
+      "config_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "mcp_oauth_credentials",
+    "columns": [
+      "id",
+      "status",
+      "access_token_encrypted",
+      "refresh_token_encrypted",
+      "token_type",
+      "scope",
+      "access_token_expires_at",
+      "provider_user_id",
+      "workspace_id",
+      "email_domain",
+      "authorized_at",
+      "last_refreshed_at",
+      "last_error_message",
+      "created_at",
+      "updated_at",
+      "client_registration_id",
+      "config_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "mcp_server_configs",
+    "columns": [
+      "id",
+      "name",
+      "server_key",
+      "endpoint_url",
+      "transport_type",
+      "protocol_version",
+      "auth_header",
+      "auth_scheme",
+      "api_key",
+      "headers",
+      "timeout_seconds",
+      "description",
+      "is_active",
+      "last_status",
+      "last_checked_at",
+      "last_error_message",
+      "last_trace_id",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "organization_id",
+      "user_id",
+      "auth_source",
+      "forward_user_token",
+      "auth_app_name",
+      "auth_client_id",
+      "auth_client_secret",
+      "is_builtin",
+      "use_case",
+      "provider_key",
+      "auth_type"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "menus",
+    "columns": [
+      "id",
+      "name",
+      "identifier",
+      "order",
+      "parent_id",
+      "is_deleted",
+      "created_at",
+      "updated_at",
+      "deleted_at",
+      "organization_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "model_configs",
+    "columns": [
+      "id",
+      "model_name",
+      "name",
+      "api_key",
+      "api_url",
+      "max_context",
+      "max_output",
+      "description",
+      "is_active",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "user_id",
+      "enable_content_inspection",
+      "use_cases",
+      "is_builtin",
+      "organization_id",
+      "deleted_at",
+      "model_type",
+      "model_capabilities",
+      "input_modalities",
+      "output_modalities",
+      "release_date",
+      "provider"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "organization_menus",
+    "columns": [
+      "id",
+      "is_deleted",
+      "created_at",
+      "updated_at",
+      "deleted_at",
+      "menu_id",
+      "organization_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "organization_model_uses",
+    "columns": [
+      "id",
+      "default_way",
+      "is_deleted",
+      "created_at",
+      "updated_at",
+      "deleted_at",
+      "model_id",
+      "organization_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "organization_models",
+    "columns": [
+      "id",
+      "is_deleted",
+      "created_at",
+      "updated_at",
+      "deleted_at",
+      "model_id",
+      "organization_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "organization_role_menus",
+    "columns": [
+      "id",
+      "is_deleted",
+      "created_at",
+      "updated_at",
+      "deleted_at",
+      "menu_id",
+      "organization_id",
+      "role_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "organizations",
+    "columns": [
+      "id",
+      "name",
+      "code",
+      "type",
+      "is_active",
+      "contact_person",
+      "contact_phone",
+      "contact_email",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "description",
+      "remarks",
+      "is_trial",
+      "limit_count",
+      "use_count"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "project_configs",
+    "columns": [
+      "id",
+      "name",
+      "application_category",
+      "team_members",
+      "team_introduction",
+      "word_count_requirement",
+      "literature_library",
+      "requirements_attachments",
+      "language_style",
+      "ai_generated_outline",
+      "outline_generated_time",
+      "manual_modified_outline",
+      "manual_modified_outline_time",
+      "ai_generated_report",
+      "report_generation_time",
+      "manual_modified_report",
+      "manual_modified_report_time",
+      "outline_tokens_consumed",
+      "report_tokens_consumed",
+      "status",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "leader_id",
+      "model_id",
+      "user_id",
+      "research_id",
+      "ai_trace_report",
+      "hallucination_generated_time",
+      "ai_trace_generated_time",
+      "hallucination_report",
+      "ai_leader_introduction",
+      "estimated_time",
+      "user_add_demo_id",
+      "user_add_prompt",
+      "document_type",
+      "doc_type",
+      "extend_id",
+      "search_target_language",
+      "search_method",
+      "project_type",
+      "translation_id",
+      "error_text"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "project_leaders",
+    "columns": [
+      "id",
+      "name",
+      "credit_code",
+      "institution_type",
+      "address",
+      "website",
+      "ai_introduction",
+      "founded_date",
+      "related_projects",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "city_id",
+      "district_id",
+      "province_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "project_member_joins",
+    "columns": [
+      "id",
+      "join_id",
+      "created_at",
+      "is_deleted",
+      "deleted_at",
+      "member_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "project_members",
+    "columns": [
+      "id",
+      "name",
+      "title",
+      "organization",
+      "introduction",
+      "education",
+      "representative_works",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "project_model_configs",
+    "columns": [
+      "id",
+      "created_at",
+      "updated_at",
+      "model_config_id",
+      "project_config_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "project_outline_trees",
+    "columns": [
+      "id",
+      "title",
+      "content",
+      "level",
+      "count",
+      "order",
+      "path",
+      "is_leaf",
+      "attachments",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "project_config_id",
+      "parent_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "reports",
+    "columns": [
+      "id",
+      "title",
+      "outline",
+      "fund_type",
+      "content_md",
+      "created_at",
+      "status",
+      "api_key_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "requirements_attachments_files",
+    "columns": [
+      "id",
+      "file_path",
+      "file_name",
+      "file_content",
+      "word_count",
+      "analysis_result",
+      "created_at",
+      "project_configs_id",
+      "is_deleted",
+      "deleted_at",
+      "updated_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_agent_debug_artifacts",
+    "columns": [
+      "id",
+      "storage_path",
+      "created_at",
+      "is_deleted",
+      "deleted_at",
+      "created_by_id",
+      "debug_record_id",
+      "upload_file_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_agent_debug_configs",
+    "columns": [
+      "id",
+      "debug_record_id",
+      "config_type",
+      "content",
+      "upload_file_id",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_agent_debug_processes",
+    "columns": [
+      "id",
+      "process_name",
+      "detail",
+      "created_at",
+      "updated_at",
+      "debug_record_id",
+      "is_deleted",
+      "deleted_at",
+      "title",
+      "completed_at",
+      "error_message",
+      "step_key",
+      "occurred_at",
+      "description",
+      "started_at",
+      "step_index",
+      "status"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_agent_debug_records",
+    "columns": [
+      "id",
+      "research_agent_id",
+      "created_by_id",
+      "result_content",
+      "status",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "mcp_forward_token_encrypted",
+      "error_message",
+      "runtime_context"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_agent_mcp_relations",
+    "columns": [
+      "id",
+      "created_at",
+      "agent_id",
+      "mcp_config_id",
+      "agent_version_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_agent_skill_relations",
+    "columns": [
+      "id",
+      "created_at",
+      "agent_id",
+      "skill_id",
+      "agent_version_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_agent_versions",
+    "columns": [
+      "id",
+      "agent_id",
+      "version",
+      "status",
+      "system_prompt",
+      "model_config_id",
+      "knowledge_bases",
+      "publish_log",
+      "created_by_id",
+      "created_at",
+      "published_at",
+      "long_task_guard_enabled"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_agents",
+    "columns": [
+      "id",
+      "name",
+      "role_tag",
+      "function_tags",
+      "description",
+      "is_builtin",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "organization_id",
+      "scene_id",
+      "user_id",
+      "is_frontend_visible",
+      "current_version_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_resources",
+    "columns": [
+      "id",
+      "url",
+      "title",
+      "content",
+      "extracted_context",
+      "search_query",
+      "is_useful",
+      "created_at",
+      "research_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "research_scenes",
+    "columns": [
+      "id",
+      "sequence",
+      "name",
+      "english_name",
+      "description",
+      "is_builtin",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "organization_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "researches",
+    "columns": [
+      "id",
+      "query",
+      "search_queries",
+      "contexts",
+      "report_content",
+      "created_at",
+      "updated_at",
+      "iterations",
+      "status"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "roles",
+    "columns": [
+      "id",
+      "name",
+      "identifier",
+      "is_deleted",
+      "created_at",
+      "updated_at",
+      "deleted_at",
+      "organization_id"
+    ],
+    "rows": 2
+  },
+  {
+    "table": "saas_platforms",
+    "columns": [
+      "id",
+      "platform",
+      "platform_name",
+      "token_url",
+      "userinfo_url",
+      "client_id",
+      "client_secret",
+      "is_active",
+      "created_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "saas_user_mappings",
+    "columns": [
+      "id",
+      "user_id",
+      "external_id",
+      "platform",
+      "mobile",
+      "name",
+      "created_at",
+      "updated_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "scientific_project_input_files",
+    "columns": [
+      "id",
+      "host_file_path",
+      "filename",
+      "mime_type",
+      "file_type",
+      "size_bytes",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "scientific_project_task_references",
+    "columns": [
+      "id",
+      "target_task_id",
+      "source_task_id",
+      "reference_order",
+      "created_at"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "scientific_project_tasks",
+    "columns": [
+      "id",
+      "title",
+      "goal",
+      "input_context",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "project_id",
+      "workflow_definition_id",
+      "workflow_version_id",
+      "position",
+      "predecessor_id",
+      "agent_output_format",
+      "collaboration_mode",
+      "collaboration_settings"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "scientific_projects",
+    "columns": [
+      "id",
+      "name",
+      "research_goal",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "scientific_token_platforms",
+    "columns": [
+      "id",
+      "platform_code",
+      "platform_name",
+      "audience",
+      "expire_minutes",
+      "is_active",
+      "description",
+      "created_at",
+      "updated_at",
+      "base_url",
+      "timeout_seconds"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "skill_configs",
+    "columns": [
+      "id",
+      "name",
+      "skill_key",
+      "description",
+      "source_url",
+      "homepage_url",
+      "icon_url",
+      "version",
+      "source_type",
+      "instructions",
+      "file_name",
+      "file_type",
+      "file_size",
+      "namespace",
+      "storage_path",
+      "current_version_id",
+      "metadata",
+      "is_active",
+      "is_builtin",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "organization_id",
+      "user_id",
+      "is_frontend_visible",
+      "authorization_schema",
+      "authorization_schema_fingerprint",
+      "authorization_revision",
+      "authorization_type"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "skill_user_authorization_fields",
+    "columns": [
+      "id",
+      "field_name",
+      "encrypted_value",
+      "created_at",
+      "updated_at",
+      "authorization_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "skill_user_authorizations",
+    "columns": [
+      "id",
+      "authorization_type",
+      "authorized_revision",
+      "authorized_version_id",
+      "authorized_at",
+      "created_at",
+      "updated_at",
+      "skill_id",
+      "user_id",
+      "authorized_by_user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "skill_versions",
+    "columns": [
+      "id",
+      "version",
+      "instructions",
+      "file_name",
+      "file_type",
+      "file_size",
+      "storage_path",
+      "created_at",
+      "skill_id",
+      "created_by_id",
+      "authorization_schema",
+      "authorization_type",
+      "authorization_schema_fingerprint"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "system_configs",
+    "columns": [
+      "id",
+      "key",
+      "value",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "description",
+      "previous_value",
+      "value_type"
+    ],
+    "rows": 18
+  },
+  {
+    "table": "translation",
+    "columns": [
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "id",
+      "file_path",
+      "status",
+      "error_message",
+      "result_file_path",
+      "duration",
+      "started_at",
+      "completed_at",
+      "creator_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "upload_files",
+    "columns": [
+      "id",
+      "file_path",
+      "file_name",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "mime_type",
+      "file_size",
+      "file_duration",
+      "source_file_name",
+      "storage_type"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "user_default_models",
+    "columns": [
+      "id",
+      "default_way",
+      "is_deleted",
+      "created_at",
+      "updated_at",
+      "deleted_at",
+      "model_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "user_meeting_usages",
+    "columns": [
+      "id",
+      "used_count",
+      "max_allowed_count",
+      "usage_records",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "user_report_usages",
+    "columns": [
+      "id",
+      "used_count",
+      "max_allowed_count",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "user_id_id"
+    ],
+    "rows": 7
+  },
+  {
+    "table": "users",
+    "columns": [
+      "id",
+      "username",
+      "hashed_password",
+      "created_at",
+      "company",
+      "achievement",
+      "position",
+      "realname",
+      "updated_at",
+      "is_deleted",
+      "organization_id",
+      "role_id",
+      "mobile",
+      "deleted_at"
+    ],
+    "rows": 7
+  },
+  {
+    "table": "workflow_definitions",
+    "columns": [
+      "id",
+      "code",
+      "name",
+      "description",
+      "is_builtin",
+      "current_version_id",
+      "is_active",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "deleted_at",
+      "organization_id",
+      "user_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "workflow_version_edges",
+    "columns": [
+      "id",
+      "created_at",
+      "source_node_id",
+      "target_node_id",
+      "workflow_version_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "workflow_version_nodes",
+    "columns": [
+      "id",
+      "node_key",
+      "node_index",
+      "name",
+      "created_at",
+      "research_agent_id",
+      "workflow_version_id",
+      "node_type",
+      "node_config",
+      "research_agent_version_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "workflow_versions",
+    "columns": [
+      "id",
+      "version",
+      "status",
+      "input_contract_key",
+      "script_source",
+      "script_checksum",
+      "created_at",
+      "published_at",
+      "created_by_id",
+      "workflow_definition_id"
+    ],
+    "rows": 0
+  },
+  {
+    "table": "workflows",
+    "columns": [
+      "id",
+      "name",
+      "created_at",
+      "updated_at",
+      "is_deleted",
+      "content",
+      "category",
+      "deleted_at",
+      "order",
+      "operator_id",
+      "project_config_id",
+      "content_remark"
+    ],
+    "rows": 0
+  }
+]

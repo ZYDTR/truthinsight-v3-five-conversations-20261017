@@ -1,0 +1,28 @@
+{
+  "size_measure": "Unicode characters, not model tokens",
+  "entry_sizes": {
+    "system_prompt.md": {
+      "v3_chars": 1684,
+      "v31_chars": 667
+    },
+    "project/CLAUDE.md": {
+      "v3_chars": 436,
+      "v31_chars": 311
+    },
+    "project/context/INDEX.md": {
+      "v3_chars": 889,
+      "v31_chars": 531
+    },
+    "project/context/delegation.md": {
+      "v3_chars": 529,
+      "v31_chars": 169
+    },
+    "project/.claude/skills/scientific-evidence/SKILL.md": {
+      "v3_chars": 3094,
+      "v31_chars": 2221
+    }
+  },
+  "root": "CLAUDE.md -> context/INDEX.md -> .claude/skills/scientific-evidence/SKILL.md -> six reference modules",
+  "system_prompt_loading": "CONVERSATION_SYSTEM_PROMPT_APPEND constant",
+  "original_v3_subject_verified_unchanged": true
+}

@@ -1,0 +1,248 @@
+{
+  "task": "Astronomy_02_gravity_spectral_structure",
+  "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597",
+  "at": "2026-10-16T10:04:23.889506+00:00",
+  "input_changed": [],
+  "shared_changed": [],
+  "jsonl_files": [
+    "state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl"
+  ],
+  "model_counts": {
+    "qwen3.7-flash": 376
+  },
+  "manifest": {
+    "project/.claude/skills/scientific-evidence/SKILL.md": "6264b74f41a485b0d95fe5302877d8375b23cf92e77211bdb7526953d914b9dc",
+    "project/.claude/skills/scientific-evidence/references/analysis-state.md": "f3662e82aa3a36ecdcbcf0063719789f7f47cb3568f0765079fe8fb3e12809b7",
+    "project/.claude/skills/scientific-evidence/references/data-design.md": "86ddb76a5ebbb1e6616053a3b1590daa3d8cc6a0c9c364f91f65a6bddb4f8489",
+    "project/.claude/skills/scientific-evidence/references/delegation-contract.md": "f60bf7a0f35709bdf3568305a6b9f601ddbd64ae48f9166f133d4d8c35f1eb0c",
+    "project/.claude/skills/scientific-evidence/references/delivery.md": "09f1bfbe0972fe99431302c08d53fb97b3ced767e248422338cc1890458f9f8f",
+    "project/.claude/skills/scientific-evidence/references/inference.md": "c597a64de706390a1be753b458111b8a85f2094a1af99fe1737101f6b030a0de",
+    "project/.claude/skills/scientific-evidence/references/verification.md": "a4ffa8a250f9c6a99ae2face44faad2ab3468a9b5b3397f2d501b179f4d5a012",
+    "project/CLAUDE.md": "8dd6bfd610004cde907ce33583cd6f2cee044576248d8722387c375aa344d9f1",
+    "project/DATA_GUIDE.md": "3c697808d091ac42fe2deb775f4dd4bb7c26e3ea7ce3174fdc378653180a984f",
+    "project/LaunchPrompt.md": "0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a",
+    "project/PublicTaskContract.md": "68260ef06c870599cd9036165e024b94fb1a9acaf5c2c5707d46b858fc9d8cb5",
+    "project/ResearchObjective.md": "a803c655d96745556b32cd1dc1532a5910c311daa7a01896cab275408710a2db",
+    "project/context/INDEX.md": "181a17b3e0fed425dcdcc69e76fc6f4c21172b045c203f03e0ca4013fdfcc865",
+    "project/context/delegation.md": "db3fd2874ce9d385f859901931cdf3638dc534e9adc6f316d59a83fba50fe4b6",
+    "project/data/candidate_spectrum_comparison.tsv": "63a5790704c3faf4cffc414b0e2a579e585d1c375090ea217f99c5dcc5ff7bbe",
+    "project/data/mode_frequency_grid.tsv": "30baf2dfaa9432d571385c53ec895de5de83aca61b85281843e52e12a4dc7fcb",
+    "project/data/pass_residual_traces.tsv": "584915428982b43472d2a1f3d2fec0c82c52c3ff3ba046877f8a4d87ff88e067",
+    "project/data/ranked_full_parameter_grid.tsv": "bd21877cf7d72a6cb52cb81687db9f47ec91093819317251998bf91fd0f7df2d",
+    "project/data/uniform_alternative_comparison.tsv": "c913ed4d4f6405956fbe86c376e1662287572ad55c1eee61d9290890a0402fce",
+    "project/data_manifest.json": "550d754548e5d7093940acc22df5f0e863969d9fb2ef9450e27326dc877e6cab",
+    "project/output/Result.md": "d72d7cb726ab11fd21b9cdafb6c70a6f9165087b2ebfa1a251df37b67bed37d5",
+    "project/output/analysis.py": "c739f579e8f9205e449bcd3a39ccf7ec0e860cda0e3fcc58b64c9c257208d10f",
+    "project/output/analysis_results.json": "9d1637f2c47a2e059b7a344f46bf5f2c8731184148757c1a7c2346afc3eaae03",
+    "project/output/generate_artifacts.py": "38d1a2b39d1738a73e03222f892acf904b47aff02e2f4dfbc8ba78a51a2e47a9",
+    "project/output/reproduce.md": "b7044097e116e2ef56f6533f7d87f51e085612e7a2c5f1b1a4c350163c7c5788",
+    "project/output/result_artifacts.json": "c85bf40800ef816840b829b4c5994d4ececa320daf4095a575eb860dfcc365f7",
+    "project/reproduce_clean.py": "e92e167e348d5d635966cef987443d1b82a8bb26ca1602eeb7a05d8ab0afa917",
+    "project/reproduce_full.py": "f453293283073f64757eadd79252fd2ea72ccd8b329486e7ebc295d56d9c48ab",
+    "project/reproduce_output/consistency_results_corrected.json": "4032e104e2665c7cf1ae4978ba9e79f64b360da3cb28f24057cf1c864e5adffa",
+    "project/reproduce_output/fft_results_corrected.json": "1aec316b57334b9857fc6e2f15da9c3fefb0661d32f088c98290d83a1bc8a25c",
+    "project/reproduce_output/result_artifacts.json": "c85bf40800ef816840b829b4c5994d4ececa320daf4095a575eb860dfcc365f7",
+    "project/validate_output.py": "1e955f2c86cb44db13095d314ff881e2521d37c969883ff6abe2714bea3a1fe4",
+    "project/working/analysis-state.md": "824f5436414dfe92b4abbf356c76365bffbf2b76e4522f27aaa03dcf71c64e0b",
+    "project/working/baseline_comparability_check.json": "98a9dd395d52e706f010ab424b676f05885d5815ad5c2fb793bfdb2c87dd2d4e",
+    "project/working/baseline_comparability_check.py": "30481e1d5083498d17fb906d5ae93b69d4c8487c4e21a7d6b5ba139009e11cbf",
+    "project/working/subagent_fft_loo/consistency_results.json": "912af209fa43055fe97fc40abdf9d9d1c00c3917a91cda131394783ab8be22b1",
+    "project/working/subagent_fft_loo/fft_loo_analysis.py": "0e7919b053ea44a227aeda903bd60b4941d6abaf5e83122eed1b86aa2e3d1ab0",
+    "project/working/subagent_fft_loo/fft_results.json": "315989c2166b5e1991b9ef023ca865c6f18a682d90cc7e1150f60b5419f55655",
+    "project/working/subagent_fft_loo/loo_results.json": "bd06ad6dbb5c86c5ed8126e6f5a4d88e455d0445cde15b6b63bd2c7e779cd6c9",
+    "project/working/subagent_fft_loo_corrected/consistency_results_corrected.json": "4032e104e2665c7cf1ae4978ba9e79f64b360da3cb28f24057cf1c864e5adffa",
+    "project/working/subagent_fft_loo_corrected/corrected_fft.py": "5a0cfa621a70cf88b67e1878dacd58562cb06ee0cd06b9a324ee0ecc69f7b2d1",
+    "project/working/subagent_fft_loo_corrected/fft_results_corrected.json": "1aec316b57334b9857fc6e2f15da9c3fefb0661d32f088c98290d83a1bc8a25c",
+    "project/working/subagent_verification/independent_verification.py": "1f7269c9b6ba52ed8a8d8eafbb426ca10ff59331907ab9d75aba60257b4ed591",
+    "project/working/subagent_verification/verification_results.json": "d309fdf9e06f4d999172fc863cf74cf7b3b579326448cf85fc5c5e8be928a238",
+    "project/workspace_receipt.json": "3ed98b92b80b53b52512f5370246b02ad4cca21e2c48bd73d46b5e600ebf0a2f",
+    "runtime-metadata/.execution.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.meta.json": "3660b2d40527d69d2c3324b2b3dc365c0066089928f423b84eb68abd73986994",
+    "state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.meta.json": "f3cb45ac18017e48a948564549ae1b531498f401707c9b3afeb0f15abdbc6aba",
+    "state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl": "fbe154ab3489b4a90123038302f16862106c97c7f116a34a5c4421e9faee0862",
+    "state/home/.agent-runtime/system-prompts/run_019c2e0ca17d4274.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_14af8bbee30f46d0.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_2a2bf0b3fd9f4601.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_4397a6c583fb497a.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_6be133d109564be9.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_79c10650c8954c3e.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_8c5771b795554963.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_8f31c082727c4653.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_c48d3fe9f03d4a6e.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0"
+  },
+  "validator_returncode": 0,
+  "validation": {
+    "schema": "truthinsightbench-semantic-output-validation",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "output": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/project/output",
+    "authoritative_report": {
+      "path": "Result.md",
+      "bytes": 24820,
+      "sha256": "d72d7cb726ab11fd21b9cdafb6c70a6f9165087b2ebfa1a251df37b67bed37d5"
+    },
+    "registered_findings": {
+      "count": 5,
+      "numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "markers": [
+        {
+          "finding_number": 1,
+          "line": 50,
+          "marker": "## Finding 1: A Narrow Spectral Peak at ~1010–1060 μHz Is Supported by Both IC Ranking and Independent FFT Periodicity Analysis",
+          "heading_level": 2
+        },
+        {
+          "finding_number": 2,
+          "line": 90,
+          "marker": "## Finding 2: Residual Variance Is Dominated by Within-Pass Structure With Negligible Between-Pass Coherence",
+          "heading_level": 2
+        },
+        {
+          "finding_number": 3,
+          "line": 118,
+          "marker": "## Finding 3: Residual Models A and C Show Substantially Higher Cross-Model Agreement Than Model B",
+          "heading_level": 2
+        },
+        {
+          "finding_number": 4,
+          "line": 146,
+          "marker": "## Finding 4: The Structured Candidate Family Dramatically Outperforms the Uniform-Velocity Alternative",
+          "heading_level": 2
+        },
+        {
+          "finding_number": 5,
+          "line": 176,
+          "marker": "## Finding 5: Mode Frequencies in the 900–1300 μHz Range Include 16 Stellar Oscillation Modes With Systematically Varying Coupling Coefficients",
+          "heading_level": 2
+        }
+      ],
+      "traceability": [
+        {
+          "finding_number": 1,
+          "resolved_native_tokens": [],
+          "analysis_sources": [
+            "analysis.py"
+          ],
+          "result_evidence": [
+            "result_artifacts.json"
+          ],
+          "executed_notebook_evidence": [],
+          "passed": true
+        },
+        {
+          "finding_number": 2,
+          "resolved_native_tokens": [],
+          "analysis_sources": [
+            "analysis.py"
+          ],
+          "result_evidence": [
+            "result_artifacts.json"
+          ],
+          "executed_notebook_evidence": [],
+          "passed": true
+        },
+        {
+          "finding_number": 3,
+          "resolved_native_tokens": [],
+          "analysis_sources": [
+            "analysis.py"
+          ],
+          "result_evidence": [
+            "result_artifacts.json"
+          ],
+          "executed_notebook_evidence": [],
+          "passed": true
+        },
+        {
+          "finding_number": 4,
+          "resolved_native_tokens": [],
+          "analysis_sources": [
+            "generate_artifacts.py"
+          ],
+          "result_evidence": [
+            "result_artifacts.json"
+          ],
+          "executed_notebook_evidence": [],
+          "passed": true
+        },
+        {
+          "finding_number": 5,
+          "resolved_native_tokens": [],
+          "analysis_sources": [
+            "generate_artifacts.py"
+          ],
+          "result_evidence": [
+            "result_artifacts.json"
+          ],
+          "executed_notebook_evidence": [],
+          "passed": true
+        }
+      ]
+    },
+    "reproduction": {
+      "mode": "companion_markdown",
+      "document": {
+        "path": "reproduce.md",
+        "bytes": 5526,
+        "sha256": "b7044097e116e2ef56f6533f7d87f51e085612e7a2c5f1b1a4c350163c7c5788"
+      }
+    },
+    "analysis_sources": [
+      {
+        "path": "analysis.py",
+        "bytes": 19325,
+        "sha256": "c739f579e8f9205e449bcd3a39ccf7ec0e860cda0e3fcc58b64c9c257208d10f"
+      },
+      {
+        "path": "generate_artifacts.py",
+        "bytes": 12901,
+        "sha256": "38d1a2b39d1738a73e03222f892acf904b47aff02e2f4dfbc8ba78a51a2e47a9"
+      }
+    ],
+    "executed_notebooks": [],
+    "result_artifacts": [
+      {
+        "path": "analysis_results.json",
+        "bytes": 77172,
+        "sha256": "9d1637f2c47a2e059b7a344f46bf5f2c8731184148757c1a7c2346afc3eaae03"
+      },
+      {
+        "path": "result_artifacts.json",
+        "bytes": 178284,
+        "sha256": "c85bf40800ef816840b829b4c5994d4ececa320daf4095a575eb860dfcc365f7"
+      }
+    ],
+    "native_evidence_registry": {
+      "sources": [],
+      "resolved_ids": {}
+    },
+    "resolved_support_files": [
+      {
+        "path": "analysis.py",
+        "bytes": 19325,
+        "sha256": "c739f579e8f9205e449bcd3a39ccf7ec0e860cda0e3fcc58b64c9c257208d10f"
+      },
+      {
+        "path": "generate_artifacts.py",
+        "bytes": 12901,
+        "sha256": "38d1a2b39d1738a73e03222f892acf904b47aff02e2f4dfbc8ba78a51a2e47a9"
+      },
+      {
+        "path": "result_artifacts.json",
+        "bytes": 178284,
+        "sha256": "c85bf40800ef816840b829b4c5994d4ececa320daf4095a575eb860dfcc365f7"
+      }
+    ]
+  }
+}

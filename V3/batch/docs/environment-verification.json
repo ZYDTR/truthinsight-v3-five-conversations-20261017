@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-16T08:47:20.589892+00:00",
+  "passed": true,
+  "backend_sha": "6d529489815362eb2d6cf717e736e44936de3afc",
+  "environment": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f",
+  "api_base": "http://127.0.0.1:51669",
+  "image_ids": {
+    "api": "sha256:b84d6c8c77b07cfd196a8233d6af86fad9f2fd0ba45d532a51de2b8acc3c5d4d",
+    "worker": "sha256:06f5037e49e348f38da72095dc2be3d4a8e6dd241deea54d88d33dc85a29f18d"
+  },
+  "source_file_count": 639,
+  "checks": {
+    "api_worker_source_sha256": "1a5d0ba9ecb5227defc166e94f64d80717611e43a66e1a097704f2894be1653c",
+    "worker_worker_source_sha256": "1a5d0ba9ecb5227defc166e94f64d80717611e43a66e1a097704f2894be1653c"
+  },
+  "dependency_versions_identical": true,
+  "versions": {
+    "packages": {
+      "claude-agent-sdk": "0.2.154",
+      "numpy": "2.4.6",
+      "pandas": "3.0.3",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1",
+      "statsmodels": "0.15.0",
+      "matplotlib": "3.11.1",
+      "seaborn": "0.13.2",
+      "openpyxl": "3.1.5",
+      "h5py": "3.16.0"
+    },
+    "cli": "2.1.274 (Claude Code)"
+  },
+  "actual_agent_models": "Verified by each operator from neutral warmup and first scientific child JSONL."
+}

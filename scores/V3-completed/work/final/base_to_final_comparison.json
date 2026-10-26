@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-17T05:13:41.756Z",
+  "base_schema": "truthinsightbench-scoring-result",
+  "final_schema": "truthinsightbench-final-scoring-result",
+  "summary": {
+    "finding_count": 20,
+    "reference_card_asset_reused": 4,
+    "claim_search_completed": 16,
+    "claim_search_failed": 0,
+    "recompute_verified_findings": 3,
+    "deterministic_false_claims": 0
+  },
+  "runs": [
+    {
+      "task_id": "Astronomy_02_gravity_spectral_structure",
+      "agent": "sap-shared-context-v3.1",
+      "old_score": 53.1,
+      "new_score": 57.9,
+      "delta": 4.8,
+      "old_top": [
+        50.5,
+        49
+      ],
+      "new_top": [
+        56.5,
+        55
+      ],
+      "false_claim_penalty": 0
+    },
+    {
+      "task_id": "Chemistry_02_photoionization_delay",
+      "agent": "sap-shared-context-v3.1",
+      "old_score": 50.4,
+      "new_score": 52.1,
+      "delta": 1.7,
+      "old_top": [
+        55.5,
+        45.5
+      ],
+      "new_top": [
+        54,
+        48.5
+      ],
+      "false_claim_penalty": 0
+    },
+    {
+      "task_id": "EarthScience_01_glacial_fluvial_erosion",
+      "agent": "sap-shared-context-v3.1",
+      "old_score": 69.1,
+      "new_score": 66.7,
+      "delta": -2.4,
+      "old_top": [
+        72,
+        64.5
+      ],
+      "new_top": [
+        69,
+        61.5
+      ],
+      "false_claim_penalty": 0
+    },
+    {
+      "task_id": "Neuro_02_calcium_response_regions",
+      "agent": "sap-shared-context-v3.1",
+      "old_score": 57.1,
+      "new_score": 53.1,
+      "delta": -4,
+      "old_top": [
+        62,
+        59.5
+      ],
+      "new_top": [
+        56.5,
+        56
+      ],
+      "false_claim_penalty": 0
+    },
+    {
+      "task_id": "Physics_04_temporal_delay_transition",
+      "agent": "sap-shared-context-v3.1",
+      "old_score": 58.8,
+      "new_score": 60.9,
+      "delta": 2.1,
+      "old_top": [
+        59,
+        54.5
+      ],
+      "new_top": [
+        62,
+        56
+      ],
+      "false_claim_penalty": 0
+    }
+  ]
+}

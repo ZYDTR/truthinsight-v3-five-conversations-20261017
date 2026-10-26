@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-17T04:56:36.683764+00:00",
+  "user_authorized_scoring": true,
+  "scope": "V3.1 final sealed outputs for five tasks",
+  "judge_model": "qwen3.8-max",
+  "judge_endpoint": "http://10.0.0.217:4000/v1/chat/completions",
+  "thinking_enabled": false,
+  "temperature": 0,
+  "response_format": "json_object",
+  "judge_concurrency": 4,
+  "closure_concurrency": 3,
+  "raw_http_recording": "calls/ (authorization headers never logged)",
+  "scorer_modified": false,
+  "participant_outputs_modified": false,
+  "new_subject_runs": 0,
+  "versions": {
+    "python": "Python 3.11.15",
+    "node": "v24.7.0"
+  },
+  "wrapper_hashes": {
+    "prepare.py": "8359ef05eb19f0ebefbbc34181ea72a6a59d50cf7e9c48c3fb7b0d2fdd30868c",
+    "run.py": "98f960eef5737b50d91b5188f4559d8eda602ceae8e7ef2438b152b02032b82c",
+    "observe-fetch.mjs": "e84d1ee490d9690218413db31d9d6b940ded7aaf9ae00607d3fdc04780af797c"
+  },
+  "interpretation": [
+    "Final operator-assisted submissions, not first autonomous outputs.",
+    "Single judge configuration; not directly comparable with old judge-model scores.",
+    "Official scorer limitations retained; no manual score adjustments."
+  ]
+}

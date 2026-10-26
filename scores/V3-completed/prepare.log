@@ -1,0 +1,56 @@
+{
+  "status": "READY",
+  "cohort": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Astronomy_02_gravity_spectral_structure/cohort.json",
+  "scoring_output_directory": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Astronomy_02_gravity_spectral_structure/score"
+}
+{
+  "status": "READY",
+  "cohort": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Chemistry_02_photoionization_delay/cohort.json",
+  "scoring_output_directory": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Chemistry_02_photoionization_delay/score"
+}
+{
+  "status": "READY",
+  "cohort": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--EarthScience_01_glacial_fluvial_erosion/cohort.json",
+  "scoring_output_directory": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--EarthScience_01_glacial_fluvial_erosion/score"
+}
+{
+  "status": "READY",
+  "cohort": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Neuro_02_calcium_response_regions/cohort.json",
+  "scoring_output_directory": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Neuro_02_calcium_response_regions/score"
+}
+{
+  "status": "READY",
+  "cohort": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Physics_04_temporal_delay_transition/cohort.json",
+  "scoring_output_directory": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Physics_04_temporal_delay_transition/score"
+}
+{
+  "status": "READY",
+  "output": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/cohort.json",
+  "run_count": 5,
+  "complete_task_count": 5,
+  "complete_tasks": [
+    "Astronomy_02_gravity_spectral_structure",
+    "Chemistry_02_photoionization_delay",
+    "EarthScience_01_glacial_fluvial_erosion",
+    "Neuro_02_calcium_response_regions",
+    "Physics_04_temporal_delay_transition"
+  ],
+  "provisional_task_count": 0,
+  "provisional_tasks": []
+}
+{
+  "mode": "dry_run",
+  "runs": 5,
+  "findings": 20,
+  "atoms": 580,
+  "prompt_chars_min": 23640,
+  "prompt_chars_mean": 27682,
+  "prompt_chars_max": 31940
+}
+{
+  "status": "READY",
+  "mode": "dry_run",
+  "run_count": 5,
+  "cohort": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/cohort.json",
+  "external_model_called": false
+}

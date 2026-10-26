@@ -1,0 +1,133 @@
+{
+  "schema": "tib-shared-context-run-spec-v3",
+  "experiment": "shared-context-v3.1-20261016",
+  "subject_version": "3.1.0",
+  "workspace": "/Users/zhengyidi/yage/context-infrastructure",
+  "experiment_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016",
+  "operator_entry": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/operator-control-v2/README.md",
+  "operator_task": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/control/operator-task.md",
+  "subject_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/subject",
+  "operator": {
+    "runtime": "OpenCode API",
+    "model_selection": "explicitly pin V2 observed service default; no model migration",
+    "observed_default": {
+      "providerID": "windows-glm",
+      "modelID": "GLM-5.3-Flash-W4A16-MTP"
+    },
+    "sole_owner_per_conversation": true,
+    "extra_outer_agents_allowed": false,
+    "sessions": 5,
+    "one_session_per_task": true,
+    "one_conversation_per_session": true,
+    "model": {
+      "providerID": "windows-glm",
+      "modelID": "GLM-5.3-Flash-W4A16-MTP"
+    },
+    "context_entry_reused_unchanged": true,
+    "round_context_addendum": "Uniform current-source validity audit clarified; no scoring or baseline answer injection."
+  },
+  "subject": {
+    "main_model": "qwen3.7-flash",
+    "child_model": "qwen3.7-flash",
+    "fallback": "",
+    "subagent_type": "general-purpose",
+    "max_concurrent_subagents": 4,
+    "max_concurrent_tasks": 2,
+    "max_turns_per_science_message": 500,
+    "max_science_rounds_per_task": 40,
+    "observe_window_seconds": 14400,
+    "monitor_interval_seconds": 240,
+    "max_monitor_gap_target_seconds": 300,
+    "stall_checks_before_nudge": 3,
+    "no_new_evidence_feedback_rounds_before_blocked": 3,
+    "worker_cpus": 1,
+    "worker_memory": "4g",
+    "sdk": "0.2.154",
+    "cli": "2.1.274",
+    "first_science_prompt": "original LaunchPrompt.md verbatim",
+    "warmup_policy": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/operator-control-v1/original-harness/config/policy.json",
+    "input_policy": "User permits input optimization; this run chooses original LaunchPrompt and 144 original files unchanged, shared context routes revised."
+  },
+  "tasks": [
+    {
+      "task_id": "Chemistry_02_photoionization_delay",
+      "original_workspace": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/runs/Chemistry_02_photoionization_delay/workspace"
+    },
+    {
+      "task_id": "Physics_04_temporal_delay_transition",
+      "original_workspace": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/runs/Physics_04_temporal_delay_transition/workspace"
+    },
+    {
+      "task_id": "Astronomy_02_gravity_spectral_structure",
+      "original_workspace": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/runs/Astronomy_02_gravity_spectral_structure/workspace"
+    },
+    {
+      "task_id": "EarthScience_01_glacial_fluvial_erosion",
+      "original_workspace": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/runs/EarthScience_01_glacial_fluvial_erosion/workspace"
+    },
+    {
+      "task_id": "Neuro_02_calcium_response_regions",
+      "original_workspace": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/runs/Neuro_02_calcium_response_regions/workspace"
+    }
+  ],
+  "prohibited_paths": [
+    "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/TruthInsightBench",
+    "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations"
+  ],
+  "scoring_allowed": false,
+  "expected_outputs": [
+    "runs/<task>/docs/execution-report.md",
+    "runs/<task>/docs/comparison-v2-v3.md",
+    "runs/<task>/reviews/verdict.json",
+    "runs/<task>/sealed.json",
+    "docs/cleanup.json"
+  ],
+  "subject_mutation_allowed": false,
+  "platform_change_allowed": "None: pin V2 backend 6d529489815362eb2d6cf717e736e44936de3afc and dependency versions; only replace frozen system prompt constant.",
+  "control_original_files_unchanged": true,
+  "batch_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016",
+  "backend_sha": "6d529489815362eb2d6cf717e736e44936de3afc",
+  "control_entry": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/scripts/runtime_test/control.py",
+  "separate_probe": false,
+  "probe_policy": "Neutral warmup in the sole assigned conversation; child model verified from first scientific delegation. No additional SAP Conversation.",
+  "baseline_comparison_after_current_seal_only": {
+    "batch": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v2-20261016/batches/qwen3.7-flash-main-6d52948-20261016",
+    "current_version": "V3",
+    "baseline_version": "V2",
+    "per_task_round_counts": "read only after all V3 tasks sealed, from baseline rounds directories",
+    "all_current_tasks_must_be_sealed": true,
+    "baseline_outer_model": "windows-glm/GLM-5.3-Flash-W4A16-MTP"
+  },
+  "operator_entry_version_aliases": {
+    "reason": "Reuse frozen operator-control-v2 without changing its execution discipline. Only version bindings change.",
+    "V2_current_round_in_shared_entry": "V3 current round",
+    "V1_baseline_in_shared_entry": "V2 sealed baseline",
+    "comparison-v1-v2.md": "comparison-v2-v3.md",
+    "baseline_read_gate": "All five V3 sealed; no prior scientific answers before sealing."
+  },
+  "predecessor_gate": {
+    "batch": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v2-20261016/batches/qwen3.7-flash-main-6d52948-20261016",
+    "requirements": [
+      "all five sealed.json",
+      "no pending scientific jobs",
+      "per-task execution report, verdict, index and V1 comparison",
+      "shared cleanup passed with zero residual resources"
+    ],
+    "new_conversations": 5,
+    "no_overlap": true
+  },
+  "process_comparison_dimensions": [
+    "first substantive analysis delegation vs first main analysis implementation/execution",
+    "assigned analytic scope vs late verification only",
+    "child actual execution and main duplicate analysis",
+    "reported single-request input tokens by main/child; missing values explicit",
+    "analysis-state updates vs evidence, adopted results/report anchors, revision invalidation",
+    "same public execution/verification/reproducibility criteria as V2; no scientific scoring",
+    "first autonomous round separate from operator-intervened rounds",
+    "claim vs executed analysis definition and units",
+    "method objections and counterevidence change headline claims",
+    "valid model comparison and complete clean-target reproduction",
+    "operator source-audit clarification is an additional intervention; retain attribution limit"
+  ],
+  "subject_revision": "V3 revised, original 3.0.0 never scientifically run"
+}

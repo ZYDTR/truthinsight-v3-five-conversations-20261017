@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "code": 0,
+  "data": {
+    "product_conversation_id": "8244547b-0db4-47fc-8540-34dc20292185",
+    "runtime_conversation_id": "conv-88cfef1f-21cf-450d-b4a7-746678c9cabb",
+    "status": "failed",
+    "run_id": "run_7cc5bd3642cb44b8",
+    "conversation_state": {
+      "status": "idle",
+      "run_status": "failed",
+      "detail": "conversation_content_save_failed",
+      "label": "执行失败",
+      "is_active": false,
+      "can_accept_input": true,
+      "can_pause": false,
+      "can_continue": false,
+      "is_paused": false,
+      "last_run_outcome": "failed"
+    },
+    "active_run_id": null,
+    "active_turn_id": null,
+    "last_run_id": "run_7cc5bd3642cb44b8",
+    "last_turn_id": "turn-002",
+    "last_run_outcome": "failed",
+    "updated_at": "2026-10-16T08:58:56.574154+00:00"
+  },
+  "error": ""
+}

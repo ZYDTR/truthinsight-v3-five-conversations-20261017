@@ -1,0 +1,12 @@
+,,mean_amplitude_dff0,mean_amplitude_dff0,mean_amplitude_dff0,mean_amplitude_dff0,mean_time_to_peak_s,mean_time_to_peak_s,mean_time_to_peak_s,mean_time_to_peak_s,mean_peak_width_s,mean_peak_width_s,mean_peak_width_s,mean_peak_width_s,mean_peak_prominence_dff0,mean_peak_prominence_dff0,mean_peak_prominence_dff0,mean_peak_prominence_dff0,mean_peak_frequency_hz,mean_peak_frequency_hz,mean_peak_frequency_hz,mean_peak_frequency_hz,mean_auc_au,mean_auc_au,mean_auc_au,mean_auc_au
+,,count,mean,std,sem,count,mean,std,sem,count,mean,std,sem,count,mean,std,sem,count,mean,std,sem,count,mean,std,sem
+anatomical_region_id,condition,,,,,,,,,,,,,,,,,,,,,,,,
+region_1,baseline,22,1.5239,0.3087,0.0658,22,147.7595,74.6793,15.9217,22,6.0419,3.5053,0.7473,22,0.6310,0.3128,0.0667,22,0.0039,0.0013,0.0003,22,302.0064,2.8293,0.6032
+region_1,neural_activity_blocked,44,1.4598,0.2598,0.0392,44,173.6555,65.3486,9.8517,44,6.5805,4.4257,0.6672,44,0.5546,0.2868,0.0432,44,0.0115,0.0120,0.0018,44,304.4919,12.5105,1.8860
+region_1,receptor_stimulated,226,1.6488,0.3090,0.0206,226,138.2939,43.0640,2.8646,226,30.6267,25.8385,1.7188,226,0.4674,0.2756,0.0183,226,0.0101,0.0090,0.0006,226,385.5526,56.4287,3.7536
+region_2,baseline,43,1.5742,0.3642,0.0555,43,149.5776,76.1549,11.6135,43,10.1720,4.6116,0.7033,43,0.6629,0.3733,0.0569,43,0.0073,0.0056,0.0008,43,300.3207,15.6913,2.3929
+region_2,neural_activity_blocked,46,1.5932,0.3670,0.0541,46,178.2084,78.2671,11.5398,46,7.5816,2.4313,0.3585,46,0.6476,0.3801,0.0560,46,0.0068,0.0057,0.0008,46,303.6622,13.1063,1.9324
+region_2,receptor_stimulated,199,2.0600,0.5787,0.0410,199,105.4597,30.8999,2.1904,199,43.6611,23.9066,1.6947,199,0.9258,0.4603,0.0326,199,0.0045,0.0028,0.0002,199,385.0681,67.4404,4.7807
+region_3,receptor_stimulated,189,2.0749,0.4815,0.0350,189,128.2759,31.3464,2.2801,189,42.0488,23.6531,1.7205,189,0.7273,0.2897,0.0211,189,0.0058,0.0057,0.0004,189,415.6382,72.3009,5.2591
+region_4,baseline,21,1.4851,0.3061,0.0668,21,195.2014,56.8153,12.3981,21,11.5432,18.4266,4.0210,21,0.5972,0.3561,0.0777,21,0.0055,0.0030,0.0007,21,306.3215,15.5816,3.4002
+region_4,neural_activity_blocked,29,1.4524,0.2964,0.0550,29,162.0681,58.9915,10.9545,29,7.3877,2.7280,0.5066,29,0.5882,0.2993,0.0556,29,0.0056,0.0036,0.0007,29,298.5224,14.0876,2.6160

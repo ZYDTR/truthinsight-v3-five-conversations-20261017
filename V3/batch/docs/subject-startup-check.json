@@ -1,0 +1,228 @@
+{
+  "at": "2026-10-16T08:49:30.327255+00:00",
+  "scope": "Single bounded initial verification. Model fields and delegation tool metadata only, not scientific-result review. Live JSONL hashes may grow.",
+  "root_scientific_messages": 0,
+  "tasks": [
+    {
+      "task": "Chemistry_02_photoionization_delay",
+      "operator_session": "ses_ebc1ae440ffentMEx5uqRjbUSV",
+      "conversation_id": "64bb3abc-d6f5-48a0-af19-8eef99906f0b",
+      "unique_binding_matches_run": true,
+      "run_state": "SEEDED",
+      "launch_prompt_identical": true,
+      "verify_seed": {
+        "at": "2026-10-16T08:48:53.100561+00:00",
+        "input_changed": [],
+        "shared_changed": [],
+        "actual_models": [
+          "qwen3.7-flash"
+        ],
+        "passed": true
+      },
+      "first_science_sent": true,
+      "jobs": [
+        {
+          "job": "1792140490322667000-aa8183",
+          "state": "COMPLETED"
+        },
+        {
+          "job": "1792140532871038000-d508a3",
+          "state": "RUNNING"
+        }
+      ],
+      "model_evidence": [
+        {
+          "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+          "sha256_at_check": "1eae93c6de4225931a578930caa2265be57153707cb4b0c704572409dd666e8c",
+          "model_lines": {
+            "qwen3.7-flash": [
+              14,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              37,
+              38,
+              40,
+              41,
+              42,
+              43,
+              44,
+              50,
+              51,
+              54,
+              55
+            ]
+          },
+          "delegations": [],
+          "line_count_at_check": 56
+        }
+      ],
+      "child_model_check": "pending first substantive delegation; assigned operator responsible"
+    },
+    {
+      "task": "Physics_04_temporal_delay_transition",
+      "operator_session": "ses_ebc1ae3e6ffe0PjX5Viux2keQj",
+      "conversation_id": "8244547b-0db4-47fc-8540-34dc20292185",
+      "unique_binding_matches_run": true,
+      "run_state": "SEEDED",
+      "launch_prompt_identical": true,
+      "verify_seed": null,
+      "first_science_sent": false,
+      "jobs": [
+        {
+          "job": "1792140493656618000-61a58a",
+          "state": "COMPLETED"
+        }
+      ],
+      "model_evidence": [
+        {
+          "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-903d9cc6-d141-44db-9fb2-1d2d0d122776/conversations/conv-88cfef1f-21cf-450d-b4a7-746678c9cabb/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+          "sha256_at_check": "c337be77b801fa53c5e2faa32ccc7de8422ee962290fc285254be1e9ec7973e1",
+          "model_lines": {
+            "qwen3.7-flash": [
+              14
+            ]
+          },
+          "delegations": [],
+          "line_count_at_check": 15
+        }
+      ],
+      "child_model_check": "pending first substantive delegation; assigned operator responsible"
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "operator_session": "ses_ebc1ae3d8ffeAmzw1mEDm2dIa3",
+      "conversation_id": "ab19cf80-17bf-4dae-863f-85e1bfd4afec",
+      "unique_binding_matches_run": true,
+      "run_state": "SEEDED",
+      "launch_prompt_identical": true,
+      "verify_seed": null,
+      "first_science_sent": false,
+      "jobs": [
+        {
+          "job": "1792140486670642000-389b18",
+          "state": "COMPLETED"
+        },
+        {
+          "job": "1792140557316089000-14b92d",
+          "state": "WAITING_FOR_SLOT"
+        }
+      ],
+      "model_evidence": [
+        {
+          "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+          "sha256_at_check": "2c8085f89321607d6028f18e3785e46908fc49ec40aaa418e7fb93ba67e03619",
+          "model_lines": {
+            "qwen3.7-flash": [
+              15
+            ]
+          },
+          "delegations": [],
+          "line_count_at_check": 16
+        }
+      ],
+      "child_model_check": "pending first substantive delegation; assigned operator responsible"
+    },
+    {
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "operator_session": "ses_ebc1ae3cfffecEMhBgABB1HT6J",
+      "conversation_id": "34213a24-d0ec-4446-80a7-49a6bb707f8b",
+      "unique_binding_matches_run": true,
+      "run_state": "SEEDED",
+      "launch_prompt_identical": true,
+      "verify_seed": null,
+      "first_science_sent": false,
+      "jobs": [
+        {
+          "job": "1792140492227641000-34b8da",
+          "state": "COMPLETED"
+        },
+        {
+          "job": "1792140554591965000-e84b93",
+          "state": "WAITING_FOR_SLOT"
+        }
+      ],
+      "model_evidence": [
+        {
+          "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+          "sha256_at_check": "4141241c20b927eccdafb08e184e256251010d862267b5a0811817ef729b6d51",
+          "model_lines": {
+            "qwen3.7-flash": [
+              14,
+              15
+            ]
+          },
+          "delegations": [],
+          "line_count_at_check": 18
+        }
+      ],
+      "child_model_check": "pending first substantive delegation; assigned operator responsible"
+    },
+    {
+      "task": "Neuro_02_calcium_response_regions",
+      "operator_session": "ses_ebc1ae3caffevOTg3zYM4nVKKS",
+      "conversation_id": "0275ec9a-0efe-4b68-8cb1-dceb34603ef8",
+      "unique_binding_matches_run": true,
+      "run_state": "SEEDED",
+      "launch_prompt_identical": true,
+      "verify_seed": {
+        "at": "2026-10-16T08:48:56.163311+00:00",
+        "input_changed": [],
+        "shared_changed": [],
+        "actual_models": [
+          "qwen3.7-flash"
+        ],
+        "passed": true
+      },
+      "first_science_sent": true,
+      "jobs": [
+        {
+          "job": "1792140492502209000-af3192",
+          "state": "COMPLETED"
+        },
+        {
+          "job": "1792140536017158000-0b284b",
+          "state": "RUNNING"
+        }
+      ],
+      "model_evidence": [
+        {
+          "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+          "sha256_at_check": "0d371cc45900179329acef3aca8079ee1ad45a56709fe13c8356913059594d37",
+          "model_lines": {
+            "qwen3.7-flash": [
+              15,
+              21,
+              22,
+              23,
+              24,
+              28,
+              29,
+              30,
+              31,
+              32,
+              42,
+              43,
+              44,
+              47,
+              48,
+              49,
+              50,
+              51,
+              60,
+              61
+            ]
+          },
+          "delegations": [],
+          "line_count_at_check": 63
+        }
+      ],
+      "child_model_check": "pending first substantive delegation; assigned operator responsible"
+    }
+  ],
+  "scoring_performed": false
+}

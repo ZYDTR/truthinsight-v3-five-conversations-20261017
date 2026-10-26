@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T08:47:31.299466+00:00",
+  "bindings": [
+    {
+      "task_id": "Chemistry_02_photoionization_delay",
+      "operator_session_id": "ses_ebc1ae440ffentMEx5uqRjbUSV",
+      "conversation_id": "64bb3abc-d6f5-48a0-af19-8eef99906f0b",
+      "state": "active",
+      "title": "TruthInsight V3.1 · Chemistry_02_photoionization_delay · 单题操作者 · 不评分"
+    },
+    {
+      "task_id": "Physics_04_temporal_delay_transition",
+      "operator_session_id": "ses_ebc1ae3e6ffe0PjX5Viux2keQj",
+      "conversation_id": "8244547b-0db4-47fc-8540-34dc20292185",
+      "state": "active",
+      "title": "TruthInsight V3.1 · Physics_04_temporal_delay_transition · 单题操作者 · 不评分"
+    },
+    {
+      "task_id": "Astronomy_02_gravity_spectral_structure",
+      "operator_session_id": "ses_ebc1ae3d8ffeAmzw1mEDm2dIa3",
+      "conversation_id": "ab19cf80-17bf-4dae-863f-85e1bfd4afec",
+      "state": "active",
+      "title": "TruthInsight V3.1 · Astronomy_02_gravity_spectral_structure · 单题操作者 · 不评分"
+    },
+    {
+      "task_id": "EarthScience_01_glacial_fluvial_erosion",
+      "operator_session_id": "ses_ebc1ae3cfffecEMhBgABB1HT6J",
+      "conversation_id": "34213a24-d0ec-4446-80a7-49a6bb707f8b",
+      "state": "active",
+      "title": "TruthInsight V3.1 · EarthScience_01_glacial_fluvial_erosion · 单题操作者 · 不评分"
+    },
+    {
+      "task_id": "Neuro_02_calcium_response_regions",
+      "operator_session_id": "ses_ebc1ae3caffevOTg3zYM4nVKKS",
+      "conversation_id": "0275ec9a-0efe-4b68-8cb1-dceb34603ef8",
+      "state": "active",
+      "title": "TruthInsight V3.1 · Neuro_02_calcium_response_regions · 单题操作者 · 不评分"
+    }
+  ],
+  "prompt_sha256": "315bd975a5502c265aeff30444ae8333e682c316f696e313193a988356563099",
+  "model_parameter_omitted": false,
+  "model_pinned_to_v2_actual": {
+    "providerID": "windows-glm",
+    "modelID": "GLM-5.3-Flash-W4A16-MTP"
+  },
+  "workspace": "/Users/zhengyidi/yage/context-infrastructure"
+}

@@ -1,0 +1,169 @@
+{
+  "schema": "truthinsightbench-semantic-output-validation",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "output": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/exports/EarthScience_01_glacial_fluvial_erosion/workspace/output",
+  "authoritative_report": {
+    "path": "Result.md",
+    "bytes": 16464,
+    "sha256": "de951bdccb76dbd7d0128b18f67de5a64e5646f4edafcff1d1c3661ab44d40ae"
+  },
+  "registered_findings": {
+    "count": 3,
+    "numbers": [
+      1,
+      2,
+      3
+    ],
+    "markers": [
+      {
+        "finding_number": 1,
+        "line": 33,
+        "marker": "### Finding 1: The timescale-erosion rate relationship is dominated by measurement method, not geological process",
+        "heading_level": 3
+      },
+      {
+        "finding_number": 2,
+        "line": 51,
+        "marker": "### Finding 2: Glacial erosion rates are systematically higher than fluvial rates, even after controlling for timescale and methodology",
+        "heading_level": 3
+      },
+      {
+        "finding_number": 3,
+        "line": 73,
+        "marker": "### Finding 3: Source/site correlation invalidates the statistical significance of the overall timescale-erosion rate relationship",
+        "heading_level": 3
+      }
+    ],
+    "traceability": [
+      {
+        "finding_number": 1,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "core_analysis.py",
+          "robustness_analysis.py"
+        ],
+        "result_evidence": [
+          "regression_results.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 2,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "core_analysis.py"
+        ],
+        "result_evidence": [
+          "comparison_results.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 3,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "robustness_analysis.py"
+        ],
+        "result_evidence": [
+          "audit_results.json",
+          "robustness_results.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      }
+    ]
+  },
+  "reproduction": {
+    "mode": "companion_markdown",
+    "document": {
+      "path": "reproduce.md",
+      "bytes": 2017,
+      "sha256": "cd2e223efad2308b8d3096a9097a430aa771f627331da5912601b91982248e75"
+    }
+  },
+  "analysis_sources": [
+    {
+      "path": "core_analysis.py",
+      "bytes": 28736,
+      "sha256": "a2ee852311ed9f302354a2473165fe044d86321f27f1b8f743cf2a548fafba25"
+    },
+    {
+      "path": "data_audit.py",
+      "bytes": 31788,
+      "sha256": "e868394bcb6589217f5a0112cd77d6a50339dc95d940ae9429e58197bae2e9c2"
+    },
+    {
+      "path": "robustness_analysis.py",
+      "bytes": 34129,
+      "sha256": "a6dbd8d26d4f8a0aacbea8409b01c4d1b6d32175ee752ec980126300d2ab3c8b"
+    }
+  ],
+  "executed_notebooks": [],
+  "result_artifacts": [
+    {
+      "path": "audit_results.json",
+      "bytes": 137911,
+      "sha256": "a1674a804d79966f7c65778d8a35982fcf2edb3efeb76c7fc0ac5bd9bc6afd7c"
+    },
+    {
+      "path": "binned_means.png",
+      "bytes": 50640,
+      "sha256": "82764edc22e3525e2583ff5f3048b0c185199eecee69f52d7427cb18b7b09b7c"
+    },
+    {
+      "path": "comparison_results.json",
+      "bytes": 6285,
+      "sha256": "585aa8739821e23ae53819a3462a22d0a4de28037cafbaca4a2a4d27fc27af30"
+    },
+    {
+      "path": "regression_results.json",
+      "bytes": 15579,
+      "sha256": "19e3f444eaae9986f7d6dfb0d65868c1e2cbbb6534a38e9376594fc550d4b4a8"
+    },
+    {
+      "path": "robustness_results.json",
+      "bytes": 21520,
+      "sha256": "284427d6924cc153f905f3f237503f1a84973b188d6e71e6d957538b5c54f502"
+    }
+  ],
+  "native_evidence_registry": {
+    "sources": [],
+    "resolved_ids": {}
+  },
+  "resolved_support_files": [
+    {
+      "path": "audit_results.json",
+      "bytes": 137911,
+      "sha256": "a1674a804d79966f7c65778d8a35982fcf2edb3efeb76c7fc0ac5bd9bc6afd7c"
+    },
+    {
+      "path": "comparison_results.json",
+      "bytes": 6285,
+      "sha256": "585aa8739821e23ae53819a3462a22d0a4de28037cafbaca4a2a4d27fc27af30"
+    },
+    {
+      "path": "core_analysis.py",
+      "bytes": 28736,
+      "sha256": "a2ee852311ed9f302354a2473165fe044d86321f27f1b8f743cf2a548fafba25"
+    },
+    {
+      "path": "regression_results.json",
+      "bytes": 15579,
+      "sha256": "19e3f444eaae9986f7d6dfb0d65868c1e2cbbb6534a38e9376594fc550d4b4a8"
+    },
+    {
+      "path": "robustness_analysis.py",
+      "bytes": 34129,
+      "sha256": "a6dbd8d26d4f8a0aacbea8409b01c4d1b6d32175ee752ec980126300d2ab3c8b"
+    },
+    {
+      "path": "robustness_results.json",
+      "bytes": 21520,
+      "sha256": "284427d6924cc153f905f3f237503f1a84973b188d6e71e6d957538b5c54f502"
+    }
+  ]
+}

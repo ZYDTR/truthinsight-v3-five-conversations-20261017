@@ -1,0 +1,11 @@
+--- v1-archived-bootstrap
++++ v2-bootstrap
+@@ -125,7 +125,7 @@
+     role,_=await Role.get_or_create(identifier="super_admin",defaults={"name":"super_admin"})
+     users={}
+     for name in ['probe','chemistry','physics','astronomy','earth','neuro']:
+-        username='tibv1_'+name
++        username='tibv31_'+name
+         u=await User.create(username=username,hashed_password=get_password_hash(CONFIG['user_password']),role=role)
+         await UserReportUsage.create(user_id=u,used_count=0,max_allowed_count=None)
+         code='user-'+str(u.id); root=ensure_user(code); path=root/'user.json'; meta=json.loads(path.read_text());meta['current_container_code']=RUN_ID;atomic_write_json(path,meta)

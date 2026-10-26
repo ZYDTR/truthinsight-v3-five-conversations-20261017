@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-17T07:35:03.977624+00:00",
+  "seals": [
+    {
+      "task_id": "Chemistry_02_photoionization_delay",
+      "entries": 102,
+      "verified": true
+    },
+    {
+      "task_id": "Physics_04_temporal_delay_transition",
+      "entries": 132,
+      "verified": true
+    },
+    {
+      "task_id": "Astronomy_02_gravity_spectral_structure",
+      "entries": 64,
+      "verified": true
+    },
+    {
+      "task_id": "EarthScience_01_glacial_fluvial_erosion",
+      "entries": 76,
+      "verified": true
+    },
+    {
+      "task_id": "Neuro_02_calcium_response_regions",
+      "entries": 70,
+      "verified": true
+    }
+  ],
+  "evaluator_files_verified": 578,
+  "new_model_calls": 0,
+  "scoring_state": "COMPLETED",
+  "jsonl_files": 220,
+  "jsonl_invalid_lines": 0
+}

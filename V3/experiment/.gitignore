@@ -1,0 +1,6 @@
+.local/
+runs/
+**/runs/
+**/.local/
+__pycache__/
+*.pyc

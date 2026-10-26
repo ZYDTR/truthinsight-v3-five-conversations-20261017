@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-16T09:09:08.073089+00:00",
+  "files": [
+    {
+      "file": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+      "child": true,
+      "lines": 87,
+      "models": {
+        "qwen3.7-flash": 46
+      }
+    },
+    {
+      "file": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+      "child": true,
+      "lines": 117,
+      "models": {
+        "qwen3.7-flash": 65
+      }
+    },
+    {
+      "file": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+      "child": true,
+      "lines": 85,
+      "models": {
+        "qwen3.7-flash": 46
+      }
+    },
+    {
+      "file": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+      "child": false,
+      "lines": 199,
+      "models": {
+        "qwen3.7-flash": 78,
+        "<synthetic>": 1
+      }
+    }
+  ],
+  "status": {
+    "success": true,
+    "code": 0,
+    "data": {
+      "product_conversation_id": "34213a24-d0ec-4446-80a7-49a6bb707f8b",
+      "runtime_conversation_id": "conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a",
+      "status": "running",
+      "run_id": "run_4c18eaaee41340c6",
+      "conversation_state": {
+        "status": "responding",
+        "run_status": "running",
+        "detail": "sdk.system",
+        "label": "运行中",
+        "is_active": true,
+        "can_accept_input": false,
+        "can_pause": true,
+        "can_continue": false,
+        "is_paused": false,
+        "last_run_outcome": "failed"
+      },
+      "active_run_id": "run_4c18eaaee41340c6",
+      "active_turn_id": "turn-002",
+      "last_run_id": "run_f9d2aebd8df44a21",
+      "last_turn_id": "turn-001",
+      "last_run_outcome": "failed",
+      "updated_at": "2026-10-16T09:09:06.735982+00:00"
+    },
+    "error": ""
+  }
+}

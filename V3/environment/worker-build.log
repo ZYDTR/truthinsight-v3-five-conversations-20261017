@@ -1,0 +1,48 @@
+#0 building with "orbstack" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.worker
+#1 transferring dockerfile: 577B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/tibv1-1832e3ea-worker:candidate
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 2.47kB 0.0s done
+#4 DONE 0.0s
+
+#5 [1/6] FROM docker.io/library/tibv1-1832e3ea-worker:candidate@sha256:6739c1625b6b483d1f661762cfbf68fba47cc7f4981f605ab883debe4845c86f
+#5 resolve docker.io/library/tibv1-1832e3ea-worker:candidate@sha256:6739c1625b6b483d1f661762cfbf68fba47cc7f4981f605ab883debe4845c86f 0.0s done
+#5 CACHED
+
+#6 [2/6] COPY source/app/agent_runtime/container_worker/ /opt/ccsdk_worker/
+#6 DONE 0.2s
+
+#7 [3/6] COPY source/app/agent_runtime/contracts.py source/app/agent_runtime/evidence_selection.py source/app/agent_runtime/workflow_dag_contract.py /opt/ccsdk_worker/
+#7 DONE 0.1s
+
+#8 [4/6] COPY source/app/agent_runtime/context_assets/ /runtime_assets/contexts/
+#8 DONE 0.1s
+
+#9 [5/6] COPY source/app/agent_runtime/docker/ccsdk_env_scrub_bwrap /opt/agent-runtime/npm-global/bin/bwrap
+#9 DONE 0.1s
+
+#10 [6/6] RUN chown -R root:root /opt/ccsdk_worker && chmod -R go-w /opt/ccsdk_worker
+#10 DONE 0.4s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 0.4s done
+#11 exporting manifest sha256:a41d3eb4266351eb3d9fab9dc8f9426d78a514ad6fef6cc5db9d5c8fa2396221
+#11 exporting manifest sha256:a41d3eb4266351eb3d9fab9dc8f9426d78a514ad6fef6cc5db9d5c8fa2396221 0.0s done
+#11 exporting config sha256:c93b706e3ae9cbdfb56a0c35f993036e9e4574aeaed924336da7133fad015bad 0.0s done
+#11 exporting attestation manifest sha256:138c878de43946abe62dfade8acbf03eb0af363637ad1481293d79ae6db51967 0.0s done
+#11 exporting manifest list sha256:06f5037e49e348f38da72095dc2be3d4a8e6dd241deea54d88d33dc85a29f18d 0.0s done
+#11 naming to docker.io/library/tibv31-9a7ed51f-worker:candidate done
+#11 DONE 0.5s
+
+View build details: docker-desktop://dashboard/build/orbstack/orbstack/pb2pwupe6s9dfzbrp4zwn2kft

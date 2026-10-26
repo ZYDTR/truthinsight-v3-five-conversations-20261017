@@ -1,0 +1,9 @@
+{
+  "schema": "truthinsightbench-semantic-output-validation",
+  "passed": false,
+  "errors": [
+    "missing_output_directory"
+  ],
+  "warnings": [],
+  "output": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Physics_04_temporal_delay_transition/snapshots/20261016T085856-e0a14/project/output"
+}

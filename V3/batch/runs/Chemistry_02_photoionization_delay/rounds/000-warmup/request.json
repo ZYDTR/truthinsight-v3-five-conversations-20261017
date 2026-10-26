@@ -1,0 +1,7 @@
+{
+  "content": "本工作区即将载入一个科研数据分析任务。在你收到下一条消息之前，不要开始任何分析工作，不要创建文件，只回复两个字：就绪。",
+  "idempotency_key": "tibv31-9a7ed51f-qwen-v31-Chemistry_02_photoionization_delay-000-warmup",
+  "runtime_options": {
+    "max_turns": 1
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "at": "2026-10-16T08:48:19.058175+00:00",
+  "operators": [
+    {
+      "task_id": "Chemistry_02_photoionization_delay",
+      "session_id": "ses_ebc1ae440ffentMEx5uqRjbUSV",
+      "actual_models": [
+        {
+          "id": "GLM-5.3-Flash-W4A16-MTP",
+          "providerID": "windows-glm",
+          "variant": "default"
+        }
+      ],
+      "message_count": 14,
+      "recent_tools": [
+        {
+          "name": "shell",
+          "status": "running"
+        },
+        {
+          "name": "shell",
+          "status": "completed"
+        },
+        {
+          "name": "shell",
+          "status": "completed"
+        }
+      ],
+      "nested_sessions": []
+    },
+    {
+      "task_id": "Physics_04_temporal_delay_transition",
+      "session_id": "ses_ebc1ae3e6ffe0PjX5Viux2keQj",
+      "actual_models": [
+        {
+          "id": "GLM-5.3-Flash-W4A16-MTP",
+          "providerID": "windows-glm",
+          "variant": "default"
+        }
+      ],
+      "message_count": 14,
+      "recent_tools": [
+        {
+          "name": "shell",
+          "status": "running"
+        },
+        {
+          "name": "shell",
+          "status": "completed"
+        },
+        {
+          "name": "shell",
+          "status": "completed"
+        }
+      ],
+      "nested_sessions": []
+    },
+    {
+      "task_id": "Astronomy_02_gravity_spectral_structure",
+      "session_id": "ses_ebc1ae3d8ffeAmzw1mEDm2dIa3",
+      "actual_models": [
+        {
+          "id": "GLM-5.3-Flash-W4A16-MTP",
+          "providerID": "windows-glm",
+          "variant": "default"
+        }
+      ],
+      "message_count": 18,
+      "recent_tools": [
+        {
+          "name": "shell",
+          "status": "running"
+        },
+        {
+          "name": "write",
+          "status": "completed"
+        },
+        {
+          "name": "read",
+          "status": "completed"
+        }
+      ],
+      "nested_sessions": []
+    },
+    {
+      "task_id": "EarthScience_01_glacial_fluvial_erosion",
+      "session_id": "ses_ebc1ae3cfffecEMhBgABB1HT6J",
+      "actual_models": [
+        {
+          "id": "GLM-5.3-Flash-W4A16-MTP",
+          "providerID": "windows-glm",
+          "variant": "default"
+        }
+      ],
+      "message_count": 17,
+      "recent_tools": [
+        {
+          "name": "write",
+          "status": "completed"
+        },
+        {
+          "name": "shell",
+          "status": "running"
+        },
+        {
+          "name": "shell",
+          "status": "completed"
+        }
+      ],
+      "nested_sessions": []
+    },
+    {
+      "task_id": "Neuro_02_calcium_response_regions",
+      "session_id": "ses_ebc1ae3caffevOTg3zYM4nVKKS",
+      "actual_models": [
+        {
+          "id": "GLM-5.3-Flash-W4A16-MTP",
+          "providerID": "windows-glm",
+          "variant": "default"
+        }
+      ],
+      "message_count": 16,
+      "recent_tools": [
+        {
+          "name": "shell",
+          "status": "running"
+        },
+        {
+          "name": "shell",
+          "status": "completed"
+        },
+        {
+          "name": "shell",
+          "status": "completed"
+        }
+      ],
+      "nested_sessions": []
+    }
+  ],
+  "scope": "bounded session listing plus direct children; not a full historical audit"
+}

@@ -1,0 +1,82 @@
+{
+  "task_id": "Neuro_02_calcium_response_regions",
+  "experiment": "shared-context-v3.1-20261016",
+  "operator_session_id": "ses_ebc1ae3caffevOTg3zYM4nVKKS",
+  "raw_jsonl_reviewed": true,
+  "raw_files": [
+    {
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+      "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df",
+      "reviewed_lines": "1-411",
+      "findings": [
+        "line 15: warmup assistant model=qwen3.7-flash, replied 就绪",
+        "lines 22-34, 43, 48-51, 60-61: main agent read all context files, SKILL.md and all 7 references (context loading success)",
+        "line 89, 92, 95: three native Agent delegations (general-purpose, spawnDepth=1) launched in parallel before main-side pipeline",
+        "line 130-131, 138, 158-166: main consumed sub-agent results B/C/A and model_output",
+        "line 174, 187: main wrote and executed working/main_analysis.py which writes output/ directly (final artifacts rebuilt by execution, not copied)",
+        "line 208, 242: in-run validator failures; line 257 passed:true (round 001)",
+        "line 262: first-round claim of full success was made while report contained label/citation errors (see round-002 feedback)",
+        "lines 270-335: round 002 — main self-verified 5 feedback facts (lines 282-288), applied fixes, validator passed (line 335)",
+        "lines 343-377: round 003 — verified and fixed region_4 effect sizes and AUC interaction eta-squared; validator passed",
+        "lines 382-410: round 004 — confirmed partial (not raw) eta-squared, fixed formula label and bullets 54-55; validator passed (line 410)"
+      ]
+    },
+    {
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+      "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+      "reviewed_lines": "1-81",
+      "findings": [
+        "all assistant messages model=qwen3.7-flash",
+        "lines 29-31, 40: file-not-found errors on context paths (recovered by Glob)",
+        "real independent execution: wrote and ran working/analysis_A/analysis.py; LMM batch-RE failed with original error retained ('builtin_function_or_method' object is not subscriptable), documented in model_output_agentA.txt Section 3D"
+      ]
+    },
+    {
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+      "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+      "reviewed_lines": "1-55",
+      "findings": [
+        "all assistant messages model=qwen3.7-flash",
+        "line 45: own script ValueError (eta_squared broadcasting); line 46 self-edit fix; line 48 rerun success — genuine independent replication (Agent C)"
+      ]
+    },
+    {
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+      "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+      "reviewed_lines": "1-92",
+      "findings": [
+        "all assistant messages model=qwen3.7-flash",
+        "lines 61, 75, 80: robustness.py three iterations with original errors retained (KeyError: 34; MultiIndex error), final run succeeded (486 rows)",
+        "line 88 and 92: slice-level results 7/54 vs cell-level 23/54; strongest slice-level amplitude contrast is region_1 vs region_3 stimulated (slice p=0.021) — Result.md round-001 line 38 mislabeled this as region_2 stim vs baseline (fixed in round 002)"
+      ]
+    }
+  ],
+  "scoring_performed": false,
+  "verdict": "REVIEWED_WITH_ISSUES",
+  "actual_models": {
+    "main": "qwen3.7-flash",
+    "children": "qwen3.7-flash (all three, verified from first delegation onward)",
+    "operator": "windows-glm/GLM-5.3-Flash-W4A16-MTP",
+    "fallback": "empty"
+  },
+  "context_loading": "verified: all 8 input files + SKILL.md + 7 references read by main agent (main JSONL lines 22-34, 43, 48-51, 60-61); input/shared hashes unchanged across all four collects",
+  "delegation": "real: 3 general-purpose sub-agents (spawnDepth=1), launched early in round 001, all executed code with retained error/recovery history",
+  "integration_and_revision": "main consumed A/B/C outputs, ran its own independent analysis writing output/ directly, and applied all fact-feedback fixes across rounds 002-004 with validator re-runs",
+  "issues_found_and_resolved": [
+    "round1: region_1 one-way ANOVA mislabeled as R1+2 interaction (contradicted Finding 2) — fixed r2",
+    "round1: slice p=0.021 attributed to wrong contrast (region_2 stim vs baseline actually p≈0.126 ns) — fixed r2, operator-recomputed",
+    "round1: eta_squared_results.csv cited as interaction effect sizes; AUC eta²=0.0003 not in file — fixed r2/r3",
+    "round1: LRT=263.79 cited from model_output_agentA.txt Section 3D where LMM actually failed — fixed r3 (replaced with real OLS R²)",
+    "round1: counts 26→27, <15%→21% amplitude, |g|<0.53→0.563, 30→50 groups — fixed r2",
+    "round2 residuals: 'all other |g|<0.30' contradicted by AUC d=0.517/width 0.311; AUC ≈0.0003 dangling — fixed r3",
+    "round3 residual: partial eta-squared labeled 'raw = SS_interaction/SS_total' — fixed r4"
+  ],
+  "remaining_issues": [
+    "PNG figures not visually inspected by operator (figures_main.png, figures_violin_amplitude.png, figures_batch_effect.png)",
+    "scientific correctness/novelty not judged (no scoring performed, per boundary)",
+    "sub-agent A LMM batch random-effect fitting failed; variance components unvalidated (retained and disclosed in the report itself)",
+    "single run: no statistical significance claims about V3 vs V2 possible; operator feedback rounds and uniform source-audit clarification are confounds"
+  ],
+  "reviewed_by": "leaf operator ses_ebc1ae3caffevOTg3zYM4nVKKS",
+  "review_basis": "personal reading of raw main+child JSONL, machine CSVs, raw TSV recomputation (Welch slice-level p, Pearson r, batch means), all snapshot validator runs"
+}

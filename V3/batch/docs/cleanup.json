@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-16T10:09:56.945765+00:00",
+  "run_id": "tibv31-9a7ed51f",
+  "remaining": {
+    "containers": [],
+    "networks": [],
+    "volumes": [],
+    "images": []
+  },
+  "passed": true,
+  "database_backup": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/private/final-database.sql"
+}

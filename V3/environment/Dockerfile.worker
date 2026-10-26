@@ -1,0 +1,8 @@
+FROM tibv1-1832e3ea-worker:candidate
+USER root
+COPY source/app/agent_runtime/container_worker/ /opt/ccsdk_worker/
+COPY source/app/agent_runtime/contracts.py source/app/agent_runtime/evidence_selection.py source/app/agent_runtime/workflow_dag_contract.py /opt/ccsdk_worker/
+COPY source/app/agent_runtime/context_assets/ /runtime_assets/contexts/
+COPY source/app/agent_runtime/docker/ccsdk_env_scrub_bwrap /opt/agent-runtime/npm-global/bin/bwrap
+RUN chown -R root:root /opt/ccsdk_worker && chmod -R go-w /opt/ccsdk_worker
+USER agent

@@ -1,0 +1,14 @@
+{
+  "todo": [],
+  "session_inbox": [],
+  "instruction_entry": [],
+  "instruction_state": [
+    {
+      "session_id": "ses_ebc1ae3caffevOTg3zYM4nVKKS",
+      "epoch_start": 3,
+      "through_seq": 3,
+      "initial_values": "{\"core/codemode\":\"fde2b06ee106023d05b191c8f3838a0794aa4178bb49e1ced73b4acafa8bc795\",\"core/skill-guidance\":\"8394362d28c82fa4d13c7a9f5568c05680f6687e07db8f426a0e3c92f3027dc9\",\"core/instructions\":\"4e999d9376dd7eca6ae3bd2455b8436f0dfb2b20bda36c986eb7e703d4e09670\",\"core/date\":\"36e87b82ea659e94bb205aa8938c2b5c70926582eb060fdc2d2d5efa9b029d90\",\"core/environment\":\"d8342f27c23a5910acb26af8150b6065b2ce90dadadc2935419e118a2271ede9\"}",
+      "current_values": "{\"core/codemode\":\"fde2b06ee106023d05b191c8f3838a0794aa4178bb49e1ced73b4acafa8bc795\",\"core/skill-guidance\":\"8394362d28c82fa4d13c7a9f5568c05680f6687e07db8f426a0e3c92f3027dc9\",\"core/instructions\":\"4e999d9376dd7eca6ae3bd2455b8436f0dfb2b20bda36c986eb7e703d4e09670\",\"core/date\":\"36e87b82ea659e94bb205aa8938c2b5c70926582eb060fdc2d2d5efa9b029d90\",\"core/environment\":\"d8342f27c23a5910acb26af8150b6065b2ce90dadadc2935419e118a2271ede9\"}"
+    }
+  ]
+}

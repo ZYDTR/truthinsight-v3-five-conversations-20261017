@@ -1,0 +1,170 @@
+{
+  "schema": "truthinsightbench-semantic-output-validation",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "output": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100253-46862/project/output",
+  "authoritative_report": {
+    "path": "Result.md",
+    "bytes": 24820,
+    "sha256": "d72d7cb726ab11fd21b9cdafb6c70a6f9165087b2ebfa1a251df37b67bed37d5"
+  },
+  "registered_findings": {
+    "count": 5,
+    "numbers": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "markers": [
+      {
+        "finding_number": 1,
+        "line": 50,
+        "marker": "## Finding 1: A Narrow Spectral Peak at ~1010–1060 μHz Is Supported by Both IC Ranking and Independent FFT Periodicity Analysis",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 2,
+        "line": 90,
+        "marker": "## Finding 2: Residual Variance Is Dominated by Within-Pass Structure With Negligible Between-Pass Coherence",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 3,
+        "line": 118,
+        "marker": "## Finding 3: Residual Models A and C Show Substantially Higher Cross-Model Agreement Than Model B",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 4,
+        "line": 146,
+        "marker": "## Finding 4: The Structured Candidate Family Dramatically Outperforms the Uniform-Velocity Alternative",
+        "heading_level": 2
+      },
+      {
+        "finding_number": 5,
+        "line": 176,
+        "marker": "## Finding 5: Mode Frequencies in the 900–1300 μHz Range Include 16 Stellar Oscillation Modes With Systematically Varying Coupling Coefficients",
+        "heading_level": 2
+      }
+    ],
+    "traceability": [
+      {
+        "finding_number": 1,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis.py"
+        ],
+        "result_evidence": [
+          "result_artifacts.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 2,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis.py"
+        ],
+        "result_evidence": [
+          "result_artifacts.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 3,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "analysis.py"
+        ],
+        "result_evidence": [
+          "result_artifacts.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 4,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "generate_artifacts.py"
+        ],
+        "result_evidence": [
+          "result_artifacts.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      },
+      {
+        "finding_number": 5,
+        "resolved_native_tokens": [],
+        "analysis_sources": [
+          "generate_artifacts.py"
+        ],
+        "result_evidence": [
+          "result_artifacts.json"
+        ],
+        "executed_notebook_evidence": [],
+        "passed": true
+      }
+    ]
+  },
+  "reproduction": {
+    "mode": "companion_markdown",
+    "document": {
+      "path": "reproduce.md",
+      "bytes": 5526,
+      "sha256": "b7044097e116e2ef56f6533f7d87f51e085612e7a2c5f1b1a4c350163c7c5788"
+    }
+  },
+  "analysis_sources": [
+    {
+      "path": "analysis.py",
+      "bytes": 19325,
+      "sha256": "c739f579e8f9205e449bcd3a39ccf7ec0e860cda0e3fcc58b64c9c257208d10f"
+    },
+    {
+      "path": "generate_artifacts.py",
+      "bytes": 12901,
+      "sha256": "38d1a2b39d1738a73e03222f892acf904b47aff02e2f4dfbc8ba78a51a2e47a9"
+    }
+  ],
+  "executed_notebooks": [],
+  "result_artifacts": [
+    {
+      "path": "analysis_results.json",
+      "bytes": 77172,
+      "sha256": "9d1637f2c47a2e059b7a344f46bf5f2c8731184148757c1a7c2346afc3eaae03"
+    },
+    {
+      "path": "result_artifacts.json",
+      "bytes": 178284,
+      "sha256": "c85bf40800ef816840b829b4c5994d4ececa320daf4095a575eb860dfcc365f7"
+    }
+  ],
+  "native_evidence_registry": {
+    "sources": [],
+    "resolved_ids": {}
+  },
+  "resolved_support_files": [
+    {
+      "path": "analysis.py",
+      "bytes": 19325,
+      "sha256": "c739f579e8f9205e449bcd3a39ccf7ec0e860cda0e3fcc58b64c9c257208d10f"
+    },
+    {
+      "path": "generate_artifacts.py",
+      "bytes": 12901,
+      "sha256": "38d1a2b39d1738a73e03222f892acf904b47aff02e2f4dfbc8ba78a51a2e47a9"
+    },
+    {
+      "path": "result_artifacts.json",
+      "bytes": 178284,
+      "sha256": "c85bf40800ef816840b829b4c5994d4ececa320daf4095a575eb860dfcc365f7"
+    }
+  ]
+}

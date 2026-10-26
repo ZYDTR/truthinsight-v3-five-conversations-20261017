@@ -1,0 +1,5 @@
+/Users/zhengyidi/miniconda3/envs/ideagen_env/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (7.2.0)/charset_normalizer (3.4.6) doesn't match a supported version!
+  warnings.warn(
+{"task": "Astronomy_02_gravity_spectral_structure", "round": 4, "run_id": "run_79c10650c8954c3e", "started": "2026-10-16T09:32:08.457200+00:00"}
+{"task": "Astronomy_02_gravity_spectral_structure", "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093347-f7fa5", "input_changed": [], "shared_changed": [], "model_counts": {"qwen3.7-flash": 249}, "validator_returncode": 0}
+{"task": "Astronomy_02_gravity_spectral_structure", "round": 4, "terminal": "run.completed", "seconds": 99.6}

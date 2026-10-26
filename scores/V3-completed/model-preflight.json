@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-17T04:54:35.541796+00:00",
+  "route": [
+    {
+      "name": "qwen3.8-max",
+      "params": {
+        "api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "model": "dashscope/qwen3.8-max",
+        "enable_thinking": false
+      }
+    }
+  ],
+  "endpoint": "http://10.0.0.217:4000/v1/chat/completions",
+  "http_status": 200,
+  "request": {
+    "model": "qwen3.8-max",
+    "temperature": 0,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Return a JSON object only."
+      },
+      {
+        "role": "user",
+        "content": "Return exactly {\"marker\": \"JUDGE_3443c68f\"}"
+      }
+    ],
+    "stream": false,
+    "enable_thinking": false,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "response_model": "qwen3.8-max",
+  "content": "{\"marker\": \"JUDGE_3443c68f\"}",
+  "exact_marker_match": true,
+  "finish_reason": "stop",
+  "reasoning_content_present": false,
+  "usage": {
+    "completion_tokens": 16,
+    "prompt_tokens": 43,
+    "total_tokens": 59,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 43
+    }
+  },
+  "elapsed_seconds": 3.304
+}

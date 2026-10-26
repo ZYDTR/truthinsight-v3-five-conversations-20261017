@@ -1,0 +1,32 @@
+{
+  "schema": "truthinsightbench-scoring-cohort",
+  "release": "V1.0",
+  "agents": [
+    "sap-shared-context-v3.1"
+  ],
+  "summary": {
+    "run_count": 1,
+    "complete_task_count": 1,
+    "complete_tasks": [
+      "Astronomy_02_gravity_spectral_structure"
+    ],
+    "provisional_task_count": 0,
+    "provisional_tasks": []
+  },
+  "runs": [
+    {
+      "key": "sap-shared-context-v3.1--Astronomy_02_gravity_spectral_structure",
+      "task_id": "Astronomy_02_gravity_spectral_structure",
+      "agent": "sap-shared-context-v3.1",
+      "model": "qwen3.7-flash",
+      "manifest_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Astronomy_02_gravity_spectral_structure/run_manifest.json",
+      "manifest_sha256": "53ad522359983094a6c01665cb26d1ef15ca271a12931e41e563a8f7d223c6ba",
+      "output_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/exports/Astronomy_02_gravity_spectral_structure/workspace/output",
+      "report_path": "Result.md",
+      "report_sha256": "d72d7cb726ab11fd21b9cdafb6c70a6f9165087b2ebfa1a251df37b67bed37d5",
+      "finding_count": 5,
+      "gold_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/TruthInsightBench/evaluation/evaluator/tasks/Astronomy_02_gravity_spectral_structure/validation_anchors.json",
+      "gold_sha256": "eabab5081b4523bb727ae26b428a5eb112961d78dd454feaa0dfd8ca69212a13"
+    }
+  ]
+}

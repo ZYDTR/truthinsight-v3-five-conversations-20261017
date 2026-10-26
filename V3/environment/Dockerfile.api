@@ -1,0 +1,8 @@
+FROM tibv1-1832e3ea-api:candidate
+USER root
+COPY source/app/ /app/app/
+COPY source/migrations/ /app/migrations/
+COPY source/requirements.txt /app/requirements.txt
+RUN python3 -m pip install --no-cache-dir filelock==3.20.0
+WORKDIR /app
+ENTRYPOINT ["python3", "/harness/bootstrap.py"]

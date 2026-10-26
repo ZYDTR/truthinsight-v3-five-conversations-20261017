@@ -1,0 +1,234 @@
+{
+  "simple_mean_comparison": {
+    "glacial_n": 427,
+    "glacial_mean_log": -0.29608290510655616,
+    "glacial_median_log": -0.2596373105057561,
+    "glacial_std_log": 0.8848180093748419,
+    "fluvial_n": 6128,
+    "fluvial_mean_log": -1.2004316343984223,
+    "fluvial_median_log": -1.1872096169170534,
+    "fluvial_std_log": 0.8157790970567678,
+    "mean_difference": 0.9043487292918662,
+    "welch_ttest": {
+      "t_stat": 20.521100677306922,
+      "p_value": 1.4212441818396425e-67
+    },
+    "mann_whitney": {
+      "U_stat": 571071.0,
+      "p_value": 1.1154413895392827e-84
+    }
+  },
+  "ancova": {
+    "formula": "log_erode ~ process_category + log_time",
+    "n_obs": 6555,
+    "R_squared": 0.07805953793277232,
+    "ANOVA": {
+      "term": [
+        "process_category",
+        "log_time",
+        "Residual"
+      ],
+      "df": [
+        1.0,
+        1.0,
+        6552.0
+      ],
+      "sum_sq": [
+        326.47189568558673,
+        43.33357905133107,
+        4367.6742046251275
+      ],
+      "mean_sq": [
+        326.47189568558673,
+        43.33357905133107,
+        0.6666169420978522
+      ],
+      "F": [
+        489.7443720199721,
+        65.00521711158396,
+        NaN
+      ],
+      "PR_gt_F": [
+        1.0281416280336718e-104,
+        8.810775031266166e-16,
+        NaN
+      ]
+    },
+    "coefficients": {
+      "Intercept": -1.1335956426697493,
+      "process_category[T.Glacial]": 0.9404050295308419,
+      "log_time": -0.03201185430472314
+    },
+    "ci": {
+      "0": [
+        "Intercept",
+        "process_category[T.Glacial]",
+        "log_time"
+      ],
+      "1": [
+        "Intercept",
+        "process_category[T.Glacial]",
+        "log_time"
+      ]
+    }
+  },
+  "ancova_with_method": {
+    "formula": "log_erode ~ process_category + log_time + method_group",
+    "n_obs": 6555,
+    "R_squared": 0.12596972564392894,
+    "ANOVA": {
+      "term": [
+        "process_category",
+        "method_group",
+        "log_time",
+        "Residual"
+      ],
+      "df": [
+        1.0,
+        3.0,
+        1.0,
+        6549.0
+      ],
+      "sum_sq": [
+        326.471895685555,
+        30.093853424859102,
+        240.21326634248987,
+        4140.700663909102
+      ],
+      "mean_sq": [
+        326.471895685555,
+        10.031284474953035,
+        240.21326634248987,
+        0.6322645692333337
+      ],
+      "F": [
+        516.3532982425785,
+        15.86564385082765,
+        379.92523704715217,
+        NaN
+      ],
+      "PR_gt_F": [
+        4.337084156419942e-110,
+        2.817682906437648e-10,
+        2.67782323372042e-82,
+        NaN
+      ]
+    },
+    "coefficients": {
+      "Intercept": -0.6117709983442237,
+      "process_category[T.Glacial]": 1.026511858220885,
+      "method_group[T.Relief]": 1.033052699126296,
+      "method_group[T.Thermochronometric]": 0.5362008642201536,
+      "method_group[T.Volumetric]": -0.666661115721953,
+      "log_time": -0.14808899831438202
+    },
+    "ci": {
+      "0": [
+        "Intercept",
+        "process_category[T.Glacial]",
+        "method_group[T.Relief]",
+        "method_group[T.Thermochronometric]",
+        "method_group[T.Volumetric]",
+        "log_time"
+      ],
+      "1": [
+        "Intercept",
+        "process_category[T.Glacial]",
+        "method_group[T.Relief]",
+        "method_group[T.Thermochronometric]",
+        "method_group[T.Volumetric]",
+        "log_time"
+      ]
+    }
+  },
+  "method_stratification": {
+    "Cosmogenic": {
+      "n_total": 3642,
+      "glacial_n": 108,
+      "fluvial_n": 3534,
+      "all_mean_log": -1.1711736330881086,
+      "all_median_log": -1.1811731497204185,
+      "all_std_log": 0.8218122445511403,
+      "glacial_mean_log": -0.6121760950593795,
+      "glacial_median_log": -0.3979400086720376,
+      "glacial_std_log": 0.8392419209568658,
+      "fluvial_mean_log": -1.1882567497001921,
+      "fluvial_median_log": -1.198629979123388,
+      "fluvial_std_log": 0.8153806859980486,
+      "welch_ttest": {
+        "t_stat": 7.032869508557828,
+        "p_value": 1.6314054817912648e-10
+      },
+      "mann_whitney": {
+        "U_stat": 111074.0,
+        "p_value": 1.2644582685817917e-13
+      }
+    },
+    "Relief": {
+      "n_total": 25,
+      "glacial_n": 18,
+      "fluvial_n": 7,
+      "all_mean_log": 0.3159084682849802,
+      "all_median_log": 0.3979400086720376,
+      "all_std_log": 1.158021109242696,
+      "glacial_mean_log": 0.036198210956650746,
+      "glacial_median_log": -0.2614393726401688,
+      "glacial_std_log": 1.2431041298917282,
+      "fluvial_mean_log": 1.0351634157006846,
+      "fluvial_median_log": 1.2041199826559248,
+      "fluvial_std_log": 0.3839489472066568,
+      "welch_ttest": {
+        "t_stat": -3.0552112038717976,
+        "p_value": 0.005699269863182483
+      },
+      "mann_whitney": {
+        "U_stat": 108.5,
+        "p_value": 0.006438488821646454
+      }
+    },
+    "Thermochronometric": {
+      "n_total": 72,
+      "glacial_n": 68,
+      "fluvial_n": 4,
+      "all_mean_log": -0.03280607533179541,
+      "all_median_log": 0.17609125905568124,
+      "all_std_log": 0.6407798307397725,
+      "glacial_mean_log": -0.059586453426864326,
+      "glacial_median_log": 0.17609125905568124,
+      "glacial_std_log": 0.6451422808728023,
+      "fluvial_mean_log": 0.4224603522843762,
+      "fluvial_median_log": 0.3537850880489682,
+      "fluvial_std_log": 0.3599544389648414,
+      "welch_ttest": {
+        "t_stat": -2.456338846192107,
+        "p_value": 0.06648925859587448
+      },
+      "mann_whitney": {
+        "U_stat": 195.0,
+        "p_value": 0.1498041147663707
+      }
+    },
+    "Volumetric": {
+      "n_total": 2816,
+      "glacial_n": 233,
+      "fluvial_n": 2583,
+      "all_mean_log": -1.1444580108843658,
+      "all_median_log": -1.1185922340707215,
+      "all_std_log": 0.8579926380998115,
+      "glacial_mean_log": -0.24425781621579154,
+      "glacial_median_log": -0.3565473235138126,
+      "glacial_std_log": 0.8972903658106419,
+      "fluvial_mean_log": -1.2256607384715816,
+      "fluvial_median_log": -1.1803889514058938,
+      "fluvial_std_log": 0.8065451580263217,
+      "welch_ttest": {
+        "t_stat": 16.118188656832185,
+        "p_value": 2.775202779119402e-41
+      },
+      "mann_whitney": {
+        "U_stat": 122768.5,
+        "p_value": 8.793462483099043e-51
+      }
+    }
+  }
+}

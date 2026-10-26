@@ -1,0 +1,16 @@
+Factual status note (no scientific content):
+
+Your previous run (run_7cc5bd3642cb44b8) was terminated by a backend platform error, not by anything in your analysis: the run ended with `run.failed`, `error_code: conversation_content_save_failed` (see the run's terminal event), while you were creating your working directories. No analysis decision of yours caused this.
+
+What already succeeded before the interruption, per the conversation record:
+- You read `PublicTaskContract.md`, `ResearchObjective.md`, `DATA_GUIDE.md`, `data_manifest.json`, `validate_output.py`, `context/INDEX.md`, and `.claude/skills/scientific-evidence/SKILL.md`.
+- You inventoried `data/source_data/` and inspected representative schemas (fig3a, fig3b, fig3c, SI.2, SI.5a, fig4b/B5 files and the requirements.txt).
+
+What did not complete:
+- The `mkdir -p .../working .../output` command was interrupted before execution completed, so no working/output directories or files exist yet.
+- No analysis code has run; no findings have been registered; nothing is under `output/`.
+
+Please continue the task in this same workspace from this state:
+1. Re-create your `working/` and `output/` directories and proceed with the full task per `PublicTaskContract.md`, `ResearchObjective.md`, and the scientific-evidence Skill you already read (including its delegation requirements for the main agent before the main analysis pipeline starts).
+2. Re-inspect any files you still need; the data and all context files are unchanged.
+3. Run the analysis, register 2-5 findings, and finish with `python3 validate_output.py output` as required.

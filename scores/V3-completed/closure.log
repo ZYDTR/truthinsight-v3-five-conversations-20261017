@@ -1,0 +1,56 @@
+
+START 2026-10-17T04:59:59.023512+00:00
+{
+  "mode": "closure",
+  "runs": 5,
+  "findings": 20,
+  "reference_matched": 4,
+  "claim_search_needed": 16
+}
+[闭环 3/20] Astronomy_02_gravity_spectral_structure::sap-shared-context-v3.1::finding_3 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 2/20] Astronomy_02_gravity_spectral_structure::sap-shared-context-v3.1::finding_2 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 4/20] Astronomy_02_gravity_spectral_structure::sap-shared-context-v3.1::finding_4 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 6/20] Chemistry_02_photoionization_delay::sap-shared-context-v3.1::finding_1 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 1/20] Astronomy_02_gravity_spectral_structure::sap-shared-context-v3.1::finding_1 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 8/20] Chemistry_02_photoionization_delay::sap-shared-context-v3.1::finding_3 novelty=1 recompute=at_least_one_key_quantity_recomputed deterministic=10/10
+[闭环 5/20] Astronomy_02_gravity_spectral_structure::sap-shared-context-v3.1::finding_5 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 7/20] Chemistry_02_photoionization_delay::sap-shared-context-v3.1::finding_2 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 10/20] EarthScience_01_glacial_fluvial_erosion::sap-shared-context-v3.1::finding_1 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 11/20] EarthScience_01_glacial_fluvial_erosion::sap-shared-context-v3.1::finding_2 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 9/20] Chemistry_02_photoionization_delay::sap-shared-context-v3.1::finding_4 novelty=1 recompute=at_least_one_key_quantity_recomputed deterministic=10/10
+[闭环 14/20] Neuro_02_calcium_response_regions::sap-shared-context-v3.1::finding_2 novelty=1 recompute=at_least_one_key_quantity_recomputed deterministic=10/10
+[闭环 12/20] EarthScience_01_glacial_fluvial_erosion::sap-shared-context-v3.1::finding_3 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 15/20] Neuro_02_calcium_response_regions::sap-shared-context-v3.1::finding_3 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 17/20] Physics_04_temporal_delay_transition::sap-shared-context-v3.1::finding_1 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 16/20] Neuro_02_calcium_response_regions::sap-shared-context-v3.1::finding_4 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 18/20] Physics_04_temporal_delay_transition::sap-shared-context-v3.1::finding_2 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 19/20] Physics_04_temporal_delay_transition::sap-shared-context-v3.1::finding_3 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 20/20] Physics_04_temporal_delay_transition::sap-shared-context-v3.1::finding_4 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+[闭环 13/20] Neuro_02_calcium_response_regions::sap-shared-context-v3.1::finding_1 novelty=1 recompute=no_machine_executable_recompute_plan deterministic=10/10
+{
+  "outputPath": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/final/final_scoring_result.json",
+  "comparisonPath": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/final/base_to_final_comparison.json",
+  "summary": {
+    "finding_count": 20,
+    "reference_card_asset_reused": 4,
+    "claim_search_completed": 16,
+    "claim_search_failed": 0,
+    "recompute_verified_findings": 3,
+    "deterministic_false_claims": 0
+  },
+  "ranking": [
+    {
+      "agent": "sap-shared-context-v3.1",
+      "scores": [
+        57.9,
+        52.1,
+        66.7,
+        53.1,
+        60.9
+      ],
+      "mean_score": 58.14,
+      "min_score": 52.1,
+      "max_score": 66.7
+    }
+  ]
+}

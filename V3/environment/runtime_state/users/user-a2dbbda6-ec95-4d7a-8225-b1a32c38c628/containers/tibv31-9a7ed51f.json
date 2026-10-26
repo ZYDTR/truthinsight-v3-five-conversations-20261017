@@ -1,0 +1,69 @@
+{
+  "container_code": "tibv31-9a7ed51f",
+  "container_name": "ccsdk-user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628-tibv31-9a7ed51f",
+  "status": "running",
+  "desired_status": "active",
+  "observed_status": "running",
+  "health_status": "healthy",
+  "worker_url": "http://ccsdk-user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628-tibv31-9a7ed51f:8765",
+  "worker_endpoint": {
+    "base_url": "http://ccsdk-user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628-tibv31-9a7ed51f:8765",
+    "internal_port": 8765,
+    "protocol_version": "agent-worker/1.0"
+  },
+  "host_port": null,
+  "worker_connect_mode": "docker_network",
+  "worker_docker_network": "tibv31-9a7ed51f-net",
+  "worker_skill_mount": {
+    "host_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/skills",
+    "container_path": "/runtime_assets/skills",
+    "read_only": true
+  },
+  "worker_security": {
+    "apparmor_profile": "unconfined",
+    "seccomp_profile": "unconfined",
+    "debug_weaker_nested_sandbox": true,
+    "debug_allow_all_unix_sockets": true
+  },
+  "worker_runtime": {
+    "default_max_turns": 500,
+    "max_turns_limit": 500,
+    "claude_model": "qwen3.7-flash",
+    "max_concurrency": 6
+  },
+  "host_user_path": "/app/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628",
+  "host_workspace_path": "/app/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628",
+  "host_metadata_path": "/app/runtime_state/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628",
+  "image": "tibv31-9a7ed51f-worker:candidate",
+  "base_image": "tibv1-1832e3ea-worker:candidate",
+  "internal_proxy_token": "UBUoDg1AZsDjVLTQv3hLY3281c7J_tK3Cx7YhOVLANU",
+  "worker_inbound_token": "Xk7KJhIjELHguaXmrYJX6wbLhnh6JojyO_ToqinH3Og",
+  "worker_source_digest": "89ff1e3ee9b5a335",
+  "updated_at": "2026-10-16T17:26:19+08:00",
+  "worker_health": {
+    "status": "ok",
+    "worker": "claude-code-sdk-worker",
+    "worker_api_version": "agent-worker/1.0",
+    "event_schema_versions": [
+      "agent.run_event.v1"
+    ],
+    "runtime_type": "claude_code_sdk",
+    "runtime_cli_source": "sdk_bundled",
+    "runtime_cli_path": "/usr/local/lib/python3.11/dist-packages/claude_agent_sdk/_bundled/claude",
+    "runtime_cli_version": "2.1.274 (Claude Code)",
+    "claude_agent_sdk_version": "0.2.154",
+    "system_claude_path": null,
+    "worker_instance_id": "worker_6ad0b9437702",
+    "max_concurrency": 6,
+    "active_runs": [],
+    "active_run_count": 0,
+    "idle_since": "2026-10-16T09:22:28Z",
+    "supports": {
+      "execute": true,
+      "events_replay": false,
+      "resume": true,
+      "tool_policy": true,
+      "cross_session_send_message": true
+    }
+  }
+}

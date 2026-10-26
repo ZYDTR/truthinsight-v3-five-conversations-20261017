@@ -1,0 +1,50 @@
+{
+  "task_id": "EarthScience_01_glacial_fluvial_erosion",
+  "experiment": "shared-context-v3.1-20261016",
+  "generated_at": "2026-10-16T09:50:00Z",
+  "run": {
+    "run_json": "runs/EarthScience_01_glacial_fluvial_erosion/run.json",
+    "conversation_id": "34213a24-d0ec-4446-80a7-49a6bb707f8b",
+    "runtime_conversation_id": "conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a",
+    "user": "tibv31_earth",
+    "environment": ".local/tibv31-9a7ed51f",
+    "backend_sha": "6d529489815362eb2d6cf717e736e44936de3afc"
+  },
+  "rounds": [
+    {"round": "000-warmup", "job": "jobs/1792140492227641000-34b8da", "run_id": "run_f9d2aebd8df44a21", "terminal": "run.failed(error_max_turns, max_turns=1 预期)", "input": "中性 warmup（config/policy.json warmup_message）"},
+    {"round": "001", "job": "jobs/1792140554591965000-e84b93", "run_id": "run_4c18eaaee41340c6", "terminal": "run.completed", "seconds": 639.6, "input": "first-message.md = 原 LaunchPrompt (sha256 0f4cafd2…)", "snapshot": "snapshots/20261016T090939-5c350", "validator_returncode": 0},
+    {"round": "002", "job": "jobs/1792142137181849000-c1e0c7", "run_id": "run_22d19564c6f04af2", "terminal": "run.completed", "seconds": 197.6, "input": "rounds/002-feedback.md（6 项事实反馈）", "snapshot": "snapshots/20261016T092551-c3fbe", "validator_returncode": 0},
+    {"round": "003", "job": "jobs/1792142913420237000-b332eb", "run_id": "(见 rounds/003/receipt.json)", "terminal": "run.completed", "seconds": 34.9, "input": "rounds/003-feedback.md（1 项事实反馈）", "snapshot": "snapshots/20261016T092923-75b5e", "validator_returncode": 0}
+  ],
+  "raw_jsonl": {
+    "main": {"path": "snapshots/20261016T092923-75b5e/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl", "lines": 316, "sha256": "0e85402a6c35e9ee792f7f5ed86bb574bae474514f0f0cbab1a53eea910b0766", "reviewed_lines": "1-316"},
+    "child_A_audit": {"path": "snapshots/20261016T092923-75b5e/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl", "lines": 87, "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577", "reviewed_lines": "1-87"},
+    "child_B_core": {"path": "snapshots/20261016T092923-75b5e/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl", "lines": 117, "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784", "reviewed_lines": "1-117"},
+    "child_C_robustness": {"path": "snapshots/20261016T092923-75b5e/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl", "lines": 85, "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c", "reviewed_lines": "1-85"}
+  },
+  "snapshots": [
+    "snapshots/20261016T084836-e2c56",
+    "snapshots/20261016T090939-5c350",
+    "snapshots/20261016T092551-c3fbe",
+    "snapshots/20261016T092923-75b5e"
+  ],
+  "deliverables": {
+    "result_md": "snapshots/20261016T092923-75b5e/project/output/Result.md",
+    "analysis_sources": ["core_analysis.py", "data_audit.py", "robustness_analysis.py"],
+    "result_artifacts": ["audit_results.json", "regression_results.json", "comparison_results.json", "robustness_results.json", "binned_means.png"],
+    "reproduction": "snapshots/20261016T092923-75b5e/project/output/reproduce.md",
+    "analysis_state": "snapshots/20261016T092923-75b5e/project/working/analysis-state.md"
+  },
+  "validation": {
+    "final_validator_stdout": "snapshots/20261016T092923-75b5e/validator.stdout (passed=true, 0 errors/0 warnings)",
+    "final_submission_validation": "snapshots/20261016T092923-75b5e/submission_validation.json",
+    "input_integrity": "4 次 collect input_changed=[]、shared_changed=[]",
+    "operator_clean_reproduction": "一次性 docker 容器干净副本运行 3 脚本 rc=0/0/0；5 输出文件与快照 sha256 一致；副本 /private/var/folders/.../opencode/es-repro/（未触碰被测工作区）"
+  },
+  "feedback": ["rounds/002-feedback.md", "rounds/003-feedback.md"],
+  "models_actual": {"main": "qwen3.7-flash", "children": "qwen3.7-flash ×3", "synthetic_placeholder": 1},
+  "usage_dedup_sum": {"input_tokens": 7198270, "output_tokens": 84390, "unique_api_messages": 145},
+  "monitoring": {"proofs": 6, "max_consecutive_no_progress_checks": 0},
+  "reviews": {"verdict": "reviews/verdict.json", "verdict_value": "REVIEWED_WITH_ISSUES", "operator_log": "docs/operator-log.md"},
+  "pending_after_seal": ["docs/comparison-v2-v3.md（等五题 V3 全部封存后读 V2 本题证据）"]
+}

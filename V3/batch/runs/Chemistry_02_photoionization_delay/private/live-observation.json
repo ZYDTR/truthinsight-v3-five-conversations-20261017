@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-16T08:58:20.133343+00:00",
+  "files": [
+    {
+      "file": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+      "child": false,
+      "lines": 224,
+      "models": {
+        "qwen3.7-flash": 88
+      }
+    }
+  ],
+  "status": {
+    "success": true,
+    "code": 0,
+    "data": {
+      "product_conversation_id": "64bb3abc-d6f5-48a0-af19-8eef99906f0b",
+      "runtime_conversation_id": "conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85",
+      "status": "completed",
+      "run_id": "run_b3c3d393d8af4143",
+      "conversation_state": {
+        "status": "idle",
+        "run_status": "completed",
+        "detail": "finalizing",
+        "label": "已完成",
+        "is_active": false,
+        "can_accept_input": true,
+        "can_pause": false,
+        "can_continue": false,
+        "is_paused": false,
+        "last_run_outcome": "completed"
+      },
+      "active_run_id": null,
+      "active_turn_id": null,
+      "last_run_id": "run_b3c3d393d8af4143",
+      "last_turn_id": "turn-002",
+      "last_run_outcome": "completed",
+      "updated_at": "2026-10-16T08:57:31.777990+00:00"
+    },
+    "error": ""
+  }
+}

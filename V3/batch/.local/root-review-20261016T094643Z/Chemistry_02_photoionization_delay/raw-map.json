@@ -1,0 +1,12 @@
+[
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Chemistry_02_photoionization_delay/raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "sha256": "04208a82ac0ae7fc0121e0ed7203c40505ee16087094ad0b2dcb233e91d6b4aa"
+  },
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Chemistry_02_photoionization_delay/raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "policy": "仅替换凭据值，原件保留不变；未删除消息、工具调用或科研产物。脱敏文件的原始与归档哈希见 source-files.json；操作者导出另有 export-receipt.json。",
+  "files": [
+    {
+      "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/private/auth.json",
+      "replacements": {
+        "known_credential": 1
+      }
+    },
+    {
+      "path": "V3/batch/runs/Chemistry_02_photoionization_delay/private/auth.json",
+      "replacements": {
+        "known_credential": 1
+      }
+    },
+    {
+      "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/private/auth.json",
+      "replacements": {
+        "known_credential": 1
+      }
+    },
+    {
+      "path": "V3/batch/runs/Neuro_02_calcium_response_regions/private/auth.json",
+      "replacements": {
+        "known_credential": 1
+      }
+    },
+    {
+      "path": "V3/batch/runs/Physics_04_temporal_delay_transition/private/auth.json",
+      "replacements": {
+        "known_credential": 1
+      }
+    },
+    {
+      "path": "V3/environment/private/final-database.sql",
+      "replacements": {
+        "known_credential": 7
+      }
+    },
+    {
+      "path": "V3/environment/private/route.env",
+      "replacements": {
+        "known_credential": 1
+      }
+    },
+    {
+      "path": "V3/environment/private/users.json",
+      "replacements": {
+        "known_credential": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# 反馈 · 轮 3 之后（Chemistry_02_photoionization_delay）
+
+性质：事实反馈，仅依据本轮亲读的项目文件、主/子原始 JSONL 与我对原始 TSV 的独立复算。不含外部科学答案，不评分。
+
+## 已观察事实与证据位置（先列本轮已解决项）
+
+1. 独立复算证据已进入 Result.md Findings 2/3/4（第 74/100/131 行），数值与我核对的一致；Reproducibility 段（第 164 行）如实记录子代码已删除、结果 JSON 保留；analysis-state.md 增加了 Adoption Status 并纠正了 max_abs_real 3.0→0.456 的过时快照问题。
+2. Finding 1 的 per-energy 叙述更新为对齐口径（3.48→4.43 rad 区间与 fig1_aligned_phase_diff.csv 一致）。
+
+## 本轮新发现的事实问题
+
+1. **Finding 4 "inflection points" 统计口径与执行代码不符。**
+   - Result.md Finding 4： "two inflection points at eKE ≈ 2.5 eV and 17.0 eV (identified by sign changes in the second derivative)"。
+   - 实际执行代码 `output/analysis_02_core_findings.py` 第 271–276 行：`ep_deriv = np.diff(ep_phase)` 后对 **np.sign(一阶导)** 再取 diff——即特征相位和的**局部极值点**（一阶导变号），不是二阶导变号的拐点。
+   - 我从原始 `data/phase_and_delay_curves_datasets.tsv` 直接复算：eigenphase_sum 在 3.0 eV 取极小 −1.1129、17.5 eV 取极大 0.4659，随后降至 30 eV 的 0.306；二阶导（原始无平滑）变号点在 **9/24/25/26 eV**。2.5 与 17.0 是极小/极大位置，被 Result.md 写成"拐点"且方法标注为"二阶导变号"，两者都与执行实现不符。
+2. **Finding 4 "eigenphase sum increases monotonically from −1.11 to +0.47" 与原始数据及子侧结果矛盾。**
+   - 我复算：0.5–3.0 eV 段从 −1.062 降到 −1.113（下降），17.5 eV 后从 0.466 降到 0.306（下降），全程非单调。
+   - 子侧 `output/independent_wigner_results.json` 的 eigenphase 段明确 `monotonically_increasing: false`，并列出 inflection_points 约 9.5/25/26/27 eV——与我的复算量级一致。
+   - 但 `working/analysis-state.md` 的 Adoption Status 把子侧这条写为 "Eigenphase inflection points at 9.5, 25.0, 26.0, 27.0 eV — CONSISTENT"，而主侧正文主张（2.5/17.0、monotonic）与之相反。该"CONSISTENT"标签未经过逐值比对。
+3. **Finding 1 Robustness 段新增句子超出证据范围。** Result.md Finding 1 Robustness 末句 "Independent replication by a general-purpose sub-agent confirmed these aligned-grid results"：子侧委派范围（子 JSONL 第 1 行委派 prompt）为 DME 趋势、F20 系数与 Wigner 特征（Findings 2/3/4），从未复算过样条对齐后的 exp/theory 相位对比（Finding 1）。该句应限定或删除。
+4. **Dual-口径段的文件内容描述仍未修正。** Result.md 第 39 行仍写 `analysis_results.json` "contained the pre-correction value (2.54 rad)"；该文件实际记录 4.0137（旧对齐逐 cell 口径，`analysis_03_figures.py` 第 153 行写入）；2.54 出自 `analysis_02_core_findings.py` stdout/旧正文（角度平均口径）。且口径 (b) 在新对齐下仍无执行记录。
+5. **Finding 1 angle-resolved 段旧数字仍在。** 同段保留 "phases agree best near 90° (mean |diff| ≈ 0.13 rad)" 与 "up to 6.7 rad at 100–170°"——出自未按新对齐重跑的 `analysis_04_deep.py`（其 angle_resolved_phase_diff 在 deep_analysis_results.json 中为空对象，数字来源是旧 stdout）。与新对齐 headline（全域 3.48–4.43 rad）同段并存。
+
+## 未满足条件及影响
+
+- 共享 Skill 第 2 条（主张对应真实分析）：Finding 4 的"拐点/二阶导"标注与执行代码不符；"monotonically"与原始数据矛盾。
+- 共享 Skill 第 16 行（复核冲突需可重现原因及修正）：子侧 eigenphase 结果与主侧正文实质分歧，被标 CONSISTENT 但未比对、未修正正文。
+- Finding 1 的两处证据范围/口径问题依旧（Robustness 越界句、dual-口径错引、旧 angle-resolved 数字）。
+
+## 要求（由被测 Agent 自行核查/执行）
+
+1. 重算并改正 Finding 4：明确 eigenphase 极值（3.0/17.5 eV 附近）与二阶导变号位置（约 9/24–27 eV，注明平滑敏感性）是两类统计；按实际执行的口径重写正文，并处理非单调事实。
+2. 将子侧 eigenphase/monotonic 结果与主侧正文的分歧作为实质分歧处理：在正文与 analysis-state.md 中记录不一致的具体数值、原因与采纳决定，替换或限定错误结论。
+3. 将 Finding 1 Robustness 的独立复算句限定为 Findings 2/3/4 的实际复算范围。
+4. 修正第 39 行对 analysis_results.json 的描述，或在新对齐下实际执行口径 (b) 并引用其数字。
+5. 重跑或改写 analysis_04 的 angle-resolved 部分至新对齐口径，消除 0.13/6.7 rad 旧数字与新 headline 的并存。
+
+以上为事实与缺口；处理方式由你决定。

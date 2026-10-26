@@ -1,0 +1,3125 @@
+{
+  "data": [
+    {
+      "id": "ses_ebc1ae3d8ffeAmzw1mEDm2dIa3",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 299811,
+        "output": 2413,
+        "reasoning": 537,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1792140450859,
+        "updated": 1792140496593
+      },
+      "title": "TruthInsight V3.1 · Astronomy_02_gravity_spectral_structure · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc1ae3e6ffe0PjX5Viux2keQj",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 212348,
+        "output": 1916,
+        "reasoning": 790,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1792140450850,
+        "updated": 1792140494312
+      },
+      "title": "TruthInsight V3.1 · Physics_04_temporal_delay_transition · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc1ae440ffentMEx5uqRjbUSV",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 206012,
+        "output": 1433,
+        "reasoning": 1037,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1792140450809,
+        "updated": 1792140493792
+      },
+      "title": "TruthInsight V3.1 · Chemistry_02_photoionization_delay · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc1ae3caffevOTg3zYM4nVKKS",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 237703,
+        "output": 1750,
+        "reasoning": 696,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1792140450872,
+        "updated": 1792140493067
+      },
+      "title": "TruthInsight V3.1 · Neuro_02_calcium_response_regions · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc1ae3cfffecEMhBgABB1HT6J",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 289825,
+        "output": 1931,
+        "reasoning": 526,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1792140450865,
+        "updated": 1792140492806
+      },
+      "title": "TruthInsight V3.1 · EarthScience_01_glacial_fluvial_erosion · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc8097afffem5Thm3XHAtuA8I",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "cost": 0,
+      "tokens": {
+        "input": 13645420,
+        "output": 55507,
+        "reasoning": 20173,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1792133785682,
+        "updated": 1792138737697,
+        "idle": 1792138737705,
+        "viewed": 1792135314625
+      },
+      "title": "TruthInsight V2 · Neuro_02_calcium_response_regions · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "browser",
+          "resource": "*",
+          "effect": "allow"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc8097b3ffe8xVe5b9R6LeBAR",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "cost": 0,
+      "tokens": {
+        "input": 11230363,
+        "output": 51312,
+        "reasoning": 26380,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1792133785678,
+        "updated": 1792138689975,
+        "idle": 1792138689996
+      },
+      "title": "TruthInsight V2 · EarthScience_01_glacial_fluvial_erosion · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc8097b7ffenzUDxZVnHQonKH",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "cost": 0,
+      "tokens": {
+        "input": 9774406,
+        "output": 47377,
+        "reasoning": 20612,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1792133785673,
+        "updated": 1792138620365,
+        "idle": 1792138620380
+      },
+      "title": "TruthInsight V2 · Astronomy_02_gravity_spectral_structure · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc8097d4ffeUYfxmU5WRsD8fF",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "cost": 0,
+      "tokens": {
+        "input": 11618097,
+        "output": 55270,
+        "reasoning": 15956,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1792133785651,
+        "updated": 1792138541544,
+        "idle": 1792138541562
+      },
+      "title": "TruthInsight V2 · Chemistry_02_photoionization_delay · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc8097bdffeAgvO6hbC0RMXHi",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "cost": 0,
+      "tokens": {
+        "input": 10600826,
+        "output": 48687,
+        "reasoning": 20267,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1792133785668,
+        "updated": 1792138539867,
+        "idle": 1792138540300
+      },
+      "title": "TruthInsight V2 · Physics_04_temporal_delay_transition · 单题操作者 · 不评分",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebca28759ffegk1Jgv8TTsoats",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 21176312,
+        "output": 43771,
+        "reasoning": 125558,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1792131561718,
+        "updated": 1792136983264,
+        "idle": 1792136983268,
+        "viewed": 1792136983268
+      },
+      "title": "咖啡机使用方法与待机红灯含义查询",
+      "permissions": [
+        {
+          "action": "browser",
+          "resource": "*",
+          "effect": "allow"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f521eb68affeJ81oaAIOOZZN34",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 55970,
+        "output": 4092,
+        "reasoning": 4164,
+        "cache": {
+          "read": 514048,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789623617910,
+        "updated": 1792132718663
+      },
+      "title": "Semantic search usage in context infra",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [
+        {
+          "action": "browser",
+          "resource": "*",
+          "effect": "allow"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebc96c59bffe85XXsGn65b8chM",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "cost": 0,
+      "tokens": {
+        "input": 2150119,
+        "output": 11487,
+        "reasoning": 18316,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "interrupted",
+      "time": {
+        "created": 1792132332148,
+        "updated": 1792132688010,
+        "idle": 1792132561777,
+        "viewed": 1792132561777
+      },
+      "title": "已停止 · 原单操作者 · TruthInsightBench V2",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebcbe89afffe2ysWRTo4EUoPp2",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 15032143,
+        "output": 50023,
+        "reasoning": 62708,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1792129726057,
+        "updated": 1792132345785,
+        "idle": 1792132299943,
+        "viewed": 1792132299943
+      },
+      "title": "Claude 上下文 A/B · A · build-interactive-mapping-interface",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f61f87805ffezTbnGf1YoAvEk4",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 1133730,
+        "output": 39549,
+        "reasoning": 48230,
+        "cache": {
+          "read": 14681088,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789357688827,
+        "updated": 1792132339339
+      },
+      "title": "OpenAI Data Agent 离线加工机制解析",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f7aac7f56ffegc8Ci9Cre0ZTJY",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--max",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 46204,
+        "output": 2261,
+        "reasoning": 6572,
+        "cache": {
+          "read": 124928,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1788943237290,
+        "updated": 1792132339313
+      },
+      "title": "Opportunity sizing.",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f8916f33bffeD7fDTPMl4wDbcE",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "qwen3.8-max",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 1027506,
+        "output": 44878,
+        "reasoning": 65562,
+        "cache": {
+          "read": 14608384,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1788701379780,
+        "updated": 1792132339299
+      },
+      "title": "只读排查 LiteLLM 网关 IP 识别机制",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f70808a06ffeh2V9F48N814Yh2",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 379991,
+        "output": 33629,
+        "reasoning": 25756,
+        "cache": {
+          "read": 4396032,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789113890297,
+        "updated": 1792132339202
+      },
+      "title": "explore",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebcbe891effeVGwmewTy094KKE",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "cost": 0,
+      "tokens": {
+        "input": 10220371,
+        "output": 46468,
+        "reasoning": 32497,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1792129726181,
+        "updated": 1792132108413,
+        "idle": 1792131371307,
+        "viewed": 1792131371307
+      },
+      "title": "Claude 上下文 A/B · B · explain-runtime-mechanisms",
+      "permissions": [
+        {
+          "action": "*",
+          "resource": "*",
+          "effect": "allow"
+        },
+        {
+          "action": "task",
+          "resource": "*",
+          "effect": "deny"
+        },
+        {
+          "action": "agent",
+          "resource": "*",
+          "effect": "deny"
+        }
+      ],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebcc29f6bffehB0CIdNJaDyB0k",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 8804480,
+        "output": 38355,
+        "reasoning": 77805,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1792129458412,
+        "updated": 1792132097777,
+        "idle": 1792130952161,
+        "viewed": 1792130952161
+      },
+      "title": "接手完成调研流程可视化",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ec77e59baffeynUQxxY4l5A3ru",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 314220,
+        "output": 921,
+        "reasoning": 1431,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1791949383282,
+        "updated": 1792129853254,
+        "idle": 1791949600736,
+        "viewed": 1791949600736
+      },
+      "title": "导出Codex最新赛事",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ec79c3f1efferTFzap76i9ZJVm",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 31348,
+        "output": 795,
+        "reasoning": 2902,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "succeeded",
+      "time": {
+        "created": 1791947424056,
+        "updated": 1792129846832,
+        "idle": 1791948346353,
+        "viewed": 1791948346353
+      },
+      "title": "OpenCode 2.0.28 迁移验收",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ec7ca0e90ffeCnQpumTZwBfAcm",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 17367,
+        "output": 57,
+        "reasoning": 117,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1791944421744,
+        "updated": 1792129842910
+      },
+      "title": "Test message",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f36134708ffeqrbxT27bFTbkJj",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 11572854,
+        "output": 141597,
+        "reasoning": 0,
+        "cache": {
+          "read": 2917906,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790094129400,
+        "updated": 1792129841659
+      },
+      "title": "TIB Bonsai基准题操作者调度与进度监控",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f364ebaafffelnxXSLocvtwDgF",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 7341322,
+        "output": 161213,
+        "reasoning": 0,
+        "cache": {
+          "read": 2131968,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790090233168,
+        "updated": 1792129841006
+      },
+      "title": "TIB Bonsai 操作者 Neuro_03_spatial_code_stability",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4b19ce4effeVdKDzw0gAFGSTw",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 104063,
+        "output": 22408,
+        "reasoning": 25413,
+        "cache": {
+          "read": 3266048,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789741380017,
+        "updated": 1792129837979
+      },
+      "title": "读书提问：自动复制取词与窗口前置 Delta 接手实现",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4b31fd28ffekCHTnhUX9MzNRW",
+      "projectID": "8ae945238d10ba6e86475a6fae0d1276029b07ee",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 234896,
+        "output": 17649,
+        "reasoning": 34363,
+        "cache": {
+          "read": 4325888,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789739795159,
+        "updated": 1792129836596
+      },
+      "title": "读书提问：自动复制取词与窗口前置 Delta 实现",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/book_ask"
+      }
+    },
+    {
+      "id": "ses_f4b353410ffe92kujTwNrxZdrq",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 106167,
+        "output": 17360,
+        "reasoning": 13549,
+        "cache": {
+          "read": 2527744,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789739584495,
+        "updated": 1792129835073
+      },
+      "title": "核查leaf 1-4-4-2 round2",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4c46e717ffeEMbkQ83m3X9yY4",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 138600,
+        "output": 16589,
+        "reasoning": 10802,
+        "cache": {
+          "read": 1780224,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789721647336,
+        "updated": 1792129832751
+      },
+      "title": "选段即问的全局适配与划词识别调研",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f50f492bcffePZXpmhcTqzzP44",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 2549936,
+        "output": 206854,
+        "reasoning": 195619,
+        "cache": {
+          "read": 136225280,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789643156804,
+        "updated": 1792129824598
+      },
+      "title": "筛查40道评测题的计算资源与API依赖",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f56b5b660ffeC3FB0MntjB8JlN",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 913114,
+        "output": 46430,
+        "reasoning": 51236,
+        "cache": {
+          "read": 17356288,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789546613152,
+        "updated": 1792129817571
+      },
+      "title": "汇报文件前置工作规划",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4cb258b5ffeM3y4Np6ar8N6uH",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "gemini-3.7-flash",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 630111,
+        "output": 6454,
+        "reasoning": 4841,
+        "cache": {
+          "read": 1567091,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789714605991,
+        "updated": 1792129815074
+      },
+      "title": "OpenCode 会话测试分析与产品汇报",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4ceece0fffekPF2Cy2i3dezLM",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 1821193,
+        "output": 81190,
+        "reasoning": 94658,
+        "cache": {
+          "read": 73000960,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789710643697,
+        "updated": 1792129800939
+      },
+      "title": "核查文件撰写需求讨论与打磨",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f56b17fb9ffefMoPPI0EpvOImP",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "qwen3.8-max",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 155963,
+        "output": 14811,
+        "reasoning": 0,
+        "cache": {
+          "read": 4436480,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789546889286,
+        "updated": 1792129790026
+      },
+      "title": "产物对比: 旧harness vs DWF",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f5bbce9baffeZNWRUi3U01vEQc",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 1972808,
+        "output": 197913,
+        "reasoning": 124939,
+        "cache": {
+          "read": 97912320,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789462255173,
+        "updated": 1792129788290
+      },
+      "title": "OpenCode 会话 Subagent 多轮交互可视化",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f572e0abdffe9NrpbnBAFSzhCD",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 145685,
+        "output": 21239,
+        "reasoning": 12977,
+        "cache": {
+          "read": 2145280,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789538727234,
+        "updated": 1792129779703
+      },
+      "title": "高智能模型的抽象提示词设计调研",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f70e629afffesu66zJwB7YPMS2",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 5708700,
+        "output": 200713,
+        "reasoning": 232188,
+        "cache": {
+          "read": 164151808,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789107230288,
+        "updated": 1792129772701
+      },
+      "title": "监督 OpenCode 会话执行与 Web Fetch 功能验证",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f617089c4ffeV6D2oNle9W74TI",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "qwen3.8-max",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 253219,
+        "output": 53318,
+        "reasoning": 0,
+        "cache": {
+          "read": 10336640,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789366597180,
+        "updated": 1792129769797
+      },
+      "title": "接手上海地铁地理任务",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f8f781260ffev8od0N6OJDMYj6",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--max",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 2773818,
+        "output": 65565,
+        "reasoning": 14884,
+        "cache": {
+          "read": 5048320,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1788594351519,
+        "updated": 1792129741480
+      },
+      "title": "CVA",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ebcdddd4dffe8SDtRcIsofvuZy",
+      "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 1501912,
+        "output": 16380,
+        "reasoning": 40686,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "outcome": "failed",
+      "time": {
+        "created": 1792127673089,
+        "updated": 1792129456682,
+        "idle": 1792128014196,
+        "viewed": 1792128014196
+      },
+      "title": "完善Claude与SAP调研流程可视化",
+      "permissions": [],
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ec7d3bed1ffe1gIKKwd0qn7qmG",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 2094,
+        "output": 6,
+        "reasoning": 35,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1791943786798,
+        "updated": 1791943809121
+      },
+      "title": "Windows GLM 默认模型与自动恢复验收",
+      "subpath": "private/var/folders/xg/vfgvrhgs0k97fr1vh9tc3z_00000gn/T/opencode-default-glm-wl54t9x8",
+      "location": {
+        "directory": "/private/var/folders/xg/vfgvrhgs0k97fr1vh9tc3z_00000gn/T/opencode-default-glm-wl54t9x8"
+      }
+    },
+    {
+      "id": "ses_ecadd7dcfffejGfey3dYisFRgw",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 5546,
+        "output": 77,
+        "reasoning": 90,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1791892816433,
+        "updated": 1791892821286
+      },
+      "title": "Windows GLM 只读工具校验",
+      "subpath": "private/var/folders/xg/vfgvrhgs0k97fr1vh9tc3z_00000gn/T/opencode-glm-check-_itpsz7v",
+      "location": {
+        "directory": "/private/var/folders/xg/vfgvrhgs0k97fr1vh9tc3z_00000gn/T/opencode-glm-check-_itpsz7v"
+      }
+    },
+    {
+      "id": "ses_ecae2ca2affe06FVs5ryW44tqz",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "GLM-5.3-Flash-W4A16-MTP",
+        "providerID": "windows-glm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 23598,
+        "output": 428,
+        "reasoning": 640,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1791892469205,
+        "updated": 1791892686072
+      },
+      "title": "Windows GLM 模型连接与只读工具校验",
+      "subpath": "private/var/folders/xg/vfgvrhgs0k97fr1vh9tc3z_00000gn/T/opencode-glm-check-_itpsz7v",
+      "location": {
+        "directory": "/private/var/folders/xg/vfgvrhgs0k97fr1vh9tc3z_00000gn/T/opencode-glm-check-_itpsz7v"
+      }
+    },
+    {
+      "id": "ses_ee141eef3ffeyZRmtz1oANqRbl",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 3118783,
+        "output": 52920,
+        "reasoning": 0,
+        "cache": {
+          "read": 903096,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1791517135117,
+        "updated": 1791523901538
+      },
+      "title": "TIB 操作者 Life_01_dual_sensor_fusion",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ee3fa2ea1ffe9y45k4DVEgMOUp",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 13653553,
+        "output": 418809,
+        "reasoning": 0,
+        "cache": {
+          "read": 6866302,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1791471505759,
+        "updated": 1791515733668
+      },
+      "title": "TIB 操作者 Life_01_dual_sensor_fusion",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_ee476f813ffepEPnbwDJZIHrE8",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 1559837,
+        "output": 72480,
+        "reasoning": 0,
+        "cache": {
+          "read": 7446153,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1791463327726,
+        "updated": 1791468810273
+      },
+      "title": "TIB 操作者 Information_04_connectome_assortative_structure",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f2d564b95ffer6RRIyaZeuvwaH",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 1498059,
+        "output": 31794,
+        "reasoning": 0,
+        "cache": {
+          "read": 1265173,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790240732266,
+        "updated": 1791461701366
+      },
+      "title": "TIB 操作者 Information_04_connectome_assortative_structure",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f2dc3548bffeZ0mogQMvw42xIq",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 1374813,
+        "output": 61153,
+        "reasoning": 0,
+        "cache": {
+          "read": 4555035,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790233586549,
+        "updated": 1790238518722
+      },
+      "title": "TIB 操作者 Information_02_network_path_boundaries",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f2e8d8b1effeMjJxM5TgHiI9ih",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 2715013,
+        "output": 66093,
+        "reasoning": 0,
+        "cache": {
+          "read": 5179362,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790220334305,
+        "updated": 1790230483952
+      },
+      "title": "TIB 操作者 Information_01_dynamics_generalization",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f305a77a6ffeKQSLxfyAitg4fm",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 1885747,
+        "output": 40958,
+        "reasoning": 0,
+        "cache": {
+          "read": 3581859,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790190127193,
+        "updated": 1790195072719
+      },
+      "title": "TIB 操作者 Physics_05_variational_circuit_simulation",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f31428c0fffeZ7nYPT0dHWG3CY",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 5202572,
+        "output": 62013,
+        "reasoning": 0,
+        "cache": {
+          "read": 4268204,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790174917617,
+        "updated": 1790187959239
+      },
+      "title": "TIB 操作者 Physics_04_temporal_delay_transition",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f3212da38ffeU3eo6IuiIgF9kT",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 5500388,
+        "output": 91776,
+        "reasoning": 0,
+        "cache": {
+          "read": 7129709,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790161266120,
+        "updated": 1790169890588
+      },
+      "title": "TIB 操作者 Physics_03_controlled_dynamics_forecast",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f32edf144ffeE1qXN722yBaNcS",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 4405398,
+        "output": 53134,
+        "reasoning": 0,
+        "cache": {
+          "read": 6134021,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790146907841,
+        "updated": 1790159787214
+      },
+      "title": "TIB 操作者 Physics_02_multiorbital_transition",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f33caa204ffe0UO4KghXW6X4QF",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 2894375,
+        "output": 71541,
+        "reasoning": 0,
+        "cache": {
+          "read": 6942674,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790132444667,
+        "updated": 1790143779577
+      },
+      "title": "TIB 操作者 Physics_01_dynamic_nuclear_polarization_echoes",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f352c99d5ffe7PIFkRvALOGGKt",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 3913140,
+        "output": 241151,
+        "reasoning": 0,
+        "cache": {
+          "read": 11056953,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790109247018,
+        "updated": 1790132108452
+      },
+      "title": "TIB 操作者 Neuro_04_temporal_geometry",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f36eab351ffeRmSx6EJtATV5kQ",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 5567065,
+        "output": 93895,
+        "reasoning": 0,
+        "cache": {
+          "read": 3940527,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790080011438,
+        "updated": 1790089508428
+      },
+      "title": "TIB Bonsai 操作者 Neuro_02_calcium_response_regions",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43c11201ffefsBkE0MqFkO0Up",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 43176,
+        "output": 9138,
+        "reasoning": 2268,
+        "cache": {
+          "read": 832512,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789864635903,
+        "updated": 1790078567227
+      },
+      "title": "TIB 操作者 Life_03_nutrient_response_kinetics",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f465e4fc3ffe4wsNTbtn37whMj",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 665809,
+        "output": 114053,
+        "reasoning": 24491,
+        "cache": {
+          "read": 16505834,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789820776509,
+        "updated": 1790070821287
+      },
+      "title": "TIB 操作者 Energy_03_interface_response_boundaries",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f38795255ffe4vK60q7ZQqenOY",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 3317680,
+        "output": 115763,
+        "reasoning": 0,
+        "cache": {
+          "read": 5258043,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790053887406,
+        "updated": 1790066450954
+      },
+      "title": "TIB 操作者 Life_05 续接监控 20260922",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43bef9faffePi1U6DDvYedS0n",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 6457808,
+        "output": 215971,
+        "reasoning": 4495,
+        "cache": {
+          "read": 13315833,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789864773125,
+        "updated": 1790053623865
+      },
+      "title": "TIB 操作者 Life_05_developmental_interaction_structure",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f39816072ffeY2s1JJcuR47hhI",
+      "projectID": "global",
+      "cost": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "reasoning": 0,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1790036582285,
+        "updated": 1790036582285
+      },
+      "title": "New session - 2026-09-22T00:23:02.285Z",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43cb5e27ffef5Pk53tRX3lmzK",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 123767,
+        "output": 40418,
+        "reasoning": 1478,
+        "cache": {
+          "read": 3093158,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789863961049,
+        "updated": 1789898971059
+      },
+      "title": "TIB 操作者 Life_02_contextual_immune_response",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43c008eaffeP5zIErvIecTIuw",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 309101,
+        "output": 100390,
+        "reasoning": 1820,
+        "cache": {
+          "read": 7124264,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789864703766,
+        "updated": 1789898307001
+      },
+      "title": "TIB 操作者 Life_04_environmental_transfer_boundary",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43ce6fbdffed4KlwxpA4sGNhF",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bonsai2-27b-pq2",
+        "providerID": "bonsai138",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 141478,
+        "output": 48592,
+        "reasoning": 4063,
+        "cache": {
+          "read": 3910139,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789863759938,
+        "updated": 1789886273577
+      },
+      "title": "TIB 操作者 Information_03_signal_surface_invariants",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43d08c99ffeI37bkgboUWBncp",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 61687,
+        "output": 10062,
+        "reasoning": 2679,
+        "cache": {
+          "read": 902144,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789863621478,
+        "updated": 1789871269013
+      },
+      "title": "TIB 操作者 Information_01_dynamics_generalization",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43b5cdb3ffefp7ZYQdU28HG5O",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 68643,
+        "output": 5597,
+        "reasoning": 5012,
+        "cache": {
+          "read": 524288,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789865374285,
+        "updated": 1789870947518
+      },
+      "title": "TIB 操作者 Math_03_ode_parameter_geometry",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43bdf297ffeq7Yld0OLN9OKP1",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 38448,
+        "output": 6890,
+        "reasoning": 3589,
+        "cache": {
+          "read": 606208,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789864840552,
+        "updated": 1789870941609
+      },
+      "title": "TIB 操作者 Material_01_binary_superlattice",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43b9993bffeUFj24XJSEsWpNy",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 39080,
+        "output": 5919,
+        "reasoning": 4508,
+        "cache": {
+          "read": 451584,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789865125574,
+        "updated": 1789870927781
+      },
+      "title": "TIB 操作者 Material_04_nir_emission_structure",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43b432ddffekUsK1AjW2IdWOj",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 37456,
+        "output": 4916,
+        "reasoning": 4578,
+        "cache": {
+          "read": 461824,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789865479461,
+        "updated": 1789870601008
+      },
+      "title": "TIB 操作者 Math_04_anomalous_diffusion_change_points",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43b86c33ffedBl2CSVQIXFV82",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 59138,
+        "output": 6478,
+        "reasoning": 4369,
+        "cache": {
+          "read": 544768,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789865202636,
+        "updated": 1789870476648
+      },
+      "title": "TIB 操作者 Math_01_governing_equation_discovery",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43cd6d3bffeD6Ornt7iVJxsqC",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 58654,
+        "output": 11085,
+        "reasoning": 7021,
+        "cache": {
+          "read": 1108992,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789863826116,
+        "updated": 1789868213285
+      },
+      "title": "TIB 操作者 Information_04_connectome_assortative_structure",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43bbdf48ffeKapHqXMjJOuN71",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 35768,
+        "output": 7284,
+        "reasoning": 2922,
+        "cache": {
+          "read": 464896,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789864976567,
+        "updated": 1789868206880
+      },
+      "title": "TIB 操作者 Material_03_membrane_selective_permeation",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43cf775fffeD2d46ENTwi5bre",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 48614,
+        "output": 9785,
+        "reasoning": 3746,
+        "cache": {
+          "read": 867328,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789863692448,
+        "updated": 1789868199788
+      },
+      "title": "TIB 操作者 Information_02_network_path_boundaries",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43bce308ffeKVP7rx7etPNARW",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 55460,
+        "output": 9836,
+        "reasoning": 5205,
+        "cache": {
+          "read": 886784,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789864910071,
+        "updated": 1789868184389
+      },
+      "title": "TIB 操作者 Material_02_temperature_response_boundaries",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43cc66baffelDikaLa3teIg52",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 51574,
+        "output": 9802,
+        "reasoning": 3639,
+        "cache": {
+          "read": 1103872,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789863893317,
+        "updated": 1789868175882
+      },
+      "title": "TIB 操作者 Life_01_dual_sensor_fusion",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43b260beffeU0Hupm6BbPO0LL",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 28436,
+        "output": 3953,
+        "reasoning": 2913,
+        "cache": {
+          "read": 376832,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789865598786,
+        "updated": 1789868154040
+      },
+      "title": "TIB 操作者 Neuro_01_self_organization_prediction",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f43b73e7effe5IvCPzINioLxT6",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 34546,
+        "output": 6138,
+        "reasoning": 2038,
+        "cache": {
+          "read": 518144,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789865279873,
+        "updated": 1789868148840
+      },
+      "title": "TIB 操作者 Math_02_compositional_invariants",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4676bef6ffekjhZyirwC1xIrW",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 163449,
+        "output": 34572,
+        "reasoning": 8493,
+        "cache": {
+          "read": 5609472,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819175177,
+        "updated": 1789842779335
+      },
+      "title": "TIB 操作者 Chemistry_02_photoionization_delay",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4677c2bfffeRcNEh2MkyZ1Ysi",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 182964,
+        "output": 31444,
+        "reasoning": 9605,
+        "cache": {
+          "read": 4584960,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819108672,
+        "updated": 1789839893306
+      },
+      "title": "TIB 操作者 Astronomy_03_stellar_spectral_boundary",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4678c70bffeoRFb4gF53d8ByS",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 180166,
+        "output": 31744,
+        "reasoning": 11662,
+        "cache": {
+          "read": 6596608,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819042036,
+        "updated": 1789839424184
+      },
+      "title": "TIB 操作者 Astronomy_01_radio_burst_drift",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4660f4f5ffeY1Rm42126JijaH",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 160015,
+        "output": 30327,
+        "reasoning": 13316,
+        "cache": {
+          "read": 4667392,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789820603146,
+        "updated": 1789838076339
+      },
+      "title": "TIB 操作者 Energy_01_photocatalytic_tradeoffs",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f46784554ffe69ay5tURALjHbw",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 229276,
+        "output": 33672,
+        "reasoning": 16402,
+        "cache": {
+          "read": 6738944,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819075243,
+        "updated": 1789837579805
+      },
+      "title": "TIB 操作者 Astronomy_02_gravity_spectral_structure",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f46763c88ffe0ZjNN0wzQ0J6bC",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 156301,
+        "output": 28482,
+        "reasoning": 7369,
+        "cache": {
+          "read": 4945408,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819208567,
+        "updated": 1789837393263
+      },
+      "title": "TIB 操作者 Chemistry_03_catalysis_response_landscape",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f465fa7dcffeDXIu1HX4g1mVRv",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 172707,
+        "output": 30160,
+        "reasoning": 13695,
+        "cache": {
+          "read": 5372416,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789820688420,
+        "updated": 1789836981336
+      },
+      "title": "TIB 操作者 Energy_02_flow_battery_operating_boundary",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f467740fdffevr6pDydqCnNCF1",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 149206,
+        "output": 25885,
+        "reasoning": 6269,
+        "cache": {
+          "read": 3813376,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819141890,
+        "updated": 1789835429353
+      },
+      "title": "TIB 操作者 Chemistry_01_bond_enthalpy_domain",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f465ca4d2ffe4ZHcGkxHgDIp3g",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 116808,
+        "output": 18595,
+        "reasoning": 7650,
+        "cache": {
+          "read": 2230272,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789820885813,
+        "updated": 1789834244465
+      },
+      "title": "TIB 操作者 Energy_04_biohybrid_operating_tradeoffs",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f467432bcffew5B8eYDmiRhv1U",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 132798,
+        "output": 20728,
+        "reasoning": 6491,
+        "cache": {
+          "read": 2678272,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819342147,
+        "updated": 1789833939061
+      },
+      "title": "TIB 操作者 EarthScience_04_ocean_thermal_coupling",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4675367affevH9XHrKFR8AN9k",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 86371,
+        "output": 20928,
+        "reasoning": 6650,
+        "cache": {
+          "read": 3559936,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819275653,
+        "updated": 1789833611654
+      },
+      "title": "TIB 操作者 EarthScience_02_ice_particle_composition",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4675b9c8ffePGke82zRCRssyJ",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 107739,
+        "output": 21471,
+        "reasoning": 6335,
+        "cache": {
+          "read": 3534336,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819242040,
+        "updated": 1789832915744
+      },
+      "title": "TIB 操作者 EarthScience_01_glacial_fluvial_erosion",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4674b45affe2FbOHbuAlZX3GV",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 75466,
+        "output": 18871,
+        "reasoning": 5851,
+        "cache": {
+          "read": 2603520,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789819308965,
+        "updated": 1789832062464
+      },
+      "title": "TIB 操作者 EarthScience_03_ice_core_event_structure",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f46508572ffeNUJCBikHE7Yfqa",
+      "projectID": "global",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 0,
+        "output": 0,
+        "reasoning": 0,
+        "cache": {
+          "read": 0,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789821680446,
+        "updated": 1789821680446
+      },
+      "title": "TIB 操作者 Information_01_dynamics_generalization",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f47c470c8ffeZVh24DDORj9c8j",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 211805,
+        "output": 5286,
+        "reasoning": 11523,
+        "cache": {
+          "read": 937984,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789797306168,
+        "updated": 1789810724874
+      },
+      "title": "Procedural structure generation in Minecraft",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4889bc1bffedwlBjUMy4peCz9",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 335907,
+        "output": 42995,
+        "reasoning": 23081,
+        "cache": {
+          "read": 25587200,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789784376292,
+        "updated": 1789792265032
+      },
+      "title": "核查leaf 9-2-1 round15",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4895e449ffeWqJH5WqU1aDN4k",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 318651,
+        "output": 49890,
+        "reasoning": 43121,
+        "cache": {
+          "read": 20587520,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789783579574,
+        "updated": 1789789972336
+      },
+      "title": "核查leaf 3-2-5 round14",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f487607d7ffeAlnLsowKUc8ZxG",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 222091,
+        "output": 29399,
+        "reasoning": 33708,
+        "cache": {
+          "read": 9076736,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789785667624,
+        "updated": 1789789521066
+      },
+      "title": "核查leaf 9-2-2-1 round16",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f48948a97ffeg64GtW5oPrLalQ",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 300668,
+        "output": 45454,
+        "reasoning": 41563,
+        "cache": {
+          "read": 17231360,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789783668072,
+        "updated": 1789788740111
+      },
+      "title": "核查leaf 4-2-2 round14",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4894e0e3ffeFCK1YB2RKoTWYH",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 163498,
+        "output": 25471,
+        "reasoning": 23844,
+        "cache": {
+          "read": 5222400,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789783645980,
+        "updated": 1789785808637
+      },
+      "title": "核查leaf 4-1-8 round14",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4893878affegGtXopB6oKi5wD",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 140447,
+        "output": 26707,
+        "reasoning": 22985,
+        "cache": {
+          "read": 3425792,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789783734389,
+        "updated": 1789785527639
+      },
+      "title": "核查leaf 9-1 round14",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f48953772ffeOXDMWfuiM4fUJh",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 135122,
+        "output": 22865,
+        "reasoning": 20926,
+        "cache": {
+          "read": 4812288,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789783623821,
+        "updated": 1789785499525
+      },
+      "title": "核查leaf 4-1-6 round14",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    },
+    {
+      "id": "ses_f4893dd98ffe4znVWga3jgY4sF",
+      "projectID": "global",
+      "agent": "build",
+      "model": {
+        "id": "bailian-kimi-k3--high",
+        "providerID": "litellm",
+        "variant": "default"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 104362,
+        "output": 19282,
+        "reasoning": 21998,
+        "cache": {
+          "read": 2444800,
+          "write": 0
+        }
+      },
+      "time": {
+        "created": 1789783712359,
+        "updated": 1789785191416
+      },
+      "title": "核查leaf 6-1#2 round14",
+      "subpath": "Users/zhengyidi/yage/context-infrastructure",
+      "location": {
+        "directory": "/Users/zhengyidi/yage/context-infrastructure"
+      }
+    }
+  ],
+  "cursor": {
+    "previous": "eyJhbmNob3IiOnsiaWQiOiJzZXNfZWJjMWFlM2Q4ZmZlQW16dzFtRURtMmRJYTMiLCJ0aW1lIjoxNzkyMTQwNDk2NTkzLCJkaXJlY3Rpb24iOiJwcmV2aW91cyJ9fQ",
+    "next": "eyJhbmNob3IiOnsiaWQiOiJzZXNfZjQ4OTNkZDk4ZmZlNHpuVldnYTNqZ1k0c0YiLCJ0aW1lIjoxNzg5Nzg1MTkxNDE2LCJkaXJlY3Rpb24iOiJuZXh0In19"
+  }
+}

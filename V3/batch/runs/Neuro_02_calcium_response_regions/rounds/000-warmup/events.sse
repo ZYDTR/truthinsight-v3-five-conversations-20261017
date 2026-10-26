@@ -1,0 +1,42 @@
+id: 1
+event: message.updated
+data: {"type": "message.updated", "sequence": 1, "run_id": "run_3fb666d0588e4881", "data": {"id": "fe7fe105-b89b-46c2-9d26-823903a72f71", "run_id": "run_3fb666d0588e4881", "kind": "user", "position": 1, "revision": 1, "parent_tool_use_id": null, "agent_call_id": null, "data": {"text": "本工作区即将载入一个科研数据分析任务。在你收到下一条消息之前，不要开始任何分析工作，不要创建文件，只回复两个字：就绪。"}, "created_at": "2026-10-16T08:48:22.953606+00:00", "updated_at": "2026-10-16T08:48:22.953610+00:00"}}
+
+id: 1
+event: run.updated
+data: {"type": "run.updated", "sequence": 1, "run_id": "run_3fb666d0588e4881", "data": {"run_id": "run_3fb666d0588e4881", "run_sequence": 1, "status": "pending", "conversation_state": {"status": "preparing", "label": "准备运行", "detail": "accepted", "run_status": "pending", "is_active": true, "can_accept_input": false, "is_paused": false, "can_pause": true, "can_continue": false}, "error_code": null, "artifacts": []}}
+
+id: 2
+event: run.updated
+data: {"type": "run.updated", "sequence": 2, "run_id": "run_3fb666d0588e4881", "data": {"run_id": "run_3fb666d0588e4881", "run_sequence": 1, "status": "pending", "conversation_state": {"status": "preparing", "label": "准备运行", "detail": "turn_started", "run_status": "pending", "is_active": true, "can_accept_input": false, "is_paused": false, "can_pause": true, "can_continue": false}, "error_code": null, "artifacts": []}}
+
+id: 3
+event: run.updated
+data: {"type": "run.updated", "sequence": 3, "run_id": "run_3fb666d0588e4881", "data": {"run_id": "run_3fb666d0588e4881", "run_sequence": 1, "status": "running", "conversation_state": {"status": "preparing", "label": "准备运行", "detail": "sdk_started", "run_status": "running", "is_active": true, "can_accept_input": false, "is_paused": false, "can_pause": true, "can_continue": false}, "error_code": null, "artifacts": []}}
+
+id: 4
+event: run.updated
+data: {"type": "run.updated", "sequence": 4, "run_id": "run_3fb666d0588e4881", "data": {"run_id": "run_3fb666d0588e4881", "run_sequence": 1, "status": "running", "conversation_state": {"status": "responding", "label": "运行中", "detail": "sdk.system", "run_status": "running", "is_active": true, "can_accept_input": false, "is_paused": false, "can_pause": true, "can_continue": false}, "error_code": null, "artifacts": []}}
+
+: heartbeat
+
+id: 8
+event: message.updated
+data: {"type": "message.updated", "sequence": 8, "run_id": "run_3fb666d0588e4881", "data": {"id": "fae26449-391c-40ee-8007-5b13fe04a3af", "run_id": "run_3fb666d0588e4881", "kind": "text", "position": 8, "revision": 8, "parent_tool_use_id": null, "agent_call_id": null, "data": {"text": "就绪。"}, "created_at": "2026-10-16T08:48:34.414507+00:00", "updated_at": "2026-10-16T08:48:34.414516+00:00"}}
+
+id: 10
+event: run.updated
+data: {"type": "run.updated", "sequence": 10, "run_id": "run_3fb666d0588e4881", "data": {"run_id": "run_3fb666d0588e4881", "run_sequence": 1, "status": "running", "conversation_state": {"status": "responding", "label": "运行中", "detail": "answer.completed", "run_status": "running", "is_active": true, "can_accept_input": false, "is_paused": false, "can_pause": true, "can_continue": false}, "error_code": null, "artifacts": []}}
+
+id: 13
+event: message.updated
+data: {"type": "message.updated", "sequence": 13, "run_id": "run_3fb666d0588e4881", "data": {"id": "fae26449-391c-40ee-8007-5b13fe04a3af", "run_id": "run_3fb666d0588e4881", "kind": "final", "position": 8, "revision": 13, "parent_tool_use_id": null, "agent_call_id": null, "data": {"text": "就绪。"}, "created_at": "2026-10-16T08:48:34.414507+00:00", "updated_at": "2026-10-16T08:48:35.103134+00:00"}}
+
+id: 14
+event: run.updated
+data: {"type": "run.updated", "sequence": 14, "run_id": "run_3fb666d0588e4881", "data": {"run_id": "run_3fb666d0588e4881", "run_sequence": 1, "status": "completed", "conversation_state": {"status": "idle", "label": "已完成", "detail": "finalizing", "run_status": "completed", "is_active": false, "can_accept_input": true, "last_run_outcome": "completed", "is_paused": false, "can_pause": false, "can_continue": false}, "error_code": null, "artifacts": []}}
+
+id: 14
+event: run.completed
+data: {"type": "run.completed", "sequence": 14, "run_id": "run_3fb666d0588e4881", "data": {"run_id": "run_3fb666d0588e4881", "run_sequence": 1, "status": "completed", "conversation_state": {"status": "idle", "label": "已完成", "detail": "finalizing", "run_status": "completed", "is_active": false, "can_accept_input": true, "last_run_outcome": "completed", "is_paused": false, "can_pause": false, "can_continue": false}, "error_code": null, "artifacts": []}}
+

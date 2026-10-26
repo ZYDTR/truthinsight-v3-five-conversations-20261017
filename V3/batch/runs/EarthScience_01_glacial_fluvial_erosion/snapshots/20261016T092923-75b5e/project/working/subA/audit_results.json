@@ -1,0 +1,5054 @@
+{
+  "schema_audit": {
+    "main_tables": {
+      "glacial_erosion_Earth": [
+        {
+          "column": "Compilation",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 13,
+          "sample_unique_values": [
+            "Amantov et al., 2011",
+            "Anderson, 2005",
+            "Antoniazza and Lane, 2021",
+            "Balter-Kennedy et al., 2021",
+            "Bell and Laine, 1985",
+            "Bj\u00f6rnsson, 1979",
+            "Burbank et al., 2000",
+            "Faleide et al., 1996",
+            "Geirsd\u00f3ttir et al., 2007",
+            "Hallet et al., 1996"
+          ]
+        },
+        {
+          "column": "Reference",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 154,
+          "sample_unique_values": [
+            "Boulton et al., 1991",
+            "Clayton, 1996",
+            "Faleide et al., 1996",
+            "Solheim et al., 1996",
+            "Kraal, 2001; Anderson et al., 2003",
+            "Sharp et al., 1995",
+            "Bratlie, 1994",
+            "Laberg and Vorren, 1996",
+            "M\u00fcller, 1999",
+            "Balter-Kennedy et al., 2021"
+          ]
+        },
+        {
+          "column": "Reference DOI",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 60,
+          "missing_pct": 14.05,
+          "unique_values": 120,
+          "sample_unique_values": [
+            "10.1007/978-3-642-17220-5_3",
+            "10.1016/j.chemgeo.2003.01.001",
+            "10.1130/0091-7613(1995)023<0061:ROCDAC>2.3.CO;2",
+            "10.1177/0309133321997292",
+            "10.1029/2021JF006429",
+            "10.1002/2016GL070258",
+            "10.1016/0033-5894(85)90026-2",
+            "10.1029/95JB02150",
+            "10.1130/0091-7613(1994)022%3C0019:RPEITK%3E2.3.CO;2",
+            "10.1016/S0012-821X(96)00215-4"
+          ]
+        },
+        {
+          "column": "Locality",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 123,
+          "sample_unique_values": [
+            "UK/Scotland",
+            "UK/Britain",
+            "Barents Sea-Svalbard continental margin",
+            "Norwegian margin",
+            "Wrangell Mountains, Alaska",
+            "Valais, Switzerland",
+            "Svalbard",
+            "Norway",
+            "Walensee Valley, Switzerland",
+            "Ilulissat region"
+          ]
+        },
+        {
+          "column": "Glacier",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 184,
+          "sample_unique_values": [
+            "unnamed",
+            "Kennicott Glacier",
+            "Haut Glacier d'Arolla",
+            "Van Keulenfjorden",
+            "Modern Norwegian glaciers",
+            "Jakobshavn Isbr\u00e6",
+            "Laurentide Ice Sheet",
+            "Langj\u00f6kull",
+            "Hofsj\u00f6kull",
+            "Vatnaj\u00f6kull"
+          ]
+        },
+        {
+          "column": "Region",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 13,
+          "sample_unique_values": [
+            "British Isles",
+            "Fennoscandia",
+            "North American Cordillera",
+            "Alps",
+            "Greenland",
+            "Laurentide",
+            "Iceland",
+            "Central Asia",
+            "Pacific",
+            "Antarctica"
+          ]
+        },
+        {
+          "column": "Latitude",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 2,
+          "missing_pct": 0.47,
+          "unique_values": 228,
+          "sample_unique_values": [
+            "53.3443",
+            "67.18026",
+            "62.28011",
+            "61.59991",
+            "45.99144",
+            "77.56008",
+            "67.83612",
+            "47.12264",
+            "69.2167",
+            "49.75957"
+          ]
+        },
+        {
+          "column": "Longitude",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 2,
+          "missing_pct": 0.47,
+          "unique_values": 226,
+          "sample_unique_values": [
+            "-1.87818",
+            "25.40585",
+            "8.68988",
+            "-143.06951",
+            "7.49477",
+            "15.48453",
+            "15.03983",
+            "9.20298",
+            "-49.9857",
+            "-94.55158"
+          ]
+        },
+        {
+          "column": "Elevation (m)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 412,
+          "missing_pct": 96.49,
+          "unique_values": 14,
+          "sample_unique_values": [
+            "1823.0",
+            "1197.0",
+            "1487.0",
+            "1504.0",
+            "1050.0",
+            "1200.0",
+            "1198.0",
+            "1440.0",
+            "788.0",
+            "615.0"
+          ]
+        },
+        {
+          "column": "Precipitation (mm/yr)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 2,
+          "missing_pct": 0.47,
+          "unique_values": 227,
+          "sample_unique_values": [
+            "1291.2",
+            "783.5",
+            "897.0",
+            "957.7",
+            "1663.6",
+            "578.7",
+            "1964.9",
+            "1719.6",
+            "569.0",
+            "718.1"
+          ]
+        },
+        {
+          "column": "Slope (m/km)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 2,
+          "missing_pct": 0.47,
+          "unique_values": 227,
+          "sample_unique_values": [
+            "88.13203",
+            "25.02615",
+            "138.70196",
+            "280.54711",
+            "423.11876",
+            "128.63975",
+            "143.26593",
+            "319.93307",
+            "32.08894",
+            "16.50652"
+          ]
+        },
+        {
+          "column": "Type",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 5,
+          "sample_unique_values": [
+            "Continental",
+            "High-latitude",
+            "Alpine",
+            "Outlet ice stream",
+            "Alpine tidewater"
+          ]
+        },
+        {
+          "column": "Lithology",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 131,
+          "missing_pct": 30.68,
+          "unique_values": 16,
+          "sample_unique_values": [
+            "sed,",
+            "plut, ign,",
+            "sed, volc, ign, met,",
+            "basalt, volc, ign,",
+            "sed, basalt, volc, ign, met,",
+            "sed, met,",
+            "gabbro, granodiorite, ign, met,",
+            "granite, ign, met,",
+            "met,",
+            "siliciclast, shale, carb, sed,"
+          ]
+        },
+        {
+          "column": "Methodology",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 5,
+          "sample_unique_values": [
+            "Volumetric",
+            "Cosmogenic surface",
+            "Thermochronometric",
+            "Relief",
+            "Cosmogenic detrital"
+          ]
+        },
+        {
+          "column": "Area (km2)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 35,
+          "missing_pct": 8.2,
+          "unique_values": 200,
+          "sample_unique_values": [
+            "272000.0",
+            "420.0",
+            "11.7",
+            "280000.0",
+            "269.0",
+            "1e-08",
+            "900.0",
+            "890.0",
+            "8100.0",
+            "590.0"
+          ]
+        },
+        {
+          "column": "Time interval (yr)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 191,
+          "sample_unique_values": [
+            "100000.0",
+            "300000.0",
+            "2500000.0",
+            "0.166667",
+            "0.416667",
+            "11700.0",
+            "622000.0",
+            "15000.0",
+            "219.0",
+            "200.0"
+          ]
+        },
+        {
+          "column": "Sediment flux (km3/yr)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 376,
+          "missing_pct": 88.06,
+          "unique_values": 49,
+          "sample_unique_values": [
+            "0.0316456",
+            "6.62222e-07",
+            "1.71889e-07",
+            "1.03704e-08",
+            "0.024",
+            "0.041",
+            "0.1",
+            "8.14815e-07",
+            "1.77778e-06",
+            "3.14815e-06"
+          ]
+        },
+        {
+          "column": "Exhumation (m)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 346,
+          "missing_pct": 81.03,
+          "unique_values": 77,
+          "sample_unique_values": [
+            "0.0071",
+            "0.0094",
+            "0.0096",
+            "0.0116",
+            "0.013",
+            "0.0084",
+            "0.0233",
+            "0.0112",
+            "0.0337",
+            "0.0338"
+          ]
+        },
+        {
+          "column": "Exhumation min (m)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 389,
+          "missing_pct": 91.1,
+          "unique_values": 32,
+          "sample_unique_values": [
+            "17.8",
+            "2.0",
+            "4.0",
+            "15.0",
+            "120.0",
+            "17.0",
+            "515.0",
+            "0.6",
+            "1.0",
+            "0.000827206"
+          ]
+        },
+        {
+          "column": "Exhumation max (m)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 392,
+          "missing_pct": 91.8,
+          "unique_values": 33,
+          "sample_unique_values": [
+            "24.5",
+            "10.0",
+            "20.0",
+            "200.0",
+            "750.0",
+            "17.0",
+            "820.0",
+            "3.0",
+            "1.6",
+            "4.0"
+          ]
+        },
+        {
+          "column": "Erosion rate (mm/yr)",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 238,
+          "sample_unique_values": [
+            "1.0",
+            "17.0",
+            "0.6",
+            "0.4",
+            "0.8",
+            "1.3",
+            "2.2",
+            "0.19",
+            "1.5",
+            "0.03"
+          ]
+        },
+        {
+          "column": "Erosion rate min",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 222,
+          "missing_pct": 51.99,
+          "unique_values": 126,
+          "sample_unique_values": [
+            "11.0",
+            "0.1",
+            "0.2",
+            "0.03",
+            "1.24",
+            "0.0",
+            "0.02",
+            "0.01",
+            "0.41",
+            "0.9"
+          ]
+        },
+        {
+          "column": "Erosion rate max",
+          "dtype": "float64",
+          "total_rows": 427,
+          "missing_count": 230,
+          "missing_pct": 53.86,
+          "unique_values": 144,
+          "sample_unique_values": [
+            "23.0",
+            "1.1",
+            "0.6",
+            "0.35",
+            "0.75",
+            "1.69",
+            "0.14",
+            "0.05",
+            "0.06",
+            "0.17"
+          ]
+        },
+        {
+          "column": "Comments",
+          "dtype": "str",
+          "total_rows": 427,
+          "missing_count": 240,
+          "missing_pct": 56.21,
+          "unique_values": 128,
+          "sample_unique_values": [
+            "Boulton GS, Peacock JD, Sutherland DG (1991) Quaternary. In: Craig GY (ed) Geology of Scotland, 3rd edn. Geological Society, London, pp 503\u2013543",
+            "Assumes all erosion during glacials (15% of last 2 Ma) Clayton K (1996) Quantification of the impact of glacial erosion on the British Isles. Institute of British Geographers Transactions 21:124\u2013140",
+            "Faleide JI, Solheim A, Fiedler A, Hjelstuen BO, Andersen ES, Vanneste K (1996) Late Cenozoic evolution of the western Barents Sea-Svalbard continental margin. Global and Planetary Change 12:53\u201374",
+            "Solheim A, Riis F, Elverh\u00f8i A, Faleide JI, Jensen LN, Cloetingh S (1996) Impact of glaciations on basin evolution: data and models from the Norwegian Margin and adjacent areas. Global and Planetary Change 12:1\u20139",
+            "Summer 1999",
+            "Summer 2000",
+            "1989. Arolla series of the Dent Blanche nappe",
+            "1990. Arolla series of the Dent Blanche nappe",
+            "in Norwegian, MS thesis Universitetet i Oslo, Norway; details unknown",
+            "https://doi.org/10.1016/0921-8181(95)00026-7"
+          ]
+        }
+      ],
+      "nonglacial_erosion_Earth": [
+        {
+          "column": "Compilation",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 6,
+          "sample_unique_values": [
+            "Burbank et al., 2000",
+            "Chen et al., 2022",
+            "GloRiSe",
+            "Marrero et al., 2018",
+            "OCTOPUS",
+            "This study"
+          ]
+        },
+        {
+          "column": "Reference",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 265,
+          "sample_unique_values": [
+            "Amato et al., 1999",
+            "Brandon et al., 1998",
+            "Foster and John, 1999",
+            "Hacker et al., 2003",
+            "Rubatto and Hermann, 2001",
+            "Thomson et al., 1999",
+            "Tippett and Kamp, 1995",
+            "Weiland and Cloos, 1996",
+            "Aalto et al., 2006",
+            "Andermann et al., 2012"
+          ]
+        },
+        {
+          "column": "Reference DOI",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 375,
+          "missing_pct": 5.96,
+          "unique_values": 251,
+          "sample_unique_values": [
+            "10.1016/S0012-821X(99)00161-2",
+            "10.1130/0016-7606(1998)110%3C0985:LCEOTC%3E2.3.CO;2",
+            "10.1144/GSL.SP.1999.154.01.16",
+            "10.1016/S0024-4937(03)00092-6",
+            "10.1144/GSL.SP.1999.154.01.04",
+            "10.1002/esp.3290200206",
+            "10.1130/0016-7606(1996)108%3C1438:PPAUOT%3E2.3.CO;2",
+            "10.1086/498101",
+            "10.1016/j.epsl.2012.06.059",
+            "10.1002/esp.1255"
+          ]
+        },
+        {
+          "column": "Locality",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 1819,
+          "sample_unique_values": [
+            "Zermatt-Saas ophiolite",
+            "Zermatt-Saas",
+            "Ultrahigh-P rocks, Olympic Range, Washington",
+            "Chemehuevi Mountains, Basin and Range",
+            "Kokchetav Massif",
+            "Dora Maira Massif",
+            "Lendas, Crete",
+            "Southern Alps",
+            "Gunung Bijih mining district, Irian Jaya",
+            "SIR"
+          ]
+        },
+        {
+          "column": "Basin",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 1217,
+          "missing_pct": 19.35,
+          "unique_values": 2249,
+          "sample_unique_values": [
+            "SIR",
+            "TAM",
+            "VBA",
+            "HUL",
+            "ACH",
+            "LUR",
+            "POR",
+            "VER",
+            "MIG",
+            "CAJ"
+          ]
+        },
+        {
+          "column": "Place",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 122,
+          "sample_unique_values": [
+            "European Alps",
+            "USA",
+            "Kazakhstan",
+            "Greece",
+            "New Zealand",
+            "Indonesia",
+            "Bolivia",
+            "Nepal",
+            "US",
+            "Israel"
+          ]
+        },
+        {
+          "column": "Region",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 15,
+          "sample_unique_values": [
+            "Europe",
+            "North America",
+            "Central Asia",
+            "Pacific",
+            "South America",
+            "Asia",
+            "Central America",
+            "West Asia",
+            "Africa",
+            "Australia"
+          ]
+        },
+        {
+          "column": "Sample ID",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 1119,
+          "missing_pct": 17.8,
+          "unique_values": 4736,
+          "sample_unique_values": [
+            "1127500",
+            "1192883",
+            "1193500",
+            "1379500",
+            "1400932",
+            "1411000",
+            "1464500",
+            "1467470",
+            "1470500",
+            "1472157"
+          ]
+        },
+        {
+          "column": "Latitude",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4872,
+          "sample_unique_values": [
+            "46.02065",
+            "47.75",
+            "34.62437",
+            "53.08",
+            "44.89187",
+            "34.95586",
+            "-43.59499",
+            "-4.0",
+            "-16.45312",
+            "-16.67523"
+          ]
+        },
+        {
+          "column": "Longitude",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4879,
+          "sample_unique_values": [
+            "7.74914",
+            "-123.5",
+            "-114.52653",
+            "70.18833",
+            "7.14142",
+            "24.91934",
+            "170.14179",
+            "140.0",
+            "-67.26046",
+            "-67.08921"
+          ]
+        },
+        {
+          "column": "Elevation (m)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 2611,
+          "missing_pct": 41.52,
+          "unique_values": 3050,
+          "sample_unique_values": [
+            "1820.0",
+            "1805.0",
+            "1810.0",
+            "2600.0",
+            "2430.0",
+            "2380.0",
+            "2875.0",
+            "2950.0",
+            "2545.0",
+            "2030.0"
+          ]
+        },
+        {
+          "column": "Precipitation (mm/yr)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4185,
+          "sample_unique_values": [
+            "1210.7",
+            "2995.5",
+            "164.9",
+            "399.3",
+            "1152.4",
+            "719.1",
+            "8646.0",
+            "4663.5",
+            "1453.0",
+            "1528.5"
+          ]
+        },
+        {
+          "column": "Slope (m/km)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4692,
+          "sample_unique_values": [
+            "416.31849",
+            "353.44546",
+            "95.51125",
+            "56.48245",
+            "365.48531",
+            "153.34328",
+            "415.96643",
+            "166.45891",
+            "433.16385",
+            "394.69794"
+          ]
+        },
+        {
+          "column": "Type",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 2,
+          "sample_unique_values": [
+            "Fluvial",
+            "Subaerial"
+          ]
+        },
+        {
+          "column": "Lithology",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 2607,
+          "missing_pct": 41.46,
+          "unique_values": 17,
+          "sample_unique_values": [
+            "Dolerite",
+            "NS",
+            "Sandstone",
+            "Granite",
+            "Quartzite",
+            "Limestone",
+            "Diorite",
+            "Granulite",
+            "Gneiss",
+            "sand"
+          ]
+        },
+        {
+          "column": "Methodology",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 5,
+          "sample_unique_values": [
+            "Relief",
+            "Thermochronometric",
+            "Volumetric",
+            "Cosmogenic surface",
+            "Cosmogenic detrital"
+          ]
+        },
+        {
+          "column": "Area (km2)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 68,
+          "missing_pct": 1.08,
+          "unique_values": 3837,
+          "sample_unique_values": [
+            "270.0",
+            "950.0",
+            "1900.0",
+            "17.0",
+            "38.0",
+            "810.0",
+            "240.0",
+            "140.0",
+            "360.0",
+            "6500.0"
+          ]
+        },
+        {
+          "column": "Time interval (yr)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 160,
+          "missing_pct": 2.54,
+          "unique_values": 3521,
+          "sample_unique_values": [
+            "20000000.0",
+            "4750000.0",
+            "11000000.0",
+            "4000000.0",
+            "7000000.0",
+            "2000000.0",
+            "1000000.0",
+            "4000010.0",
+            "5.0",
+            "0.00274"
+          ]
+        },
+        {
+          "column": "Sediment flux (km3/yr)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 5231,
+          "missing_pct": 83.19,
+          "unique_values": 898,
+          "sample_unique_values": [
+            "6.60504e-06",
+            "0.00906166",
+            "0.00281217",
+            "0.0113326",
+            "0.000107853",
+            "3.5951e-05",
+            "0.00010985",
+            "0.000127826",
+            "0.00113246",
+            "8.38858e-05"
+          ]
+        },
+        {
+          "column": "Exhumation (m)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 6277,
+          "missing_pct": 99.83,
+          "unique_values": 11,
+          "sample_unique_values": [
+            "6.0",
+            "65.0",
+            "9.0",
+            "12.5",
+            "160.0",
+            "10.0",
+            "75.0",
+            "17.0",
+            "25.0",
+            "15.0"
+          ]
+        },
+        {
+          "column": "Exhumation min (m)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 6285,
+          "missing_pct": 99.95,
+          "unique_values": 2,
+          "sample_unique_values": [
+            "10.0",
+            "4.0"
+          ]
+        },
+        {
+          "column": "Exhumation max (m)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 6286,
+          "missing_pct": 99.97,
+          "unique_values": 2,
+          "sample_unique_values": [
+            "15.0",
+            "20.0"
+          ]
+        },
+        {
+          "column": "Erosion rate (mm/yr)",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 5711,
+          "sample_unique_values": [
+            "3.0",
+            "18.0",
+            "1.2",
+            "20.0",
+            "5.0",
+            "34.0",
+            "16.0",
+            "6.0",
+            "8.0",
+            "1.7"
+          ]
+        },
+        {
+          "column": "Erosion rate min",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 1529,
+          "missing_pct": 24.32,
+          "unique_values": 4489,
+          "sample_unique_values": [
+            "10.0",
+            "2.0",
+            "4.0",
+            "6.0",
+            "0.000364313",
+            "0.0924659",
+            "0.0286956",
+            "0.115638",
+            "0.00110054",
+            "0.000366847"
+          ]
+        },
+        {
+          "column": "Erosion rate max",
+          "dtype": "float64",
+          "total_rows": 6288,
+          "missing_count": 1529,
+          "missing_pct": 24.32,
+          "unique_values": 4536,
+          "sample_unique_values": [
+            "26.0",
+            "4.0",
+            "8.0",
+            "10.0",
+            "0.0262403",
+            "0.148261",
+            "0.0730123",
+            "0.175605",
+            "0.04045",
+            "0.0395843"
+          ]
+        },
+        {
+          "column": "Comments",
+          "dtype": "str",
+          "total_rows": 6288,
+          "missing_count": 1538,
+          "missing_pct": 24.46,
+          "unique_values": 22,
+          "sample_unique_values": [
+            "Likely partly glacial",
+            "Possibly partly glacial?",
+            "Min is TSS only, reported is TSS+TDS (some reported, some interpolated), max adds 18% bedload",
+            "Be-10. Exposure age via CRONUSCALC, LI scaling",
+            "Be-10",
+            "Al-26",
+            "The text contrasts this number with 1.8mm/yr glacial by Darnault et al., 2012.. Estimated the volume of sediment with REE analysis, and then the erosion rate",
+            "Time interval is exposure age",
+            "Sample CGP 200",
+            "Sample CGP 201"
+          ]
+        }
+      ],
+      "slope_glacial": [
+        {
+          "column": "88.13203214695751",
+          "dtype": "float64",
+          "total_rows": 460,
+          "missing_count": 2,
+          "missing_pct": 0.43,
+          "unique_values": 246,
+          "sample_unique_values": [
+            "88.13203214695751",
+            "25.026148768723026",
+            "138.7019607843137",
+            "280.54711152301513",
+            "423.1187584345479",
+            "128.63975067289985",
+            "143.26593406593406",
+            "319.9330725771404",
+            "32.08893508893509",
+            "16.506515342580915"
+          ]
+        }
+      ],
+      "slope_nonglacial": [
+        {
+          "column": "416.31848852901487",
+          "dtype": "float64",
+          "total_rows": 6270,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4688,
+          "sample_unique_values": [
+            "416.31848852901487",
+            "353.44545849630595",
+            "95.5112506541078",
+            "56.48244575936884",
+            "365.4853146853147",
+            "153.3432757718472",
+            "415.9664335664336",
+            "166.45890861275475",
+            "433.16385240775486",
+            "394.6979362101313"
+          ]
+        }
+      ],
+      "lithology_parsed": [
+        {
+          "column": "Latitude",
+          "dtype": "float64",
+          "total_rows": 229,
+          "missing_count": 1,
+          "missing_pct": 0.44,
+          "unique_values": 228,
+          "sample_unique_values": [
+            "53.3443",
+            "67.18026",
+            "62.28011",
+            "61.59991",
+            "45.99144",
+            "77.56008",
+            "67.83612",
+            "47.12264",
+            "69.2167",
+            "49.75957"
+          ]
+        },
+        {
+          "column": "Longitude",
+          "dtype": "float64",
+          "total_rows": 229,
+          "missing_count": 1,
+          "missing_pct": 0.44,
+          "unique_values": 226,
+          "sample_unique_values": [
+            "-1.87818",
+            "25.40585",
+            "8.68988",
+            "-143.06951",
+            "7.49477",
+            "15.48453",
+            "15.03983",
+            "9.20298",
+            "-49.9857",
+            "-94.55158"
+          ]
+        },
+        {
+          "column": "Hash",
+          "dtype": "str",
+          "total_rows": 229,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 229,
+          "sample_unique_values": [
+            "53.3443;-1.87818",
+            "67.18026;25.40585",
+            "62.28011;8.68988",
+            "61.59991;-143.06951",
+            "45.99144;7.49477",
+            "77.56008;15.48453",
+            "67.83612;15.03983",
+            "47.12264;9.20298",
+            "69.2167;-49.9857",
+            "49.75957;-94.55158"
+          ]
+        },
+        {
+          "column": "Lithology",
+          "dtype": "str",
+          "total_rows": 229,
+          "missing_count": 46,
+          "missing_pct": 20.09,
+          "unique_values": 18,
+          "sample_unique_values": [
+            "sed, ",
+            "plut, ign, ",
+            "sed, volc, ign, met, ",
+            "basalt, volc, ign, ",
+            "sed, basalt, volc, ign, met, ",
+            "sed, met, ",
+            "gabbro, granodiorite, ign, met, ",
+            "met, ",
+            "granite, ign, met, ",
+            "siliciclast, shale, carb, sed, "
+          ]
+        },
+        {
+          "column": "Age",
+          "dtype": "float64",
+          "total_rows": 229,
+          "missing_count": 47,
+          "missing_pct": 20.52,
+          "unique_values": 44,
+          "sample_unique_values": [
+            "341.04999999999995",
+            "2050.0",
+            "1519.4",
+            "226.601",
+            "133.65",
+            "1459.6",
+            "173.15",
+            "2850.0",
+            "2650.0",
+            "34.29"
+          ]
+        },
+        {
+          "column": "Age Uncert",
+          "dtype": "float64",
+          "total_rows": 229,
+          "missing_count": 58,
+          "missing_pct": 25.33,
+          "unique_values": 40,
+          "sample_unique_values": [
+            "18.0",
+            "450.0",
+            "981.0",
+            "25.0",
+            "68.0",
+            "1040.0",
+            "28.0",
+            "350.0",
+            "150.0",
+            "32.0"
+          ]
+        },
+        {
+          "column": "Unparsed Lithology",
+          "dtype": "str",
+          "total_rows": 229,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 51,
+          "sample_unique_values": [
+            "sedimentary rocks | paleozoic sedimentary rocks | ",
+            "intrusive igneous rocks | paleoproterozoic intrusive rocks | ",
+            "orthogneiss/paragneiss/metavolcanic gneiss | proterozoic crystalline metamorphic rocks | ",
+            "mafic volcanic rocks | mesozoic volcanic rocks | ",
+            "blueschist grade metasedimentary/metavolcanic schist | mesozoic crystalline metamorphic rocks | ",
+            "na | na | na",
+            "metasedimentary schist | precambrian-phanerozoic crystalline metamorphic rocks | ",
+            "sedimentary rocks | mesozoic sedimentary rocks | ",
+            "granodiorite gneiss; amphibolite grade orthogneiss | archean crystalline metamorphic rocks | ",
+            "intrusive igneous rocks | archean intrusive rocks | "
+          ]
+        }
+      ],
+      "lithology_parsed_nonglacial": [
+        {
+          "column": "Latitude",
+          "dtype": "float64",
+          "total_rows": 4900,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4872,
+          "sample_unique_values": [
+            "46.02065",
+            "47.75",
+            "34.62437",
+            "53.08",
+            "44.89187",
+            "34.95586",
+            "-43.59499",
+            "-4.0",
+            "-16.45312",
+            "-16.67523"
+          ]
+        },
+        {
+          "column": "Longitude",
+          "dtype": "float64",
+          "total_rows": 4900,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4879,
+          "sample_unique_values": [
+            "7.74914",
+            "-123.5",
+            "-114.52653",
+            "70.18833",
+            "7.14142",
+            "24.91934",
+            "170.14179",
+            "140.0",
+            "-67.26046",
+            "-67.08921"
+          ]
+        },
+        {
+          "column": "Hash",
+          "dtype": "str",
+          "total_rows": 4900,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4900,
+          "sample_unique_values": [
+            "46.02065;7.74914",
+            "47.75;-123.5",
+            "34.62437;-114.52653",
+            "53.08;70.18833",
+            "44.89187;7.14142",
+            "34.95586;24.91934",
+            "-43.59499;170.14179",
+            "-4;140",
+            "-16.45312;-67.26046",
+            "-16.67523;-67.08921"
+          ]
+        },
+        {
+          "column": "Lithology",
+          "dtype": "str",
+          "total_rows": 4900,
+          "missing_count": 516,
+          "missing_pct": 10.53,
+          "unique_values": 39,
+          "sample_unique_values": [
+            "basalt, volc, ign, ",
+            "sed, ",
+            "met, ",
+            "shale, carb, chert, sed, basalt, volc, ign, ",
+            "siliciclast, sed, ",
+            "basalt, rhyolite, volc, ign, ",
+            "plut, ign, ",
+            "siliciclast, shale, carb, chert, sed, basalt, volc, ign, ",
+            "siliciclast, shale, carb, sed, ",
+            "siliciclast, shale, sed, "
+          ]
+        },
+        {
+          "column": "Age",
+          "dtype": "float64",
+          "total_rows": 4900,
+          "missing_count": 513,
+          "missing_pct": 10.47,
+          "unique_values": 82,
+          "sample_unique_values": [
+            "305.40099999999995",
+            "2.58",
+            "23.03",
+            "2500.0",
+            "742.7",
+            "66.0",
+            "198.451",
+            "158.951",
+            "464.6",
+            "105.5"
+          ]
+        },
+        {
+          "column": "Age Uncert",
+          "dtype": "float64",
+          "total_rows": 4900,
+          "missing_count": 1338,
+          "missing_pct": 27.31,
+          "unique_values": 57,
+          "sample_unique_values": [
+            "53.0",
+            "257.0",
+            "93.0",
+            "21.0",
+            "40.0",
+            "278.0",
+            "10.0",
+            "31.0",
+            "9.0",
+            "3.0"
+          ]
+        },
+        {
+          "column": "Unparsed Lithology",
+          "dtype": "str",
+          "total_rows": 4900,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 172,
+          "sample_unique_values": [
+            "ophiolite complex; mafic volcanic rocks | paleozoic volcanic and intrusive rocks | ",
+            "sedimentary rocks | cenozoic sedimentary rocks | ",
+            "crystalline metamorphic rocks | archean crystalline metamorphic rocks | ",
+            "sedimentary rocks | precambrian-phanerozoic sedimentary rocks | ",
+            "mafic volcanic rocks; basalt; chert,greywacke,argillite,limestone | mesozoic sedimentary and volcanic rocks | ",
+            "sedimentary rocks | mesozoic sedimentary rocks | ",
+            "sedimentary rocks | paleozoic sedimentary rocks | ",
+            "crystalline metamorphic rocks | precambrian-phanerozoic crystalline metamorphic rocks | ",
+            "sandstone-conglomerate | mesozoic sedimentary rocks | ",
+            "mafic-felsic-intermediate dominated volcanic rocks | cenozoic volcanic rocks | "
+          ]
+        }
+      ]
+    },
+    "prior_compilations": {
+      "GloRiSe_combined": [
+        {
+          "column": "Reference",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 1,
+          "missing_pct": 0.09,
+          "unique_values": 33,
+          "sample_unique_values": [
+            "GEMS-GLORI (Meybeck and Ragu, 1998)",
+            "GEMS-GLORI (Meybeck and Ragu, 1998)",
+            "Zwolsman and van Eck, 1999",
+            "Zwolsman and van Eck, 1999",
+            "Zwolsman and van Eck, 1999",
+            "Zwolsman and van Eck, 1999",
+            "Zwolsman and van Eck, 1999",
+            "Zwolsman and van Eck, 1999",
+            "Zwolsman and van Eck, 1999",
+            "Zwolsman and van Eck, 1999"
+          ]
+        },
+        {
+          "column": "Reference DOI",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 1078,
+          "missing_pct": 100.0,
+          "unique_values": 0,
+          "sample_unique_values": []
+        },
+        {
+          "column": "Sample_ID",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 1078,
+          "sample_unique_values": [
+            "ARG-PAR-111114-GGR1",
+            "ARG-URU-111112-GGR1",
+            "BEL-SLD-111111-ZVE1",
+            "BEL-SLD-111111-ZVE2",
+            "BEL-SLD-111111-ZVE3",
+            "BEL-SLD-111111-ZVE4",
+            "BEL-SLD-111111-ZVE5",
+            "BEL-SLD-111111-ZVE6",
+            "BEL-SLD-111111-ZVE7",
+            "BEL-SLD-111111-ZVE8"
+          ]
+        },
+        {
+          "column": "Location_ID",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 335,
+          "sample_unique_values": [
+            "ARG-PAR-111114",
+            "ARG-URU-111112",
+            "BEL-SLD-111111",
+            "BEL-SLD-111111",
+            "BEL-SLD-111111",
+            "BEL-SLD-111111",
+            "BEL-SLD-111111",
+            "BEL-SLD-111111",
+            "BEL-SLD-111111",
+            "BEL-SLD-111111"
+          ]
+        },
+        {
+          "column": "Basin_ID",
+          "dtype": "int64",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 73,
+          "sample_unique_values": [
+            "1004",
+            "1005",
+            "3008",
+            "3008",
+            "3008",
+            "3008",
+            "3008",
+            "3008",
+            "3008",
+            "3008"
+          ]
+        },
+        {
+          "column": "Basin",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 73,
+          "sample_unique_values": [
+            "Paran\u00e1",
+            "Uruguay",
+            "Scheldt",
+            "Scheldt",
+            "Scheldt",
+            "Scheldt",
+            "Scheldt",
+            "Scheldt",
+            "Scheldt",
+            "Scheldt"
+          ]
+        },
+        {
+          "column": "Place",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 1,
+          "missing_pct": 0.09,
+          "unique_values": 81,
+          "sample_unique_values": [
+            "Argentina, Coast",
+            "Uruguay, Coast",
+            "Confluence of Rupel & Scheldt in Belgium",
+            "Confluence of Rupel & Scheldt in Belgium",
+            "Confluence of Rupel & Scheldt in Belgium",
+            "Confluence of Rupel & Scheldt in Belgium",
+            "Confluence of Rupel & Scheldt in Belgium",
+            "Confluence of Rupel & Scheldt in Belgium",
+            "Confluence of Rupel & Scheldt in Belgium",
+            "Confluence of Rupel & Scheldt in Belgium"
+          ]
+        },
+        {
+          "column": "Region",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 1,
+          "missing_pct": 0.09,
+          "unique_values": 40,
+          "sample_unique_values": [
+            "Argentina",
+            "Uruguay",
+            "Belgium",
+            "Belgium",
+            "Belgium",
+            "Belgium",
+            "Belgium",
+            "Belgium",
+            "Belgium",
+            "Belgium"
+          ]
+        },
+        {
+          "column": "Latitude",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 4,
+          "missing_pct": 0.37,
+          "unique_values": 324,
+          "sample_unique_values": [
+            "-34.0",
+            "-33.9167",
+            "51.1282",
+            "51.1282",
+            "51.1282",
+            "51.1282",
+            "51.1282",
+            "51.1282",
+            "51.1282",
+            "51.1282"
+          ]
+        },
+        {
+          "column": "Longitude",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 6,
+          "missing_pct": 0.56,
+          "unique_values": 317,
+          "sample_unique_values": [
+            "-58.2833",
+            "-58.3667",
+            "4.3156",
+            "4.3156",
+            "4.3156",
+            "4.3156",
+            "4.3156",
+            "4.3156",
+            "4.3156",
+            "4.3156"
+          ]
+        },
+        {
+          "column": "Elevation",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 1022,
+          "missing_pct": 94.81,
+          "unique_values": 7,
+          "sample_unique_values": [
+            "37.0",
+            "37.0",
+            "37.0",
+            "37.0",
+            "37.0",
+            "37.0",
+            "37.0",
+            "37.0",
+            "37.0",
+            "37.0"
+          ]
+        },
+        {
+          "column": "Season",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 95,
+          "missing_pct": 8.81,
+          "unique_values": 7,
+          "sample_unique_values": [
+            "Winter",
+            "Spring",
+            "Spring",
+            "Summer",
+            "Summer",
+            "Autumn",
+            "Winter",
+            "Winter",
+            "Summer",
+            "Summer"
+          ]
+        },
+        {
+          "column": "Observation Type",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 3,
+          "sample_unique_values": [
+            "an",
+            "an",
+            "single",
+            "single",
+            "single",
+            "single",
+            "single",
+            "single",
+            "single",
+            "single"
+          ]
+        },
+        {
+          "column": "Sample Type",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 2,
+          "sample_unique_values": [
+            "SS",
+            "SS",
+            "SS",
+            "SS",
+            "SS",
+            "SS",
+            "SS",
+            "SS",
+            "SS",
+            "SS"
+          ]
+        },
+        {
+          "column": "filtersize_mum",
+          "dtype": "str",
+          "total_rows": 1078,
+          "missing_count": 164,
+          "missing_pct": 15.21,
+          "unique_values": 7,
+          "sample_unique_values": [
+            "cent",
+            "cent",
+            "cent",
+            "cent",
+            "cent",
+            "cent",
+            "cent",
+            "cent",
+            "0.2",
+            "0.2"
+          ]
+        },
+        {
+          "column": "Area (km2)",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 72,
+          "sample_unique_values": [
+            "2582672.0",
+            "353451.0",
+            "21863.0",
+            "21863.0",
+            "21863.0",
+            "21863.0",
+            "21863.0",
+            "21863.0",
+            "21863.0",
+            "21863.0"
+          ]
+        },
+        {
+          "column": "Time interval (yr)",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 3,
+          "sample_unique_values": [
+            "1.0",
+            "1.0",
+            "0.0027397260273972",
+            "0.0027397260273972",
+            "0.0027397260273972",
+            "0.0027397260273972",
+            "0.0027397260273972",
+            "0.0027397260273972",
+            "0.0027397260273972",
+            "0.0027397260273972"
+          ]
+        },
+        {
+          "column": "Discharge_m3_s",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 331,
+          "missing_pct": 30.71,
+          "unique_values": 620,
+          "sample_unique_values": [
+            "17999.2034718689",
+            "4594.86708348766",
+            "15622.548083858",
+            "195900.0",
+            "80860.0",
+            "90490.0",
+            "133600.0",
+            "231000.0",
+            "240200.0",
+            "247600.0"
+          ]
+        },
+        {
+          "column": "Annual_Discharge_m3_s",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 72,
+          "sample_unique_values": [
+            "19706.0",
+            "7058.0",
+            "104.0",
+            "104.0",
+            "104.0",
+            "104.0",
+            "104.0",
+            "104.0",
+            "104.0",
+            "104.0"
+          ]
+        },
+        {
+          "column": "TSS_mg_L",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 713,
+          "sample_unique_values": [
+            "139.1",
+            "75.9",
+            "101.0",
+            "67.0",
+            "222.0",
+            "80.0",
+            "36.0",
+            "96.0",
+            "76.0",
+            "116.0"
+          ]
+        },
+        {
+          "column": "TSS_kg_s",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 918,
+          "sample_unique_values": [
+            "2741.1046",
+            "535.7022",
+            "10.504",
+            "6.968",
+            "23.088",
+            "8.32",
+            "3.744",
+            "9.984",
+            "7.904",
+            "12.064"
+          ]
+        },
+        {
+          "column": "TSS_km3_yr",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 918,
+          "sample_unique_values": [
+            "0.032016101728",
+            "0.006257001696",
+            "0.00012268672",
+            "8.138624e-05",
+            "0.00026966784",
+            "9.71776e-05",
+            "4.372992e-05",
+            "0.00011661312",
+            "9.231872e-05",
+            "0.00014090752"
+          ]
+        },
+        {
+          "column": "Erosion rate (mm/yr)",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 926,
+          "sample_unique_values": [
+            "0.012396503205982",
+            "0.0177026000662044",
+            "0.0056116141426153",
+            "0.0037225559163884",
+            "0.0123344390065407",
+            "0.0044448428852399",
+            "0.0020001792983579",
+            "0.0053338114622878",
+            "0.0042226007409779",
+            "0.0064450221835978"
+          ]
+        },
+        {
+          "column": "Sand_perc",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 1023,
+          "missing_pct": 94.9,
+          "unique_values": 41,
+          "sample_unique_values": [
+            "0.0",
+            "0.13",
+            "0.14",
+            "0.13",
+            "0.14",
+            "0.12",
+            "0.13",
+            "0.04",
+            "0.06",
+            "0.11"
+          ]
+        },
+        {
+          "column": "Silt_perc",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 1023,
+          "missing_pct": 94.9,
+          "unique_values": 55,
+          "sample_unique_values": [
+            "56.96",
+            "58.87",
+            "59.9",
+            "61.79",
+            "58.97",
+            "56.85",
+            "58.36",
+            "54.83",
+            "56.79",
+            "56.93"
+          ]
+        },
+        {
+          "column": "Clay_perc",
+          "dtype": "float64",
+          "total_rows": 1078,
+          "missing_count": 1023,
+          "missing_pct": 94.9,
+          "unique_values": 54,
+          "sample_unique_values": [
+            "43.04",
+            "41.0",
+            "39.96",
+            "38.08",
+            "40.89",
+            "43.03",
+            "41.51",
+            "45.13",
+            "43.15",
+            "42.96"
+          ]
+        }
+      ],
+      "OCTOPUS_data": [
+        {
+          "column": "ahgfl1",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 3276,
+          "missing_pct": 98.03,
+          "unique_values": 5,
+          "sample_unique_values": [
+            "LEB",
+            "LEB",
+            "TTS",
+            "NEC",
+            "LEB",
+            "SEN",
+            "SEN",
+            "NEC",
+            "LEB",
+            "LEB"
+          ]
+        },
+        {
+          "column": "ahgfl2",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 3276,
+          "missing_pct": 98.03,
+          "unique_values": 7,
+          "sample_unique_values": [
+            "LEB_03",
+            "LEB_01",
+            "TTS_20",
+            "NEC_20",
+            "LEB_03",
+            "SEN_12",
+            "SEN_12",
+            "NEC_20",
+            "LEB_03",
+            "LEB_01"
+          ]
+        },
+        {
+          "column": "al26ep",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3292,
+          "missing_pct": 98.5,
+          "unique_values": 48,
+          "sample_unique_values": [
+            "8.0",
+            "5.3",
+            "3.4",
+            "8.8",
+            "14.3",
+            "3.5",
+            "4.9",
+            "3.7",
+            "21.7",
+            "5.5"
+          ]
+        },
+        {
+          "column": "al26ep_err",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3297,
+          "missing_pct": 98.65,
+          "unique_values": 39,
+          "sample_unique_values": [
+            "0.8",
+            "0.5",
+            "0.3",
+            "0.9",
+            "1.5",
+            "0.4",
+            "0.5",
+            "0.4",
+            "2.6",
+            "0.6"
+          ]
+        },
+        {
+          "column": "al26nc",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3103,
+          "missing_pct": 92.85,
+          "unique_values": 226,
+          "sample_unique_values": [
+            "122300.0",
+            "478300.0",
+            "466600.0",
+            "290200.0",
+            "467000.0",
+            "125200.0",
+            "352800.0",
+            "271100.0",
+            "196400.0",
+            "661670.624128"
+          ]
+        },
+        {
+          "column": "al26nc_err",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3103,
+          "missing_pct": 92.85,
+          "unique_values": 155,
+          "sample_unique_values": [
+            "13900.0",
+            "44600.0",
+            "31500.0",
+            "37600.0",
+            "45600.0",
+            "21400.0",
+            "38600.0",
+            "42300.0",
+            "150800.0",
+            "60266.5354161"
+          ]
+        },
+        {
+          "column": "al26np",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3103,
+          "missing_pct": 92.85,
+          "unique_values": 227,
+          "sample_unique_values": [
+            "122300.0",
+            "478300.0",
+            "466600.0",
+            "290200.0",
+            "467000.0",
+            "125200.0",
+            "352800.0",
+            "271100.0",
+            "196400.0",
+            "661670.624128"
+          ]
+        },
+        {
+          "column": "al26np_err",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3103,
+          "missing_pct": 92.85,
+          "unique_values": 153,
+          "sample_unique_values": [
+            "13900.0",
+            "44600.0",
+            "31500.0",
+            "37600.0",
+            "45600.0",
+            "21400.0",
+            "38600.0",
+            "42300.0",
+            "150800.0",
+            "60266.5354161"
+          ]
+        },
+        {
+          "column": "alams",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 3102,
+          "missing_pct": 92.82,
+          "unique_values": 8,
+          "sample_unique_values": [
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "ETH-Zurich"
+          ]
+        },
+        {
+          "column": "alcorr",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3102,
+          "missing_pct": 92.82,
+          "unique_values": 2,
+          "sample_unique_values": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "column": "alprod",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 199,
+          "sample_unique_values": [
+            "3.6869195",
+            "5.6912301",
+            "6.0488951",
+            "5.7413377",
+            "8.1177444",
+            "2.3711481",
+            "10.166466",
+            "2.5391664",
+            "9.6596705",
+            "4.1762748"
+          ]
+        },
+        {
+          "column": "alself",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 1,
+          "sample_unique_values": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "column": "alsnow",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 1,
+          "sample_unique_values": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "column": "alstnd",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 3102,
+          "missing_pct": 92.82,
+          "unique_values": 10,
+          "sample_unique_values": [
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ZAL94N-Assumed"
+          ]
+        },
+        {
+          "column": "altopo",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 199,
+          "sample_unique_values": [
+            "0.9745852",
+            "0.96647286",
+            "0.96769003",
+            "0.95908857",
+            "0.97957789",
+            "0.96852819",
+            "0.94081728",
+            "0.95271594",
+            "0.96834409",
+            "0.98948261"
+          ]
+        },
+        {
+          "column": "altots",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 199,
+          "sample_unique_values": [
+            "3.582117",
+            "5.5252999",
+            "5.8762056",
+            "5.5183576",
+            "7.966175",
+            "2.2948034",
+            "9.589539",
+            "2.4196571",
+            "9.3395884",
+            "4.1362222"
+          ]
+        },
+        {
+          "column": "area",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 105,
+          "missing_pct": 3.14,
+          "unique_values": 2929,
+          "sample_unique_values": [
+            "70936.398437",
+            "10994.40039",
+            "10446.5",
+            "5891.080078",
+            "5440.439941",
+            "5440.439941",
+            "5393.379882",
+            "3259.199951",
+            "2958.770019",
+            "1774.010009"
+          ]
+        },
+        {
+          "column": "auth",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 131,
+          "sample_unique_values": [
+            "Safran",
+            "Safran",
+            "Safran",
+            "Safran",
+            "Safran",
+            "Safran",
+            "Safran",
+            "Safran",
+            "Safran",
+            "Safran"
+          ]
+        },
+        {
+          "column": "basin",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 817,
+          "sample_unique_values": [
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND",
+            "ND"
+          ]
+        },
+        {
+          "column": "be10ep",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 124,
+          "missing_pct": 3.71,
+          "unique_values": 1751,
+          "sample_unique_values": [
+            "860.0",
+            "150.0",
+            "550.0",
+            "270.0",
+            "500.0",
+            "310.0",
+            "260.0",
+            "280.0",
+            "930.0",
+            "530.0"
+          ]
+        },
+        {
+          "column": "be10ep_err",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 273,
+          "missing_pct": 8.17,
+          "unique_values": 792,
+          "sample_unique_values": [
+            "4.7",
+            "4.1",
+            "3.1",
+            "3.7",
+            "4.2",
+            "6.2",
+            "2.4",
+            "8.2",
+            "2.7",
+            "3.2"
+          ]
+        },
+        {
+          "column": "be10nc",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 2,
+          "missing_pct": 0.06,
+          "unique_values": 2877,
+          "sample_unique_values": [
+            "19440.3",
+            "80473.8",
+            "42406.98",
+            "68267.1",
+            "47741.76",
+            "49640.58",
+            "50544.78",
+            "80654.64",
+            "80564.22",
+            "29929.02"
+          ]
+        },
+        {
+          "column": "be10nc_err",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 20,
+          "missing_pct": 0.6,
+          "unique_values": 1774,
+          "sample_unique_values": [
+            "1085.04",
+            "3074.28",
+            "2712.6",
+            "2893.44",
+            "2350.92",
+            "1989.24",
+            "3345.54",
+            "2983.86",
+            "2712.6",
+            "2079.66"
+          ]
+        },
+        {
+          "column": "be10np",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 4,
+          "missing_pct": 0.12,
+          "unique_values": 2422,
+          "sample_unique_values": [
+            "21500.0",
+            "89000.0",
+            "46900.0",
+            "75500.0",
+            "52800.0",
+            "54900.0",
+            "55900.0",
+            "89200.0",
+            "89100.0",
+            "33100.0"
+          ]
+        },
+        {
+          "column": "be10np_err",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 22,
+          "missing_pct": 0.66,
+          "unique_values": 1474,
+          "sample_unique_values": [
+            "1200.0",
+            "3400.0",
+            "3000.0",
+            "3200.0",
+            "2600.0",
+            "2200.0",
+            "3700.0",
+            "3300.0",
+            "3000.0",
+            "2300.0"
+          ]
+        },
+        {
+          "column": "beams",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 2,
+          "missing_pct": 0.06,
+          "unique_values": 23,
+          "sample_unique_values": [
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS",
+            "LLNL-CAMS"
+          ]
+        },
+        {
+          "column": "becorr",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 2,
+          "missing_pct": 0.06,
+          "unique_values": 10,
+          "sample_unique_values": [
+            "0.9042",
+            "0.9042",
+            "0.9042",
+            "0.9042",
+            "0.9042",
+            "0.9042",
+            "0.9042",
+            "0.9042",
+            "0.9042",
+            "0.9042"
+          ]
+        },
+        {
+          "column": "beprod",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 119,
+          "missing_pct": 3.56,
+          "unique_values": 2892,
+          "sample_unique_values": [
+            "3.6869195",
+            "3.9939201",
+            "5.8514173",
+            "5.3417636",
+            "7.009461",
+            "7.009461",
+            "2.9181452",
+            "5.6912301",
+            "6.0488951",
+            "4.9531367"
+          ]
+        },
+        {
+          "column": "beself",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 119,
+          "missing_pct": 3.56,
+          "unique_values": 1,
+          "sample_unique_values": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "column": "besnow",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 119,
+          "missing_pct": 3.56,
+          "unique_values": 1,
+          "sample_unique_values": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "column": "bestnd",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 2,
+          "missing_pct": 0.06,
+          "unique_values": 26,
+          "sample_unique_values": [
+            "KNSTD-Assumed",
+            "KNSTD-Assumed",
+            "KNSTD-Assumed",
+            "KNSTD-Assumed",
+            "KNSTD-Assumed",
+            "KNSTD-Assumed",
+            "KNSTD-Assumed",
+            "KNSTD-Assumed",
+            "KNSTD-Assumed",
+            "KNSTD-Assumed"
+          ]
+        },
+        {
+          "column": "betopo",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 119,
+          "missing_pct": 3.56,
+          "unique_values": 2855,
+          "sample_unique_values": [
+            "0.9745852",
+            "0.97026703",
+            "0.96356625",
+            "0.96317363",
+            "0.97188634",
+            "0.97188634",
+            "0.96642359",
+            "0.96647286",
+            "0.96769003",
+            "0.95844434"
+          ]
+        },
+        {
+          "column": "betots",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 119,
+          "missing_pct": 3.56,
+          "unique_values": 2893,
+          "sample_unique_values": [
+            "3.582117",
+            "3.8693786",
+            "5.6594237",
+            "5.1703055",
+            "6.8358357",
+            "6.8358357",
+            "2.8013537",
+            "5.5252999",
+            "5.8762056",
+            "4.7652094"
+          ]
+        },
+        {
+          "column": "cntry",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 45,
+          "sample_unique_values": [
+            "BOL",
+            "BOL",
+            "BOL",
+            "BOL",
+            "BOL",
+            "BOL",
+            "BOL",
+            "BOL",
+            "BOL",
+            "BOL"
+          ]
+        },
+        {
+          "column": "dbdoi",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3342,
+          "missing_pct": 100.0,
+          "unique_values": 0,
+          "sample_unique_values": []
+        },
+        {
+          "column": "dbver",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 1,
+          "sample_unique_values": [
+            "2017.0",
+            "2017.0",
+            "2017.0",
+            "2017.0",
+            "2017.0",
+            "2017.0",
+            "2017.0",
+            "2017.0",
+            "2017.0",
+            "2017.0"
+          ]
+        },
+        {
+          "column": "eal_err",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 236,
+          "sample_unique_values": [
+            "133.43939",
+            "47.468805",
+            "48.802262",
+            "85.626166",
+            "68.754676",
+            "105.08992",
+            "111.55416",
+            "48.422611",
+            "1743.5822",
+            "26.345081"
+          ]
+        },
+        {
+          "column": "eal_gcmyr",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 236,
+          "sample_unique_values": [
+            "0.15870799",
+            "0.060803727",
+            "0.066113485",
+            "0.10019317",
+            "0.088477867",
+            "0.10356975",
+            "0.14019775",
+            "0.049942012",
+            "0.24563818",
+            "0.033327995"
+          ]
+        },
+        {
+          "column": "eal_mmkyr",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 236,
+          "sample_unique_values": [
+            "598.89806",
+            "229.44803",
+            "249.48485",
+            "378.08743",
+            "333.87874",
+            "390.82924",
+            "529.04813",
+            "188.46042",
+            "926.93652",
+            "125.76602"
+          ]
+        },
+        {
+          "column": "ebe_err",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 139,
+          "missing_pct": 4.16,
+          "unique_values": 3201,
+          "sample_unique_values": [
+            "101.32992",
+            "25.534894",
+            "70.466452",
+            "39.069125",
+            "72.709044",
+            "69.106373",
+            "32.26172",
+            "34.893801",
+            "36.816912",
+            "86.260208"
+          ]
+        },
+        {
+          "column": "ebe_gcmyr",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 121,
+          "missing_pct": 3.62,
+          "unique_values": 3215,
+          "sample_unique_values": [
+            "0.13565693",
+            "0.035090136",
+            "0.095934612",
+            "0.054580885",
+            "0.10220456",
+            "0.098288906",
+            "0.041366228",
+            "0.049215395",
+            "0.052281485",
+            "0.11533759"
+          ]
+        },
+        {
+          "column": "ebe_mmkyr",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 121,
+          "missing_pct": 3.62,
+          "unique_values": 3215,
+          "sample_unique_values": [
+            "511.91295",
+            "132.41561",
+            "362.0174",
+            "205.9656",
+            "385.67757",
+            "370.90153",
+            "156.09898",
+            "185.71847",
+            "197.28862",
+            "435.2362"
+          ]
+        },
+        {
+          "column": "elev_ave",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 105,
+          "missing_pct": 3.14,
+          "unique_values": 2928,
+          "sample_unique_values": [
+            "2153.179931",
+            "2286.110107",
+            "3231.149902",
+            "3017.909912",
+            "3635.010009",
+            "3635.010009",
+            "1692.619995",
+            "3188.169921",
+            "3340.879882",
+            "2654.899902"
+          ]
+        },
+        {
+          "column": "elev_std",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 105,
+          "missing_pct": 3.14,
+          "unique_values": 2926,
+          "sample_unique_values": [
+            "1320.71997",
+            "1179.510009",
+            "969.03601",
+            "1081.70996",
+            "775.447998",
+            "775.447998",
+            "825.632995",
+            "950.817016",
+            "841.284973",
+            "1452.400024"
+          ]
+        },
+        {
+          "column": "erral_ams",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 236,
+          "sample_unique_values": [
+            "0.018311339",
+            "0.005744736",
+            "0.0045015937",
+            "0.013238913",
+            "0.0087462198",
+            "0.018306082",
+            "0.01555029",
+            "0.0080476944",
+            "0.45994295",
+            "0.0030878173"
+          ]
+        },
+        {
+          "column": "erral_muon",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 236,
+          "sample_unique_values": [
+            "0.0082309734",
+            "0.0020571842",
+            "0.0021366652",
+            "0.003492667",
+            "0.0022381124",
+            "0.007786986",
+            "0.0030802718",
+            "0.0034007301",
+            "0.005609238",
+            "0.0013520645"
+          ]
+        },
+        {
+          "column": "erral_prod",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 236,
+          "sample_unique_values": [
+            "0.029109744",
+            "0.011000141",
+            "0.011934088",
+            "0.018094501",
+            "0.015826007",
+            "0.019488651",
+            "0.024952024",
+            "0.0093983865",
+            "0.043710032",
+            "0.006113747"
+          ]
+        },
+        {
+          "column": "erral_tot",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 236,
+          "sample_unique_values": [
+            "0.035361437",
+            "0.012579233",
+            "0.012932599",
+            "0.022690934",
+            "0.018219989",
+            "0.02784883",
+            "0.029561852",
+            "0.012831992",
+            "0.46204929",
+            "0.0069814466"
+          ]
+        },
+        {
+          "column": "errbe_ams",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 139,
+          "missing_pct": 4.16,
+          "unique_values": 3194,
+          "sample_unique_values": [
+            "0.0076068971",
+            "0.0013497724",
+            "0.0061733575",
+            "0.0023244369",
+            "0.0050527303",
+            "0.0039506753",
+            "0.0027660504",
+            "0.0018294409",
+            "0.0017680076",
+            "0.0080672635"
+          ]
+        },
+        {
+          "column": "errbe_muon",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 121,
+          "missing_pct": 3.62,
+          "unique_values": 3204,
+          "sample_unique_values": [
+            "0.006889835",
+            "0.0016360672",
+            "0.0033943682",
+            "0.0020529077",
+            "0.0031154044",
+            "0.002994453",
+            "0.0025329965",
+            "0.0017551806",
+            "0.0017802449",
+            "0.0046247398"
+          ]
+        },
+        {
+          "column": "errbe_prod",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 121,
+          "missing_pct": 3.62,
+          "unique_values": 3213,
+          "sample_unique_values": [
+            "0.024813671",
+            "0.00642575",
+            "0.017293688",
+            "0.009877943",
+            "0.01833074",
+            "0.017629472",
+            "0.0076827326",
+            "0.008892517",
+            "0.0094283516",
+            "0.020882118"
+          ]
+        },
+        {
+          "column": "errbe_tot",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 139,
+          "missing_pct": 4.16,
+          "unique_values": 3201,
+          "sample_unique_values": [
+            "0.02685243",
+            "0.006766747",
+            "0.01867361",
+            "0.010353318",
+            "0.019267897",
+            "0.018313189",
+            "0.0085493559",
+            "0.0092468574",
+            "0.0097564818",
+            "0.022858955"
+          ]
+        },
+        {
+          "column": "igsnid",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3342,
+          "missing_pct": 100.0,
+          "unique_values": 0,
+          "sample_unique_values": []
+        },
+        {
+          "column": "material",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4,
+          "sample_unique_values": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "column": "precip",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 266,
+          "sample_unique_values": [
+            "8.384435204789042e-05",
+            "8.759614865994081e-05",
+            "8.759614865994081e-05",
+            "8.759614865994081e-05",
+            "8.759614865994081e-05",
+            "8.759614865994081e-05",
+            "8.759614865994081e-05",
+            "8.759614865994081e-05",
+            "4.680444544646889e-05",
+            "8.759614865994081e-05"
+          ]
+        },
+        {
+          "column": "projection",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 42,
+          "sample_unique_values": [
+            "WGS84_UTM_19S",
+            "WGS84_UTM_19S",
+            "WGS84_UTM_19S",
+            "WGS84_UTM_19S",
+            "WGS84_UTM_19S",
+            "WGS84_UTM_19S",
+            "WGS84_UTM_19S",
+            "WGS84_UTM_19S",
+            "WGS84_UTM_19S",
+            "WGS84_UTM_19S"
+          ]
+        },
+        {
+          "column": "pubyear",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 21,
+          "sample_unique_values": [
+            "2005.0",
+            "2005.0",
+            "2005.0",
+            "2005.0",
+            "2005.0",
+            "2005.0",
+            "2005.0",
+            "2005.0",
+            "2005.0",
+            "2005.0"
+          ]
+        },
+        {
+          "column": "refdoi",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 270,
+          "missing_pct": 8.08,
+          "unique_values": 168,
+          "sample_unique_values": [
+            "10.1002/esp.1259",
+            "10.1002/esp.1259",
+            "10.1002/esp.1259",
+            "10.1002/esp.1259",
+            "10.1002/esp.1259",
+            "10.1002/esp.1259",
+            "10.1002/esp.1259",
+            "10.1002/esp.1259",
+            "10.1002/esp.1259",
+            "10.1002/esp.1259"
+          ]
+        },
+        {
+          "column": "refid",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 144,
+          "sample_unique_values": [
+            "Earth_Surf_Proc_Land_30",
+            "Earth_Surf_Proc_Land_30",
+            "Earth_Surf_Proc_Land_30",
+            "Earth_Surf_Proc_Land_30",
+            "Earth_Surf_Proc_Land_30",
+            "Earth_Surf_Proc_Land_30",
+            "Earth_Surf_Proc_Land_30",
+            "Earth_Surf_Proc_Land_30",
+            "Earth_Surf_Proc_Land_30",
+            "Earth_Surf_Proc_Land_30"
+          ]
+        },
+        {
+          "column": "region",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 194,
+          "sample_unique_values": [
+            "Bolivian Andes",
+            "Bolivian Andes",
+            "Bolivian Andes",
+            "Bolivian Andes",
+            "Bolivian Andes",
+            "Bolivian Andes",
+            "Bolivian Andes",
+            "Bolivian Andes",
+            "Bolivian Andes",
+            "Bolivian Andes"
+          ]
+        },
+        {
+          "column": "sizemax",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 29,
+          "sample_unique_values": [
+            "1000.0",
+            "1000.0",
+            "1000.0",
+            "1000.0",
+            "1000.0",
+            "1000.0",
+            "1000.0",
+            "1000.0",
+            "1000.0",
+            "1000.0"
+          ]
+        },
+        {
+          "column": "sizemin",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 27,
+          "sample_unique_values": [
+            "250.0",
+            "250.0",
+            "250.0",
+            "250.0",
+            "250.0",
+            "250.0",
+            "250.0",
+            "250.0",
+            "250.0",
+            "250.0"
+          ]
+        },
+        {
+          "column": "slp_ave",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 105,
+          "missing_pct": 3.14,
+          "unique_values": 2899,
+          "sample_unique_values": [
+            "377.167",
+            "404.188",
+            "449.344",
+            "478.201",
+            "406.511",
+            "406.511",
+            "396.634",
+            "459.668",
+            "446.518",
+            "503.06"
+          ]
+        },
+        {
+          "column": "slp_std",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 105,
+          "missing_pct": 3.14,
+          "unique_values": 2862,
+          "sample_unique_values": [
+            "223.278",
+            "218.654",
+            "208.22",
+            "212.428",
+            "207.443",
+            "207.443",
+            "208.037",
+            "207.686",
+            "206.554",
+            "211.987"
+          ]
+        },
+        {
+          "column": "smpid1",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 3342,
+          "sample_unique_values": [
+            "S025WTS056",
+            "S025WTS016",
+            "S025WTS047",
+            "S025WTS013",
+            "S025WTS042",
+            "S025WTS043",
+            "S025WTS019",
+            "S025WTS011",
+            "S025WTS006",
+            "S025WTS018"
+          ]
+        },
+        {
+          "column": "smpid2",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 3175,
+          "sample_unique_values": [
+            "BOL-50",
+            "BOL-18",
+            "BOL-42",
+            "BOL-15",
+            "BOL-38a",
+            "BOL-38b",
+            "BOL-21",
+            "BOL-13",
+            "BOL-07",
+            "BOL-20"
+          ]
+        },
+        {
+          "column": "studyid",
+          "dtype": "str",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 176,
+          "sample_unique_values": [
+            "S025",
+            "S025",
+            "S025",
+            "S025",
+            "S025",
+            "S025",
+            "S025",
+            "S025",
+            "S025",
+            "S025"
+          ]
+        },
+        {
+          "column": "x_wgs84",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 3021,
+          "sample_unique_values": [
+            "-67.5062103127",
+            "-67.8722645877",
+            "-67.2483285712",
+            "-68.213418531",
+            "-67.3982948845",
+            "-67.3982948845",
+            "-67.8413309669",
+            "-68.275998112",
+            "-68.5208303945",
+            "-67.8687804084"
+          ]
+        },
+        {
+          "column": "y_wgs84",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 3022,
+          "sample_unique_values": [
+            "-13.9821078954",
+            "-15.4966635453",
+            "-16.2623561525",
+            "-15.3068792564",
+            "-16.5503371139",
+            "-16.5503371139",
+            "-15.5081443843",
+            "-15.2971115884",
+            "-15.3875845153",
+            "-15.5066236309"
+          ]
+        }
+      ],
+      "OCTOPUS_ages": [
+        {
+          "column": "Be10_exposure_yr",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 121,
+          "missing_pct": 3.62,
+          "unique_values": 3215,
+          "sample_unique_values": [
+            "1258.9941088060882",
+            "4841.097501641836",
+            "1750.6743909072368",
+            "3090.4594145113647",
+            "1631.1094891683742",
+            "1696.0380749198794",
+            "4176.745197874857",
+            "3415.897787640526",
+            "3205.942548753296",
+            "1467.2177843593147"
+          ]
+        },
+        {
+          "column": "Al26_exposure_yr",
+          "dtype": "float64",
+          "total_rows": 3342,
+          "missing_count": 3106,
+          "missing_pct": 92.94,
+          "unique_values": 236,
+          "sample_unique_values": [
+            "1095.57616200172",
+            "2803.63369982176",
+            "2569.5130068391213",
+            "1697.3751770338197",
+            "1891.8051785079836",
+            "1755.9422060705556",
+            "1187.3845893498783",
+            "3616.035589337599",
+            "675.5736666959145",
+            "5174.359685376783"
+          ]
+        }
+      ],
+      "Chen_et_al_2023": [
+        {
+          "column": "Country",
+          "dtype": "str",
+          "total_rows": 1521,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 94,
+          "sample_unique_values": [
+            "Bolivia",
+            "Bolivia",
+            "Bolivia",
+            "Bolivia",
+            "Bolivia",
+            "Bolivia",
+            "Bolivia",
+            "Bolivia",
+            "Bolivia",
+            "Bolivia"
+          ]
+        },
+        {
+          "column": "Location",
+          "dtype": "str",
+          "total_rows": 1521,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 1477,
+          "sample_unique_values": [
+            "SIR",
+            "TAM",
+            "VBA",
+            "HUL",
+            "ACH",
+            "LUR",
+            "POR",
+            "VER",
+            "MIG",
+            "CAJ"
+          ]
+        },
+        {
+          "column": "Station ID",
+          "dtype": "float64",
+          "total_rows": 1521,
+          "missing_count": 1073,
+          "missing_pct": 70.55,
+          "unique_values": 448,
+          "sample_unique_values": [
+            "1127500.0",
+            "1192883.0",
+            "1193500.0",
+            "1379500.0",
+            "1400932.0",
+            "1411000.0",
+            "1464500.0",
+            "1467470.0",
+            "1470500.0",
+            "1472157.0"
+          ]
+        },
+        {
+          "column": "Short-term erosion rate (mm kyr^-1)",
+          "dtype": "float64",
+          "total_rows": 1521,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 1198,
+          "sample_unique_values": [
+            "2800.0",
+            "950.0",
+            "1550.0",
+            "1530.0",
+            "2000.0",
+            "2980.0",
+            "1250.0",
+            "30.0",
+            "50.0",
+            "6910.0"
+          ]
+        },
+        {
+          "column": "Basin area (km^2)",
+          "dtype": "float64",
+          "total_rows": 1521,
+          "missing_count": 57,
+          "missing_pct": 3.75,
+          "unique_values": 867,
+          "sample_unique_values": [
+            "270.0",
+            "950.0",
+            "1900.0",
+            "17.0",
+            "38.0",
+            "810.0",
+            "240.0",
+            "140.0",
+            "360.0",
+            "6500.0"
+          ]
+        },
+        {
+          "column": "Latitude",
+          "dtype": "float64",
+          "total_rows": 1521,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 1515,
+          "sample_unique_values": [
+            "-16.453119",
+            "-16.675232",
+            "-17.03055",
+            "-16.520669",
+            "-16.442118",
+            "-16.983579",
+            "-16.911908",
+            "-16.864313",
+            "-16.855235",
+            "-17.019454"
+          ]
+        },
+        {
+          "column": "Longitude",
+          "dtype": "float64",
+          "total_rows": 1521,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 1516,
+          "sample_unique_values": [
+            "-67.260455",
+            "-67.089213",
+            "-66.99166",
+            "-67.863177",
+            "-67.43696",
+            "-67.664867",
+            "-67.596507",
+            "-67.504867",
+            "-67.528119",
+            "-66.695035"
+          ]
+        },
+        {
+          "column": "Koppen\u00a1VGeiger classification",
+          "dtype": "str",
+          "total_rows": 1521,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 13,
+          "sample_unique_values": [
+            "Cf",
+            "Cf",
+            "Cw",
+            "Cw",
+            "Cf",
+            "Cw",
+            "Cw",
+            "Cw",
+            "Cw",
+            "Cw"
+          ]
+        },
+        {
+          "column": "Aridity Index",
+          "dtype": "float64",
+          "total_rows": 1521,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 1421,
+          "sample_unique_values": [
+            "0.9256",
+            "0.817",
+            "0.7033",
+            "0.6525",
+            "0.7752",
+            "0.4698",
+            "0.4057",
+            "0.5298",
+            "0.4297",
+            "0.7245"
+          ]
+        },
+        {
+          "column": "Aridity Index category",
+          "dtype": "str",
+          "total_rows": 1521,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 5,
+          "sample_unique_values": [
+            "Semi-arid",
+            "Semi-arid",
+            "Humid",
+            "Humid",
+            "Humid",
+            "Semi-arid",
+            "Semi-arid",
+            "Dry sub-humid",
+            "Semi-arid",
+            "Humid"
+          ]
+        },
+        {
+          "column": "Reference",
+          "dtype": "str",
+          "total_rows": 1521,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 29,
+          "sample_unique_values": [
+            "Aalto et al. 2006 ",
+            "Aalto et al. 2006 ",
+            "Aalto et al. 2006 ",
+            "Aalto et al. 2006 ",
+            "Aalto et al. 2006 ",
+            "Aalto et al. 2006 ",
+            "Aalto et al. 2006 ",
+            "Aalto et al. 2006 ",
+            "Aalto et al. 2006 ",
+            "Aalto et al. 2006 "
+          ]
+        }
+      ],
+      "CHELSEA_precip_glacial": [
+        {
+          "column": "Latitude",
+          "dtype": "float64",
+          "total_rows": 444,
+          "missing_count": 2,
+          "missing_pct": 0.45,
+          "unique_values": 232,
+          "sample_unique_values": [
+            "53.3443",
+            "53.3443",
+            "67.18026",
+            "62.28011",
+            "61.59991",
+            "61.59991",
+            "45.99144",
+            "45.99144",
+            "77.56008",
+            "67.83612"
+          ]
+        },
+        {
+          "column": "Longitude",
+          "dtype": "float64",
+          "total_rows": 444,
+          "missing_count": 2,
+          "missing_pct": 0.45,
+          "unique_values": 229,
+          "sample_unique_values": [
+            "-1.87818",
+            "-1.87818",
+            "25.40585",
+            "8.68988",
+            "-143.06951",
+            "-143.06951",
+            "7.49477",
+            "7.49477",
+            "15.48453",
+            "15.03983"
+          ]
+        },
+        {
+          "column": "Precipitation_mm_yr",
+          "dtype": "float64",
+          "total_rows": 444,
+          "missing_count": 2,
+          "missing_pct": 0.45,
+          "unique_values": 231,
+          "sample_unique_values": [
+            "1291.2",
+            "1291.2",
+            "783.5",
+            "897.0",
+            "957.7",
+            "957.7",
+            "1663.6",
+            "1663.6",
+            "578.7",
+            "1964.9"
+          ]
+        }
+      ],
+      "CHELSEA_precip_nonglacial": [
+        {
+          "column": "Latitude",
+          "dtype": "float64",
+          "total_rows": 6271,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4868,
+          "sample_unique_values": [
+            "46.02065",
+            "46.02065",
+            "47.75",
+            "34.62437",
+            "53.08",
+            "44.89187",
+            "44.89187",
+            "44.89187",
+            "34.95586",
+            "-43.59499"
+          ]
+        },
+        {
+          "column": "Longitude",
+          "dtype": "float64",
+          "total_rows": 6271,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4876,
+          "sample_unique_values": [
+            "7.74914",
+            "7.74914",
+            "-123.5",
+            "-114.52653",
+            "70.18833",
+            "7.14142",
+            "7.14142",
+            "7.14142",
+            "24.91934",
+            "170.14179"
+          ]
+        },
+        {
+          "column": "Precipitation_mm_yr",
+          "dtype": "float64",
+          "total_rows": 6271,
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_values": 4181,
+          "sample_unique_values": [
+            "1210.7",
+            "1210.7",
+            "2995.5",
+            "164.9",
+            "399.3",
+            "1152.4",
+            "1152.4",
+            "1152.4",
+            "719.1",
+            "8646.0"
+          ]
+        }
+      ]
+    }
+  },
+  "distribution_analysis": {
+    "glacial": {
+      "Erosion rate (mm/yr)": {
+        "name": "Erosion rate (mm/yr)",
+        "n_valid": 427,
+        "min": 0.0004,
+        "max": 1000.0,
+        "mean": 7.698705409367682,
+        "median": 0.55,
+        "std": 60.74447060807744,
+        "percentiles": {
+          "p5": 0.021750000000000002,
+          "p25": 0.15,
+          "p50": 0.55,
+          "p75": 1.7,
+          "p95": 16.912999999999997
+        },
+        "log10_stats": {
+          "n_positive": 427,
+          "log10_min": -3.3979400086720375,
+          "log10_max": 3.0,
+          "log10_mean": -0.29608290510655616,
+          "log10_median": -0.2596373105057561,
+          "log10_std": 0.8848180093748419,
+          "log10_percentiles": {
+            "p5": -1.6631261350047355,
+            "p25": -0.8239087409443188,
+            "p50": -0.2596373105057561,
+            "p75": 0.2304489213782739,
+            "p95": 1.228207179932809
+          }
+        }
+      },
+      "Time interval (yr)": {
+        "name": "Time interval (yr)",
+        "n_valid": 427,
+        "min": 0.0191781,
+        "max": 250000000.0,
+        "mean": 1741868.2784354386,
+        "median": 1270.0,
+        "std": 12915843.251323644,
+        "percentiles": {
+          "p5": 0.19807700000000003,
+          "p25": 18.25,
+          "p50": 1270.0,
+          "p75": 500000.0,
+          "p95": 3699999.999999989
+        },
+        "log10_stats": {
+          "n_positive": 427,
+          "log10_min": -1.7171944211689576,
+          "log10_max": 8.397940008672037,
+          "log10_mean": 3.2141934356001403,
+          "log10_median": 3.103803720955957,
+          "log10_std": 2.3919824608660663,
+          "log10_percentiles": {
+            "p5": -0.7035853359436901,
+            "p25": 1.2612221167531599,
+            "p50": 3.103803720955957,
+            "p75": 5.695820351746194,
+            "p95": 6.564578370345471
+          }
+        }
+      },
+      "Erosion rate (mm/yr)_log10": {
+        "n_positive": 427,
+        "log10_min": -3.3979400086720375,
+        "log10_max": 3.0,
+        "log10_mean": -0.29608290510655616,
+        "log10_median": -0.2596373105057561,
+        "log10_std": 0.8848180093748419,
+        "log10_percentiles": {
+          "p5": -1.6631261350047355,
+          "p25": -0.8239087409443188,
+          "p50": -0.2596373105057561,
+          "p75": 0.2304489213782739,
+          "p95": 1.228207179932809
+        }
+      }
+    },
+    "nonglacial": {
+      "Erosion rate (mm/yr)": {
+        "name": "Erosion rate (mm/yr)",
+        "n_valid": 6288,
+        "min": 0.0,
+        "max": 118.864,
+        "mean": 0.35399940535305346,
+        "median": 0.061094300000000004,
+        "std": 1.9684545063809906,
+        "percentiles": {
+          "p5": 0.0016048965000000001,
+          "p25": 0.016070675,
+          "p50": 0.061094300000000004,
+          "p75": 0.212509,
+          "p95": 1.2943869999999993
+        },
+        "log10_stats": {
+          "n_positive": 6284,
+          "log10_min": -5.0,
+          "log10_max": 2.0750503410046206,
+          "log10_mean": -1.2608086539464742,
+          "log10_median": -1.2123426879756036,
+          "log10_std": 0.8947144505898671,
+          "log10_percentiles": {
+            "p5": -2.7888051734754447,
+            "p25": -1.792311272943316,
+            "p50": -1.2123426879756036,
+            "p75": -0.6725659647169788,
+            "p95": 0.1121969238589395
+          }
+        }
+      },
+      "Time interval (yr)": {
+        "name": "Time interval (yr)",
+        "n_valid": 6128,
+        "min": 0.00274,
+        "max": 20000000.0,
+        "mean": 53732.41845415796,
+        "median": 1201.185,
+        "std": 467452.64533457026,
+        "percentiles": {
+          "p5": 0.00274,
+          "p25": 5.0,
+          "p50": 1201.185,
+          "p75": 15203.175000000001,
+          "p95": 110755.89999999973
+        },
+        "log10_stats": {
+          "n_positive": 6128,
+          "log10_min": -2.562249437179612,
+          "log10_max": 7.301029995663981,
+          "log10_mean": 2.0878513032221506,
+          "log10_median": 3.0796098296172643,
+          "log10_std": 2.550268868660456,
+          "log10_percentiles": {
+            "p5": -2.562249437179612,
+            "p25": 0.6989700043360189,
+            "p50": 3.0796098296172643,
+            "p75": 4.181934293952856,
+            "p95": 5.0443646262783535
+          }
+        }
+      },
+      "Erosion rate (mm/yr)_log10": {
+        "n_positive": 6284,
+        "log10_min": -5.0,
+        "log10_max": 2.0750503410046206,
+        "log10_mean": -1.2608086539464742,
+        "log10_median": -1.2123426879756036,
+        "log10_std": 0.8947144505898671,
+        "log10_percentiles": {
+          "p5": -2.7888051734754447,
+          "p25": -1.792311272943316,
+          "p50": -1.2123426879756036,
+          "p75": -0.6725659647169788,
+          "p95": 0.1121969238589395
+        }
+      }
+    }
+  },
+  "cross_tabulations": {
+    "glacial": {
+      "Methodology_x_Type": {
+        "Alpine": {
+          "Cosmogenic detrital": 6,
+          "Cosmogenic surface": 36,
+          "Relief": 6,
+          "Thermochronometric": 57,
+          "Volumetric": 59,
+          "All": 164
+        },
+        "Alpine tidewater": {
+          "Cosmogenic detrital": 0,
+          "Cosmogenic surface": 0,
+          "Relief": 0,
+          "Thermochronometric": 6,
+          "Volumetric": 55,
+          "All": 61
+        },
+        "Continental": {
+          "Cosmogenic detrital": 1,
+          "Cosmogenic surface": 61,
+          "Relief": 10,
+          "Thermochronometric": 5,
+          "Volumetric": 50,
+          "All": 127
+        },
+        "High-latitude": {
+          "Cosmogenic detrital": 2,
+          "Cosmogenic surface": 2,
+          "Relief": 0,
+          "Thermochronometric": 0,
+          "Volumetric": 67,
+          "All": 71
+        },
+        "Outlet ice stream": {
+          "Cosmogenic detrital": 0,
+          "Cosmogenic surface": 0,
+          "Relief": 2,
+          "Thermochronometric": 0,
+          "Volumetric": 2,
+          "All": 4
+        },
+        "All": {
+          "Cosmogenic detrital": 9,
+          "Cosmogenic surface": 99,
+          "Relief": 18,
+          "Thermochronometric": 68,
+          "Volumetric": 233,
+          "All": 427
+        }
+      },
+      "Region_distribution": {
+        "North American Cordillera": 114,
+        "Fennoscandia": 73,
+        "Alps": 73,
+        "Greenland": 55,
+        "Antarctica": 29,
+        "Central Asia": 24,
+        "South American Cordillera": 22,
+        "Laurentide": 14,
+        "Iceland": 13,
+        "British Isles": 4,
+        "Pacific": 3,
+        "global": 2,
+        "Africa": 1
+      },
+      "Lithology_distribution": {
+        "nan": 131,
+        "sed,": 92,
+        "met,": 56,
+        "gabbro, granodiorite, ign, met,": 36,
+        "plut, ign,": 25,
+        "basalt, volc, ign,": 20,
+        "sed, volc, ign, met,": 19,
+        "siliciclast, shale, carb, sed,": 11,
+        "sed, met,": 8,
+        "sed, ign, met,": 8,
+        "sed, basalt, volc, ign, met,": 7,
+        "ign, met,": 4,
+        "granite, ign, met,": 3,
+        "sed, granite, ign, met,": 3,
+        "volc, ign,": 2,
+        "volc, gabbro, ign, met,": 1,
+        "siliciclast, shale, sed,": 1
+      }
+    },
+    "nonglacial": {
+      "Methodology_x_Type": {
+        "Fluvial": {
+          "Cosmogenic detrital": 3470,
+          "Cosmogenic surface": 0,
+          "Relief": 7,
+          "Thermochronometric": 4,
+          "Volumetric": 2583,
+          "All": 6064
+        },
+        "Subaerial": {
+          "Cosmogenic detrital": 0,
+          "Cosmogenic surface": 224,
+          "Relief": 0,
+          "Thermochronometric": 0,
+          "Volumetric": 0,
+          "All": 224
+        },
+        "All": {
+          "Cosmogenic detrital": 3470,
+          "Cosmogenic surface": 224,
+          "Relief": 7,
+          "Thermochronometric": 4,
+          "Volumetric": 2583,
+          "All": 6288
+        }
+      },
+      "Region_distribution": {
+        "North America": 1595,
+        "Asia": 1334,
+        "Europe": 1205,
+        "South America": 1056,
+        "Antarctica": 224,
+        "Africa": 220,
+        "Russia": 153,
+        "Central America": 127,
+        "Australia": 121,
+        "Pacific": 115,
+        "West Asia": 65,
+        "British Isles": 34,
+        "Fennoscandia": 33,
+        "Iceland": 5,
+        "Central Asia": 1
+      },
+      "Lithology_distribution": {
+        "sand": 2921,
+        "nan": 2607,
+        "sediment": 315,
+        "gravel": 139,
+        "Sandstone": 95,
+        "sand and gravel": 82,
+        "Granite": 31,
+        "Dolerite": 27,
+        "NS": 20,
+        "basalt, volc, ign,": 17,
+        "marbleised LS": 8,
+        "Quartzite": 6,
+        "Limestone": 5,
+        "Granulite": 5,
+        "Diorite": 3,
+        "calcite vein": 3,
+        "Gneiss": 2,
+        "str marbleised LS": 2
+      }
+    }
+  },
+  "missingness_audit": {
+    "glacial": {
+      "total_rows": 427,
+      "columns_with_missing": {
+        "Reference DOI": {
+          "missing_count": 60,
+          "missing_pct": 14.05
+        },
+        "Latitude": {
+          "missing_count": 2,
+          "missing_pct": 0.47
+        },
+        "Longitude": {
+          "missing_count": 2,
+          "missing_pct": 0.47
+        },
+        "Elevation (m)": {
+          "missing_count": 412,
+          "missing_pct": 96.49
+        },
+        "Precipitation (mm/yr)": {
+          "missing_count": 2,
+          "missing_pct": 0.47
+        },
+        "Slope (m/km)": {
+          "missing_count": 2,
+          "missing_pct": 0.47
+        },
+        "Lithology": {
+          "missing_count": 131,
+          "missing_pct": 30.68
+        },
+        "Area (km2)": {
+          "missing_count": 35,
+          "missing_pct": 8.2
+        },
+        "Sediment flux (km3/yr)": {
+          "missing_count": 376,
+          "missing_pct": 88.06
+        },
+        "Exhumation (m)": {
+          "missing_count": 346,
+          "missing_pct": 81.03
+        },
+        "Exhumation min (m)": {
+          "missing_count": 389,
+          "missing_pct": 91.1
+        },
+        "Exhumation max (m)": {
+          "missing_count": 392,
+          "missing_pct": 91.8
+        },
+        "Erosion rate min": {
+          "missing_count": 222,
+          "missing_pct": 51.99
+        },
+        "Erosion rate max": {
+          "missing_count": 230,
+          "missing_pct": 53.86
+        },
+        "Comments": {
+          "missing_count": 240,
+          "missing_pct": 56.21
+        }
+      },
+      "rows_with_at_least_one_missing": 427,
+      "pct_rows_with_any_missing": 100.0,
+      "rows_with_no_missing": 0,
+      "missingness_correlation_with_key_vars": {
+        "Erosion rate (mm/yr)": {
+          "Compilation": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference DOI": {
+            "missing_pct_when_kc_present": 14.05,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Locality": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Glacier": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Region": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Latitude": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Longitude": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Elevation (m)": {
+            "missing_pct_when_kc_present": 96.49,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Precipitation (mm/yr)": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Slope (m/km)": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Type": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Lithology": {
+            "missing_pct_when_kc_present": 30.68,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Methodology": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Area (km2)": {
+            "missing_pct_when_kc_present": 8.2,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Time interval (yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sediment flux (km3/yr)": {
+            "missing_pct_when_kc_present": 88.06,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation (m)": {
+            "missing_pct_when_kc_present": 81.03,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation min (m)": {
+            "missing_pct_when_kc_present": 91.1,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation max (m)": {
+            "missing_pct_when_kc_present": 91.8,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate min": {
+            "missing_pct_when_kc_present": 51.99,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate max": {
+            "missing_pct_when_kc_present": 53.86,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Comments": {
+            "missing_pct_when_kc_present": 56.21,
+            "missing_pct_when_kc_absent": 0.0
+          }
+        },
+        "Time interval (yr)": {
+          "Compilation": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference DOI": {
+            "missing_pct_when_kc_present": 14.05,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Locality": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Glacier": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Region": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Latitude": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Longitude": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Elevation (m)": {
+            "missing_pct_when_kc_present": 96.49,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Precipitation (mm/yr)": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Slope (m/km)": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Type": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Lithology": {
+            "missing_pct_when_kc_present": 30.68,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Methodology": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Area (km2)": {
+            "missing_pct_when_kc_present": 8.2,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sediment flux (km3/yr)": {
+            "missing_pct_when_kc_present": 88.06,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation (m)": {
+            "missing_pct_when_kc_present": 81.03,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation min (m)": {
+            "missing_pct_when_kc_present": 91.1,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation max (m)": {
+            "missing_pct_when_kc_present": 91.8,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate min": {
+            "missing_pct_when_kc_present": 51.99,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate max": {
+            "missing_pct_when_kc_present": 53.86,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Comments": {
+            "missing_pct_when_kc_present": 56.21,
+            "missing_pct_when_kc_absent": 0.0
+          }
+        },
+        "Type": {
+          "Compilation": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference DOI": {
+            "missing_pct_when_kc_present": 14.05,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Locality": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Glacier": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Region": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Latitude": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Longitude": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Elevation (m)": {
+            "missing_pct_when_kc_present": 96.49,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Precipitation (mm/yr)": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Slope (m/km)": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Lithology": {
+            "missing_pct_when_kc_present": 30.68,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Methodology": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Area (km2)": {
+            "missing_pct_when_kc_present": 8.2,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Time interval (yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sediment flux (km3/yr)": {
+            "missing_pct_when_kc_present": 88.06,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation (m)": {
+            "missing_pct_when_kc_present": 81.03,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation min (m)": {
+            "missing_pct_when_kc_present": 91.1,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation max (m)": {
+            "missing_pct_when_kc_present": 91.8,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate min": {
+            "missing_pct_when_kc_present": 51.99,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate max": {
+            "missing_pct_when_kc_present": 53.86,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Comments": {
+            "missing_pct_when_kc_present": 56.21,
+            "missing_pct_when_kc_absent": 0.0
+          }
+        },
+        "Methodology": {
+          "Compilation": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference DOI": {
+            "missing_pct_when_kc_present": 14.05,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Locality": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Glacier": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Region": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Latitude": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Longitude": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Elevation (m)": {
+            "missing_pct_when_kc_present": 96.49,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Precipitation (mm/yr)": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Slope (m/km)": {
+            "missing_pct_when_kc_present": 0.47,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Type": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Lithology": {
+            "missing_pct_when_kc_present": 30.68,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Area (km2)": {
+            "missing_pct_when_kc_present": 8.2,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Time interval (yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sediment flux (km3/yr)": {
+            "missing_pct_when_kc_present": 88.06,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation (m)": {
+            "missing_pct_when_kc_present": 81.03,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation min (m)": {
+            "missing_pct_when_kc_present": 91.1,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation max (m)": {
+            "missing_pct_when_kc_present": 91.8,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate min": {
+            "missing_pct_when_kc_present": 51.99,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate max": {
+            "missing_pct_when_kc_present": 53.86,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Comments": {
+            "missing_pct_when_kc_present": 56.21,
+            "missing_pct_when_kc_absent": 0.0
+          }
+        }
+      }
+    },
+    "nonglacial": {
+      "total_rows": 6288,
+      "columns_with_missing": {
+        "Reference DOI": {
+          "missing_count": 375,
+          "missing_pct": 5.96
+        },
+        "Basin": {
+          "missing_count": 1217,
+          "missing_pct": 19.35
+        },
+        "Sample ID": {
+          "missing_count": 1119,
+          "missing_pct": 17.8
+        },
+        "Elevation (m)": {
+          "missing_count": 2611,
+          "missing_pct": 41.52
+        },
+        "Lithology": {
+          "missing_count": 2607,
+          "missing_pct": 41.46
+        },
+        "Area (km2)": {
+          "missing_count": 68,
+          "missing_pct": 1.08
+        },
+        "Time interval (yr)": {
+          "missing_count": 160,
+          "missing_pct": 2.54
+        },
+        "Sediment flux (km3/yr)": {
+          "missing_count": 5231,
+          "missing_pct": 83.19
+        },
+        "Exhumation (m)": {
+          "missing_count": 6277,
+          "missing_pct": 99.83
+        },
+        "Exhumation min (m)": {
+          "missing_count": 6285,
+          "missing_pct": 99.95
+        },
+        "Exhumation max (m)": {
+          "missing_count": 6286,
+          "missing_pct": 99.97
+        },
+        "Erosion rate min": {
+          "missing_count": 1529,
+          "missing_pct": 24.32
+        },
+        "Erosion rate max": {
+          "missing_count": 1529,
+          "missing_pct": 24.32
+        },
+        "Comments": {
+          "missing_count": 1538,
+          "missing_pct": 24.46
+        }
+      },
+      "rows_with_at_least_one_missing": 6288,
+      "pct_rows_with_any_missing": 100.0,
+      "rows_with_no_missing": 0,
+      "missingness_correlation_with_key_vars": {
+        "Erosion rate (mm/yr)": {
+          "Compilation": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference DOI": {
+            "missing_pct_when_kc_present": 5.96,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Locality": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Basin": {
+            "missing_pct_when_kc_present": 19.35,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Place": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Region": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sample ID": {
+            "missing_pct_when_kc_present": 17.8,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Latitude": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Longitude": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Elevation (m)": {
+            "missing_pct_when_kc_present": 41.52,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Precipitation (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Slope (m/km)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Type": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Lithology": {
+            "missing_pct_when_kc_present": 41.46,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Methodology": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Area (km2)": {
+            "missing_pct_when_kc_present": 1.08,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Time interval (yr)": {
+            "missing_pct_when_kc_present": 2.54,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sediment flux (km3/yr)": {
+            "missing_pct_when_kc_present": 83.19,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation (m)": {
+            "missing_pct_when_kc_present": 99.83,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation min (m)": {
+            "missing_pct_when_kc_present": 99.95,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation max (m)": {
+            "missing_pct_when_kc_present": 99.97,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate min": {
+            "missing_pct_when_kc_present": 24.32,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate max": {
+            "missing_pct_when_kc_present": 24.32,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Comments": {
+            "missing_pct_when_kc_present": 24.46,
+            "missing_pct_when_kc_absent": 0.0
+          }
+        },
+        "Time interval (yr)": {
+          "Compilation": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference DOI": {
+            "missing_pct_when_kc_present": 6.12,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Locality": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Basin": {
+            "missing_pct_when_kc_present": 17.25,
+            "missing_pct_when_kc_absent": 100.0
+          },
+          "Place": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Region": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sample ID": {
+            "missing_pct_when_kc_present": 18.26,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Latitude": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Longitude": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Elevation (m)": {
+            "missing_pct_when_kc_present": 42.61,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Precipitation (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Slope (m/km)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Type": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Lithology": {
+            "missing_pct_when_kc_present": 42.54,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Methodology": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Area (km2)": {
+            "missing_pct_when_kc_present": 1.11,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sediment flux (km3/yr)": {
+            "missing_pct_when_kc_present": 82.75,
+            "missing_pct_when_kc_absent": 100.0
+          },
+          "Exhumation (m)": {
+            "missing_pct_when_kc_present": 99.82,
+            "missing_pct_when_kc_absent": 100.0
+          },
+          "Exhumation min (m)": {
+            "missing_pct_when_kc_present": 99.95,
+            "missing_pct_when_kc_absent": 100.0
+          },
+          "Exhumation max (m)": {
+            "missing_pct_when_kc_present": 99.97,
+            "missing_pct_when_kc_absent": 100.0
+          },
+          "Erosion rate (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate min": {
+            "missing_pct_when_kc_present": 24.95,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate max": {
+            "missing_pct_when_kc_present": 24.95,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Comments": {
+            "missing_pct_when_kc_present": 25.1,
+            "missing_pct_when_kc_absent": 0.0
+          }
+        },
+        "Type": {
+          "Compilation": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference DOI": {
+            "missing_pct_when_kc_present": 5.96,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Locality": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Basin": {
+            "missing_pct_when_kc_present": 19.35,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Place": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Region": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sample ID": {
+            "missing_pct_when_kc_present": 17.8,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Latitude": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Longitude": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Elevation (m)": {
+            "missing_pct_when_kc_present": 41.52,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Precipitation (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Slope (m/km)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Lithology": {
+            "missing_pct_when_kc_present": 41.46,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Methodology": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Area (km2)": {
+            "missing_pct_when_kc_present": 1.08,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Time interval (yr)": {
+            "missing_pct_when_kc_present": 2.54,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sediment flux (km3/yr)": {
+            "missing_pct_when_kc_present": 83.19,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation (m)": {
+            "missing_pct_when_kc_present": 99.83,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation min (m)": {
+            "missing_pct_when_kc_present": 99.95,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation max (m)": {
+            "missing_pct_when_kc_present": 99.97,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate min": {
+            "missing_pct_when_kc_present": 24.32,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate max": {
+            "missing_pct_when_kc_present": 24.32,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Comments": {
+            "missing_pct_when_kc_present": 24.46,
+            "missing_pct_when_kc_absent": 0.0
+          }
+        },
+        "Methodology": {
+          "Compilation": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Reference DOI": {
+            "missing_pct_when_kc_present": 5.96,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Locality": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Basin": {
+            "missing_pct_when_kc_present": 19.35,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Place": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Region": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sample ID": {
+            "missing_pct_when_kc_present": 17.8,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Latitude": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Longitude": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Elevation (m)": {
+            "missing_pct_when_kc_present": 41.52,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Precipitation (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Slope (m/km)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Type": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Lithology": {
+            "missing_pct_when_kc_present": 41.46,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Area (km2)": {
+            "missing_pct_when_kc_present": 1.08,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Time interval (yr)": {
+            "missing_pct_when_kc_present": 2.54,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Sediment flux (km3/yr)": {
+            "missing_pct_when_kc_present": 83.19,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation (m)": {
+            "missing_pct_when_kc_present": 99.83,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation min (m)": {
+            "missing_pct_when_kc_present": 99.95,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Exhumation max (m)": {
+            "missing_pct_when_kc_present": 99.97,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate (mm/yr)": {
+            "missing_pct_when_kc_present": 0.0,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate min": {
+            "missing_pct_when_kc_present": 24.32,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Erosion rate max": {
+            "missing_pct_when_kc_present": 24.32,
+            "missing_pct_when_kc_absent": 0.0
+          },
+          "Comments": {
+            "missing_pct_when_kc_present": 24.46,
+            "missing_pct_when_kc_absent": 0.0
+          }
+        }
+      }
+    }
+  },
+  "outlier_detection": {
+    "glacial": {
+      "zero_erosion_rates": {
+        "count": 0,
+        "indices": []
+      },
+      "negative_erosion_rates": {
+        "count": 0,
+        "indices": []
+      },
+      "physically_impossible_erosion": 0,
+      "zero_time_intervals": {
+        "count": 0,
+        "indices": []
+      },
+      "negative_time_intervals": {
+        "count": 0,
+        "indices": []
+      },
+      "iqr_outliers_erosion": {
+        "q1": 0.15,
+        "q3": 1.7,
+        "iqr": 1.55,
+        "upper_fence": 6.3500000000000005,
+        "lower_fence": 0.0,
+        "extreme_high_count": 37,
+        "extreme_low_count": 0
+      },
+      "iqr_outliers_time_interval": {
+        "q1": 18.25,
+        "q3": 500000.0,
+        "iqr": 499981.75,
+        "upper_fence": 1999945.25,
+        "extreme_high_count": 44
+      },
+      "nan_erosion_rates": {
+        "count": 0
+      }
+    },
+    "nonglacial": {
+      "zero_erosion_rates": {
+        "count": 4,
+        "indices": [
+          2600,
+          2659,
+          2661,
+          2756
+        ]
+      },
+      "negative_erosion_rates": {
+        "count": 0,
+        "indices": []
+      },
+      "physically_impossible_erosion": 0,
+      "zero_time_intervals": {
+        "count": 0,
+        "indices": []
+      },
+      "negative_time_intervals": {
+        "count": 0,
+        "indices": []
+      },
+      "iqr_outliers_erosion": {
+        "q1": 0.016070675,
+        "q3": 0.212509,
+        "iqr": 0.196438325,
+        "upper_fence": 0.801823975,
+        "lower_fence": 0.0,
+        "extreme_high_count": 539,
+        "extreme_low_count": 0
+      },
+      "iqr_outliers_time_interval": {
+        "q1": 5.0,
+        "q3": 15203.175000000001,
+        "iqr": 15198.175000000001,
+        "upper_fence": 60797.700000000004,
+        "extreme_high_count": 559
+      },
+      "nan_erosion_rates": {
+        "count": 0
+      }
+    }
+  },
+  "locality_source_counts": {
+    "glacial": {
+      "Locality_unique": 123,
+      "Locality_total": 427,
+      "Locality_top10": {
+        "Norway": 38,
+        "St. Elias Mountains, Alaska": 35,
+        "Ilulissat region": 34,
+        "Mt. Erie, Puget Lowland, Washington": 23,
+        "Glacier Bay, Alaska": 21,
+        "Swiss Alps": 16,
+        "Queyras, Western French Alps": 15,
+        "Lapis de Tsanfleuron, Switzerland": 13,
+        "Iceland": 12,
+        "Tierra del Fuego": 12
+      },
+      "Compilation_unique_sources": 13,
+      "Compilation_total": 427,
+      "Compilation_top10_sources": {
+        "This study": 294,
+        "Hallet et al., 1996": 62,
+        "Balter-Kennedy et al., 2021": 32,
+        "Geirsd\u00f3ttir et al., 2007": 7,
+        "Faleide et al., 1996": 6,
+        "Amantov et al., 2011": 4,
+        "Anderson, 2005": 4,
+        "Bj\u00f6rnsson, 1979": 4,
+        "Burbank et al., 2000": 4,
+        "Lliboutry, 1994": 4
+      }
+    },
+    "nonglacial": {
+      "Locality_unique": 1819,
+      "Locality_total": 6288,
+      "Locality_top10": {
+        "Lobit at German-Dutch border": 154,
+        "Bhutanese Himalaya": 126,
+        "Bolivian Andes": 95,
+        "Himalaya": 92,
+        "West Siberian lowlands": 90,
+        "Great Smoky Mts. (NC/TN)": 89,
+        "Appalachian Mts. (MD/PA/NY)": 88,
+        "Nepalese Himalaya": 85,
+        "Karnataka, Kerala": 79,
+        "New Mexico (NM)": 74
+      },
+      "Compilation_unique_sources": 6,
+      "Compilation_total": 6288,
+      "Compilation_top10_sources": {
+        "OCTOPUS": 3457,
+        "Chen et al., 2022": 1521,
+        "GloRiSe": 1057,
+        "Marrero et al., 2018": 194,
+        "This study": 48,
+        "Burbank et al., 2000": 11
+      }
+    }
+  },
+  "prior_compilation_overlap": {
+    "prior_compilation_overlap": {
+      "GloRiSe_unique_localities": 408,
+      "GloRiSe_unique_references": 33,
+      "OCTOPUS_unique_references": 488,
+      "OCTOPUS_unique_studies": 176,
+      "Chen_et_al_unique_references": 29,
+      "Chen_et_al_unique_locations": 1477,
+      "GloRiSe_vs_OCTOPUS_overlap": 0,
+      "GloRiSe_vs_Chen_overlap": 0,
+      "OCTOPUS_vs_Chen_overlap": 0,
+      "Main_table_compilations": {
+        "glacial": [
+          "Amantov et al., 2011",
+          "Anderson, 2005",
+          "Antoniazza and Lane, 2021",
+          "Balter-Kennedy et al., 2021",
+          "Bell and Laine, 1985",
+          "Bj\u00f6rnsson, 1979",
+          "Burbank et al., 2000",
+          "Faleide et al., 1996",
+          "Geirsd\u00f3ttir et al., 2007",
+          "Hallet et al., 1996",
+          "Lliboutry, 1994",
+          "Richardson and Holmlund, 1992",
+          "This study"
+        ],
+        "nonglacial": [
+          "Burbank et al., 2000",
+          "Chen et al., 2022",
+          "GloRiSe",
+          "Marrero et al., 2018",
+          "OCTOPUS",
+          "This study"
+        ]
+      },
+      "Main_tables_contain_prior_compilations": {
+        "nonglacial_contains_GloRiSe": true,
+        "nonglacial_contains_OCTOPUS": true,
+        "nonglacial_contains_Chen_2022": true
+      },
+      "Glacial_ref_count": 161,
+      "Nonglacial_ref_count": 270
+    },
+    "overlap_details": {
+      "GloRiSe_OCTOPUS_common": [],
+      "GloRiSe_Chen_common": [],
+      "OCTOPUS_Chen_common": []
+    }
+  },
+  "key_questions": {
+    "methodology_categories": {
+      "glacial": {
+        "Volumetric": 233,
+        "Cosmogenic surface": 99,
+        "Thermochronometric": 68,
+        "Relief": 18,
+        "Cosmogenic detrital": 9
+      },
+      "nonglacial": {
+        "Cosmogenic detrital": 3470,
+        "Volumetric": 2583,
+        "Cosmogenic surface": 224,
+        "Relief": 7,
+        "Thermochronometric": 4
+      }
+    },
+    "timescale_ranges_by_type": {
+      "glacial": {
+        "Continental": {
+          "n": 127,
+          "min": 1.0,
+          "max": 250000000.0,
+          "median": 14260.0
+        },
+        "High-latitude": {
+          "n": 71,
+          "min": 0.0191781,
+          "max": 3000000.0,
+          "median": 6.0
+        },
+        "Alpine": {
+          "n": 164,
+          "min": 0.0191781,
+          "max": 20000000.0,
+          "median": 8650.0
+        },
+        "Outlet ice stream": {
+          "n": 4,
+          "min": 6.0,
+          "max": 23500.0,
+          "median": 103.5
+        },
+        "Alpine tidewater": {
+          "n": 61,
+          "min": 3.0,
+          "max": 1000000.0,
+          "median": 75.0
+        }
+      },
+      "nonglacial": {
+        "Fluvial": {
+          "n": 6064,
+          "min": 0.00274,
+          "max": 20000000.0,
+          "median": 1113.355
+        },
+        "Subaerial": {
+          "n": 64,
+          "min": 7760.0,
+          "max": 10400000.0,
+          "median": 1410000.0
+        }
+      }
+    },
+    "dataset_sizes": {
+      "glacial_total_rows": 427,
+      "nonglacial_total_rows": 6288,
+      "glacial_columns": 24,
+      "nonglacial_columns": 26
+    }
+  }
+}

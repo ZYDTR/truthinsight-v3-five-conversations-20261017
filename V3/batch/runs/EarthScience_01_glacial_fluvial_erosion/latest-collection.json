@@ -1,0 +1,261 @@
+{
+  "task": "EarthScience_01_glacial_fluvial_erosion",
+  "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab",
+  "at": "2026-10-16T09:35:15.140634+00:00",
+  "input_changed": [],
+  "shared_changed": [],
+  "jsonl_files": [
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl"
+  ],
+  "model_counts": {
+    "qwen3.7-flash": 283,
+    "<synthetic>": 1
+  },
+  "manifest": {
+    "project/.claude/skills/scientific-evidence/SKILL.md": "6264b74f41a485b0d95fe5302877d8375b23cf92e77211bdb7526953d914b9dc",
+    "project/.claude/skills/scientific-evidence/references/analysis-state.md": "f3662e82aa3a36ecdcbcf0063719789f7f47cb3568f0765079fe8fb3e12809b7",
+    "project/.claude/skills/scientific-evidence/references/data-design.md": "86ddb76a5ebbb1e6616053a3b1590daa3d8cc6a0c9c364f91f65a6bddb4f8489",
+    "project/.claude/skills/scientific-evidence/references/delegation-contract.md": "f60bf7a0f35709bdf3568305a6b9f601ddbd64ae48f9166f133d4d8c35f1eb0c",
+    "project/.claude/skills/scientific-evidence/references/delivery.md": "09f1bfbe0972fe99431302c08d53fb97b3ced767e248422338cc1890458f9f8f",
+    "project/.claude/skills/scientific-evidence/references/inference.md": "c597a64de706390a1be753b458111b8a85f2094a1af99fe1737101f6b030a0de",
+    "project/.claude/skills/scientific-evidence/references/verification.md": "a4ffa8a250f9c6a99ae2face44faad2ab3468a9b5b3397f2d501b179f4d5a012",
+    "project/CLAUDE.md": "8dd6bfd610004cde907ce33583cd6f2cee044576248d8722387c375aa344d9f1",
+    "project/DATA_GUIDE.md": "d5cd07d5931438601441c3a643c142f6868e6a846ee6fab4e91b172aae6d64f9",
+    "project/LaunchPrompt.md": "0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a",
+    "project/PublicTaskContract.md": "68260ef06c870599cd9036165e024b94fb1a9acaf5c2c5707d46b858fc9d8cb5",
+    "project/ResearchObjective.md": "0543033f8f9b229b8dee6e27da5fd1feb7b2a7ace43d39de287202c35c875088",
+    "project/context/INDEX.md": "181a17b3e0fed425dcdcc69e76fc6f4c21172b045c203f03e0ca4013fdfcc865",
+    "project/context/delegation.md": "db3fd2874ce9d385f859901931cdf3638dc534e9adc6f316d59a83fba50fe4b6",
+    "project/data/raw/beryllium.tsv": "cde5b0794baf9622e74e9749fd38514cfd9ab63fb54250baf6a15777c983e4d2",
+    "project/data/raw/glacial_erosion_Earth.tsv": "b49192d77082fd431963ca67278d9face1079e8054711b84296554573c24e2cf",
+    "project/data/raw/lithology_parsed.tsv": "cfeb948dfc91fb3f9bb8a511ac4b06db49950cb9ae9ac5a4a6dbeeb0e3a5fe52",
+    "project/data/raw/lithology_parsed_nonglacial.tsv": "613eed80774145e0ab4fc02842845b9c8235210a9375e52e0edb1ae074e074c9",
+    "project/data/raw/lithology_reference.tsv": "fa1f1ac37fe320193b0ecc0b932d0a874da0e89070952d64b634d3d5ed08a114",
+    "project/data/raw/lithology_reference_nonglacial.tsv": "fa1f1ac37fe320193b0ecc0b932d0a874da0e89070952d64b634d3d5ed08a114",
+    "project/data/raw/lithology_unparsed.tsv": "a35c4508e54560a3e47b14e30f4e3ea8346e150770ef11c96634c10f3e5add54",
+    "project/data/raw/lithology_unparsed_nonglacial.tsv": "f78b0da0b02e23c0b1883462f5c8b01c3a49b844932198de2f35c8c5603da701",
+    "project/data/raw/nonglacial_erosion_Earth.tsv": "214063142d936c3a5408583b682397042392b4d46e0443e30c88811fbe9fee89",
+    "project/data/raw/prior compilations/CHELSEA/annualprecipitation.jl": "0382a24d004961127e00440af20e416d6f5c0e8a81317e5911d2b5603e7a1342",
+    "project/data/raw/prior compilations/CHELSEA/precipitation_glacial.tsv": "24c72eb98ad29659e5275959755ec064e4a3cfd4301ebcd5aa7a11f3d5260126",
+    "project/data/raw/prior compilations/CHELSEA/precipitation_nonglacial.tsv": "1a0075335963506e93a89a013c1d85c7db32bdeddfe787862be1a02401dba296",
+    "project/data/raw/prior compilations/CHELSEA/references.txt": "42bd95d10e4a9da30fc5870a86bd7b2eff2170296a3c6cfb347d9bd4f26c746e",
+    "project/data/raw/prior compilations/Chen et al. 2023/Chen_et_al_2021_short-term_erosion_rate_data.csv": "5a0668568db63339e8ed83c2196edc258b2c0d975c120588fca90503842fcb4f",
+    "project/data/raw/prior compilations/GloRiSe/GloRiSe combined.tsv": "a419086603c8a6a52742cee08abf9a953958fe921d4109f2759e3e22ef5fbff1",
+    "project/data/raw/prior compilations/OCTOPUS/octopusages.tsv": "89a9feb971dac5dbe850cf786083ecd0bfe5a10f9ea877ad39f9b9d87e241665",
+    "project/data/raw/prior compilations/OCTOPUS/octopusdata.tsv": "dd7620a0078af24a6e1882faaa76c22bc74d7d0243d265e5bf2d1fb6174ee4c0",
+    "project/data/raw/prior compilations/OCTOPUS/octopusexposureage.jl": "17172ed350479323955a2c3c13d6531286e3232df389b7bf2badceef205230b8",
+    "project/data/raw/slope_glacial.tsv": "fe6da89d7cd43389930f980d0bb71b32dddc795f499bf61508e56fb3956f2853",
+    "project/data/raw/slope_nonglacial.tsv": "3d8e9432844157a64ecae54636a0b3b41c49a5f1128493366673d10474541629",
+    "project/data/raw/source_notes.txt": "439086b61c2ae6beffe241882fc23309cb4d07b7a4f4db7930a646070b96b8a3",
+    "project/data_manifest.json": "9700556551bfcd7326f9f286d78857bb326373af5b99832e90dad52bf52cc346",
+    "project/output/Result.md": "de951bdccb76dbd7d0128b18f67de5a64e5646f4edafcff1d1c3661ab44d40ae",
+    "project/output/audit_results.json": "a1674a804d79966f7c65778d8a35982fcf2edb3efeb76c7fc0ac5bd9bc6afd7c",
+    "project/output/binned_means.png": "82764edc22e3525e2583ff5f3048b0c185199eecee69f52d7427cb18b7b09b7c",
+    "project/output/comparison_results.json": "585aa8739821e23ae53819a3462a22d0a4de28037cafbaca4a2a4d27fc27af30",
+    "project/output/core_analysis.py": "a2ee852311ed9f302354a2473165fe044d86321f27f1b8f743cf2a548fafba25",
+    "project/output/data_audit.py": "e868394bcb6589217f5a0112cd77d6a50339dc95d940ae9429e58197bae2e9c2",
+    "project/output/regression_results.json": "19e3f444eaae9986f7d6dfb0d65868c1e2cbbb6534a38e9376594fc550d4b4a8",
+    "project/output/reproduce.md": "cd2e223efad2308b8d3096a9097a430aa771f627331da5912601b91982248e75",
+    "project/output/robustness_analysis.py": "a6dbd8d26d4f8a0aacbea8409b01c4d1b6d32175ee752ec980126300d2ab3c8b",
+    "project/output/robustness_results.json": "284427d6924cc153f905f3f237503f1a84973b188d6e71e6d957538b5c54f502",
+    "project/validate_output.py": "1e955f2c86cb44db13095d314ff881e2521d37c969883ff6abe2714bea3a1fe4",
+    "project/working/analysis-state.md": "bee52d9a53c234c9156af110f7015f1e03203a46df6abb8e4da8484b76de32a1",
+    "project/working/subA/audit_results.json": "a1674a804d79966f7c65778d8a35982fcf2edb3efeb76c7fc0ac5bd9bc6afd7c",
+    "project/working/subA/data_audit.py": "e868394bcb6589217f5a0112cd77d6a50339dc95d940ae9429e58197bae2e9c2",
+    "project/working/subA/exploration_summary.md": "87d062105904ab504de29f9989f86fe6aef552d865a20ca0164d858dfafae6a4",
+    "project/working/subB/analysis_summary.md": "f0c55ed5218626c44f75548f05d21d1ef374da97a0ab980d75d4ef28d0cb301d",
+    "project/working/subB/comparison_results.json": "585aa8739821e23ae53819a3462a22d0a4de28037cafbaca4a2a4d27fc27af30",
+    "project/working/subB/core_analysis.py": "a2ee852311ed9f302354a2473165fe044d86321f27f1b8f743cf2a548fafba25",
+    "project/working/subB/regression_results.json": "19e3f444eaae9986f7d6dfb0d65868c1e2cbbb6534a38e9376594fc550d4b4a8",
+    "project/working/subC/binned_means.png": "82764edc22e3525e2583ff5f3048b0c185199eecee69f52d7427cb18b7b09b7c",
+    "project/working/subC/robustness_analysis.py": "a6dbd8d26d4f8a0aacbea8409b01c4d1b6d32175ee752ec980126300d2ab3c8b",
+    "project/working/subC/robustness_results.json": "284427d6924cc153f905f3f237503f1a84973b188d6e71e6d957538b5c54f502",
+    "project/working/subC/robustness_summary.md": "399d0dbbb255d9796ed67194adb52643cf7f16b57e7e9f545651d271378bb099",
+    "project/workspace_receipt.json": "c11ebb085c6ca41af7c1d2930a165206563549d136ff26048498f876e4404e8f",
+    "runtime-metadata/.execution.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.meta.json": "afe9c6d74d6df0d45e39c720058282bbf78aa77ef87f1b3a2204f8efd93919fc",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.meta.json": "9a95e3efba04a9771567cdc8e683b532271db7c83e91451010873db786528d08",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.meta.json": "e31d20ae560cfda028712900126ff18936dc27f59ed0b059bf7b699f46f37b92",
+    "state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl": "0e85402a6c35e9ee792f7f5ed86bb574bae474514f0f0cbab1a53eea910b0766",
+    "state/home/.agent-runtime/system-prompts/run_22d19564c6f04af2.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_4c18eaaee41340c6.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_a3fbe594142b4e3e.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0",
+    "state/home/.agent-runtime/system-prompts/run_f9d2aebd8df44a21.txt": "9851aad3d7603fccd52e4c71660b3d043f4955401e0a9b2536013b45193e6ea0"
+  },
+  "validator_returncode": 0,
+  "validation": {
+    "schema": "truthinsightbench-semantic-output-validation",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "output": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/project/output",
+    "authoritative_report": {
+      "path": "Result.md",
+      "bytes": 16464,
+      "sha256": "de951bdccb76dbd7d0128b18f67de5a64e5646f4edafcff1d1c3661ab44d40ae"
+    },
+    "registered_findings": {
+      "count": 3,
+      "numbers": [
+        1,
+        2,
+        3
+      ],
+      "markers": [
+        {
+          "finding_number": 1,
+          "line": 33,
+          "marker": "### Finding 1: The timescale-erosion rate relationship is dominated by measurement method, not geological process",
+          "heading_level": 3
+        },
+        {
+          "finding_number": 2,
+          "line": 51,
+          "marker": "### Finding 2: Glacial erosion rates are systematically higher than fluvial rates, even after controlling for timescale and methodology",
+          "heading_level": 3
+        },
+        {
+          "finding_number": 3,
+          "line": 73,
+          "marker": "### Finding 3: Source/site correlation invalidates the statistical significance of the overall timescale-erosion rate relationship",
+          "heading_level": 3
+        }
+      ],
+      "traceability": [
+        {
+          "finding_number": 1,
+          "resolved_native_tokens": [],
+          "analysis_sources": [
+            "core_analysis.py",
+            "robustness_analysis.py"
+          ],
+          "result_evidence": [
+            "regression_results.json"
+          ],
+          "executed_notebook_evidence": [],
+          "passed": true
+        },
+        {
+          "finding_number": 2,
+          "resolved_native_tokens": [],
+          "analysis_sources": [
+            "core_analysis.py"
+          ],
+          "result_evidence": [
+            "comparison_results.json"
+          ],
+          "executed_notebook_evidence": [],
+          "passed": true
+        },
+        {
+          "finding_number": 3,
+          "resolved_native_tokens": [],
+          "analysis_sources": [
+            "robustness_analysis.py"
+          ],
+          "result_evidence": [
+            "audit_results.json",
+            "robustness_results.json"
+          ],
+          "executed_notebook_evidence": [],
+          "passed": true
+        }
+      ]
+    },
+    "reproduction": {
+      "mode": "companion_markdown",
+      "document": {
+        "path": "reproduce.md",
+        "bytes": 2017,
+        "sha256": "cd2e223efad2308b8d3096a9097a430aa771f627331da5912601b91982248e75"
+      }
+    },
+    "analysis_sources": [
+      {
+        "path": "core_analysis.py",
+        "bytes": 28736,
+        "sha256": "a2ee852311ed9f302354a2473165fe044d86321f27f1b8f743cf2a548fafba25"
+      },
+      {
+        "path": "data_audit.py",
+        "bytes": 31788,
+        "sha256": "e868394bcb6589217f5a0112cd77d6a50339dc95d940ae9429e58197bae2e9c2"
+      },
+      {
+        "path": "robustness_analysis.py",
+        "bytes": 34129,
+        "sha256": "a6dbd8d26d4f8a0aacbea8409b01c4d1b6d32175ee752ec980126300d2ab3c8b"
+      }
+    ],
+    "executed_notebooks": [],
+    "result_artifacts": [
+      {
+        "path": "audit_results.json",
+        "bytes": 137911,
+        "sha256": "a1674a804d79966f7c65778d8a35982fcf2edb3efeb76c7fc0ac5bd9bc6afd7c"
+      },
+      {
+        "path": "binned_means.png",
+        "bytes": 50640,
+        "sha256": "82764edc22e3525e2583ff5f3048b0c185199eecee69f52d7427cb18b7b09b7c"
+      },
+      {
+        "path": "comparison_results.json",
+        "bytes": 6285,
+        "sha256": "585aa8739821e23ae53819a3462a22d0a4de28037cafbaca4a2a4d27fc27af30"
+      },
+      {
+        "path": "regression_results.json",
+        "bytes": 15579,
+        "sha256": "19e3f444eaae9986f7d6dfb0d65868c1e2cbbb6534a38e9376594fc550d4b4a8"
+      },
+      {
+        "path": "robustness_results.json",
+        "bytes": 21520,
+        "sha256": "284427d6924cc153f905f3f237503f1a84973b188d6e71e6d957538b5c54f502"
+      }
+    ],
+    "native_evidence_registry": {
+      "sources": [],
+      "resolved_ids": {}
+    },
+    "resolved_support_files": [
+      {
+        "path": "audit_results.json",
+        "bytes": 137911,
+        "sha256": "a1674a804d79966f7c65778d8a35982fcf2edb3efeb76c7fc0ac5bd9bc6afd7c"
+      },
+      {
+        "path": "comparison_results.json",
+        "bytes": 6285,
+        "sha256": "585aa8739821e23ae53819a3462a22d0a4de28037cafbaca4a2a4d27fc27af30"
+      },
+      {
+        "path": "core_analysis.py",
+        "bytes": 28736,
+        "sha256": "a2ee852311ed9f302354a2473165fe044d86321f27f1b8f743cf2a548fafba25"
+      },
+      {
+        "path": "regression_results.json",
+        "bytes": 15579,
+        "sha256": "19e3f444eaae9986f7d6dfb0d65868c1e2cbbb6534a38e9376594fc550d4b4a8"
+      },
+      {
+        "path": "robustness_analysis.py",
+        "bytes": 34129,
+        "sha256": "a6dbd8d26d4f8a0aacbea8409b01c4d1b6d32175ee752ec980126300d2ab3c8b"
+      },
+      {
+        "path": "robustness_results.json",
+        "bytes": 21520,
+        "sha256": "284427d6924cc153f905f3f237503f1a84973b188d6e71e6d957538b5c54f502"
+      }
+    ]
+  }
+}

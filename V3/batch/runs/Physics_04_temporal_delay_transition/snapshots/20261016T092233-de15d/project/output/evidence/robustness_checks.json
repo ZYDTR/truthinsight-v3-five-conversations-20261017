@@ -1,0 +1,69 @@
+{
+  "finding1_segmentation": {
+    "original_Bc": 3.950000000000003,
+    "loo_stability": {
+      "range": [
+        2.700000000000002,
+        2.7500000000000018
+      ],
+      "mean": 2.7489010989011002
+    }
+  },
+  "finding2_collapse_spline": {
+    "B1_vs_B2": {
+      "optimal_scale": 0.3500000000000001,
+      "max_correlation": 0.9998962138852989
+    },
+    "B1_vs_B3": {
+      "optimal_scale": 0.1,
+      "max_correlation": 0.9909187022790685
+    },
+    "B1_vs_B4": {
+      "optimal_scale": 9.950000000000003,
+      "max_correlation": 0.5517268947915654
+    },
+    "B1_vs_B5": {
+      "optimal_scale": 0.1,
+      "max_correlation": -0.4499921054875581
+    },
+    "B2_vs_B3": {
+      "optimal_scale": 0.3500000000000001,
+      "max_correlation": 0.9984936622120065
+    },
+    "B2_vs_B4": {
+      "optimal_scale": 0.15000000000000002,
+      "max_correlation": 0.9979310390231335
+    },
+    "B2_vs_B5": {
+      "optimal_scale": 0.1,
+      "max_correlation": 0.9630687023442505
+    },
+    "B3_vs_B4": {
+      "optimal_scale": 0.45000000000000007,
+      "max_correlation": 0.9999426942633219
+    },
+    "B3_vs_B5": {
+      "optimal_scale": 0.20000000000000004,
+      "max_correlation": 0.9998541908194033
+    },
+    "B4_vs_B5": {
+      "optimal_scale": 0.45000000000000007,
+      "max_correlation": 0.9998293516375337
+    }
+  },
+  "finding3_bootstrap": {
+    "Bc_inf_mean": 3.8374821496765836,
+    "Bc_inf_CI_95": [
+      3.8246420759349458,
+      3.849293463959195
+    ],
+    "nu_mean": 3.2479000000000022,
+    "nu_CI_95": [
+      3.150000000000002,
+      3.3500000000000023
+    ]
+  },
+  "finding4_alternative_models": {
+    "Thiers13_quadratic_R2": 0.9965951128386729
+  }
+}

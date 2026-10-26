@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-16T08:48:11.458618+00:00",
+  "subject_commit": "52fff1847bec1a2f82b1abd8e23caeda979dea21",
+  "subject_tag": "tib-scientific-context-v3.1-20261016",
+  "dispatch_count": 5,
+  "same_prompt_for_all": true,
+  "first_scientific_input_choice": "original LaunchPrompt, no new scientific preprompt",
+  "automation_status": "PAUSED",
+  "root_sap_scientific_messages": 0,
+  "no_scoring": true,
+  "operator_context_change_disclosed": true,
+  "science_completion": "pending",
+  "actual_model_startup_check": "Five outer models verified; subject records at docs/subject-startup-check.json",
+  "no_nested_outer_sessions_observed": true,
+  "first_science_sent_count": 2
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "truthinsightbench-scoring-cohort",
+  "release": "V1.0",
+  "agents": [
+    "sap-shared-context-v3.1"
+  ],
+  "summary": {
+    "run_count": 1,
+    "complete_task_count": 1,
+    "complete_tasks": [
+      "EarthScience_01_glacial_fluvial_erosion"
+    ],
+    "provisional_task_count": 0,
+    "provisional_tasks": []
+  },
+  "runs": [
+    {
+      "key": "sap-shared-context-v3.1--EarthScience_01_glacial_fluvial_erosion",
+      "task_id": "EarthScience_01_glacial_fluvial_erosion",
+      "agent": "sap-shared-context-v3.1",
+      "model": "qwen3.7-flash",
+      "manifest_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--EarthScience_01_glacial_fluvial_erosion/run_manifest.json",
+      "manifest_sha256": "6a117b43e66032fceb9b028f67b56e6f957dc9f43f9360486aab95630ae78067",
+      "output_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/exports/EarthScience_01_glacial_fluvial_erosion/workspace/output",
+      "report_path": "Result.md",
+      "report_sha256": "de951bdccb76dbd7d0128b18f67de5a64e5646f4edafcff1d1c3661ab44d40ae",
+      "finding_count": 3,
+      "gold_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/TruthInsightBench/evaluation/evaluator/tasks/EarthScience_01_glacial_fluvial_erosion/validation_anchors.json",
+      "gold_sha256": "924769092ca146c17d7b21cfbd0cfc897420c3ce94e49d9c44c299f79a3af25b"
+    }
+  ]
+}

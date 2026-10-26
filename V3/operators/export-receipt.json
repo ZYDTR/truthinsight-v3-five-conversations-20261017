@@ -1,0 +1,68 @@
+{
+  "source_database": "/Users/zhengyidi/yage/context-infrastructure/tmp/opencode_new/data/opencode/opencode.db",
+  "source_schema": "session_v2/session_message",
+  "scope": "five exact owner sessions only",
+  "read_only": true,
+  "sessions": {
+    "Chemistry_02_photoionization_delay": {
+      "session_id": "ses_ebc1ae440ffentMEx5uqRjbUSV",
+      "messages": 173,
+      "types": {
+        "user": 3,
+        "assistant": 168,
+        "synthetic": 1,
+        "idle": 1
+      },
+      "raw_sha256_before_redaction": "1586929dc71de8767a69d066c5dd8f7f0ce4178bfe7b01ef4494c042a2ab2c3d",
+      "exported_at": "2026-10-17T07:35:03.977624+00:00"
+    },
+    "Physics_04_temporal_delay_transition": {
+      "session_id": "ses_ebc1ae3e6ffe0PjX5Viux2keQj",
+      "messages": 148,
+      "types": {
+        "user": 2,
+        "assistant": 143,
+        "synthetic": 2,
+        "idle": 1
+      },
+      "raw_sha256_before_redaction": "c258cb98932e578fac102f6501c9cd7226424d561958e388866ad7aebffbcb96",
+      "exported_at": "2026-10-17T07:35:03.977624+00:00"
+    },
+    "Astronomy_02_gravity_spectral_structure": {
+      "session_id": "ses_ebc1ae3d8ffeAmzw1mEDm2dIa3",
+      "messages": 192,
+      "types": {
+        "user": 3,
+        "assistant": 187,
+        "synthetic": 1,
+        "idle": 1
+      },
+      "raw_sha256_before_redaction": "a51fb68afc95f168fd8dcc7ceed9f5602915366973fddb9426fcda4049e18ff6",
+      "exported_at": "2026-10-17T07:35:03.977624+00:00"
+    },
+    "EarthScience_01_glacial_fluvial_erosion": {
+      "session_id": "ses_ebc1ae3cfffecEMhBgABB1HT6J",
+      "messages": 141,
+      "types": {
+        "user": 2,
+        "assistant": 136,
+        "synthetic": 2,
+        "idle": 1
+      },
+      "raw_sha256_before_redaction": "aa00f9e9f096bc8b7b8b23a247698a7af6b16b385220a358977fdb3b660a4375",
+      "exported_at": "2026-10-17T07:35:03.977624+00:00"
+    },
+    "Neuro_02_calcium_response_regions": {
+      "session_id": "ses_ebc1ae3caffevOTg3zYM4nVKKS",
+      "messages": 129,
+      "types": {
+        "user": 2,
+        "assistant": 124,
+        "synthetic": 2,
+        "idle": 1
+      },
+      "raw_sha256_before_redaction": "40fe9902e5cfbe42ce53e3d3df54d44250b27bc0d1a97a45fb094e2a058193cf",
+      "exported_at": "2026-10-17T07:35:03.977624+00:00"
+    }
+  }
+}

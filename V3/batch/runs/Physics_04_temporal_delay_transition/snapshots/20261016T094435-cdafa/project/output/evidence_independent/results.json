@@ -1,0 +1,158 @@
+{
+  "finding1": {
+    "meanfield": {
+      "linear_fit": {
+        "slope": -0.37057071860815705,
+        "intercept": 2.4381153360145404,
+        "R_squared": 0.7056724516347621,
+        "p_value": 7.984938239604765e-11
+      },
+      "segmented_regression": {
+        "breakpoint_Bc": 3.500000000000002,
+        "segment1_slope": -0.9998620859107221,
+        "segment1_intercept": 3.6726689299978545,
+        "segment2_slope": -4.3325691160264605e-06,
+        "segment2_intercept": 3.2089987370672965e-05,
+        "R_squared": 0.9999980216718378
+      }
+    },
+    "theory": {
+      "linear_fit": {
+        "slope": -0.41653029453336476,
+        "intercept": 2.7619943900164587,
+        "R_squared": 0.7404072063746848,
+        "p_value": 1.3318935248939004e-54
+      },
+      "segmented_regression": {
+        "breakpoint_Bc": 3.950000000000003,
+        "segment1_slope": -0.9999999999999997,
+        "segment1_intercept": 3.9943083470021215,
+        "segment2_slope": 0.0,
+        "segment2_intercept": 0.0,
+        "R_squared": 1.0
+      }
+    }
+  },
+  "finding2": {
+    "pairwise_optimal_scales": {
+      "ave_1": {
+        "optimal_scale": 1.0,
+        "self_correlation": 1.0,
+        "note": "reference"
+      },
+      "ave_2": {
+        "optimal_scale": 0.35765765765765767,
+        "max_correlation_with_reference": 0.9999634858110125
+      },
+      "ave_3": {
+        "optimal_scale": 0.14954954954954958,
+        "max_correlation_with_reference": 0.9999410701632467
+      },
+      "ave_4": {
+        "optimal_scale": 0.1,
+        "max_correlation_with_reference": 0.989575222885112
+      },
+      "ave_5": {
+        "optimal_scale": 0.1,
+        "max_correlation_with_reference": 0.9488974550615642
+      }
+    },
+    "all_pairwise_correlations": {
+      "ave_1_vs_ave_2": {
+        "optimal_scale": 0.35765765765765767,
+        "correlation": 0.9999634858110125
+      },
+      "ave_1_vs_ave_3": {
+        "optimal_scale": 0.14954954954954958,
+        "correlation": 0.9999410701632467
+      },
+      "ave_1_vs_ave_4": {
+        "optimal_scale": 0.1,
+        "correlation": 0.989575222885112
+      },
+      "ave_1_vs_ave_5": {
+        "optimal_scale": 0.1,
+        "correlation": 0.9488974550615642
+      },
+      "ave_2_vs_ave_3": {
+        "optimal_scale": 0.40720720720720727,
+        "correlation": 0.9999884030361186
+      },
+      "ave_2_vs_ave_4": {
+        "optimal_scale": 0.17927927927927928,
+        "correlation": 0.9999627907012163
+      },
+      "ave_2_vs_ave_5": {
+        "optimal_scale": 0.1,
+        "correlation": 0.9978458957301573
+      },
+      "ave_3_vs_ave_4": {
+        "optimal_scale": 0.436936936936937,
+        "correlation": 0.9999837615222115
+      },
+      "ave_3_vs_ave_5": {
+        "optimal_scale": 0.20900900900900904,
+        "correlation": 0.9999158730675178
+      },
+      "ave_4_vs_ave_5": {
+        "optimal_scale": 0.4666666666666667,
+        "correlation": 0.9999689904402599
+      }
+    },
+    "decay_scales": {
+      "1": 5801.0,
+      "2": 2121.0,
+      "3": 869.0,
+      "4": 385.0,
+      "5": 185.0
+    }
+  },
+  "finding3": {
+    "meanfield": {
+      "scanning_method": {
+        "best_nu": 3.2387387387387387,
+        "Bc_inf": 3.8369282176090516,
+        "amplitude_a": -2.785946604337132,
+        "R_squared": 0.999827106473842
+      }
+    },
+    "tempnet": {
+      "scanning_method": {
+        "best_nu": 3.490990990990991,
+        "Bc_inf": 3.8582429595774768,
+        "amplitude_a": -2.434159348124326,
+        "R_squared": 0.9998944620601314
+      }
+    }
+  },
+  "finding4": {
+    "Thiers13": {
+      "linear_model": {
+        "slope": -0.03526710369124605,
+        "intercept": 0.08610750761041606,
+        "R_squared": 0.8767109183431964,
+        "p_value": 9.434614170889396e-26
+      },
+      "power_law_model": {
+        "coefficient_a": 0.0054788288162224376,
+        "exponent_b": -3.6279870091800532,
+        "R_squared": 0.5585351656489943,
+        "p_value": 8.50112805299891e-11
+      }
+    },
+    "Workplace15": {
+      "linear_model": {
+        "slope": -0.032560841596796286,
+        "intercept": 0.06742740020912266,
+        "R_squared": 0.6473804400638767,
+        "p_value": 1.9547044117251354e-15
+      },
+      "power_law_model": {
+        "coefficient_a": 0.002973476895504744,
+        "exponent_b": -3.7687616664882033,
+        "R_squared": 0.7466420266602689,
+        "p_value": 1.5282332870919692e-19
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+import os,sys,json
+from pathlib import Path
+cfg=json.loads(Path('/harness/config.json').read_text());args=sys.argv[1:]
+if args and args[0] in ('run','build'):
+    for k,v in {'codex.test':'true','codex.run_id':cfg['run_id'],'codex.owner':'/root/shared_v31_five_operators','codex.cleanup':'required'}.items():args[1:1]=['--label',k+'='+v]
+os.execv('/usr/bin/docker',['docker',*args])

@@ -1,0 +1,280 @@
+{
+  "n_shared_combinations": 26,
+  "pearson_correlation": 1.0,
+  "linear_fit_slope": 0.9999999999999999,
+  "linear_fit_intercept": -2.2295823230045242e-14,
+  "r_squared": 1.0,
+  "rmse": 4.263256414560601e-14,
+  "mean_ic": 89.74230769230768,
+  "ic_range": [
+    43.9,
+    137.2
+  ],
+  "mean_delta_ic": 89.74230769230768,
+  "delta_ic_range": [
+    43.9,
+    137.2
+  ],
+  "shared_combinations": [
+    {
+      "max_velocity_cm_s": 20,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1010,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 43.9,
+      "candidate_rank": 40,
+      "information_criterion": 43.9,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 30,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1010,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 47.2,
+      "candidate_rank": 46,
+      "information_criterion": 47.2,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 20,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1060,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 56.7,
+      "candidate_rank": 60,
+      "information_criterion": 56.7,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 30,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1060,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 57.3,
+      "candidate_rank": 63,
+      "information_criterion": 57.3,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 20,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 960,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 58.0,
+      "candidate_rank": 65,
+      "information_criterion": 58.0,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 30,
+      "min_velocity_cm_s": 0.05,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 58.1,
+      "candidate_rank": 67,
+      "information_criterion": 58.1,
+      "candidate_family": "minimum_velocity_scan"
+    },
+    {
+      "max_velocity_cm_s": 30,
+      "min_velocity_cm_s": 0.02,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 61.6,
+      "candidate_rank": 74,
+      "information_criterion": 61.6,
+      "candidate_family": "minimum_velocity_scan"
+    },
+    {
+      "max_velocity_cm_s": 50,
+      "min_velocity_cm_s": 0.05,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 68.3,
+      "candidate_rank": 84,
+      "information_criterion": 68.3,
+      "candidate_family": "minimum_velocity_scan"
+    },
+    {
+      "max_velocity_cm_s": 30,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 960,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 72.5,
+      "candidate_rank": 94,
+      "information_criterion": 72.5,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 50,
+      "min_velocity_cm_s": 0.02,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 73.29999999999998,
+      "candidate_rank": 97,
+      "information_criterion": 73.3,
+      "candidate_family": "minimum_velocity_scan"
+    },
+    {
+      "max_velocity_cm_s": 30,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1110,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 76.0,
+      "candidate_rank": 103,
+      "information_criterion": 76.0,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 30,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1160,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 80.5,
+      "candidate_rank": 113,
+      "information_criterion": 80.5,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 30,
+      "min_velocity_cm_s": 0.01,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 81.0,
+      "candidate_rank": 114,
+      "information_criterion": 81.0,
+      "candidate_family": "minimum_velocity_scan"
+    },
+    {
+      "max_velocity_cm_s": 50,
+      "min_velocity_cm_s": 0.01,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 88.2,
+      "candidate_rank": 132,
+      "information_criterion": 88.2,
+      "candidate_family": "minimum_velocity_scan"
+    },
+    {
+      "max_velocity_cm_s": 20,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1110,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 93.5,
+      "candidate_rank": 150,
+      "information_criterion": 93.5,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 10,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 960,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 106.2,
+      "candidate_rank": 179,
+      "information_criterion": 106.2,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 50,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1110,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 109.7,
+      "candidate_rank": 186,
+      "information_criterion": 109.7,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 50,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1160,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 110.8,
+      "candidate_rank": 190,
+      "information_criterion": 110.8,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 10,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 910,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 111.5,
+      "candidate_rank": 194,
+      "information_criterion": 111.5,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 50,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 113.6,
+      "candidate_rank": 198,
+      "information_criterion": 113.6,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 20,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 910,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 114.7,
+      "candidate_rank": 200,
+      "information_criterion": 114.7,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 30,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 120.7,
+      "candidate_rank": 212,
+      "information_criterion": 120.7,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 20,
+      "min_velocity_cm_s": 0.05,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 129.6,
+      "candidate_rank": 231,
+      "information_criterion": 129.6,
+      "candidate_family": "minimum_velocity_scan"
+    },
+    {
+      "max_velocity_cm_s": 50,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1060,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 130.3,
+      "candidate_rank": 234,
+      "information_criterion": 130.3,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 50,
+      "min_velocity_cm_s": 0.0,
+      "peak_frequency_microhz": 1260,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 132.9,
+      "candidate_rank": 240,
+      "information_criterion": 132.9,
+      "candidate_family": "frequency_amplitude_scan"
+    },
+    {
+      "max_velocity_cm_s": 20,
+      "min_velocity_cm_s": 0.02,
+      "peak_frequency_microhz": 1210,
+      "frequency_width_microhz": 300,
+      "delta_information_criterion": 137.2,
+      "candidate_rank": 250,
+      "information_criterion": 137.2,
+      "candidate_family": "minimum_velocity_scan"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+# Round 2 事实反馈（操作者亲读原件后的核查结果）
+
+性质：仅指本轮文件、机器产物与冻结 Skill 验收条件中可定位的事实与缺口。不含任何科学答案；所有修正由你自行核查执行。
+
+## 已观察事实（证据位置）
+
+本轮 round 001 的多数核心数值经操作者对照机器产物核实一致：
+
+- Finding 1 的 pairwise 对比（diff/p/Hedges g）与 `output/contrasts_regions12.csv` 及 `main_analysis.py` 执行输出一致（如 amplitude baseline vs stimulated diff=-0.284161, p=7.03e-08, g=-0.6613）。
+- Finding 2 的两因素 ANOVA（R1+2）F/p 与 `main_analysis.py` 实际 ANOVA 表一致（amplitude 交互 F=7.443228 p=6.44e-04；AUC 交互 F=0.003359 p=9.97e-01）；η²≈0.02 与该表残差 df=574 相符。
+- Finding 3 批次 η²/F/p 表与 `output/batch_effects.csv` 完全一致；batch_01 n=4、amplitude mean≈4.543 经原始 TSV 独立复算一致；age 相关 r=0.183/0.210 复算一致。
+- Finding 4 R1+2 数值与 `output/contrasts_regions12.csv` 一致；region_4 全部 p>0.05 成立（ttp p=0.0514）。
+- `output/` 核心产物由 `main_analysis.py` 实际执行直接写入（脚本输出路径即 output/），非事后复制。
+- 全部 assistant 消息 model=qwen3.7-flash；3 个 general-purpose 子 Agent 均真实读取、实现、执行并自纠错（如 agent-a48dfb2f3d86c6533.jsonl 行45-48 的报错与修复）。
+- 公共 validator passed（主 JSONL 行257，passed:true）。
+
+## 未满足条件及影响（均可在上述原件定位）
+
+1. **Finding 1 与 Finding 2 对同一量给出矛盾陈述，且 Finding 1 的证据标签与实际执行不符。**
+   - Result.md 行34 称 "ANOVA interaction terms (R1+2): Region×Condition F = 8.19 (amplitude) … F = 68.45 (AUC, p < 10⁻¹⁵)"。这组 F 值实际来自 `output/eta_squared_results.csv` 的 **region_1 单区域内条件 ANOVA**（该文件 region 列、n_groups 列可查；n=292），不是 R1+2 两因素交互。R1+2 两因素交互的真实值是 Finding 2 行51-56 所引的 F=7.44/7.29/3.55/15.64/10.18/0.003。
+   - 由此产生直接矛盾：行34 称 AUC "交互" p<10⁻¹⁵，行56 称 AUC 交互 F=0.003、p=0.997 不显著。同一报告不能同时保留两者。
+   - 对应冻结 Skill 验收条件："主张对应真实分析——报告中的样本单位、对比、协变量、基准、单位与不确定性符合执行实现"。
+
+2. **Finding 1 的 slice 级稳健性句子把显著结果归给了错误的对比。**
+   - Result.md 行38："the strongest amplitude contrast (region_2 stimulated vs baseline, slice-level p = 0.021) remained significant"。
+   - 子 Agent B 原始 JSONL（subagents/agent-a99840bac7e5c7086.jsonl）行92 原文是 "The strongest amplitude difference (**region_1 vs region_3, receptor_stimulated**) remains significant at both levels (slice p=0.021, cell p=3.2e-22)"。
+   - 操作者按 `working/analysis_B/robustness_check.py` 行155-185 的同一 slice 聚合方法独立复算：region_2 stimulated vs baseline slice 级 t=1.68、p≈0.126（**不显著**）；region_1 vs region_3 stimulated slice 级 p≈0.0209。
+   - 即：被引用的 p=0.021 属于 region_1 vs region_3（跨区域、同为 stimulated），而你写成的 region_2 内条件对比在该口径下并不显著。"remained significant" 对后一对比无机器证据支持。
+
+3. **Finding 2 的效应量引用指向不存在的数值。**
+   - Result.md 行75 称 `output/eta_squared_results.csv` "shows significant interactions for amplitude (η²=0.054) … frequency (η²=0.035); AUC interaction is non-significant (η²=0.0003)"。
+   - 该 CSV 实为按 region 分层的单因素（条件）ANOVA 效应量，所引数值是 region_1 行；其 AUC 行为 region_1 η²=0.321431（F=68.448）、region_2 0.315855、region_4 0.066424——文件中不存在 η²=0.0003 的 AUC 行（0.002995 是 region_4 的 **amplitude** 行）。正文行51-58 的两因素交互 η²（≈0.02/0.02/0.01/0.03/0.02）与行75 引用的数值（0.054/0.061/0.165/0.031/0.035）是两个不同口径，正文未说明区别。
+
+4. **Finding 3 引用了机器产物中不存在的 LMM 证据。**
+   - Result.md 行105："LMM diagnostics in `output/model_output_agentA.txt` Section 3D: LRT statistic = 263.79 (amplitude), p < 10⁻¹⁰⁰"。
+   - `model_output_agentA.txt` Section 3D（行537 起）实际记录 batch RE 的 LMM 拟合失败："LMM failed: 'builtin_function_or_method' object is not subscriptable"，AIC/BIC=nan，无任何 LRT 值；"263.79" 在全部分析输出与子 Agent 原始 JSONL 中均不存在，唯一出现位置是 Result.md 自身。
+   - 你在 Limitations 中已如实说明 LMM 收敛问题，但正文引用与之矛盾；保留该引用违反"声明的每项通过均有执行或审读证据"。
+
+5. **若干计数/数值精度错误（影响可信度，需逐条订正）。**
+   - Result.md 行38 与 analysis-state.md F7："all 26 tests (all p < 0.001)" / "26/26 次 p<0.001"——`output/robustness_lobo.csv` 实为 **27** 个测试（9 批次 × 3 变量）；"全部 p<0.001" 本身成立（最大 p=2.05e-4）。
+   - Result.md 行38 "effect size estimates varying by <15% across exclusions"——amplitude 的 LOBO diff 范围 −0.2483…−0.3442（full −0.2842），相对全样本最大偏差约 **21%**，<15% 不成立（AUC 约10%、width 约12% 成立）。
+   - Result.md 行128 "|g| < 0.53"——`output/replication_results.csv` region_4 的 time_to_peak 行 d=0.5631（小样本校正后 g≈0.55），>0.53；"all p > 0.05" 成立。
+   - Result.md 行159 Methods "slice-level aggregation (30 slice-region-condition groups)"——按数据实际聚合为 **50** 组（R1+2 为 32 组）。
+
+## 要求（由你自行核查/执行）
+
+1. 逐条核对上述 1-5，将 Finding 1 行34 的检验标签改为其实际口径（region_1 内单因素条件 ANOVA），或改引 R1+2 两因素交互的真实 F 值；消除行34 与行56 关于 AUC 交互的矛盾，二者只能保留有机器证据的那个，并在正文说明两种口径的区别。
+2. 修正 Finding 1 行38 的对比归属与显著性结论：region_2 stimulated vs baseline 在 slice 级的实际结果以你自己的 robustness 脚本重跑为准；如该对比不显著，正文必须如实改写，不得保留 "remained significant"。
+3. 修正 Finding 2 行75 的引用（文件口径、具体数值），使其与 `eta_squared_results.csv` 实际内容一致，或改引两因素交互的部分 η² 并注明计算式。
+4. 删除或替换 Finding 3 行105 的 LRT=263.79 引用；如需保留 LMM 证据，只能引用实际存在且成功的输出，失败记录如实标注。
+5. 订正 26→27、<15%、|g|<0.53、30 组等计数/精度错误，并同步 analysis-state.md（F7 等）与 Result.md，保持两处一致。
+6. 修订后重跑公共 validator，并确认修订后的正文数值与你 output/ 中机器产物逐项一致（含单位与口径标注）。
+
+以上均为当前轮证据可定位的事实核对要求，不涉及任何科学结论方向。

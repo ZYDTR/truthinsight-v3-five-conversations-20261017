@@ -1,0 +1,279 @@
+{
+  "at": "2026-10-16T10:00:02.328273+00:00",
+  "review_type": "bounded_root_raw_evidence_review_no_scoring",
+  "snapshot_at": "2026-10-16T09:46:43Z",
+  "followup_snapshot_at": "2026-10-16T09:57:02.152916+00:00",
+  "evidence_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z",
+  "subject_version": "3.1.0",
+  "subject_commit": "52fff1847bec1a2f82b1abd8e23caeda979dea21",
+  "scoring_performed": false,
+  "v2_science_read": false,
+  "root_scientific_messages_sent": 0,
+  "operators_created": 0,
+  "notes_sent": 7,
+  "tasks": [
+    {
+      "early_primary_delegation": false,
+      "first_primary_write_line": 73,
+      "first_primary_run_line": 79,
+      "first_agent_line": 303,
+      "children": 1,
+      "context_loading": "No explicit core SKILL/ref Read in initial main snapshot lines 1-596; INDEX read does not establish Skill loading.",
+      "main_limitation": "Only feedback-round independent verification; child originals deleted; main rewrites are distinct provenance. Clean reproduction followup copied one old result then marked PASS.",
+      "task": "Chemistry_02_photoionization_delay",
+      "sealed": false,
+      "latest_round": "006",
+      "latest_status": "pending_status",
+      "latest_status_at": null,
+      "raw_files": [
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Chemistry_02_photoionization_delay/raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+          "sha256": "04208a82ac0ae7fc0121e0ed7203c40505ee16087094ad0b2dcb233e91d6b4aa"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Chemistry_02_photoionization_delay/raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+          "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e"
+        }
+      ],
+      "models_by_raw": [
+        {
+          "file": "raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+          "models": {
+            "qwen3.7-flash": 41
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+          "models": {
+            "qwen3.7-flash": 230
+          }
+        }
+      ]
+    },
+    {
+      "early_primary_delegation": false,
+      "first_primary_write_line": 119,
+      "first_primary_run_line": 133,
+      "first_agent_line": 126,
+      "children": 1,
+      "context_loading": "Core read line39; no reference Read observed.",
+      "main_limitation": "Delegation after implementation but before first execution. Clean replay covers seven core JSON; adopted independent branch not demonstrated regenerated.",
+      "task": "Physics_04_temporal_delay_transition",
+      "sealed": true,
+      "latest_round": "004",
+      "latest_status": "completed",
+      "latest_status_at": "2026-10-16T09:42:22.692984+00:00",
+      "raw_files": [
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-903d9cc6-d141-44db-9fb2-1d2d0d122776/conversations/conv-88cfef1f-21cf-450d-b4a7-746678c9cabb/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Physics_04_temporal_delay_transition/raw/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+          "sha256": "510ab465b32fc7301e0d7299ad121ffdf223b9496f35d844fcddb8765ce7f247"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-903d9cc6-d141-44db-9fb2-1d2d0d122776/conversations/conv-88cfef1f-21cf-450d-b4a7-746678c9cabb/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Physics_04_temporal_delay_transition/raw/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+          "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126"
+        }
+      ],
+      "models_by_raw": [
+        {
+          "file": "raw/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+          "models": {
+            "qwen3.7-flash": 57
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+          "models": {
+            "qwen3.7-flash": 154,
+            "<synthetic>": 1
+          }
+        }
+      ]
+    },
+    {
+      "early_primary_delegation": false,
+      "first_primary_write_line": 63,
+      "first_primary_run_line": 69,
+      "first_agent_line": 178,
+      "children": 2,
+      "context_loading": "Core first read line146 in feedback round2.",
+      "main_limitation": "Initial report precedes delegation. Operator independently caught/corrected both frequency units and pass/series count; full adopted-branch replay remains limited.",
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "sealed": false,
+      "latest_round": "008",
+      "latest_status": "completed",
+      "latest_status_at": "2026-10-16T09:59:34.321092+00:00",
+      "raw_files": [
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Astronomy_02_gravity_spectral_structure/raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+          "sha256": "58b39c627c5f0278b2521dcc90b93a378ed0cf476e322e631f1bfaa91932a72d"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Astronomy_02_gravity_spectral_structure/raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+          "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Astronomy_02_gravity_spectral_structure/raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+          "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f"
+        }
+      ],
+      "models_by_raw": [
+        {
+          "file": "raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+          "models": {
+            "qwen3.7-flash": 45
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+          "models": {
+            "qwen3.7-flash": 29
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+          "models": {
+            "qwen3.7-flash": 233
+          }
+        }
+      ]
+    },
+    {
+      "early_primary_delegation": true,
+      "first_agent_line": 94,
+      "other_agent_lines": [
+        100,
+        102
+      ],
+      "children": 3,
+      "context_loading": "Core46; refs67-76; state88.",
+      "main_limitation": "Real early data/core/robust branches. Cluster covariance A_g @ A_g.T is scalar for 1D A_g and broadcast to2x2; repeatability does not validate it.",
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "sealed": true,
+      "latest_round": "003",
+      "latest_status": "completed",
+      "latest_status_at": "2026-10-16T09:29:23.567232+00:00",
+      "raw_files": [
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+          "sha256": "0e85402a6c35e9ee792f7f5ed86bb574bae474514f0f0cbab1a53eea910b0766"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+          "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+          "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+          "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577"
+        }
+      ],
+      "models_by_raw": [
+        {
+          "file": "raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+          "models": {
+            "qwen3.7-flash": 46
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+          "models": {
+            "qwen3.7-flash": 65
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+          "models": {
+            "qwen3.7-flash": 46
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+          "models": {
+            "qwen3.7-flash": 126,
+            "<synthetic>": 1
+          }
+        }
+      ]
+    },
+    {
+      "early_primary_delegation": true,
+      "first_agent_line": 89,
+      "other_agent_lines": [
+        92,
+        95
+      ],
+      "main_duplicate_pipeline_line": 174,
+      "children": 3,
+      "context_loading": "Core43; refs48-61; state80.",
+      "main_limitation": "Three early branches but main later reimplements broad pipeline. Reporting error after fit mislabeled convergence failure; clustered unit/headline alignment and full replay unresolved.",
+      "task": "Neuro_02_calcium_response_regions",
+      "sealed": true,
+      "latest_round": "004",
+      "latest_status": "completed",
+      "latest_status_at": "2026-10-16T09:27:17.543240+00:00",
+      "raw_files": [
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+          "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+          "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+          "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65"
+        },
+        {
+          "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+          "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+          "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa"
+        }
+      ],
+      "models_by_raw": [
+        {
+          "file": "raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+          "models": {
+            "qwen3.7-flash": 43
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+          "models": {
+            "qwen3.7-flash": 25
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+          "models": {
+            "qwen3.7-flash": 50
+          }
+        },
+        {
+          "file": "raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+          "models": {
+            "qwen3.7-flash": 169
+          }
+        }
+      ]
+    }
+  ],
+  "attribution": "Astro Round007 and Chem Round005 operator feedback preceded root messages; do not credit root. Any subsequent corrections prompted by this review must be tagged as root-assisted operator review."
+}

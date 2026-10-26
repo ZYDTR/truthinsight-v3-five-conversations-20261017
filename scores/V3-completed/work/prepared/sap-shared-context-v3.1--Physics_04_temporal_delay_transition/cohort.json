@@ -1,0 +1,32 @@
+{
+  "schema": "truthinsightbench-scoring-cohort",
+  "release": "V1.0",
+  "agents": [
+    "sap-shared-context-v3.1"
+  ],
+  "summary": {
+    "run_count": 1,
+    "complete_task_count": 1,
+    "complete_tasks": [
+      "Physics_04_temporal_delay_transition"
+    ],
+    "provisional_task_count": 0,
+    "provisional_tasks": []
+  },
+  "runs": [
+    {
+      "key": "sap-shared-context-v3.1--Physics_04_temporal_delay_transition",
+      "task_id": "Physics_04_temporal_delay_transition",
+      "agent": "sap-shared-context-v3.1",
+      "model": "qwen3.7-flash",
+      "manifest_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Physics_04_temporal_delay_transition/run_manifest.json",
+      "manifest_sha256": "62803c4bf0eb0848c7f5f3e850d86999eb1df37e7c3a044296dd7e92cebea4de",
+      "output_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/exports/Physics_04_temporal_delay_transition/workspace/output",
+      "report_path": "Result.md",
+      "report_sha256": "c6f0b2ead75df2b5498a13b01851c85d05405ff905bf8f177945f125158b4d29",
+      "finding_count": 4,
+      "gold_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/TruthInsightBench/evaluation/evaluator/tasks/Physics_04_temporal_delay_transition/validation_anchors.json",
+      "gold_sha256": "b0fed6f7fb95eae3e4e77a0d756d6d5bd0c01bd1eb77e5dc79172a6f2f6c5a27"
+    }
+  ]
+}

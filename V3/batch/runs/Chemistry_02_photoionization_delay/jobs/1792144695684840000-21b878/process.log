@@ -1,0 +1,5 @@
+/Users/zhengyidi/miniconda3/envs/ideagen_env/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (7.2.0)/charset_normalizer (3.4.6) doesn't match a supported version!
+  warnings.warn(
+{"task": "Chemistry_02_photoionization_delay", "round": 6, "run_id": "run_a3995bac559c4563", "started": "2026-10-16T09:58:15.996613+00:00"}
+{"task": "Chemistry_02_photoionization_delay", "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100436-a8a32", "input_changed": [], "shared_changed": [], "model_counts": {"qwen3.7-flash": 388}, "validator_returncode": 0}
+{"task": "Chemistry_02_photoionization_delay", "round": 6, "terminal": "run.completed", "seconds": 380.4}

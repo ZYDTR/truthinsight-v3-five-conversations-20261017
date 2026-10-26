@@ -1,0 +1,170 @@
+{
+  "at": "2026-10-17T04:42:26.310961+00:00",
+  "subject_version": "3.1.0",
+  "subject_commit": "52fff1847bec1a2f82b1abd8e23caeda979dea21",
+  "scoring_performed": false,
+  "hidden_answers_read": false,
+  "scientific_messages_sent": 0,
+  "new_sessions": 0,
+  "seal_integrity": [
+    {
+      "task": "Neuro_02_calcium_response_regions",
+      "manifest_entries": 70,
+      "mismatches": []
+    },
+    {
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "manifest_entries": 76,
+      "mismatches": []
+    },
+    {
+      "task": "Chemistry_02_photoionization_delay",
+      "manifest_entries": 102,
+      "mismatches": []
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "manifest_entries": 64,
+      "mismatches": []
+    },
+    {
+      "task": "Physics_04_temporal_delay_transition",
+      "manifest_entries": 132,
+      "mismatches": []
+    }
+  ],
+  "evidence": [
+    {
+      "task": "Neuro_02_calcium_response_regions",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Neuro_02_calcium_response_regions/snapshots/20261016T093148-64cf6/project/ResearchObjective.md",
+      "sha256": "c73ffb701e33b7d8b35a25b39812c114f33ee57b77f779301de70a2846440105"
+    },
+    {
+      "task": "Neuro_02_calcium_response_regions",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Neuro_02_calcium_response_regions/snapshots/20261016T093148-64cf6/project/DATA_GUIDE.md",
+      "sha256": "6a1ab73304314f16ff89f39e09e65eeb10c115e5d4b447d98b6c36664aa0eb81"
+    },
+    {
+      "task": "Neuro_02_calcium_response_regions",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Neuro_02_calcium_response_regions/snapshots/20261016T093148-64cf6/project/output/Result.md",
+      "sha256": "b91b8a530512ee91f34da2dc1599ad77428adf5c132dcd3e1e08764f1b611ea8"
+    },
+    {
+      "task": "Neuro_02_calcium_response_regions",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Neuro_02_calcium_response_regions/snapshots/20261016T093148-64cf6/project/output/main_analysis.py",
+      "sha256": "3228ec762282d08e520abe6749db9889002fd01a013cbacd8545bf62b9e613a6"
+    },
+    {
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/project/ResearchObjective.md",
+      "sha256": "0543033f8f9b229b8dee6e27da5fd1feb7b2a7ace43d39de287202c35c875088"
+    },
+    {
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/project/DATA_GUIDE.md",
+      "sha256": "d5cd07d5931438601441c3a643c142f6868e6a846ee6fab4e91b172aae6d64f9"
+    },
+    {
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/project/output/Result.md",
+      "sha256": "de951bdccb76dbd7d0128b18f67de5a64e5646f4edafcff1d1c3661ab44d40ae"
+    },
+    {
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/project/output/core_analysis.py",
+      "sha256": "a2ee852311ed9f302354a2473165fe044d86321f27f1b8f743cf2a548fafba25"
+    },
+    {
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/project/output/robustness_analysis.py",
+      "sha256": "a6dbd8d26d4f8a0aacbea8409b01c4d1b6d32175ee752ec980126300d2ab3c8b"
+    },
+    {
+      "task": "Chemistry_02_photoionization_delay",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100943-539ca/project/ResearchObjective.md",
+      "sha256": "3f7cbd33aadca0ee515a5a995daa8f8fde55816d98017b92a8a95da78365574b"
+    },
+    {
+      "task": "Chemistry_02_photoionization_delay",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100943-539ca/project/DATA_GUIDE.md",
+      "sha256": "8d5ef87f30254b9ce6b62c45d69a257a3e4766ae34deaded4f606f7db48367fc"
+    },
+    {
+      "task": "Chemistry_02_photoionization_delay",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100943-539ca/project/output/Result.md",
+      "sha256": "55919a5017606921aa58b11871dc566ab7c9d74efadc63dea7158d251bb2cd97"
+    },
+    {
+      "task": "Chemistry_02_photoionization_delay",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100943-539ca/project/output/analysis_fix_energy_alignment.py",
+      "sha256": "a0afe5a8b43ab9b279214cf1912e28e0358172e9e0543f1e1535adbaf2d2658d"
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/project/ResearchObjective.md",
+      "sha256": "a803c655d96745556b32cd1dc1532a5910c311daa7a01896cab275408710a2db"
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/project/DATA_GUIDE.md",
+      "sha256": "3c697808d091ac42fe2deb775f4dd4bb7c26e3ea7ce3174fdc378653180a984f"
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/project/output/Result.md",
+      "sha256": "d72d7cb726ab11fd21b9cdafb6c70a6f9165087b2ebfa1a251df37b67bed37d5"
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/project/output/analysis.py",
+      "sha256": "c739f579e8f9205e449bcd3a39ccf7ec0e860cda0e3fcc58b64c9c257208d10f"
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/project/working/subagent_fft_loo_corrected/corrected_fft.py",
+      "sha256": "5a0cfa621a70cf88b67e1878dacd58562cb06ee0cd06b9a324ee0ecc69f7b2d1"
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/project/working/subagent_fft_loo/loo_results.json",
+      "sha256": "bd06ad6dbb5c86c5ed8126e6f5a4d88e455d0445cde15b6b63bd2c7e779cd6c9"
+    },
+    {
+      "task": "Physics_04_temporal_delay_transition",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094435-cdafa/project/ResearchObjective.md",
+      "sha256": "ccdc199ef6fc6a60d314ad8cf096158544a804ad7f9da51e7588acd1a40b60f3"
+    },
+    {
+      "task": "Physics_04_temporal_delay_transition",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094435-cdafa/project/DATA_GUIDE.md",
+      "sha256": "94f9efdac22cb9fd2c1a6b5e7f9869f076810f3f59433f137324be3ef72a7e32"
+    },
+    {
+      "task": "Physics_04_temporal_delay_transition",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094435-cdafa/project/output/Result.md",
+      "sha256": "c6f0b2ead75df2b5498a13b01851c85d05405ff905bf8f177945f125158b4d29"
+    },
+    {
+      "task": "Physics_04_temporal_delay_transition",
+      "path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094435-cdafa/project/output/analysis.py",
+      "sha256": "983eb56c05a5f8231c91d1602ed0e112833f0de577b2d7b102143f071bb9a175"
+    }
+  ],
+  "method_sources": [
+    "https://numpy.org/doc/2.3/reference/generated/numpy.unwrap.html",
+    "https://docs.scipy.org/doc/scipy/tutorial/signal.html",
+    "https://www.statsmodels.org/dev/_modules/statsmodels/stats/sandwich_covariance.html"
+  ],
+  "resource_readback": {
+    "name_prefix": "tibv31-9a7ed51f",
+    "containers": [],
+    "networks": [],
+    "volumes": [],
+    "images": []
+  },
+  "audit_files": {
+    "review.md": "51ce6681dee5ba5160d4cf873d18a2957149d20cdc4e4e6f7795210d0d202c83",
+    "diagnostics.py": "84e05f4987baf7cd2654aece9705f900f6d62ab6bf411de990f3e833d22bb8aa",
+    "diagnostics.json": "da4abf7d565e1761b0f0fc852ae3bb65f403bf70613ed259e9130f4a881e3dc5"
+  }
+}

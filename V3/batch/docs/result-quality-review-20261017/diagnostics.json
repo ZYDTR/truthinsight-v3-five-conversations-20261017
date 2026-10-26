@@ -1,0 +1,680 @@
+{
+  "at": "2026-10-17T04:39:06.654916+00:00",
+  "scoring_performed": false,
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "scope": "post-seal reviewer calculations, not changes to subject or a new agent experiment",
+  "chemistry": {
+    "spline_source_knot_error": 8.881784197001252e-16,
+    "recomputed_mean_absolute_cell_phase_difference_rad": 4.078100065799441,
+    "saved_mean_rad": 4.078100065799441,
+    "error_vs_saved": 0.0,
+    "absolute_difference_of_angle_means_rad": 2.669026401398749,
+    "circular_distance_mean_rad": 0.4647860889813641,
+    "mean_abs_difference_after_global_2pi_shift_rad": 8.952787109153356,
+    "fraction_cell_phase_differences_above_pi": 0.6354149227077404,
+    "slope_raw_rad_per_eV": 0.045754986685747824,
+    "slope_circular_rad_per_eV": 0.010715413500992987,
+    "interpretation": "Circular distance is a reference-sensitivity diagnostic, not a replacement scientific estimate. A physical phase-reference convention must be established before interpreting absolute unwrapped offsets.",
+    "energy_constant_integer_branch_shift_mean_abs_rad": 0.8713680420319929,
+    "F20_order0_values": [
+      {
+        "E": 22.5,
+        "value": 1.32127
+      },
+      {
+        "E": 23.25,
+        "value": 1.06797
+      },
+      {
+        "E": 24.8,
+        "value": 0.346347
+      },
+      {
+        "E": 26.35,
+        "value": 1.05409
+      },
+      {
+        "E": 27.9,
+        "value": 1.43546
+      },
+      {
+        "E": 29.45,
+        "value": 1.31538
+      },
+      {
+        "E": 31.0,
+        "value": 1.42947
+      },
+      {
+        "E": 32.55,
+        "value": 1.2037
+      },
+      {
+        "E": 34.1,
+        "value": 1.14462
+      },
+      {
+        "E": 35.65,
+        "value": 0.4981909999999999
+      },
+      {
+        "E": 37.2,
+        "value": 0.7852759999999999
+      },
+      {
+        "E": 38.75,
+        "value": 0.3259949999999999
+      },
+      {
+        "E": 48.4,
+        "value": 0.2621399999999999
+      }
+    ],
+    "F20_order0_global_min": {
+      "E": 48.4,
+      "value": 0.2621399999999999
+    },
+    "max_cell_difference_to_circular_examples": [
+      {
+        "angle": 0,
+        "raw_mean_abs": 2.874844844628769,
+        "circular_mean_abs": 1.1835269460150335
+      },
+      {
+        "angle": 85,
+        "raw_mean_abs": 6.384754255206725,
+        "circular_mean_abs": 0.10156894802713873
+      },
+      {
+        "angle": 90,
+        "raw_mean_abs": 0.12422646561454725,
+        "circular_mean_abs": 0.12422646561454725
+      },
+      {
+        "angle": 95,
+        "raw_mean_abs": 6.407954865962426,
+        "circular_mean_abs": 0.14007116994346108
+      },
+      {
+        "angle": 180,
+        "raw_mean_abs": 0.2840306090177647,
+        "circular_mean_abs": 0.2840306090177647
+      }
+    ]
+  },
+  "physics": {
+    "B1_vs_B4": {
+      "reported_bound_solution": {
+        "scale": 0.1,
+        "correlation": 0.9861564685606675,
+        "rmse": 0.06813292570230953,
+        "extrapolated_fraction": 0.4144954997631455,
+        "overlap_n": 1236,
+        "overlap_rmse": 0.08691239311212426
+      },
+      "expanded_search_below_0_1": {
+        "scale": 0.06440000000000003,
+        "correlation": 0.9999094440649858,
+        "rmse": 0.007903198015569192,
+        "extrapolated_fraction": 0.09095215537659873,
+        "overlap_n": 1919,
+        "overlap_rmse": 0.008221310362911355
+      }
+    },
+    "B1_vs_B5": {
+      "reported_bound_solution": {
+        "scale": 0.1,
+        "correlation": 0.9242623159886297,
+        "rmse": 0.15916839041008676,
+        "extrapolated_fraction": 0.7266698247276173,
+        "overlap_n": 577,
+        "overlap_rmse": 0.2699523316176906
+      },
+      "expanded_search_below_0_1": {
+        "scale": 0.03020000000000001,
+        "correlation": 0.9997916159359813,
+        "rmse": 0.011894909795419956,
+        "extrapolated_fraction": 0.09663666508763624,
+        "overlap_n": 1907,
+        "overlap_rmse": 0.012465443074748046
+      }
+    },
+    "meaning": "Same original objective, interpolation and data, only extend lower search bound. This tests whether the claimed saturation is a bound artifact; does not prove a universal law."
+  },
+  "astronomy": {
+    "sampling": [
+      {
+        "pass": "pass_01",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 3.552713678800501e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_02",
+        "n": 72,
+        "duration_min": 79.0,
+        "dt_min": 1.1126760563380282,
+        "dt_variation": 2.000000000000001,
+        "fft_bin_microhz": 208.04031879981244
+      },
+      {
+        "pass": "pass_03",
+        "n": 70,
+        "duration_min": 79.0,
+        "dt_min": 1.144927536231884,
+        "dt_variation": 1.0000000000000004,
+        "fft_bin_microhz": 207.9566003616637
+      },
+      {
+        "pass": "pass_04",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 3.552713678800501e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_05",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 1.7763568394002505e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_06",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 8.881784197001252e-16,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_07",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 0.0,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_08",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 3.552713678800501e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_09",
+        "n": 79,
+        "duration_min": 79.0,
+        "dt_min": 1.0128205128205128,
+        "dt_variation": 1.0000000000000036,
+        "fft_bin_microhz": 208.29995193078034
+      },
+      {
+        "pass": "pass_10",
+        "n": 79,
+        "duration_min": 79.0,
+        "dt_min": 1.0128205128205128,
+        "dt_variation": 1.0000000000000036,
+        "fft_bin_microhz": 208.29995193078034
+      },
+      {
+        "pass": "pass_11",
+        "n": 73,
+        "duration_min": 72.0,
+        "dt_min": 1.0,
+        "dt_variation": 7.105427357601002e-15,
+        "fft_bin_microhz": 228.31050228310502
+      },
+      {
+        "pass": "pass_12",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 7.105427357601002e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_13",
+        "n": 61,
+        "duration_min": 60.0,
+        "dt_min": 1.0,
+        "dt_variation": 1.7763568394002505e-15,
+        "fft_bin_microhz": 273.224043715847
+      },
+      {
+        "pass": "pass_14",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 7.105427357601002e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_15",
+        "n": 78,
+        "duration_min": 79.0,
+        "dt_min": 1.025974025974026,
+        "dt_variation": 1.0000000000000018,
+        "fft_bin_microhz": 208.26571459482852
+      },
+      {
+        "pass": "pass_16",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 7.105427357601002e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_17",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 7.105427357601002e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_18",
+        "n": 77,
+        "duration_min": 79.0,
+        "dt_min": 1.0394736842105263,
+        "dt_variation": 2.0000000000000036,
+        "fft_bin_microhz": 208.23058797742343
+      },
+      {
+        "pass": "pass_19",
+        "n": 69,
+        "duration_min": 72.0,
+        "dt_min": 1.0588235294117647,
+        "dt_variation": 2.0000000000000036,
+        "fft_bin_microhz": 228.1266774020397
+      },
+      {
+        "pass": "pass_20",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 3.552713678800501e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_21",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 3.552713678800501e-15,
+        "fft_bin_microhz": 208.33333333333334
+      },
+      {
+        "pass": "pass_22",
+        "n": 80,
+        "duration_min": 79.0,
+        "dt_min": 1.0,
+        "dt_variation": 3.552713678800501e-15,
+        "fft_bin_microhz": 208.33333333333334
+      }
+    ],
+    "fft_spacing_range_microhz": [
+      207.9566003616637,
+      273.224043715847
+    ],
+    "claimed_candidate_frequency_separation_microhz": 50,
+    "nonuniform_passes": [
+      "pass_02",
+      "pass_03",
+      "pass_09",
+      "pass_10",
+      "pass_15",
+      "pass_18",
+      "pass_19"
+    ],
+    "duration_range_min": [
+      60.0,
+      79.0
+    ],
+    "loo_top_level_keys": [
+      "full_data_stats",
+      "per_pass_exclusion",
+      "significant_changes_over_10pct",
+      "high_variance_passes",
+      "all_pass_variances",
+      "loo_stability_holds",
+      "num_significant_changes"
+    ],
+    "inference": "Nyquist sufficiency is distinct from frequency discrimination; top-five peak occurrence is not a no-structure test. Read LOO source for claim-specific scope."
+  },
+  "earth": {
+    "rows": [
+      {
+        "process": "Glacial",
+        "cluster": "Reference",
+        "retain_singletons": false,
+        "n": 324,
+        "clusters": 51,
+        "slope": -0.0007579052343546556,
+        "se_ols_same_sample": 0.018495457585490246,
+        "bad_se": 0.19157521746602807,
+        "bad_p": 0.9968591792064264,
+        "correct_cr1_se": 0.047602515029268766,
+        "correct_cr1_p": 0.9873603506413433,
+        "correct_se_over_ols_same_sample": 2.573740866331045
+      },
+      {
+        "process": "Glacial",
+        "cluster": "Reference",
+        "retain_singletons": true,
+        "n": 427,
+        "clusters": 154,
+        "slope": -0.056659684632071834,
+        "se_ols_same_sample": 0.0177315285397117,
+        "bad_se": 0.1786170950190836,
+        "bad_p": 0.7515143571546181,
+        "correct_cr1_se": 0.039124300839486585,
+        "correct_cr1_p": 0.1496082087652052,
+        "correct_se_over_ols_same_sample": 2.2064821288172327
+      },
+      {
+        "process": "Glacial",
+        "cluster": "Locality",
+        "retain_singletons": false,
+        "n": 350,
+        "clusters": 46,
+        "slope": -0.040967254956953504,
+        "se_ols_same_sample": 0.019547443244430213,
+        "bad_se": 0.20802236134891255,
+        "bad_p": 0.8447638025181889,
+        "correct_cr1_se": 0.05183571110022768,
+        "correct_cr1_p": 0.4334811140466621,
+        "correct_se_over_ols_same_sample": 2.6517898249939966
+      },
+      {
+        "process": "Glacial",
+        "cluster": "Locality",
+        "retain_singletons": true,
+        "n": 427,
+        "clusters": 123,
+        "slope": -0.056659684632071834,
+        "se_ols_same_sample": 0.0177315285397117,
+        "bad_se": 0.18900514355288806,
+        "bad_p": 0.7648562418247831,
+        "correct_cr1_se": 0.042545887399038335,
+        "correct_cr1_p": 0.18543129759349364,
+        "correct_se_over_ols_same_sample": 2.399448378280088
+      },
+      {
+        "process": "Fluvial",
+        "cluster": "Reference",
+        "retain_singletons": false,
+        "n": 6109,
+        "clusters": 229,
+        "slope": -0.030790113695988545,
+        "se_ols_same_sample": 0.004060021257318502,
+        "bad_se": 0.02837010408949425,
+        "bad_p": 0.2789343753604432,
+        "correct_cr1_se": 0.023480770195713423,
+        "correct_cr1_p": 0.19107861669655268,
+        "correct_se_over_ols_same_sample": 5.7834106541653005
+      },
+      {
+        "process": "Fluvial",
+        "cluster": "Reference",
+        "retain_singletons": true,
+        "n": 6128,
+        "clusters": 248,
+        "slope": -0.03050426010706614,
+        "se_ols_same_sample": 0.004068313101752633,
+        "bad_se": 0.02838400349033069,
+        "bad_p": 0.28355821776304224,
+        "correct_cr1_se": 0.023362742724960545,
+        "correct_cr1_p": 0.19287627677765984,
+        "correct_se_over_ols_same_sample": 5.742611775601994
+      },
+      {
+        "process": "Fluvial",
+        "cluster": "Locality",
+        "retain_singletons": false,
+        "n": 4609,
+        "clusters": 258,
+        "slope": -0.024569030545124885,
+        "se_ols_same_sample": 0.004183251007588947,
+        "bad_se": 0.043971132947121586,
+        "bad_p": 0.576816382754995,
+        "correct_cr1_se": 0.024829075829258734,
+        "correct_cr1_p": 0.3233362787752031,
+        "correct_se_over_ols_same_sample": 5.935354054589516
+      },
+      {
+        "process": "Fluvial",
+        "cluster": "Locality",
+        "retain_singletons": true,
+        "n": 6128,
+        "clusters": 1777,
+        "slope": -0.03050426010706614,
+        "se_ols_same_sample": 0.004068313101752633,
+        "bad_se": 0.028038406679152732,
+        "bad_p": 0.2767667579309637,
+        "correct_cr1_se": 0.022180131107607085,
+        "correct_cr1_p": 0.16921294000007847,
+        "correct_se_over_ols_same_sample": 5.451923328627746
+      }
+    ],
+    "method": "Manual CR1 score outer-product, two equivalent matrix constructions; Student-t G-1 p via Gauss-Legendre integration; same original filter examined separately from retaining singleton clusters. No causal conclusion inferred."
+  },
+  "neuro": {
+    "cells": 819,
+    "unique_slice_labels": 7,
+    "batch_slice_pairs": 41,
+    "batch_slice_region_condition_groups": 99,
+    "slice_label_reuse": [
+      {
+        "slice_id": "slice_01",
+        "batches": 9,
+        "ages": 8
+      },
+      {
+        "slice_id": "slice_02",
+        "batches": 7,
+        "ages": 6
+      },
+      {
+        "slice_id": "slice_03",
+        "batches": 6,
+        "ages": 6
+      },
+      {
+        "slice_id": "slice_04",
+        "batches": 7,
+        "ages": 7
+      },
+      {
+        "slice_id": "slice_05",
+        "batches": 6,
+        "ages": 6
+      },
+      {
+        "slice_id": "slice_06",
+        "batches": 5,
+        "ages": 5
+      },
+      {
+        "slice_id": "slice_07",
+        "batches": 1,
+        "ages": 1
+      }
+    ],
+    "slice_region_condition_groups": 50,
+    "region_condition_counts": [
+      {
+        "anatomical_region_id": "region_1",
+        "condition": "baseline",
+        "n": 22
+      },
+      {
+        "anatomical_region_id": "region_1",
+        "condition": "neural_activity_blocked",
+        "n": 44
+      },
+      {
+        "anatomical_region_id": "region_1",
+        "condition": "receptor_stimulated",
+        "n": 226
+      },
+      {
+        "anatomical_region_id": "region_2",
+        "condition": "baseline",
+        "n": 43
+      },
+      {
+        "anatomical_region_id": "region_2",
+        "condition": "neural_activity_blocked",
+        "n": 46
+      },
+      {
+        "anatomical_region_id": "region_2",
+        "condition": "receptor_stimulated",
+        "n": 199
+      },
+      {
+        "anatomical_region_id": "region_3",
+        "condition": "receptor_stimulated",
+        "n": 189
+      },
+      {
+        "anatomical_region_id": "region_4",
+        "condition": "baseline",
+        "n": 21
+      },
+      {
+        "anatomical_region_id": "region_4",
+        "condition": "neural_activity_blocked",
+        "n": 29
+      }
+    ],
+    "batch_design": [
+      {
+        "recording_batch_id": "recording_batch_01",
+        "cells": 4,
+        "slices": 1,
+        "regions": 1,
+        "conditions": 1,
+        "min_age": 56,
+        "max_age": 56
+      },
+      {
+        "recording_batch_id": "recording_batch_02",
+        "cells": 114,
+        "slices": 6,
+        "regions": 4,
+        "conditions": 3,
+        "min_age": 59,
+        "max_age": 59
+      },
+      {
+        "recording_batch_id": "recording_batch_03",
+        "cells": 103,
+        "slices": 5,
+        "regions": 4,
+        "conditions": 3,
+        "min_age": 40,
+        "max_age": 40
+      },
+      {
+        "recording_batch_id": "recording_batch_04",
+        "cells": 146,
+        "slices": 7,
+        "regions": 4,
+        "conditions": 3,
+        "min_age": 41,
+        "max_age": 41
+      },
+      {
+        "recording_batch_id": "recording_batch_05",
+        "cells": 36,
+        "slices": 2,
+        "regions": 2,
+        "conditions": 1,
+        "min_age": 42,
+        "max_age": 42
+      },
+      {
+        "recording_batch_id": "recording_batch_06",
+        "cells": 43,
+        "slices": 3,
+        "regions": 2,
+        "conditions": 3,
+        "min_age": 65,
+        "max_age": 65
+      },
+      {
+        "recording_batch_id": "recording_batch_07",
+        "cells": 132,
+        "slices": 6,
+        "regions": 4,
+        "conditions": 3,
+        "min_age": 66,
+        "max_age": 66
+      },
+      {
+        "recording_batch_id": "recording_batch_08",
+        "cells": 107,
+        "slices": 5,
+        "regions": 3,
+        "conditions": 3,
+        "min_age": 67,
+        "max_age": 67
+      },
+      {
+        "recording_batch_id": "recording_batch_09",
+        "cells": 134,
+        "slices": 6,
+        "regions": 4,
+        "conditions": 3,
+        "min_age": 42,
+        "max_age": 42
+      }
+    ],
+    "r12_slices_by_condition": {
+      "baseline": 6,
+      "neural_activity_blocked": 6,
+      "receptor_stimulated": 6
+    },
+    "statement": "Primary headline tests in main_analysis.py use cell-level OLS/Welch without age, slice or batch in the model; leave-one-batch-out repeats these tests on retained cells, not a held-out predictive evaluation."
+  },
+  "seal_integrity": [
+    {
+      "task": "Neuro_02_calcium_response_regions",
+      "manifest_entries": 70,
+      "mismatches": []
+    },
+    {
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "manifest_entries": 76,
+      "mismatches": []
+    },
+    {
+      "task": "Chemistry_02_photoionization_delay",
+      "manifest_entries": 102,
+      "mismatches": []
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "manifest_entries": 64,
+      "mismatches": []
+    },
+    {
+      "task": "Physics_04_temporal_delay_transition",
+      "manifest_entries": 132,
+      "mismatches": []
+    }
+  ]
+}

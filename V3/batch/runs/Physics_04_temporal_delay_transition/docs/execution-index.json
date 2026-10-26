@@ -1,0 +1,73 @@
+{
+  "schema": "tib-execution-index-v3",
+  "task_id": "Physics_04_temporal_delay_transition",
+  "experiment": "shared-context-v3.1-20261016",
+  "generated_at": "2026-10-16T09:45:00Z",
+  "conversation": {
+    "product_conversation_id": "8244547b-0db4-47fc-8540-34dc20292185",
+    "runtime_conversation_id": "conv-88cfef1f-21cf-450d-b4a7-746678c9cabb",
+    "user_id": "user-903d9cc6-d141-44db-9fb2-1d2d0d122776"
+  },
+  "rounds": [
+    {"round": "000-warmup", "job": "1792140493656618000-61a58a", "run_id": "run_a3685e3ca6714214", "terminal": "run.completed", "seconds": 12.8, "input": "neutral warmup (policy.json)"},
+    {"round": "001", "job": "1792140584943535000-0fdb43", "run_id": "run_7cc5bd3642cb44b8", "terminal": "run.failed", "error_code": "conversation_content_save_failed", "seconds": 83.8, "input": "first-message.md (verbatim LaunchPrompt, sha256 0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a)"},
+    {"round": "002", "job": "1792141226158071000-a52d7e", "run_id": "run_cd4c0444c4ea40cc", "terminal": "run.completed", "seconds": 504.9, "input": "rounds/feedback-002-source.md"},
+    {"round": "003", "job": "1792142799338260000-54ad67", "run_id": "run_caff408c4d634db7", "terminal": "run.completed", "seconds": 433.6, "input": "rounds/feedback-003-source.md"},
+    {"round": "004", "job": "1792143450339773000-257ca3", "run_id": "run_75dcde02c7154d1a", "terminal": "run.completed", "seconds": 292.8, "input": "rounds/feedback-004-source.md"}
+  ],
+  "snapshots": [
+    "snapshots/20261016T084852-87ab2",
+    "snapshots/20261016T085856-e0a14",
+    "snapshots/20261016T092233-de15d",
+    "snapshots/20261016T092412-822b6",
+    "snapshots/20261016T093434-bd2c2",
+    "snapshots/20261016T093606-06e86",
+    "snapshots/20261016T094223-17f5d",
+    "snapshots/20261016T094317-84ca0"
+  ],
+  "final_snapshot": "snapshots/20261016T094317-84ca0",
+  "raw_jsonl": [
+    {
+      "role": "main",
+      "path": "snapshots/20261016T094317-84ca0/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+      "lines": 379,
+      "sha256": "510ab465b32fc7301e0d7299ad121ffdf223b9496f35d844fcddb8765ce7f247"
+    },
+    {
+      "role": "child",
+      "path": "snapshots/20261016T094317-84ca0/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+      "lines": 106,
+      "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126"
+    }
+  ],
+  "deliverables": {
+    "authoritative_report": "snapshots/20261016T094317-84ca0/project/output/Result.md",
+    "analysis_sources": ["snapshots/20261016T094317-84ca0/project/output/analysis.py", "snapshots/20261016T094317-84ca0/project/output/robustness.py"],
+    "machine_results": "snapshots/20261016T094317-84ca0/project/output/evidence/",
+    "independent_results": "snapshots/20261016T094317-84ca0/project/output/evidence_independent/results.json",
+    "reproduction": ["snapshots/20261016T094317-84ca0/project/output/reproduce.md", "snapshots/20261016T094317-84ca0/project/output/repro_evidence/"],
+    "analysis_state": "snapshots/20261016T094317-84ca0/project/working/analysis-state.md"
+  },
+  "feedback": [
+    "rounds/feedback-002-source.md",
+    "rounds/feedback-003-source.md",
+    "rounds/feedback-004-source.md"
+  ],
+  "validation": {
+    "public_validator_returncode": 0,
+    "validator_stdout": "snapshots/20261016T094317-84ca0/validator.stdout",
+    "note": "structure/traceability only; not scientific correctness"
+  },
+  "operator_documents": [
+    "docs/operator-log.md",
+    "docs/execution-report.md",
+    "docs/execution-index.json",
+    "reviews/verdict.json"
+  ],
+  "models": {
+    "main": "qwen3.7-flash",
+    "child": "qwen3.7-flash",
+    "operator": "windows-glm/GLM-5.3-Flash-W4A16-MTP",
+    "fallback": ""
+  }
+}

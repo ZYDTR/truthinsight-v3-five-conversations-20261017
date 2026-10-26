@@ -1,0 +1,474 @@
+{
+  "group_regressions": {
+    "Fluvial_Cosmogenic": {
+      "process_category": "Fluvial",
+      "method_group": "Cosmogenic",
+      "n": 3534,
+      "slope": -1.0061638282182288,
+      "intercept": 2.8378129479461025,
+      "R_squared": 0.9944297317272122,
+      "adj_R_squared": 0.9944281546410647,
+      "p_value_slope": 0.0,
+      "ci_lower_slope": -1.008648141153324,
+      "ci_upper_slope": -1.0036795152831337,
+      "AIC": -9753.085456909643,
+      "BIC": -9740.745085603883
+    },
+    "Fluvial_Relief": {
+      "process_category": "Fluvial",
+      "method_group": "Relief",
+      "n": 7,
+      "slope": -0.4203127838959263,
+      "intercept": 3.7988366194451118,
+      "R_squared": 0.2180850367985171,
+      "adj_R_squared": 0.06170204415822056,
+      "p_value_slope": 0.29074539127845495,
+      "ci_lower_slope": -1.3352385517850727,
+      "ci_upper_slope": 0.49461298399322007,
+      "AIC": 7.662580103642799,
+      "BIC": 7.554400401753426
+    },
+    "Fluvial_Thermochronometric": {
+      "process_category": "Fluvial",
+      "method_group": "Thermochronometric",
+      "n": 4,
+      "slope": -0.646562134831897,
+      "intercept": 4.664799027349255,
+      "R_squared": 0.39538180451346117,
+      "adj_R_squared": 0.09307270677019175,
+      "p_value_slope": 0.3712060715039775,
+      "ci_lower_slope": -3.079123648199852,
+      "ci_upper_slope": 1.785999378536058,
+      "AIC": 4.013925056022124,
+      "BIC": 2.7865137782619054
+    },
+    "Fluvial_Volumetric": {
+      "process_category": "Fluvial",
+      "method_group": "Volumetric",
+      "n": 2583,
+      "slope": 0.11740599746583423,
+      "intercept": -1.1611675521060645,
+      "R_squared": 0.05264714255078273,
+      "adj_R_squared": 0.052280093787726134,
+      "p_value_slope": 3.3172669192906547e-32,
+      "ci_lower_slope": 0.09818320119993523,
+      "ci_upper_slope": 0.13662879373173323,
+      "AIC": 6082.872015096061,
+      "BIC": 6094.585428682252
+    },
+    "Glacial_Cosmogenic": {
+      "process_category": "Glacial",
+      "method_group": "Cosmogenic",
+      "n": 108,
+      "slope": -0.4183010622619601,
+      "intercept": 0.8024009874484073,
+      "R_squared": 0.2599589633674688,
+      "adj_R_squared": 0.2529774441539543,
+      "p_value_slope": 1.740121984748184e-08,
+      "ci_lower_slope": -0.5542093809956227,
+      "ci_upper_slope": -0.2823927435282976,
+      "AIC": 239.11734945897862,
+      "BIC": 244.48161191322706
+    },
+    "Glacial_Relief": {
+      "process_category": "Glacial",
+      "method_group": "Relief",
+      "n": 18,
+      "slope": -0.3699248894011381,
+      "intercept": 2.020082779782087,
+      "R_squared": 0.4322145231497859,
+      "adj_R_squared": 0.3967279308466476,
+      "p_value_slope": 0.0030272098591865903,
+      "ci_lower_slope": -0.594629758775144,
+      "ci_upper_slope": -0.14522002002713222,
+      "AIC": 51.698743662846525,
+      "BIC": 53.479487178638855
+    },
+    "Glacial_Thermochronometric": {
+      "process_category": "Glacial",
+      "method_group": "Thermochronometric",
+      "n": 68,
+      "slope": -0.6515564543513862,
+      "intercept": 4.006125736318418,
+      "R_squared": 0.33076777595296747,
+      "adj_R_squared": 0.32062789377043666,
+      "p_value_slope": 2.9019897129253095e-07,
+      "ci_lower_slope": -0.8793231579294434,
+      "ci_upper_slope": -0.42378975077332903,
+      "AIC": 109.05109408484053,
+      "BIC": 113.49010949519274
+    },
+    "Glacial_Volumetric": {
+      "process_category": "Glacial",
+      "method_group": "Volumetric",
+      "n": 233,
+      "slope": -0.07285174868267272,
+      "intercept": -0.09218152847800598,
+      "R_squared": 0.03455723357614249,
+      "adj_R_squared": 0.030377827660887702,
+      "p_value_slope": 0.004410923890094561,
+      "ci_lower_slope": -0.12276975018741687,
+      "ci_upper_slope": -0.022933747177928565,
+      "AIC": 605.5258488728055,
+      "BIC": 612.4279257799368
+    }
+  },
+  "pooled_interaction_model": {
+    "formula": "log_erode ~ log_time * process_category + log_time * method_group + process_category + method_group",
+    "n_obs": 6555.0,
+    "R_squared": 0.5865208174777157,
+    "adj_R_squared": 0.5859522441174865,
+    "AIC": 10704.690116110804,
+    "BIC": 10772.569950072782,
+    "parameters": {
+      "Intercept": 2.6583369237458077,
+      "process_category[T.Glacial]": 0.8730093883592698,
+      "method_group[T.Relief]": -1.6055554123196536,
+      "method_group[T.Thermochronometric]": 0.39712633224897625,
+      "method_group[T.Volumetric]": -3.800255380989211,
+      "log_time": -0.9632610055872606,
+      "log_time:process_category[T.Glacial]": -0.18649245162423891,
+      "log_time:method_group[T.Relief]": 0.8500921238499582,
+      "log_time:method_group[T.Thermochronometric]": 0.5136314774386401,
+      "log_time:method_group[T.Volumetric]": 1.0917921555766956
+    },
+    "p_values": {
+      "Intercept": 0.0,
+      "process_category[T.Glacial]": 1.4039996491642932e-74,
+      "method_group[T.Relief]": 4.397793330317197e-06,
+      "method_group[T.Thermochronometric]": 0.5850868959978703,
+      "method_group[T.Volumetric]": 0.0,
+      "log_time": 0.0,
+      "log_time:process_category[T.Glacial]": 1.0552983551239683e-38,
+      "log_time:method_group[T.Relief]": 3.2113008063957458e-46,
+      "log_time:method_group[T.Thermochronometric]": 1.0337886974801455e-05,
+      "log_time:method_group[T.Volumetric]": 0.0
+    },
+    "conf_int": {
+      "0": [
+        "Intercept",
+        "process_category[T.Glacial]",
+        "method_group[T.Relief]",
+        "method_group[T.Thermochronometric]",
+        "method_group[T.Volumetric]",
+        "log_time",
+        "log_time:process_category[T.Glacial]",
+        "log_time:method_group[T.Relief]",
+        "log_time:method_group[T.Thermochronometric]",
+        "log_time:method_group[T.Volumetric]"
+      ],
+      "1": [
+        "Intercept",
+        "process_category[T.Glacial]",
+        "method_group[T.Relief]",
+        "method_group[T.Thermochronometric]",
+        "method_group[T.Volumetric]",
+        "log_time",
+        "log_time:process_category[T.Glacial]",
+        "log_time:method_group[T.Relief]",
+        "log_time:method_group[T.Thermochronometric]",
+        "log_time:method_group[T.Volumetric]"
+      ]
+    }
+  },
+  "pooled_main_effect_model": {
+    "formula": "log_erode ~ log_time * process_category + method_group + process_category",
+    "n_obs": 6555.0,
+    "R_squared": 0.1274114053579608,
+    "adj_R_squared": 0.1266118434202924,
+    "AIC": 15594.337891567637,
+    "BIC": 15641.853775341022,
+    "parameters": {
+      "Intercept": -0.6359210481340358,
+      "process_category[T.Glacial]": 1.1900680794678604,
+      "method_group[T.Relief]": 1.1596633751105072,
+      "method_group[T.Thermochronometric]": 0.7579476462939985,
+      "method_group[T.Volumetric]": -0.6423686966153008,
+      "log_time": -0.14156495398838065,
+      "log_time:process_category[T.Glacial]": -0.06666736821679256
+    },
+    "p_values": {
+      "Intercept": 3.261897677701006e-78,
+      "process_category[T.Glacial]": 2.2985459648109707e-68,
+      "method_group[T.Relief]": 4.0493743612263965e-12,
+      "method_group[T.Thermochronometric]": 7.784588000996873e-10,
+      "method_group[T.Volumetric]": 5.636360923561741e-58,
+      "log_time": 4.744318351886586e-71,
+      "log_time:process_category[T.Glacial]": 0.0010102043561675328
+    },
+    "conf_int": {
+      "0": [
+        "Intercept",
+        "process_category[T.Glacial]",
+        "method_group[T.Relief]",
+        "method_group[T.Thermochronometric]",
+        "method_group[T.Volumetric]",
+        "log_time",
+        "log_time:process_category[T.Glacial]"
+      ],
+      "1": [
+        "Intercept",
+        "process_category[T.Glacial]",
+        "method_group[T.Relief]",
+        "method_group[T.Thermochronometric]",
+        "method_group[T.Volumetric]",
+        "log_time",
+        "log_time:process_category[T.Glacial]"
+      ]
+    }
+  },
+  "anova_pooled_models": {
+    "term": [
+      0,
+      1
+    ],
+    "df_resid": [
+      6548.0,
+      6545.0
+    ],
+    "ssr": [
+      4133.870735559728,
+      1958.849225038544
+    ],
+    "df_diff": [
+      0.0,
+      3.0
+    ],
+    "ss_diff": [
+      NaN,
+      2175.0215105211837
+    ],
+    "F": [
+      NaN,
+      2422.42836668232
+    ],
+    "Pr(>F)": [
+      NaN,
+      0.0
+    ]
+  },
+  "null_models": {
+    "intercept_only": {
+      "formula": "log_erode ~ 1",
+      "n_obs": 6555.0,
+      "R_squared": 2.220446049250313e-16,
+      "adj_R_squared": 2.220446049250313e-16,
+      "AIC": 16475.72597946118,
+      "BIC": 16482.513962857374,
+      "intercept": -1.1415213510410418
+    },
+    "process_only": {
+      "formula": "log_erode ~ process_category",
+      "n_obs": 6555.0,
+      "R_squared": 0.06891256908346977,
+      "adj_R_squared": 0.06877048340806657,
+      "AIC": 16009.685244405773,
+      "BIC": 16023.261211198169,
+      "parameters": {
+        "Intercept": -1.2004316343984207,
+        "process_category[T.Glacial]": 0.9043487292918426
+      },
+      "p_values": {
+        "Intercept": 0.0,
+        "process_category[T.Glacial]": 9.35230912118764e-104
+      }
+    },
+    "method_only": {
+      "formula": "log_erode ~ method_group",
+      "n_obs": 6555.0,
+      "R_squared": 0.03057217389564626,
+      "adj_R_squared": 0.030128228928723133,
+      "AIC": 16278.198135734658,
+      "BIC": 16305.35006931945,
+      "parameters": {
+        "Intercept": -1.1711736330881137,
+        "method_group[T.Relief]": 1.4870821013730882,
+        "method_group[T.Thermochronometric]": 1.138367557756382,
+        "method_group[T.Volumetric]": 0.026715622203750726
+      },
+      "p_values": {
+        "Intercept": 0.0,
+        "method_group[T.Relief]": 1.1108294027808178e-18,
+        "method_group[T.Thermochronometric]": 6.0821743054639446e-30,
+        "method_group[T.Volumetric]": 0.20358703376231116
+      }
+    },
+    "timescale_only": {
+      "formula": "log_erode ~ log_time",
+      "n_obs": 6555.0,
+      "R_squared": 0.004424205811282,
+      "adj_R_squared": 0.004272279091582676,
+      "AIC": 16448.660968057975,
+      "BIC": 16462.23693485037,
+      "parameters": {
+        "Intercept": -1.0936909234199588,
+        "log_time": -0.02213119101499512
+      },
+      "p_values": {
+        "Intercept": 0.0,
+        "log_time": 7.039125873964592e-08
+      }
+    },
+    "timescale_plus_process": {
+      "formula": "log_erode ~ log_time + process_category",
+      "n_obs": 6555.0,
+      "R_squared": 0.07805953793277232,
+      "adj_R_squared": 0.07777811532530365,
+      "AIC": 15946.970764898693,
+      "BIC": 15967.334715087287,
+      "parameters": {
+        "Intercept": -1.1335956426697493,
+        "process_category[T.Glacial]": 0.9404050295308419,
+        "log_time": -0.03201185430472314
+      },
+      "p_values": {
+        "Intercept": 0.0,
+        "process_category[T.Glacial]": 1.7120802985650345e-111,
+        "log_time": 8.810775031273303e-16
+      }
+    },
+    "timescale_plus_method": {
+      "formula": "log_erode ~ log_time + method_group",
+      "n_obs": 6555.0,
+      "R_squared": 0.05775424136378071,
+      "adj_R_squared": 0.05717882410659825,
+      "AIC": 16093.774613274163,
+      "BIC": 16127.714530255153,
+      "parameters": {
+        "Intercept": -0.7531442510356243,
+        "method_group[T.Relief]": 1.6675338729119584,
+        "method_group[T.Thermochronometric]": 1.3771163659907444,
+        "method_group[T.Volumetric]": -0.4260683404379626,
+        "log_time": -0.10495261911229581
+      },
+      "p_values": {
+        "Intercept": 7.822816008549889e-109,
+        "method_group[T.Relief]": 1.600138671817272e-23,
+        "method_group[T.Thermochronometric]": 9.675338178248187e-43,
+        "method_group[T.Volumetric]": 1.1577096993484985e-27,
+        "log_time": 2.0757542209853997e-42
+      }
+    },
+    "full_main_effects": {
+      "formula": "log_erode ~ log_time + process_category + method_group",
+      "n_obs": 6555.0,
+      "R_squared": 0.12596972564392894,
+      "adj_R_squared": 0.12530242508326617,
+      "AIC": 15603.159041893421,
+      "BIC": 15643.886942270608,
+      "parameters": {
+        "Intercept": -0.6117709983442237,
+        "process_category[T.Glacial]": 1.026511858220885,
+        "method_group[T.Relief]": 1.033052699126296,
+        "method_group[T.Thermochronometric]": 0.5362008642201536,
+        "method_group[T.Volumetric]": -0.666661115721953,
+        "log_time": -0.14808899831438202
+      },
+      "p_values": {
+        "Intercept": 4.9253581517898644e-76,
+        "process_category[T.Glacial]": 4.908313203967173e-109,
+        "method_group[T.Relief]": 2.201523401418462e-10,
+        "method_group[T.Thermochronometric]": 2.0148412627035064e-07,
+        "method_group[T.Volumetric]": 3.016074231781627e-64,
+        "log_time": 2.677823233713291e-82
+      }
+    }
+  },
+  "model_comparison": [
+    {
+      "model": "pooled_interaction",
+      "formula": "log_erode ~ log_time * process_category + log_time * method_group + process_category + method_group",
+      "n": 6555.0,
+      "R\u00b2": 0.5865208174777157,
+      "adj_R\u00b2": 0.5859522441174865,
+      "AIC": 10704.690116110804,
+      "BIC": 10772.569950072782
+    },
+    {
+      "model": "pooled_main",
+      "formula": "log_erode ~ log_time * process_category + method_group + process_category",
+      "n": 6555.0,
+      "R\u00b2": 0.1274114053579608,
+      "adj_R\u00b2": 0.1266118434202924,
+      "AIC": 15594.337891567637,
+      "BIC": 15641.853775341022
+    },
+    {
+      "model": "full_main_effects",
+      "formula": "log_erode ~ log_time + process_category + method_group",
+      "n": 6555.0,
+      "R\u00b2": 0.12596972564392894,
+      "adj_R\u00b2": 0.12530242508326617,
+      "AIC": 15603.159041893421,
+      "BIC": 15643.886942270608
+    },
+    {
+      "model": "timescale_plus_process",
+      "formula": "log_erode ~ log_time + process_category",
+      "n": 6555.0,
+      "R\u00b2": 0.07805953793277232,
+      "adj_R\u00b2": 0.07777811532530365,
+      "AIC": 15946.970764898693,
+      "BIC": 15967.334715087287
+    },
+    {
+      "model": "process_only",
+      "formula": "log_erode ~ process_category",
+      "n": 6555.0,
+      "R\u00b2": 0.06891256908346977,
+      "adj_R\u00b2": 0.06877048340806657,
+      "AIC": 16009.685244405773,
+      "BIC": 16023.261211198169
+    },
+    {
+      "model": "timescale_plus_method",
+      "formula": "log_erode ~ log_time + method_group",
+      "n": 6555.0,
+      "R\u00b2": 0.05775424136378071,
+      "adj_R\u00b2": 0.05717882410659825,
+      "AIC": 16093.774613274163,
+      "BIC": 16127.714530255153
+    },
+    {
+      "model": "method_only",
+      "formula": "log_erode ~ method_group",
+      "n": 6555.0,
+      "R\u00b2": 0.03057217389564626,
+      "adj_R\u00b2": 0.030128228928723133,
+      "AIC": 16278.198135734658,
+      "BIC": 16305.35006931945
+    },
+    {
+      "model": "timescale_only",
+      "formula": "log_erode ~ log_time",
+      "n": 6555.0,
+      "R\u00b2": 0.004424205811282,
+      "adj_R\u00b2": 0.004272279091582676,
+      "AIC": 16448.660968057975,
+      "BIC": 16462.23693485037
+    },
+    {
+      "model": "intercept_only",
+      "formula": "log_erode ~ 1",
+      "n": 6555.0,
+      "R\u00b2": 2.220446049250313e-16,
+      "adj_R\u00b2": 2.220446049250313e-16,
+      "AIC": 16475.72597946118,
+      "BIC": 16482.513962857374
+    }
+  ],
+  "robustness_no_volumetric": {
+    "n": 3739,
+    "slope": -0.7315345477140233,
+    "p_value": 0.0,
+    "R_squared": 0.6040820811718807,
+    "intercept": 1.8148688801983022
+  },
+  "robustness_cosmogenic_only": {
+    "n": 3642,
+    "slope": -0.9781498143776467,
+    "p_value": 0.0,
+    "R_squared": 0.9569528929167131,
+    "intercept": 2.724825970519105
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "run_id": "tibv31-9a7ed51f",
+  "database": "sap_tibv31_9a7ed51f",
+  "database_password": "12f539d5b29e74366d657d97ffd68677",
+  "jwt_secret": "8165f22553903525b76e4003ddde57a58c3c7ab1fae38389b6e601558bbd4af6",
+  "user_password": "3_JAedZ8J_SQbT5LCP1grYFZOW5Cajg-",
+  "state_host": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state",
+  "skills_host": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/skills",
+  "worker_base_image": "tibv1-1832e3ea-worker:candidate",
+  "model_name": "qwen3.7-flash",
+  "port": 51669
+}

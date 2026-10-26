@@ -1,0 +1,22 @@
+[
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df"
+  },
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4"
+  },
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65"
+  },
+  {
+    "original": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa"
+  }
+]

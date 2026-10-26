@@ -1,0 +1,11 @@
+Factual review of the corrected round (no scientific content; positions from files I read directly):
+
+1. A new numeric error was introduced in Result.md Finding 4: "For Thiers13 (linear axis): D = 0.086 − 0.035·B (linear, R² = 0.877, p = 1.95 × 10⁻¹⁵)". The artifact `evidence/finding4_real_networks.json` gives Thiers13 linear_fit p_value = 9.43 × 10⁻²⁶; 1.95 × 10⁻¹⁵ is Workplace15's p-value (which line 96 correctly attributes to Workplace15). The Thiers13 p-value line must match its own artifact.
+
+2. Reproduce.md §5 overstates the verification performed: "verified identical to the originals (SHA-256 match confirmed)". The recorded check (main JSONL line 305) was a JSON-dump diff of `summary.json` only ("SUMMARY: MATCH"); no per-file SHA-256 comparison of the 7 reproduced artifacts appears in the record. Also the reproduction pipeline used `python3 analysis.py 2>&1 | tail -5` without pipefail, so the scripts' real exit states are masked by `tail` (the frozen delivery criterion explicitly warns against taking tail's success as the stage's exit state). Please either record actual per-file sha256 comparisons and true exit codes, or narrow §5 to exactly what was verified (artifacts regenerated in a clean directory; summary.json content-identical).
+
+3. The reproduction evidence lives only at `/tmp/repro_clean/` inside the worker container, which is reclaimed at seal; nothing under `output/` preserves it. Copy the reproduced artifacts (or their sha256 list plus the comparison transcript) into `output/` (e.g., `output/repro_evidence/`) and reference that path from reproduce.md, so the reproduction claim survives worker recycling.
+
+4. Minor traceability: Result.md Finding 1 cites "slopes −1.000 (below) vs 0.000 (above)" with supporting evidence `evidence/finding1_V_vs_B.json` and `output/analysis.py` lines 27–72, but those saved artifacts contain only `segmented_Bc`, not the segment slopes; the slopes exist only in `output/evidence_independent/results.json` (child artifact). Add the child artifact to that finding's evidence line or persist the slopes into the main artifact.
+
+Please correct these in the same workspace and re-run `python3 validate_output.py output`.

@@ -1,0 +1,1542 @@
+[
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Astronomy_02_gravity_spectral_structure/raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Astronomy_02_gravity_spectral_structure/raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Astronomy_02_gravity_spectral_structure/raw/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 602,
+    "invalid_lines": [],
+    "sha256": "58b39c627c5f0278b2521dcc90b93a378ed0cf476e322e631f1bfaa91932a72d",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Chemistry_02_photoionization_delay/raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Chemistry_02_photoionization_delay/raw/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 596,
+    "invalid_lines": [],
+    "sha256": "04208a82ac0ae7fc0121e0ed7203c40505ee16087094ad0b2dcb233e91d6b4aa",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+    "lines": 117,
+    "invalid_lines": [],
+    "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+    "lines": 85,
+    "invalid_lines": [],
+    "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/EarthScience_01_glacial_fluvial_erosion/raw/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+    "lines": 316,
+    "invalid_lines": [],
+    "sha256": "0e85402a6c35e9ee792f7f5ed86bb574bae474514f0f0cbab1a53eea910b0766",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Neuro_02_calcium_response_regions/raw/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 411,
+    "invalid_lines": [],
+    "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Physics_04_temporal_delay_transition/raw/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+    "lines": 106,
+    "invalid_lines": [],
+    "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/Physics_04_temporal_delay_transition/raw/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 379,
+    "invalid_lines": [],
+    "sha256": "510ab465b32fc7301e0d7299ad121ffdf223b9496f35d844fcddb8765ce7f247",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/.local/root-review-20261016T094643Z/followup/Chemistry_02_photoionization_delay/main.jsonl",
+    "lines": 661,
+    "invalid_lines": [],
+    "sha256": "502c6a2e900d282d60406fd2a3c5e2cc7d9906e9ca6cd2b6b0c5655f17483846",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/private/raw-readback.jsonl",
+    "lines": 900,
+    "invalid_lines": [],
+    "sha256": "e227c5bd0c5936d26b9dd88a09358f559840954dc329ddd3af0922922c6bc2d6",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/rounds/000-warmup/events.jsonl",
+    "lines": 11,
+    "invalid_lines": [],
+    "sha256": "623d75cf9e21ebdf9ef1400a8ea46e0bd112b39d688cae6feb9d570f6d51255c",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/rounds/001/events.jsonl",
+    "lines": 193,
+    "invalid_lines": [],
+    "sha256": "b8d79a0a8f39376d1c1df11c0ad31ff7f4dc6eeafba336fdd8b7ea8c599d312f",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/rounds/002/events.jsonl",
+    "lines": 448,
+    "invalid_lines": [],
+    "sha256": "70d4daf813b1266993d97420f394d490cf97df93416c9c7e53c6c656ec1a9288",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/rounds/003/events.jsonl",
+    "lines": 90,
+    "invalid_lines": [],
+    "sha256": "fab13f3d2710a15ec0e8fa3c6a80fac74b2e9717ad78434004c83907b2deeab9",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/rounds/004/events.jsonl",
+    "lines": 69,
+    "invalid_lines": [],
+    "sha256": "1d159147d65bba446e3a97ebfb8935352406edb337101419e519f1fdb8a4f051",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/rounds/005/events.jsonl",
+    "lines": 97,
+    "invalid_lines": [],
+    "sha256": "477dcf6b3d1cf3d3398caa2ddcca13a45fa7156c6b37faf5a3a6a75ddf26ebda",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/rounds/006/events.jsonl",
+    "lines": 127,
+    "invalid_lines": [],
+    "sha256": "12361c6826fa6fb9f88c7b588e108ab285d948e7850229e5eacdb4ad8b39020b",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/rounds/007/events.jsonl",
+    "lines": 149,
+    "invalid_lines": [],
+    "sha256": "481286e348eaeaad0904963df36cfc0625b516364d8a9279f3cad8f87a884e2e",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/rounds/008/events.jsonl",
+    "lines": 128,
+    "invalid_lines": [],
+    "sha256": "2c04400ec8453069a10cea5d0a5d413d2be7f103cc322fd610b894db02dbc85e",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T084820-0c1b3/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 16,
+    "invalid_lines": [],
+    "sha256": "2c8085f89321607d6028f18e3785e46908fc49ec40aaa418e7fb93ba67e03619",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T090435-040b2/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 138,
+    "invalid_lines": [],
+    "sha256": "0326cddec694cea322e18baf47eb7a116002bddc8af1f3e6cb7f8e0719bb6714",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T090848-325ef/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 138,
+    "invalid_lines": [],
+    "sha256": "0326cddec694cea322e18baf47eb7a116002bddc8af1f3e6cb7f8e0719bb6714",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T092020-ed93b/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T092020-ed93b/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T092020-ed93b/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 339,
+    "invalid_lines": [],
+    "sha256": "e110e3da8feed09b69ff91d70ba1ccc573e992d1d7da5d4388b16a74de43411f",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T092356-23c10/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T092356-23c10/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T092356-23c10/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 339,
+    "invalid_lines": [],
+    "sha256": "e110e3da8feed09b69ff91d70ba1ccc573e992d1d7da5d4388b16a74de43411f",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T092844-46a07/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T092844-46a07/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T092844-46a07/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 401,
+    "invalid_lines": [],
+    "sha256": "191308f77b29a5c06ef835c83e8c1ddb29968b1da694811e1c4d95fa3a3bf603",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093207-c7484/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093207-c7484/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093207-c7484/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 401,
+    "invalid_lines": [],
+    "sha256": "191308f77b29a5c06ef835c83e8c1ddb29968b1da694811e1c4d95fa3a3bf603",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093347-f7fa5/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093347-f7fa5/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093347-f7fa5/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 444,
+    "invalid_lines": [],
+    "sha256": "381fc75d657f4b3bd488f6f16b92f935c1da544aaa84812845232ca8fdff2d90",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093824-4d670/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093824-4d670/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T093824-4d670/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 444,
+    "invalid_lines": [],
+    "sha256": "381fc75d657f4b3bd488f6f16b92f935c1da544aaa84812845232ca8fdff2d90",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T094103-0b904/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T094103-0b904/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T094103-0b904/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 528,
+    "invalid_lines": [],
+    "sha256": "4238157ad218978725d7f6a68ac3326841b73aa7103a8bc5aaa9bd24ceb79c62",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T094433-8a317/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T094433-8a317/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T094433-8a317/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 528,
+    "invalid_lines": [],
+    "sha256": "4238157ad218978725d7f6a68ac3326841b73aa7103a8bc5aaa9bd24ceb79c62",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T094653-695f0/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T094653-695f0/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T094653-695f0/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 607,
+    "invalid_lines": [],
+    "sha256": "89dbb46d26fcf2fa5f5021e1dd44c01aace396261f2f81723f0ebcec674477a7",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095032-58adf/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095032-58adf/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095032-58adf/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 607,
+    "invalid_lines": [],
+    "sha256": "89dbb46d26fcf2fa5f5021e1dd44c01aace396261f2f81723f0ebcec674477a7",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095317-0c3a2/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095317-0c3a2/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095317-0c3a2/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 686,
+    "invalid_lines": [],
+    "sha256": "dff6c76dc8cc52194dfecf3406bc0b20da4c49fcd3554548fd3fe33fdd4e6e92",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095701-99ac3/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095701-99ac3/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095701-99ac3/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 686,
+    "invalid_lines": [],
+    "sha256": "dff6c76dc8cc52194dfecf3406bc0b20da4c49fcd3554548fd3fe33fdd4e6e92",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095934-bd67e/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095934-bd67e/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T095934-bd67e/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 753,
+    "invalid_lines": [],
+    "sha256": "fbe154ab3489b4a90123038302f16862106c97c7f116a34a5c4421e9faee0862",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100253-46862/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100253-46862/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100253-46862/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 753,
+    "invalid_lines": [],
+    "sha256": "fbe154ab3489b4a90123038302f16862106c97c7f116a34a5c4421e9faee0862",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Astronomy_02_gravity_spectral_structure/snapshots/20261016T100423-97597/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 753,
+    "invalid_lines": [],
+    "sha256": "fbe154ab3489b4a90123038302f16862106c97c7f116a34a5c4421e9faee0862",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/private/raw-readback.jsonl",
+    "lines": 738,
+    "invalid_lines": [],
+    "sha256": "e476ba80031eaa79655f683afe64e555d23db0dbe2543309858479dcb7cf0660",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/rounds/000-warmup/events.jsonl",
+    "lines": 11,
+    "invalid_lines": [],
+    "sha256": "8e1087e416b3ccf92528604c60f0184a3228c908012166200c980e8cdcf4e327",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/rounds/001/events.jsonl",
+    "lines": 326,
+    "invalid_lines": [],
+    "sha256": "8378935138a42ded5027cc4195c7333d2486138e0ffca89538f7f3bb18cce3c3",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/rounds/002/events.jsonl",
+    "lines": 296,
+    "invalid_lines": [],
+    "sha256": "884ee0e0b34c8c5c987e557687a77f656c33304f1590b1aac81da22ef3b6716c",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/rounds/003/events.jsonl",
+    "lines": 161,
+    "invalid_lines": [],
+    "sha256": "a404f2f0645158c5d6ae4fb3e92789e0bb9239d741f84a56a71dafe8ab5867e5",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/rounds/004/events.jsonl",
+    "lines": 184,
+    "invalid_lines": [],
+    "sha256": "87138cd877cbef830a51d88208da8364da6ff586e419e283081738b5554f9c00",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/rounds/005/events.jsonl",
+    "lines": 114,
+    "invalid_lines": [],
+    "sha256": "b0aaca3b62d94236487953ff915cdff9a4fc46acf6615f3b870fbcab2df9828d",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/rounds/006/events.jsonl",
+    "lines": 300,
+    "invalid_lines": [],
+    "sha256": "fe031e6f53dc26119aa41d10118d33118e6f322973c8c4b8c1d80ec56edc6222",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T084822-b36f9/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 15,
+    "invalid_lines": [],
+    "sha256": "20d174c33e2e78f5e64edc9947e4ce4246f72c2b3d63a31c7ce974975064dc42",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T085732-5b3bf/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 224,
+    "invalid_lines": [],
+    "sha256": "90f518c7aa79371c126b5f0fb15cc2fc80bf273864474df53df70362fb1e9877",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T085822-e64c5/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 224,
+    "invalid_lines": [],
+    "sha256": "90f518c7aa79371c126b5f0fb15cc2fc80bf273864474df53df70362fb1e9877",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T091408-9c1da/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T091408-9c1da/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 351,
+    "invalid_lines": [],
+    "sha256": "bf5af519d7a7d512b7f1bd722159390673b124d465861d9b6d1e4ccfb60ca9ec",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T091450-008b5/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T091450-008b5/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 351,
+    "invalid_lines": [],
+    "sha256": "bf5af519d7a7d512b7f1bd722159390673b124d465861d9b6d1e4ccfb60ca9ec",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T092617-16aff/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T092617-16aff/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 484,
+    "invalid_lines": [],
+    "sha256": "050dca6f76ac84ce7040fd593329b6142445330a0e969de682da11dfe3166bb3",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T093219-ce6ba/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T093219-ce6ba/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 484,
+    "invalid_lines": [],
+    "sha256": "050dca6f76ac84ce7040fd593329b6142445330a0e969de682da11dfe3166bb3",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T093810-33519/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T093810-33519/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 596,
+    "invalid_lines": [],
+    "sha256": "04208a82ac0ae7fc0121e0ed7203c40505ee16087094ad0b2dcb233e91d6b4aa",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T094640-fb3c6/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T094640-fb3c6/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 596,
+    "invalid_lines": [],
+    "sha256": "04208a82ac0ae7fc0121e0ed7203c40505ee16087094ad0b2dcb233e91d6b4aa",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T095310-4ca91/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T095310-4ca91/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 661,
+    "invalid_lines": [],
+    "sha256": "502c6a2e900d282d60406fd2a3c5e2cc7d9906e9ca6cd2b6b0c5655f17483846",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T095733-39ee2/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T095733-39ee2/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 661,
+    "invalid_lines": [],
+    "sha256": "502c6a2e900d282d60406fd2a3c5e2cc7d9906e9ca6cd2b6b0c5655f17483846",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100436-a8a32/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100436-a8a32/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a85d91b2fb09d939a.jsonl",
+    "lines": 44,
+    "invalid_lines": [],
+    "sha256": "f3190be107b7c6c67ce80b8158cb203b14af44aa0a2ff90cc8e5ba8bcf9f10a8",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100436-a8a32/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 838,
+    "invalid_lines": [],
+    "sha256": "959e78e7a61722026427ccedd29afdbda79fccc6fbfa8314d5fb3278952456ac",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100801-a6980/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100801-a6980/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a85d91b2fb09d939a.jsonl",
+    "lines": 44,
+    "invalid_lines": [],
+    "sha256": "f3190be107b7c6c67ce80b8158cb203b14af44aa0a2ff90cc8e5ba8bcf9f10a8",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100801-a6980/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 838,
+    "invalid_lines": [],
+    "sha256": "959e78e7a61722026427ccedd29afdbda79fccc6fbfa8314d5fb3278952456ac",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100943-539ca/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100943-539ca/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a85d91b2fb09d939a.jsonl",
+    "lines": 44,
+    "invalid_lines": [],
+    "sha256": "f3190be107b7c6c67ce80b8158cb203b14af44aa0a2ff90cc8e5ba8bcf9f10a8",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Chemistry_02_photoionization_delay/snapshots/20261016T100943-539ca/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 838,
+    "invalid_lines": [],
+    "sha256": "959e78e7a61722026427ccedd29afdbda79fccc6fbfa8314d5fb3278952456ac",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/private/raw-readback.jsonl",
+    "lines": 605,
+    "invalid_lines": [],
+    "sha256": "173433d0d9690723b904daa135ae2172c5c20ce81b54358d324821519ff61e7e",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/rounds/000-warmup/events.jsonl",
+    "lines": 11,
+    "invalid_lines": [],
+    "sha256": "179faff8eba050efd0e97176eb73e37085333bdf1da736606e969b08b587bb1a",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/rounds/001/events.jsonl",
+    "lines": 641,
+    "invalid_lines": [],
+    "sha256": "df336c08350d3a47085780c44ecd5672fbc3760baa90320bed929f8186543959",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/rounds/002/events.jsonl",
+    "lines": 121,
+    "invalid_lines": [],
+    "sha256": "f47f8102be99e1c24cd3dbca2f4a6e0138ef84a0a21ac736a7c5fa15cc0bd007",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/rounds/003/events.jsonl",
+    "lines": 29,
+    "invalid_lines": [],
+    "sha256": "7fba098983ce324ef075ceabc0eb43098834c98c97f89b723b488a033a6be436",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T084836-e2c56/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+    "lines": 18,
+    "invalid_lines": [],
+    "sha256": "4141241c20b927eccdafb08e184e256251010d862267b5a0811817ef729b6d51",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T090939-5c350/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T090939-5c350/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+    "lines": 117,
+    "invalid_lines": [],
+    "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T090939-5c350/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+    "lines": 85,
+    "invalid_lines": [],
+    "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T090939-5c350/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+    "lines": 217,
+    "invalid_lines": [],
+    "sha256": "565d382c9d37d6f3959469064a6a9de629b944b29b18cccebaf5f308dc7f1ce4",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T092551-c3fbe/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T092551-c3fbe/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+    "lines": 117,
+    "invalid_lines": [],
+    "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T092551-c3fbe/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+    "lines": 85,
+    "invalid_lines": [],
+    "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T092551-c3fbe/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+    "lines": 299,
+    "invalid_lines": [],
+    "sha256": "0e5371edebd0245f1113955a89a340bf89dbf94bf8fa1f6710c7ef159c1cb9e1",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T092923-75b5e/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T092923-75b5e/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+    "lines": 117,
+    "invalid_lines": [],
+    "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T092923-75b5e/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+    "lines": 85,
+    "invalid_lines": [],
+    "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T092923-75b5e/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+    "lines": 316,
+    "invalid_lines": [],
+    "sha256": "0e85402a6c35e9ee792f7f5ed86bb574bae474514f0f0cbab1a53eea910b0766",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+    "lines": 117,
+    "invalid_lines": [],
+    "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+    "lines": 85,
+    "invalid_lines": [],
+    "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/EarthScience_01_glacial_fluvial_erosion/snapshots/20261016T093515-ca9ab/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+    "lines": 316,
+    "invalid_lines": [],
+    "sha256": "0e85402a6c35e9ee792f7f5ed86bb574bae474514f0f0cbab1a53eea910b0766",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/private/raw-readback.jsonl",
+    "lines": 639,
+    "invalid_lines": [],
+    "sha256": "6d86082a5b12287bb2944dd2c57786cc2daa37db5b2d45d18687a268c6623a93",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/rounds/000-warmup/events.jsonl",
+    "lines": 10,
+    "invalid_lines": [],
+    "sha256": "92494b3b46d3a6412b35bb0a329d5cbcd0c173f672c8e0bd1d8c2f5fa2621985",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/rounds/001/events.jsonl",
+    "lines": 599,
+    "invalid_lines": [],
+    "sha256": "1288742b7260f246c678fe1fde94e2d20a4f0c317f15ebab98fdc37a11314d0a",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/rounds/002/events.jsonl",
+    "lines": 120,
+    "invalid_lines": [],
+    "sha256": "9ede96aeb64137724e1c5cf3a9c3cf0ed233e5c5dd747c2c9e3191ccaa233021",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/rounds/003/events.jsonl",
+    "lines": 78,
+    "invalid_lines": [],
+    "sha256": "1ab252ea471fbd31b1556e69ab54ae86ef5c83cef94e4f4921215b246a192493",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/rounds/004/events.jsonl",
+    "lines": 51,
+    "invalid_lines": [],
+    "sha256": "77ebd59a25aebf9b9af4c306c99caecd5045407c7e127958e689cacdd68939e6",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T084836-fe71f/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 16,
+    "invalid_lines": [],
+    "sha256": "2b899c579c740ae817b6bd426309ba9e224df3e998f75764230e2849e70dde12",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T085855-64fbc/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T085855-64fbc/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T085855-64fbc/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T085855-64fbc/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 266,
+    "invalid_lines": [],
+    "sha256": "492d06886a7655b1ff06a8d28ee0eef0a3580b649747c51ba87a40b40a014b3e",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T090149-e0c6a/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T090149-e0c6a/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T090149-e0c6a/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T090149-e0c6a/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 266,
+    "invalid_lines": [],
+    "sha256": "492d06886a7655b1ff06a8d28ee0eef0a3580b649747c51ba87a40b40a014b3e",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T091253-925f2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T091253-925f2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T091253-925f2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T091253-925f2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 336,
+    "invalid_lines": [],
+    "sha256": "735d7b73391c30dc6b395e4a5e41f132d119c469398c012ea5795b3b4d2505f1",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T091323-6f623/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T091323-6f623/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T091323-6f623/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T091323-6f623/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 336,
+    "invalid_lines": [],
+    "sha256": "735d7b73391c30dc6b395e4a5e41f132d119c469398c012ea5795b3b4d2505f1",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092229-86d51/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092229-86d51/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092229-86d51/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092229-86d51/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 378,
+    "invalid_lines": [],
+    "sha256": "a2e3592c8c91d6749b7cd040efba892a58f6573e8c33e65dad84e44e47790a4e",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092354-b0489/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092354-b0489/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092354-b0489/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092354-b0489/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 378,
+    "invalid_lines": [],
+    "sha256": "a2e3592c8c91d6749b7cd040efba892a58f6573e8c33e65dad84e44e47790a4e",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092717-227b4/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092717-227b4/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092717-227b4/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092717-227b4/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 411,
+    "invalid_lines": [],
+    "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092959-9e762/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092959-9e762/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092959-9e762/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T092959-9e762/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 411,
+    "invalid_lines": [],
+    "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T093148-64cf6/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T093148-64cf6/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T093148-64cf6/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Neuro_02_calcium_response_regions/snapshots/20261016T093148-64cf6/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 411,
+    "invalid_lines": [],
+    "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/private/raw-readback.jsonl",
+    "lines": 485,
+    "invalid_lines": [],
+    "sha256": "4b08ec0a6ba7e60abaf06d2854f037c54b9884c91486c6aaf5cb552cf66f0105",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/rounds/000-warmup/events.jsonl",
+    "lines": 10,
+    "invalid_lines": [],
+    "sha256": "883f48dac50a83be68aa7ccc71a5d68755fff73c3bf59206c31081c63e7ca67c",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/rounds/001/events.jsonl",
+    "lines": 74,
+    "invalid_lines": [],
+    "sha256": "724ad1408f169675bc179bb3d20b39e6efba73ae1ac8581c2b7f41ab8847bb68",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/rounds/002/events.jsonl",
+    "lines": 378,
+    "invalid_lines": [],
+    "sha256": "cda2fb10fcc372a5812bf8f0c08fd6af8c9248fbabf06ccfa0ba7e4bca6c8337",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/rounds/003/events.jsonl",
+    "lines": 143,
+    "invalid_lines": [],
+    "sha256": "6aaa05b841a3f9199b5455729f2f8c64a420f9b0e7298ac813ed18bcde7055fb",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/rounds/004/events.jsonl",
+    "lines": 105,
+    "invalid_lines": [],
+    "sha256": "831b28c1cf8dd374a9d900718a6839d9514634e54a2d548bec02a91bc20983e1",
+    "kind": "other"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T084852-87ab2/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 15,
+    "invalid_lines": [],
+    "sha256": "c337be77b801fa53c5e2faa32ccc7de8422ee962290fc285254be1e9ec7973e1",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T085856-e0a14/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 76,
+    "invalid_lines": [],
+    "sha256": "2c134366258e82aa65092ee4cee37c46443d4c321cd4d2ed282fff64c9acc07f",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T092233-de15d/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+    "lines": 106,
+    "invalid_lines": [],
+    "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T092233-de15d/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 231,
+    "invalid_lines": [],
+    "sha256": "457aa5ba28001219803f668fa3e7f390dc1c05d4c40bf7509ad05041d530a54c",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T092412-822b6/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+    "lines": 106,
+    "invalid_lines": [],
+    "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T092412-822b6/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 231,
+    "invalid_lines": [],
+    "sha256": "457aa5ba28001219803f668fa3e7f390dc1c05d4c40bf7509ad05041d530a54c",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T093434-bd2c2/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+    "lines": 106,
+    "invalid_lines": [],
+    "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T093434-bd2c2/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 321,
+    "invalid_lines": [],
+    "sha256": "746b39dce69e0482b69c0a339d9a54725ac6149f624469c42746adee7f7f6978",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T093606-06e86/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+    "lines": 106,
+    "invalid_lines": [],
+    "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T093606-06e86/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 321,
+    "invalid_lines": [],
+    "sha256": "746b39dce69e0482b69c0a339d9a54725ac6149f624469c42746adee7f7f6978",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094223-17f5d/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+    "lines": 106,
+    "invalid_lines": [],
+    "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094223-17f5d/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 379,
+    "invalid_lines": [],
+    "sha256": "510ab465b32fc7301e0d7299ad121ffdf223b9496f35d844fcddb8765ce7f247",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094317-84ca0/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+    "lines": 106,
+    "invalid_lines": [],
+    "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094317-84ca0/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 379,
+    "invalid_lines": [],
+    "sha256": "510ab465b32fc7301e0d7299ad121ffdf223b9496f35d844fcddb8765ce7f247",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094435-cdafa/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+    "lines": 106,
+    "invalid_lines": [],
+    "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/batch/runs/Physics_04_temporal_delay_transition/snapshots/20261016T094435-cdafa/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 379,
+    "invalid_lines": [],
+    "sha256": "510ab465b32fc7301e0d7299ad121ffdf223b9496f35d844fcddb8765ce7f247",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/environment/runtime_state/runtime_logs/model_fallback.jsonl",
+    "lines": 5,
+    "invalid_lines": [],
+    "sha256": "8c161244cf280fbf1cc9f8a6b000afb46d71534c97fa2b0e9570dd7d65084f08",
+    "kind": "other"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a33d90480d78167ae.jsonl",
+    "lines": 77,
+    "invalid_lines": [],
+    "sha256": "538efdfff720d4ae48a78c82d87e1b8633c6f302cce03c4e0ab41c069dc4ed5e",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/subagents/agent-a85d91b2fb09d939a.jsonl",
+    "lines": 44,
+    "invalid_lines": [],
+    "sha256": "f3190be107b7c6c67ce80b8158cb203b14af44aa0a2ff90cc8e5ba8bcf9f10a8",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/claude/projects/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/57de4486-a4e8-4f3a-8e10-9e6c6a4dea85.jsonl",
+    "lines": 838,
+    "invalid_lines": [],
+    "sha256": "959e78e7a61722026427ccedd29afdbda79fccc6fbfa8314d5fb3278952456ac",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-05628232-0654-49dd-9f78-93702c6a9990/conversations/conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85/state/home/.cache/claude-cli-nodejs/-data-user-conversations-conv-57de4486-a4e8-4f3a-8e10-9e6c6a4dea85-project/mcp-logs-research-agents/2026-10-16T09-58-17-572Z.jsonl",
+    "lines": 3,
+    "invalid_lines": [],
+    "sha256": "45e3f04f0feafaa9d4c8add7b873252e75059d46ab2b8e3741c58d3696687a54",
+    "kind": "other"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a5ba94619161a7725.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "66b531e3e17af0f77348e6d1d0fce2f8bf6b00a685a8df75591058104f8e955f",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653/subagents/agent-a66e0cc031968f8e9.jsonl",
+    "lines": 60,
+    "invalid_lines": [],
+    "sha256": "3438c25a1d045f223d9ea6953b989178cbb198c03056ea529cd0a1e4588cb2ef",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-5a6f1086-bc0e-4035-a807-d5d5bd7bb999/conversations/conv-c47b4251-8d0f-48c5-a820-758043560653/state/claude/projects/-data-user-conversations-conv-c47b4251-8d0f-48c5-a820-758043560653-project/c47b4251-8d0f-48c5-a820-758043560653.jsonl",
+    "lines": 753,
+    "invalid_lines": [],
+    "sha256": "fbe154ab3489b4a90123038302f16862106c97c7f116a34a5c4421e9faee0862",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-903d9cc6-d141-44db-9fb2-1d2d0d122776/conversations/conv-88cfef1f-21cf-450d-b4a7-746678c9cabb/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb/subagents/agent-a86e00f61c6dacc8f.jsonl",
+    "lines": 106,
+    "invalid_lines": [],
+    "sha256": "cb9514005f908022172b12b7a4413a3dac1da65a420429bd10ff75af59368126",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-903d9cc6-d141-44db-9fb2-1d2d0d122776/conversations/conv-88cfef1f-21cf-450d-b4a7-746678c9cabb/state/claude/projects/-data-user-conversations-conv-88cfef1f-21cf-450d-b4a7-746678c9cabb-project/88cfef1f-21cf-450d-b4a7-746678c9cabb.jsonl",
+    "lines": 379,
+    "invalid_lines": [],
+    "sha256": "510ab465b32fc7301e0d7299ad121ffdf223b9496f35d844fcddb8765ce7f247",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a0d5f7659e51ad2b2.jsonl",
+    "lines": 81,
+    "invalid_lines": [],
+    "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a48dfb2f3d86c6533.jsonl",
+    "lines": 55,
+    "invalid_lines": [],
+    "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2/subagents/agent-a99840bac7e5c7086.jsonl",
+    "lines": 92,
+    "invalid_lines": [],
+    "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl",
+    "lines": 411,
+    "invalid_lines": [],
+    "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-ab32b4a599fd95f09.jsonl",
+    "lines": 87,
+    "invalid_lines": [],
+    "sha256": "dcf4b5436477592112346e277b1a016bdc1a5e09d6e9f39adc61d3d0ee1f5577",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-abd7bf77eb0e2ed37.jsonl",
+    "lines": 117,
+    "invalid_lines": [],
+    "sha256": "69fec2f5f8c50130949195b22c75bdb3db79bbf36f87fbadec65ad61a0306784",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/subagents/agent-aee18094f93876624.jsonl",
+    "lines": 85,
+    "invalid_lines": [],
+    "sha256": "eed4fb5fe9fa717ee81ecdd02c3c257f00b7770c6be47f802bb81a8041ff119c",
+    "kind": "subagent"
+  },
+  {
+    "path": "V3/environment/runtime_state/worker_data/users/user-ba0441bc-2fb0-4d05-8274-97b6863e6a80/conversations/conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a/state/claude/projects/-data-user-conversations-conv-46b0a68e-ac73-49c3-ba26-bbe4d51ce35a-project/46b0a68e-ac73-49c3-ba26-bbe4d51ce35a.jsonl",
+    "lines": 316,
+    "invalid_lines": [],
+    "sha256": "0e85402a6c35e9ee792f7f5ed86bb574bae474514f0f0cbab1a53eea910b0766",
+    "kind": "main-agent"
+  },
+  {
+    "path": "V3/operators/Astronomy_02_gravity_spectral_structure/messages.raw.jsonl",
+    "lines": 192,
+    "invalid_lines": [],
+    "sha256": "a51fb68afc95f168fd8dcc7ceed9f5602915366973fddb9426fcda4049e18ff6",
+    "kind": "operator"
+  },
+  {
+    "path": "V3/operators/Chemistry_02_photoionization_delay/messages.raw.jsonl",
+    "lines": 173,
+    "invalid_lines": [],
+    "sha256": "1586929dc71de8767a69d066c5dd8f7f0ce4178bfe7b01ef4494c042a2ab2c3d",
+    "kind": "operator"
+  },
+  {
+    "path": "V3/operators/EarthScience_01_glacial_fluvial_erosion/messages.raw.jsonl",
+    "lines": 141,
+    "invalid_lines": [],
+    "sha256": "aa00f9e9f096bc8b7b8b23a247698a7af6b16b385220a358977fdb3b660a4375",
+    "kind": "operator"
+  },
+  {
+    "path": "V3/operators/Neuro_02_calcium_response_regions/messages.raw.jsonl",
+    "lines": 129,
+    "invalid_lines": [],
+    "sha256": "40fe9902e5cfbe42ce53e3d3df54d44250b27bc0d1a97a45fb094e2a058193cf",
+    "kind": "operator"
+  },
+  {
+    "path": "V3/operators/Physics_04_temporal_delay_transition/messages.raw.jsonl",
+    "lines": 148,
+    "invalid_lines": [],
+    "sha256": "c258cb98932e578fac102f6501c9cd7226424d561958e388866ad7aebffbcb96",
+    "kind": "operator"
+  }
+]

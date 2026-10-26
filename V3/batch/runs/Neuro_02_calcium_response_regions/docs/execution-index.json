@@ -1,0 +1,56 @@
+{
+  "task_id": "Neuro_02_calcium_response_regions",
+  "experiment": "shared-context-v3.1-20261016",
+  "subject_version": "3.1.0",
+  "operator_session_id": "ses_ebc1ae3caffevOTg3zYM4nVKKS",
+  "conversation_id": "0275ec9a-0efe-4b68-8cb1-dceb34603ef8",
+  "runtime_conversation_id": "conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2",
+  "environment": {
+    "run_id": "tibv31-9a7ed51f",
+    "api_base": "http://127.0.0.1:51669",
+    "ready_json": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/ready.json",
+    "backend_sha": "6d529489815362eb2d6cf717e736e44936de3afc",
+    "sdk": "0.2.154",
+    "cli": "2.1.274",
+    "model": "qwen3.7-flash",
+    "fallback": ""
+  },
+  "rounds": [
+    {"round": "000-warmup", "purpose": "neutral warmup + main model verification", "job": "jobs/1792140492502209000-af3192", "input": "policy warmup_message", "assistant_model_verified": "qwen3.7-flash"},
+    {"round": "001", "run_id": "run_8f27331ae23e41c0", "job": "jobs/1792140536017158000-0b284b", "input": "first-message.md (sha256=0f4cafd2bc7a8b51b835101fa1d9032bc688caa09ac9ce12e60ff1bd4c68da3a, byte-identical to original LaunchPrompt)", "kind": "first_science_autonomous", "validator": "passed after 2 in-run failures (main JSONL lines 208, 242, 257)"},
+    {"round": "002", "run_id": "run_cc6d8a6af18b4739", "job": "jobs/1792141503751423000-b4598d", "input": "rounds/feedback-round2.md", "kind": "fact_feedback", "validator": "passed"},
+    {"round": "003", "run_id": "run_6af949ae3cfa401e", "job": "jobs/1792142060894295000-1c4c27", "input": "rounds/feedback-round3.md", "kind": "fact_feedback", "validator": "passed"},
+    {"round": "004", "run_id": "run_398dbf7ab6a04557", "job": "jobs/1792142692425098000-7cb5fe", "input": "rounds/feedback-round4.md", "kind": "fact_feedback", "validator": "passed"}
+  ],
+  "snapshots": [
+    {"path": "snapshots/20261016T090149-e0c6a", "round": "001", "validator_returncode": 0, "model_counts": {"qwen3.7-flash": 224}},
+    {"path": "snapshots/20261016T091323-6f623", "round": "002", "validator_returncode": 0, "model_counts": {"qwen3.7-flash": 256}},
+    {"path": "snapshots/20261016T092354-b0489", "round": "003", "validator_returncode": 0, "model_counts": {"qwen3.7-flash": 274}},
+    {"path": "snapshots/20261016T092959-9e762", "round": "004-final", "validator_returncode": 0, "model_counts": {"qwen3.7-flash": 287}}
+  ],
+  "final_outputs": {
+    "result_md": {"path": "snapshots/20261016T092959-9e762/project/output/Result.md", "sha256": "b91b8a530512ee91f34da2dc1599ad77428adf5c132dcd3e1e08764f1b611ea8", "bytes": 18978},
+    "main_analysis_py": "snapshots/20261016T092959-9e762/project/output/main_analysis.py (executed in place; writes output/ directly)",
+    "subagent_scripts_in_output": ["output/analysis_A.py", "output/robustness_check.py", "output/replication.py"],
+    "key_result_files": ["output/contrasts_regions12.csv", "output/batch_effects.csv", "output/batch_effects_subagent.csv", "output/robustness_lobo.csv", "output/robustness_results.csv", "output/summary_stats.csv", "output/replication_results.csv", "output/eta_squared_results.csv", "output/model_output_agentA.txt", "output/comparison_with_main.txt", "output/figures_main.png", "output/figures_violin_amplitude.png", "output/figures_batch_effect.png"]
+  },
+  "raw_jsonl": {
+    "main": {"path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/.local/tibv31-9a7ed51f/runtime_state/worker_data/users/user-a2dbbda6-ec95-4d7a-8225-b1a32c38c628/conversations/conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2/state/claude/projects/-data-user-conversations-conv-4a42b09e-c6e8-4347-910d-86fe4c3da0c2-project/4a42b09e-c6e8-4347-910d-86fe4c3da0c2.jsonl", "sha256": "2956671b37138677fce25f4badb1cc9afeb437dcccc8746eb56e2512ed6f74df", "lines": 411},
+    "children": [
+      {"name": "analysis_A", "path": ".../subagents/agent-a0d5f7659e51ad2b2.jsonl", "sha256": "a6ab545a3c22721346691c4ad1fa4f2b8d533052680f18d060d221cf633d26d4", "lines": 81, "agentType": "general-purpose", "spawnDepth": 1},
+      {"name": "analysis_B", "path": ".../subagents/agent-a99840bac7e5c7086.jsonl", "sha256": "a60828f1f49ed4c0ce4a80035ccd63c0417bab574d5a38751f30dbeaff6782aa", "lines": 92, "agentType": "general-purpose", "spawnDepth": 1},
+      {"name": "analysis_C", "path": ".../subagents/agent-a48dfb2f3d86c6533.jsonl", "sha256": "c0edf5cba3d5c70dbb2106af920a4f6914ec83930346b7416d4c28c1cf8e2e65", "lines": 55, "agentType": "general-purpose", "spawnDepth": 1}
+    ],
+    "audit_index": "raw-audit-index.json"
+  },
+  "feedback_files": ["rounds/feedback-round2.md", "rounds/feedback-round3.md", "rounds/feedback-round4.md"],
+  "models_actual": {"main": "qwen3.7-flash", "children": ["qwen3.7-flash", "qwen3.7-flash", "qwen3.7-flash"], "operator": "windows-glm/GLM-5.3-Flash-W4A16-MTP"},
+  "validator": {"host_side_returncode": 0, "snapshots_all_pass": true},
+  "docs": {
+    "operator_log": "docs/operator-log.md",
+    "execution_report": "docs/execution-report.md",
+    "comparison": "docs/comparison-v2-v3.md (written after all five V3 seals per baseline_read_gate)"
+  },
+  "visual_review": {"performed": false, "note": "PNG figures not visually inspected by operator"},
+  "scoring_performed": false
+}

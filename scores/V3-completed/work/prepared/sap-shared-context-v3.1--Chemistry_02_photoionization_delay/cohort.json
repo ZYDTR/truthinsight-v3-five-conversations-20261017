@@ -1,0 +1,32 @@
+{
+  "schema": "truthinsightbench-scoring-cohort",
+  "release": "V1.0",
+  "agents": [
+    "sap-shared-context-v3.1"
+  ],
+  "summary": {
+    "run_count": 1,
+    "complete_task_count": 1,
+    "complete_tasks": [
+      "Chemistry_02_photoionization_delay"
+    ],
+    "provisional_task_count": 0,
+    "provisional_tasks": []
+  },
+  "runs": [
+    {
+      "key": "sap-shared-context-v3.1--Chemistry_02_photoionization_delay",
+      "task_id": "Chemistry_02_photoionization_delay",
+      "agent": "sap-shared-context-v3.1",
+      "model": "qwen3.7-flash",
+      "manifest_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/work/prepared/sap-shared-context-v3.1--Chemistry_02_photoionization_delay/run_manifest.json",
+      "manifest_sha256": "376c108e4d8e25bac895a092da2236fbcc171dae089ee5beb15e67227d8c8c0c",
+      "output_root": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/evaluations/shared-context-v31-qwen38max-nothinking-20261017/exports/Chemistry_02_photoionization_delay/workspace/output",
+      "report_path": "Result.md",
+      "report_sha256": "55919a5017606921aa58b11871dc566ab7c9d74efadc63dea7158d251bb2cd97",
+      "finding_count": 4,
+      "gold_path": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/TruthInsightBench/evaluation/evaluator/tasks/Chemistry_02_photoionization_delay/validation_anchors.json",
+      "gold_sha256": "62401f9c1b5e27b6497d13f8eb04c6cd457e247b68f231069c934ac0d8c90d38"
+    }
+  ]
+}

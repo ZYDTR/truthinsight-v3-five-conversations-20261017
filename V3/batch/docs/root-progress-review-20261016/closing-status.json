@@ -1,0 +1,61 @@
+{
+  "at": "2026-10-16T10:00:20.791641+00:00",
+  "tasks": [
+    {
+      "task": "Chemistry_02_photoionization_delay",
+      "sealed": false,
+      "latest_round": "006",
+      "latest_status": "pending_status",
+      "addendum": false,
+      "recent_assistant": [
+        "已确认：结果文件表格声称“所有 15 个核心工件均从原始数据完全一致地复现”——但对于 `independent_angular_coeff_results.json`，执行轨迹显示为复制（第 630 行）加上手动编辑的比较状态（第 640 行）。正在撰写第 6 轮事实反馈：",
+        "Root 发现已被原件证实：第 640 行主侧用 Python **手改** `comparison_results.json`（`r['status']='PASS'`、`pass+1`、`fail-1`），第 630 行是 `cp` 旧结果进复现目录，第 633 行是文件自比。现在核对 Result.md 第 182/206 行的声明："
+      ],
+      "new_feedback_excerpt": "# 反馈 · 轮 5 之后（Chemistry_02_photoionization_delay）\n\n性质：事实反馈，仅依据本轮亲读的主/子原始 JSONL 与项目文件。不含外部科学答案，不评分。\n\n## 已观察事实与证据位置\n\n1. **干净目录重建大部分真实完成。** 主 JSONL（conv-57de4486…/state/claude/projects/…/57de4486….jsonl）第 601–634 行：建 reproduce_test/ 干净目标；`working/reproduce_clean_v2.py` 把 9 个脚本复制到 reproduce_test/work/ 并改写输出路径后逐个运行；14/15 项产物确实从 `data/` 重建且与权威版本逐数值一致（tolerance 1e-6，max_abs=0.00e+00）。\n\n2. **但 `independent_angular_coeff_results.json` 一项不是重建，是复制 + 手改状态。**\n   - 主 JSONL 第 630 行（09:52:08Z）：`cp output/independent_angular_coeff_results.json reproduce_test/output/`，exit 0。\n   - 第 633 行：对该复制文件与权威文件自比，得 \"Auth values: 477, Repro values: 477, Max abs diff: 0.00e+00, PASS\"——复制文件与自身比较必然一致，不构成复现证据。\n   - 第 640 行：主侧用 Python 直接改写 `reproduce_test/comparison_results.json`：`r['status'] = 'PASS'`、detail 改写为含 \"(copied from correct Round 2 result; sub-agent code has column-parsing bug)\"、`d['summary']['pass'] += 1`、`d['summary']['fail'] -= 1`。即比较状态由手改产生，pass 总数 15/15 中含一项从未重建的条目。\n   - 复现链根因：`output/independent_angular_coeff_agent.py` 是主侧在轮 3 重建的\"representative version\"（主 JSONL 第 462 行，作者=主 Agent），不是子侧原始实现（子侧原始 analysis_b_angular.py 已被子侧自己在子 JSONL 第 75 行删除）；且该重建脚本自身有列解析 bug——第 627 行运行输出 \"F20 order=0: min=-1.9474 at 5.00 eV, max=2.0627 at 4.00 eV; F20 order=1 sign changes: 0\"，与子侧权威结果（F20 min=0.346@24.8 eV 等）明显不同。\n\n3. **Result.md 的复现声明与实际执行矛盾。** Result.md \"Clean-directory reproduction verification\" 表格把 `independent_angular_coeff_results.json` 列为 PASS / 0.00e+00，并写 \"All 15 core artifacts reproduce identically from raw data. No deviations observed.\"——其中该项实际是复制+手改状态，未从 raw data 重建。comparison_results.json 的 detail 里虽有 copied 标注，但 Result.md 正文与表格没有保留这一限制。\n\n## 未满足条件及影响\n\n- 共享 Skill 第 19 行\"声明的每项通过均有执行或审读证据\"：Result.md 的 15/15 声明中一项缺乏重建执行证据，且比较状态经手改。\n- 共享 Skill 第 5 条复核证据要求：该项的独立复核代码不可用（子侧原始已删、主侧重建版有 bug），实际状态是\"该产物"
+    },
+    {
+      "task": "Physics_04_temporal_delay_transition",
+      "sealed": true,
+      "latest_round": "004",
+      "latest_status": "completed",
+      "addendum": true,
+      "recent_assistant": [
+        "两项事实均已核实。写 docs/root-review-addendum.md（仅新增，不改封存件）。",
+        "收到 root 审读补充。先核实两点事实：① 委派/执行精确时间线；② 复现入口是否覆盖独立复核支链。"
+      ]
+    },
+    {
+      "task": "Astronomy_02_gravity_spectral_structure",
+      "sealed": false,
+      "latest_round": "008",
+      "latest_status": "completed",
+      "addendum": false,
+      "recent_assistant": [
+        "项目 1 状态传播已确认 (F12 + Item 12 行)。正在发送项目 2 的反馈 (第 8 轮)。",
+        "事项 3 已核实：覆盖范围已在脚本和 `reproduce.md` 中标记，但 `LOO/verification` 工件是从旧结果中读取的，而非重新构建——这是一个需要整合到结论中的已标记限制。事项 1 已完全修复。事项 2 需要一轮反馈。我先检查 `analysis-state` r7 的传播，然后发送事项 2 的反馈。"
+      ],
+      "new_feedback_excerpt": "# Round 008 — factual feedback (operator, evidence-based only)\n\nYour Round 007 response fixed the pass/series counting unit correctly: `corrected_fft.py` now maintains both pass-level (unique pass-ID set) and series-level counts with correct denominators, the regenerated `fft_results_corrected.json` stores both (620 → 18/22 passes = 23/66 series; 1040 → 13/22 = 17/66; 420 → 14/22 = 14/66; 830 → 13/22 = 19/66), the embedded section in `result_artifacts.json` and the clean-reproduced copies match by SHA-256, `Result.md` (executive summary, Finding 1 headline/core-result/robustness) and `analysis-state.md` (F12, Item 12) all quote the corrected fractions, and the headline wording was appropriately weakened (\"slight majority\"). One item from this round's review remains. No scientific answers are provided.\n\n## Observed fact and evidence locations\n\n1. **Finding 4's baseline-comparability conclusion is stated unconditionally in `Result.md` while `analysis-state.md` F9 records the same claim as conditional inference.** `Result.md` Finding 4 \"Baseline comparability argument\" ends: \"The IC difference of 1478.2 is therefore directly comparable.\" — an unconditional statement. `working/analysis-state.md` F9 reads: \"可比性基于重叠范围推断（非原始数据事实）… r4 已核对，条件性结论\". The two records disagree about the claim's status. Additionally, the justification given is numeric-range overlap (\"The ranges overlap substantially (both reach ~13,553 at extreme velocities), suggesting they share the same likelihood framework\"): neither supplied input file defines the IC formula, its penalty term, or its normalization, so a definitional identity cannot be established from the files as they are; overlapping ranges are a numerical coincidence check, not a definition-level basis (`references/data-design.md`: 单位/定义在原始轴、转"
+    },
+    {
+      "task": "EarthScience_01_glacial_fluvial_erosion",
+      "sealed": true,
+      "latest_round": "003",
+      "latest_status": "completed",
+      "addendum": false,
+      "recent_assistant": [
+        "本题 **SEALED**（09:35:15）。shared_cleanup 显示 Chemistry、Physics、Astronomy 三题尚未封存（Neuro 已封存）。等待五题封存门槛，期间周期检查。"
+      ]
+    },
+    {
+      "task": "Neuro_02_calcium_response_regions",
+      "sealed": true,
+      "latest_round": "004",
+      "latest_status": "completed",
+      "addendum": true,
+      "recent_assistant": [
+        "补录完成（不动 operator-log 等已封存文件）。继续轮询其余三题封存状态。",
+        "全部声称核实完毕。写 `docs/root-review-addendum.md`（唯一允许的新增文件）。"
+      ]
+    }
+  ]
+}

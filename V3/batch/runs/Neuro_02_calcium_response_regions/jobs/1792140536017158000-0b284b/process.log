@@ -1,0 +1,5 @@
+/Users/zhengyidi/miniconda3/envs/ideagen_env/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (7.2.0)/charset_normalizer (3.4.6) doesn't match a supported version!
+  warnings.warn(
+{"task": "Neuro_02_calcium_response_regions", "round": 1, "run_id": "run_8f27331ae23e41c0", "started": "2026-10-16T08:48:56.210895+00:00"}
+{"task": "Neuro_02_calcium_response_regions", "snapshot": "/Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/runs/Neuro_02_calcium_response_regions/snapshots/20261016T085855-64fbc", "input_changed": [], "shared_changed": [], "model_counts": {"qwen3.7-flash": 224}, "validator_returncode": 0}
+{"task": "Neuro_02_calcium_response_regions", "round": 1, "terminal": "run.completed", "seconds": 599.5}

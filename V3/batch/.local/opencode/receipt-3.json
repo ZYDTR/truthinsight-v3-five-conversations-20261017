@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": "msg_143e51dbf001WWDqveimo3xHaJ",
+    "sessionID": "ses_ebc1ae3cfffecEMhBgABB1HT6J",
+    "time": {
+      "created": 1792140451264
+    },
+    "type": "user",
+    "payload": {
+      "text": "身份边界（最高优先级）：你是主线程直接委派的外层 leaf 测试操作者，不是主 Agent。只执行这条任务，禁止再派发外层 subagent，禁止创建/切换其他 OpenCode 或 Codex session/thread/worktree，禁止启动CLI模型进程，禁止向兄弟操作者发消息。收到的是裁剪上下文，不授予主控权限。用户授权的SAP主Agent及其一层general-purpose科研子Agent是被测对象，允许通过指定控制面驱动它们。\n\n工作目录 /Users/zhengyidi/yage/context-infrastructure。所有五个操作者收到同一份上下文。请完整读取唯一任务入口 /Users/zhengyidi/yage/context-infrastructure/adhoc_jobs/truthinsight_bench_harness/experiments/shared-context-v3.1-20261016/batches/qwen3.7-flash-main-6d52948-20261016/control/operator-task.md，沿索引读统一操作者Harness、run-spec、ownership、environment、commands。用 OPENCODE_SESSION_ID 和共同control.py whoami确认自己的唯一题目和唯一Conversation；只操作自己的绑定，不能接管别人的题，不得篡改该环境变量。操作者模型固定沿用 V2 实测默认 windows-glm / GLM-5.3-Flash-W4A16-MTP。\n\n本条派发只会在 V2 五题封存、比较与清理完成，且 V3 独立环境就绪后送达；后端保持 V2 的 main 6d52948。请现在实际开始：在自己的唯一新Conversation上跑冻结的共享V3。第一条科研消息为原LaunchPrompt，主子qwen3.7-flash，fallback空。持续盯过程、事实反馈、核验真实型号、亲读原始主子JSONL；输出仅根据本轮证据，不提供外部科学答案，绝不评分。先完成正式运行与审读再封存，五题封存后仅对比自己题目的V2事实，最后由共同入口按门槛清理。\n\n只写自己runs/<task>/，共享入口代码/Skill/系统提示词/原输入/平台逻辑不改；不读TruthInsightBench/、evaluations/或别题科学结果。你负责持续完成本题，不要启动首轮后就结束，不要只交付计划或配置检查；排队与运行中要继续看状态、日志和证据。最多2个科研运行槽，5个操作者都独立工作。只读机械采样器不是额外agent；send后台作业由共同控制脚本提供，不能另建操作者。发现控制面故障保留原错误和状态，不能用新session或绕过共同入口来补救。\n\n完成报告须分别写首次科研自主表现、匹配V2轮数时表现、最终表现，以及实际主子模型、上下文加载成功证据、真实委派、结果整合与复现、反馈与剩余限制。对比核实后端、主子及外层模型、依赖、操作者布局和探针协议保持一致；单列 V2 中途操作者干预、两轮反馈差异与随机性限制，不能声称只是Skill造成提升。原始JSONL需有路径/行号/哈希，公共validator只说明格式。独立自主完成并在本session报告，不需要主线程持续轮询。\n\n版本绑定：共用 operator-control-v2 原件保持不变；其中当前 V2 代指本轮 V3、基线 V1 代指已封存 V2，以本轮 run-spec 为准。五题 V3 全部封存前不得读取 V2 科学结果。所有五个操作者收到相同上下文；按冻结 Skill 的实际验收条件审读，不在首条科研消息中追加任何提示。\n\n不评分不等于只查格式。审读当前执行源码、机器结果与报告的核心主张，核对真实分析口径、单位、可比性、反证处置和终稿整合；仅根据本轮亲读原件发送事实反馈，指出具体证据位置及未满足的验收条件，不代写科研实现或给出外部答案。首次自主表现须在反馈前留证，后续表现单列。五人使用相同审读标准。\n"
+    },
+    "delivery": "steer"
+  }
+}

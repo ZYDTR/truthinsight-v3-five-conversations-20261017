@@ -1,0 +1,46 @@
+{
+  "data": {
+    "id": "ses_ebc1ae3cfffecEMhBgABB1HT6J",
+    "projectID": "a486f94a98f920c9c5830c746afbe06526bbc5d6",
+    "model": {
+      "id": "GLM-5.3-Flash-W4A16-MTP",
+      "providerID": "windows-glm",
+      "variant": "default"
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "time": {
+      "created": 1792140450865,
+      "updated": 1792140450865
+    },
+    "title": "TruthInsight V3.1 · EarthScience_01_glacial_fluvial_erosion · 单题操作者 · 不评分",
+    "permissions": [
+      {
+        "action": "*",
+        "resource": "*",
+        "effect": "allow"
+      },
+      {
+        "action": "task",
+        "resource": "*",
+        "effect": "deny"
+      },
+      {
+        "action": "agent",
+        "resource": "*",
+        "effect": "deny"
+      }
+    ],
+    "location": {
+      "directory": "/Users/zhengyidi/yage/context-infrastructure"
+    }
+  }
+}
